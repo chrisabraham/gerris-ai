@@ -142,3 +142,159 @@ Book a 30-minute call at calendly.com/chrisabraham/30, or write to chris@gerrisc
 Ask an AI engine about your business.
 Then book the call and tell us what it said. Fixing that answer is the work.
 Book a 30-minute call
+
+
+---
+
+# Guides: https://gerris.ai/guides/
+
+Home › Guides
+Guides: how AI answers work, and how a business gets into them
+These guides explain, in plain language, how AI answers are built and what a business can do about its place in them. They are written the way Gerris writes client pages: the category language buyers actually search, questions as headings, and the answer stated directly under each one. If a phrase is not on the page, in the form buyers ask it, the page does not come up for it, so the phrases are here.
+What is answer engine optimization (AEO)?
+The category explainer: what AEO is, what it changes on a website and off it, how it differs from SEO, and how to measure it.
+Read the guide
+What is generative engine optimization (GEO)?
+How generative AI systems find, understand, verify, and cite a business, and what GEO changes in practice.
+Read the guide
+How do AI answers choose which businesses to name?
+The money question: the entity record, the consistency check, and the citability test behind every name an AI answer gives.
+Read the guide
+What should you read first?
+Read the third guide first if you want the money question: why the answer names your competitor and skips you. Read the AEO guide first if you want the category defined before you buy anything in it. Read the GEO guide if your question is mechanical: what the generative systems do with your site between the crawl and the answer.
+Who writes these guides?
+Chris Abraham, who leads Gerris. Websites since 1994, SEO since 1998, and the last several years spent on the answer engines that now sit on top of search. The guides state the working method behind the services in the open, at the length the subject needs. When the method changes because the engines changed, the guides are updated and the date on the page moves with them.
+Ask an AI engine about your business.
+Then book the call and tell us what it said. Fixing that answer is the work.
+Book a 30-minute call
+
+---
+
+# Guide: What is answer engine optimization (AEO)?: https://gerris.ai/guides/what-is-answer-engine-optimization/
+
+Home › Guides › What is answer engine optimization (AEO)?
+What is answer engine optimization (AEO)?
+Answer engine optimization (AEO) is the work of getting AI answers to name your business and describe it accurately. When a buyer asks Google AI Overviews, ChatGPT, Perplexity, or Gemini who to hire, the answer names specific businesses and describes what they do, where they are, and what they charge. AEO shapes your website and your profiles so that description is built from your facts, stated in the language your buyers actually use, and so your business is one of the names the answer gives.
+What does an answer engine do with your business?
+An answer engine reads the web the way a diligent researcher does, then writes a summary. It gathers your website, your Google Business Profile, your directory listings, your reviews, and pages other people have published about you. It resolves those sources into one record of your business, then answers the buyer's question from that record. The summary is mandatory: you do not get to opt out of being described by AI answers. You only choose whether the description is assembled from your facts or from your competitor's.
+That assembly happens whether or not your business participates. A firm that has never thought about AI search already has an AI description, written from whatever the engines could find. If your website says one thing about your services and your profile says another, the engine goes with the version it can corroborate, and the version it can corroborate may be the stale one. AEO is the work of taking authorship of that record before the engines finish writing it without you.
+What does AEO change on a website?
+On the site itself, AEO changes how facts are stated and structured:
+A canonical page that states what the business is: the category, the services, the place, and the prices where prices are public, said once, plainly, in one place the engines can point to.
+Question-led headings and direct answers: pages written in the form buyers ask their questions, with the answer stated at the top of the section instead of buried under a paragraph of throat clearing.
+Entity schema: structured data that connects the organization, its people, and its services as one entity, with sameAs links to the profiles that are also that entity.
+FAQ content that answers real questions: the questions buyers ask, answered in plain language on the visible page, with FAQ schema that matches the visible text word for word.
+An llms.txt file: a plain text statement of who the business is and where its key pages are, written for language models the way a sitemap is written for search crawlers.
+A sound technical foundation: pages crawlers can fetch, an index free of canonical conflicts and dead redirects, and a site that loads fast enough to be read.
+None of this is decoration. Each item is a source the answer is assembled from, made legible. A page that states its category only inside an image, or only in words no buyer would type, is a source the engine cannot use, and sources the engine cannot use might as well not exist.
+What does AEO change off the website?
+Half the record lives off your site, and AEO works there too. The Google Business Profile is a primary source for local and service businesses: its category, services, hours, and service area feed the answer directly. Directory listings and review profiles repeat your name, address, and phone number, and the engines cross-check them against your site. Professional profiles, industry directories, and association pages corroborate who you are and what you do. AEO inventories all of it, finds where the facts disagree, and brings every source into line with the canonical statement on your website.
+The disagreement is usually mundane. A business moves and updates its website but not its listings. A profile keeps an old phone number, a shortened name, or a category chosen a decade ago for a service the business no longer sells. Each conflict is small. Together they blur the record, and a blurred record is what makes an answer engine describe you vaguely, describe your competitor instead, or leave your name out of the answer entirely.
+How is AEO different from SEO?
+SEO earns a place in a list of links. AEO earns a place inside a written answer. A business could live with ranking third under the old arrangement, because the searcher still saw three names and clicked around. The new arrangement puts a written answer at the top of the page that often names two businesses and stops. Ranking below the answer still has value, and the list still gets clicks, but the answer is the first description most buyers now read, and for a growing share of questions it is the only one.
+The foundation is shared. AI answers are assembled from crawlable pages, search indexes, business profiles, and listings, so the crawling, indexing, and speed work of SEO is the floor AEO stands on. The difference is the unit of work. SEO optimizes a page for a query. AEO optimizes the whole record the answer is assembled from, across every source the engine reads, in the words the buyer used to ask.
+How do you measure AEO?
+You measure it the way the buyer experiences it: by asking. Take the searches that bring you revenue, phrased the way buyers phrase them, and put them to Google AI Overviews, ChatGPT, Perplexity, and Gemini. Write down what the answers say. Are you named? Are you described accurately, in your category, in your place? Who is named instead of you, and what does the answer claim they do? That written record is the baseline.
+Then repeat it on a schedule, because AI answers drift. Competitors publish, directories change, profiles get edited, and the answer that named you in March may name someone else in June. A single screenshot is a snapshot. A monthly series of the same questions, answered in writing, is a measurement, and it is the only honest way to know whether the work is holding.
+Where do you start with AEO?
+Start by reading your own description. Ask the answer engines about your business today, in your buyers' words, and write down what they say before you change anything. Then fix the record: one canonical statement of what the business is, repeated identically on the website, the profile, and the listings, with pages that answer buyer questions in buyer language. Gerris sells exactly this sequence as the AI Visibility Audit and the Claim Sprint, and the companion guide explains the selection process the audit measures.
+Frequently asked questions
+What is the difference between AEO and SEO?
+SEO earns a place in the list of links a search engine returns. AEO earns a place inside the written answer an AI engine gives above that list. The two share a foundation: crawlable pages, consistent facts, and clear statements of what a business does. AEO adds the record the answer is assembled from, including business profiles, directory listings, and entity schema.
+Does AEO replace SEO?
+No. AI answers are assembled from crawlable pages, search indexes, business profiles, and directory listings, so a site search engines cannot crawl or understand starves the answer engines too. AEO is built on SEO. A business doing AEO without the SEO foundation is decorating a house that has no frame.
+How long does AEO take to change an AI answer?
+The sources can be fixed in days, and the answers change on the engines' own schedule as they recrawl and rebuild. Gerris measures monthly because a single check proves nothing: the receipt that matters is the trend across Google AI Overviews, ChatGPT, Perplexity, and Gemini over successive months.
+What does AEO cost?
+At Gerris, the first step is the AI Visibility Audit at $750 flat, delivered as a written report. The Claim Sprint, which builds the claim layer the audit identifies, is $1,500 flat. Monthly measurement, called AI Presence, is $500 a month. Prices are published on the services page.
+Read next: What is generative engine optimization (GEO)? and How do AI answers choose which businesses to name?
+Ask an AI engine about your business.
+Then book the call and tell us what it said. Fixing that answer is the work.
+Book a 30-minute call
+
+---
+
+# Guide: What is generative engine optimization (GEO)?: https://gerris.ai/guides/what-is-generative-engine-optimization/
+
+Home › Guides › What is generative engine optimization (GEO)?
+What is generative engine optimization (GEO)?
+Generative engine optimization (GEO) is the work of making a business easy for generative AI systems to find, understand, verify, and cite. A generative engine does not return ten links and stop. It reads sources, resolves them into a record of each business it finds, and writes an answer in its own words that names the businesses the answer rests on. GEO is the discipline of being one of those sources: present in the index, legible to the reader, corroborated by the other sources, and quotable in the answer.
+What is a generative engine?
+A generative engine is a system that writes its answer instead of only ranking other people's pages. Google AI Overviews, ChatGPT, Perplexity, and Gemini are the four your buyers use most. Each combines retrieval, the fetching of candidate sources from a search index and the live web, with a language model that composes the reply. Classic search ended with a list a human had to read. A generative engine reads the list, and several pages under it, and hands the human a finished paragraph with names in it.
+That last step is why the discipline exists. The paragraph is generated, and generation has inputs. A business that appears in the inputs with clear, corroborated facts has a chance of appearing in the paragraph. A business that is absent from the inputs, or present only as confused fragments, is written out of the answer before the answer is written.
+How does a generative engine find a business?
+Finding starts with crawling. Search crawlers and AI crawlers fetch your pages and build the indexes retrieval draws from. OpenAI sends GPTBot and its search crawlers, Anthropic sends ClaudeBot, Perplexity sends PerplexityBot, and Google and Microsoft read your site for search and for the AI surfaces built on search. robots.txt governs all of them. A site that blocks the AI crawlers, whether by decision or by a copied template default, has removed itself from those engines' sources.
+Finding also runs on material gathered earlier. Language models carry a training record of the public web, and a business described consistently for years sits inside that record. Live retrieval corrects and updates the training record only when current sources are reachable. A business that changed its name, its category, or its address has two records running until the live sources are strong enough to settle which one the engine should repeat.
+How does a generative engine verify a business?
+Verification is corroboration. A fact stated on your website carries more weight when the same fact appears on your Google Business Profile, your listings, and independent pages that mention you. The engine is resolving many sources into one entity record, and it trusts the version of each fact that the sources agree on. Consistency is therefore not tidiness. It is the mechanism by which a fact becomes usable.
+Structured data plays a specific role here. Entity schema on your pages declares, in machine-readable form, that this organization is the same one named on those profiles, that this person leads it, and that these are its services and prices. Schema does not replace the visible page, and on this site it is never allowed to say anything the visible page does not say. It confirms the page, in a form the resolver can read without guessing, and confirmed facts are the ones that survive into the generated answer.
+How does a generative engine cite a business?
+Citation takes two forms. Some engines print their sources: Perplexity and Google AI Overviews show the pages behind the answer, and being the cited page is direct evidence of use. Other surfaces name businesses inside the generated text with no link attached, and on those surfaces being named is the citation that matters, because the name is what the buyer acts on.
+Both forms reward the same property: citability. A fact stated plainly, in one place, in the language of the question is liftable. A fact implied across three pages, visible only inside an image, or contradicted somewhere else on the site is not. Direct-answer blocks, honest FAQ content, published prices, and an llms.txt file all exist to make a business's facts liftable. The engine quotes what it can quote, and summarizes the rest from whoever stated it clearly.
+What does GEO change in practice?
+The working checklist behind every Gerris engagement follows the pipeline in order:
+Find: AI crawlers welcomed by name in robots.txt, pages fetchable as plain HTML, a sitemap and an llms.txt that tell every crawler where the record lives.
+Understand: a canonical page stating the category, services, place, and prices, with question-led headings and direct answers in the words buyers use.
+Verify: entity schema with sameAs links, and the same name, address, phone, category, and services on the website, the Google Business Profile, and the listings.
+Cite: facts written in liftable form, FAQ answers that say something specific, and third-party sources that repeat the same story.
+Measure: the money questions re-asked across Google AI Overviews, ChatGPT, Perplexity, and Gemini on a monthly schedule, with the answers recorded in writing.
+How is GEO different from AEO and SEO?
+The three terms describe layers of one foundation, and Gerris keeps the distinction simple. SEO gets a page found and ranked by search engines: crawling, indexing, speed, and structure. GEO gets a business found, verified, and cited by generative systems: the pipeline this guide describes. AEO gets the business named, accurately, inside the answer that results, and the AEO guide covers that layer. A business rarely needs one layer without the others, because the answer is built from the index, the index is built from the crawl, and the crawl reads the same site your customers do.
+Frequently asked questions
+What is the difference between GEO and AEO?
+GEO is about the pipeline: whether generative AI systems can find your business, understand what it is, verify its facts, and cite it. AEO is about the result: whether the written answer names your business and describes it accurately. The work overlaps almost completely, and a business that does one without the other usually has a gap in the record somewhere.
+Do AI crawlers need permission to read my website?
+Yes, in effect. Crawlers such as GPTBot, ClaudeBot, and PerplexityBot follow robots.txt, and many business websites block them by accident through copied templates or firewall defaults. A blocked crawler means your pages are absent from that engine's sources. Gerris welcomes the AI crawlers by name on this site and checks the same setting on every client site.
+What is llms.txt?
+llms.txt is a plain text file at the root of a website that states, in machine-readable text, what the business is, what it sells, and where the key pages are. It is written for language models the way a sitemap is written for search crawlers. This site publishes one, and the Claim Sprint builds one for clients.
+How do I know if a generative engine can verify my business?
+Ask it. Put your business's category and city into ChatGPT, Perplexity, Gemini, and Google AI Overviews and read what comes back: named or missing, facts right or wrong, competitors named instead. Then check whether your website, Google Business Profile, and listings tell the same story. Disagreement among those sources is the usual reason verification fails.
+Read next: What is answer engine optimization (AEO)? and How do AI answers choose which businesses to name?
+Ask an AI engine about your business.
+Then book the call and tell us what it said. Fixing that answer is the work.
+Book a 30-minute call
+
+---
+
+# Guide: How do AI answers choose which businesses to name?: https://gerris.ai/guides/how-ai-answers-choose-businesses/
+
+Home › Guides › How do AI answers choose which businesses to name?
+How do AI answers choose which businesses to name?
+An AI answer names the businesses it can assemble a confident description of. Between the buyer's question and the written answer, the engine retrieves sources, resolves them into a record of each candidate business, and composes the answer from the records it trusts. A business with a consistent, corroborated, citable record gets named. A business with a thin or contradictory record gets skipped, and the answer names a competitor whose record lines up. This guide walks through that selection, step by step, because the selection is the thing the AI Visibility Audit measures.
+What happens between the question and the answer?
+Four things, in order. First, retrieval: the engine fetches candidate pages and profiles for the question from its indexes and the live web. Second, resolution: it works out which mentions belong to the same business, the same person, the same place. Third, corroboration: it compares the resolved records across sources and settles on the facts the sources support. Fourth, composition: the language model writes the answer, naming the businesses whose settled records fit the question.
+Notice what is missing from that sequence: a ranking, of the kind the old results page showed. A business can sit in the retrieved set, even rank well as a link, and still never reach the answer, because composition works from records, not links. The question the buyer asked is answered from whatever the engine could assemble, and assembly is where most businesses are lost.
+What is an entity record?
+Your entity record is everything the engine has gathered and attributed to your business as one entity: its name, its category, its services, its location and service area, its hours, its phone number, its prices where they are published, the people who run it, its profiles, its reviews, and the mentions of it on other sites. The record exists whether or not you have ever looked at it. It was assembled from your website, your Google Business Profile, your listings, and third-party pages, in whatever order the crawlers found them.
+Entity schema is how a business takes part in its own record. Schema with a stable identifier and sameAs links declares that this website, this profile, and this listing are the same entity, and states the entity's facts in machine-readable form that matches the visible page. The GEO guide describes the verification pipeline in full. Without that declaration, resolution is guesswork, and the engine's guesses about which mentions belong to you are exactly as good as the mess it was handed.
+Why does consistency decide who gets named?
+Because corroboration is a vote, and consistency is how a fact wins it. When your website, your Google Business Profile, and your listings disagree, the answer engine goes with the version it can corroborate. Three sources stating the same category, the same services, and the same phone number outweigh one louder source stating something else. The engine is not judging which version is true. It is reporting which version it could verify.
+The failures are concrete. The website calls the business a plumber, the profile calls it a handyman service, and an old listing calls it a general contractor: three blurred records instead of one clear one. The address changed in one place and not the others. The founding service, the one buyers ask about, appears on a brochure site and nowhere the crawlers go. Each blur costs confidence, and the answer's names are the businesses that cost it the least. This is also why the fix is unglamorous. Consistency is a ranking signal precisely because it is work most businesses never finish.
+What makes a business easy to cite?
+Citability is a property of how facts are written down. A canonical page that states what the business is, in the category language buyers search, gives the engine one authoritative source to resolve everything else against. Direct answers in buyer language, stated at the top of the page section that answers them, can be lifted into an answer without rewriting. Published prices, where the business can publish them, settle questions competitors leave vague. FAQ content answers the follow-up questions. An llms.txt file hands the whole record to language models in one plain text document.
+None of this asks the engine for a favor. The engine is under pressure to answer quickly and defensibly, and it reaches for the sources that cost it the least effort and the least risk. A business whose facts arrive pre-assembled, consistently, in quotable sentences is simply the easiest correct answer available. Being good at the work matters after the buyer calls. Getting named is a clerical contest held before that, and it is won on the quality of the paperwork.
+What makes an AI answer skip a business?
+The skip list, from the audits, is repetitive:
+Crawlers blocked: robots.txt or a firewall default keeps the AI crawlers out, so the pages never enter the sources.
+No plain statement of category: no page says, in so many words, what the business is and what it sells, so retrieval finds nothing to resolve.
+Contradictory facts: the website, profile, and listings tell different stories, and corroboration fails on the details that matter.
+A broken profile: a suspended, duplicate, or miscategorized Google Business Profile corrupts the record at one of its primary sources.
+Facts locked in unreadable forms: the key statements live inside images, scripts, or documents the engines read poorly, if at all.
+No third-party corroboration: nothing anywhere repeats the business's own claims, so every fact rests on a single source.
+Read the list again and notice what it does not contain: the quality of the business's work. Skips are record problems. The engine is not reporting that a competitor is better at your trade. It is reporting that a competitor's paperwork assembled more cleanly, and paperwork can be fixed.
+How do you find out what the answers say about you?
+You run the questions yourself, before you fix anything. Take the searches that bring you revenue, ask them in Google AI Overviews, ChatGPT, Perplexity, and Gemini in the words your buyers use, and write down what comes back: named or skipped, described rightly or wrongly, and who was named in your place. Then compare the answers against your record, find the disagreements and the gaps, fix them in priority order, and re-run the same questions monthly to confirm the answers moved.
+That test, run properly and written down, is the AI Visibility Audit on the Gerris services page. It is $750 flat. We test how your business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini for the searches that bring you revenue, check your entity and name, address, and phone consistency, and deliver a written report with every fix in priority order. The report is yours to keep regardless of what follows.
+Frequently asked questions
+Why does ChatGPT recommend my competitor instead of me?
+Usually because the competitor's record is easier to assemble: their category, services, and location are stated plainly on a page the engine can read, and the same facts appear on their Google Business Profile and listings. The engine names the business it can describe with confidence. The fix is rarely one trick. It is making your record as consistent and citable as theirs.
+What is an entity in AI search?
+An entity is one real-world thing the engine tracks as a single record: a business, a person, a place, a service. Your business's entity record is everything the engine has gathered about it from your website, your profiles, and other sites' mentions. Entity schema with sameAs links tells the engine which pages and profiles belong to the same entity.
+Can a business pay to be named in an AI answer?
+Not in the organic answers this guide is about. There is no placement to buy inside the written answer. What a business can do is fix the record the answer is built from: consistent facts, a canonical page, readable answers to buyer questions, and profiles that agree. That is the whole of the method, and it is also the product Gerris sells.
+How much does it cost to find out what AI answers say about my business?
+The AI Visibility Audit is $750 flat. Gerris tests how your business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini for the searches that bring you revenue, and delivers a written report with every fix in priority order. The report is yours to keep regardless of what follows.
+Read next: What is answer engine optimization (AEO)? and What is generative engine optimization (GEO)?
+Ask an AI engine about your business.
+Then book the call and tell us what it said. Fixing that answer is the work.
+Book a 30-minute call

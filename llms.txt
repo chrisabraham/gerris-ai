@@ -8,6 +8,11 @@
 - [Services](https://gerris.ai/services/): The services page of gerris.ai in HTML. Full text of every page is in llms-full.txt.
 - [About](https://gerris.ai/about/): The about page of gerris.ai in HTML. Full text of every page is in llms-full.txt.
 
+- [Guides](https://gerris.ai/guides/): Plain language guides to AI search: the categories, the machinery, and the selection behind every AI answer.
+- [What is answer engine optimization (AEO)?](https://gerris.ai/guides/what-is-answer-engine-optimization/): The category explainer: what AEO is, what it changes on a website and off it, how it differs from SEO, and how to measure it.
+- [What is generative engine optimization (GEO)?](https://gerris.ai/guides/what-is-generative-engine-optimization/): How generative AI systems find, understand, verify, and cite a business, and what GEO changes in practice.
+- [How do AI answers choose which businesses to name?](https://gerris.ai/guides/how-ai-answers-choose-businesses/): The entity record, the consistency check, and the citability test behind every name an AI answer gives, and the audit that measures them.
+
 ## Key facts
 
 - The AI Visibility Audit costs $750 flat and is delivered as a written report.
@@ -16,3 +21,5 @@
 - A turnkey website on GitHub Pages costs $1,500 flat; hosting is free.
 - Gerris is led by Chris Abraham: websites since 1994, SEO since 1998.
 - Gerris Corp's wider consulting site is https://gerriscorp.com/ and Chris Abraham's practice site is https://christopherabraham.com/.
+- [The AI Search Briefing](https://gerris.ai/briefing/): A weekly briefing on AI search from Gerris AI: AEO, AIO, GEO, and what AI is doing to SEO, written from practice for business owners.
+- [AI Search Briefing: Week of November 7, 2026](https://gerris.ai/briefing/2026-11-07/): Turkey investigates AI Overviews, Google ties Search to AI in schools, ChatGPT reads fewer pages, Perplexity grounds its answers, and training bots split from search bots in robots.txt.
