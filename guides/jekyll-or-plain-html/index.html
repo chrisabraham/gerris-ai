@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSHZ35VB');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PKWTJ2ER1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PKWTJ2ER1K');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub Pages With Jekyll or Plain HTML: Building With AI</title>
+<meta name="description" content="Jekyll or plain HTML on GitHub Pages, compared from six sites built with AI: what each does well, where they differ, and why an AI assistant builds either one.">
+<link rel="canonical" href="https://gerris.ai/guides/jekyll-or-plain-html/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gerris">
+<meta property="og:title" content="GitHub Pages With Jekyll or Plain HTML: Building With AI">
+<meta property="og:description" content="Jekyll or plain HTML on GitHub Pages, compared from six sites built with AI: what each does well, where they differ, and why an AI assistant builds either one.">
+<meta property="og:url" content="https://gerris.ai/guides/jekyll-or-plain-html/">
+<meta property="og:image" content="https://gerris.ai/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gerris: AI search visibility. AEO, GEO, and SEO.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GitHub Pages With Jekyll or Plain HTML: Building With AI">
+<meta name="twitter:description" content="Jekyll or plain HTML on GitHub Pages, compared from six sites built with AI: what each does well, where they differ, and why an AI assistant builds either one.">
+<meta name="twitter:image" content="https://gerris.ai/social-card.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#c75000">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "@id": "https://gerris.ai/guides/jekyll-or-plain-html/#article",
+   "headline": "GitHub Pages with Jekyll or plain HTML: which should an AI build?",
+   "description": "Jekyll or plain HTML on GitHub Pages, compared from six sites built with AI: what each does well, where they differ, and why an AI assistant builds either one.",
+   "url": "https://gerris.ai/guides/jekyll-or-plain-html/",
+   "mainEntityOfPage": "https://gerris.ai/guides/jekyll-or-plain-html/",
+   "datePublished": "2026-11-19",
+   "dateModified": "2026-11-19",
+   "inLanguage": "en",
+   "image": "https://gerris.ai/social-card.png",
+   "author": {
+    "@id": "https://gerris.ai/#chris-abraham"
+   },
+   "publisher": {
+    "@id": "https://gerris.ai/#organization"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "GitHub Pages",
+     "sameAs": "https://en.wikipedia.org/wiki/GitHub#GitHub_Pages"
+    },
+    {
+     "@type": "Thing",
+     "name": "Jekyll",
+     "sameAs": "https://en.wikipedia.org/wiki/Jekyll_(software)"
+    }
+   ],
+   "mentions": [
+    {
+     "@type": "WebSite",
+     "name": "Hill Mole",
+     "url": "https://hillmole.com/"
+    },
+    {
+     "@type": "WebSite",
+     "name": "The Chris Abraham Show",
+     "url": "https://thechrisabrahamshow.com/"
+    },
+    {
+     "@type": "WebSite",
+     "name": "Christopher Abraham",
+     "url": "https://christopherabraham.com/"
+    },
+    {
+     "@type": "WebSite",
+     "name": "Gerris Corp",
+     "url": "https://gerriscorp.com/"
+    },
+    {
+     "@type": "WebSite",
+     "name": "Chris Abraham weblog",
+     "url": "https://chrisabraham.net/"
+    }
+   ],
+   "citation": [
+    "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll",
+    "https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/",
+    "https://pages.github.com/versions.json",
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+    "https://jekyllrb.com/docs/configuration/front-matter-defaults/",
+    "https://jekyllrb.com/docs/liquid/"
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://gerris.ai/guides/jekyll-or-plain-html/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Does GitHub Pages use Jekyll by default?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, for a site published from a branch. GitHub runs its own Jekyll build on the repository unless a file named .nojekyll sits in the root, or the site is published through a custom GitHub Actions workflow."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does a .nojekyll file do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It tells GitHub Pages to skip Jekyll and publish the files exactly as they are. GitHub added it in 2009 for sites whose files or folders start with an underscore, which Jekyll treats as its own and does not copy."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can an AI coding assistant build a Jekyll site?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. An assistant such as Claude Code or OpenAI Codex writes the layouts, the _config.yml, and the front matter as readily as it writes finished HTML. Gerris built one Jekyll site and five plain HTML sites this way in 2026."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which is better for SEO, Jekyll or plain HTML?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Neither, by itself. Both publish finished HTML that every crawler reads. What decides search and AI visibility is what the build puts in the pages: titles, descriptions, schema, sitemaps, and what it refuses to publish."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I run an online store on GitHub Pages?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. GitHub's terms say Pages is not intended or allowed for running an online business or an e-commerce site, or for sending passwords or card numbers. Brochure sites, guides, portfolios, and archives fit; checkouts belong on a platform built for them."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://gerris.ai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://gerris.ai/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Jekyll or plain HTML",
+     "item": "https://gerris.ai/guides/jekyll-or-plain-html/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZ35VB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap hwrap">
+    <a href="/" aria-label="Gerris home"><svg width="34" height="34" viewBox="0 0 100 100" role="img" aria-label="Gerris logo"><circle cx="30" cy="32" r="15" fill="#b0dde3"/><circle cx="66" cy="24" r="11" fill="#1e9cd5"/><circle cx="52" cy="62" r="17" fill="#f3b842"/><path d="M30 32 Q48 12 66 24 M40 46 Q46 58 52 62" stroke="#211f1e" stroke-width="4" fill="none" stroke-linecap="round"/></svg></a>
+    <a class="brand" href="/"><span class="brandname">Gerris AI</span><small>AI search visibility, AEO, GEO, and SEO</small></a>
+    <nav class="site" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/briefing/">The AI Search Briefing</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <article class="page">
+      <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; Jekyll or plain HTML</p>
+      <h1>GitHub Pages with Jekyll or plain HTML: which should an AI build?</h1>
+      <p><strong>GitHub Pages serves finished HTML files, and there are two ways to produce them: let Jekyll assemble the pages from Markdown and templates, or write the HTML yourself, by hand or with your own build script.</strong> Gerris runs both. hillmole.com, Chris Abraham's serialized novel, is a Jekyll site with 309 entries moved from Movable Type in October 2026. gerris.ai, christopherabraham.com, gerriscorp.com, chrisabraham.net, and thechrisabrahamshow.com are plain HTML. Every one of them was built by AI coding assistants under Chris' direction, which settles the first question people ask: an AI builds either kind as easily as the other. The choice depends on the site.</p>
+
+      <h2>What does Jekyll do on GitHub Pages?</h2>
+      <p>Jekyll is a static site generator, and GitHub runs it on every Pages site published from a branch unless you tell it not to. You write each page or post as Markdown with a block of YAML front matter at the top: title, date, layout, and any other values. Jekyll pours that content into layouts written in Liquid, its templating language, and writes the finished HTML. A <code>_config.yml</code> file holds the site's settings, including front matter defaults: a rule that every file of one type, in one path, gets the same values unless the file says otherwise.</p>
+      <p>GitHub's build runs Jekyll 3.10 through the github-pages gem, with a fixed list of supported plugins. That list includes jekyll-feed, jekyll-sitemap, jekyll-seo-tag, and jekyll-redirect-from, and GitHub Pages will not run a plugin outside it. A site that needs anything else builds through a custom GitHub Actions workflow, which can deploy the output of any static site generator.</p>
+
+      <h2>What is a plain HTML site on GitHub Pages?</h2>
+      <p>A plain HTML site is the finished pages committed to the repository, with a file named <code>.nojekyll</code> in the root so GitHub publishes them untouched. GitHub added that file in 2009 for sites whose files or folders start with an underscore, which Jekyll otherwise treats as its own and leaves out. The pages can be written by hand, as on gerris.ai, or generated by a script you control. christopherabraham.com and gerriscorp.com are built by a Python script that writes every page, the sitemap, the feeds, and llms.txt from source files, and refuses to finish if a title runs long or two pages repeat each other. thechrisabrahamshow.com rebuilds itself every morning from its podcast feed, in a scheduled GitHub Actions job.</p>
+
+      <h2>What is each approach good at?</h2>
+      <ul>
+        <li><strong>Jekyll</strong> suits a site that grows by adding writing: a blog, a serialized book, an archive, documentation. A new post is one Markdown file, and a change to one layout changes every page. It also handles a migration well. Hill Mole's Movable Type archive pages became a Jekyll collection, and one front matter default keeps every one of them out of the sitemap and marked noindex while their old URLs still answer.</li>
+        <li><strong>Plain HTML</strong> suits a site where every page is deliberate: a business site, a service catalog, a set of guides. Nothing is assembled at request time or at GitHub's build, so what is in the repository is exactly what visitors and crawlers receive. A custom build script can enforce rules Jekyll has no plugin for, such as unique titles, length limits on descriptions, and a check against phrasing borrowed from a sibling site.</li>
+      </ul>
+
+      <h2>How do they compare?</h2>
+      <table>
+        <thead><tr><th>Question</th><th>Jekyll on GitHub Pages</th><th>Plain HTML</th></tr></thead>
+        <tbody>
+          <tr><th>Where pages are built</th><td>GitHub's build, from Markdown and Liquid layouts</td><td>Your own editor, script, or workflow</td></tr>
+          <tr><th>Adding a page</th><td>One Markdown file with front matter</td><td>One finished page, or one source file your script expands</td></tr>
+          <tr><th>Changing every page</th><td>Edit one layout</td><td>Edit the template in your script, or every file by hand</td></tr>
+          <tr><th>Plugins and extensions</th><td>GitHub's supported list only, unless you build with Actions</td><td>Anything your own build can do</td></tr>
+          <tr><th>Files starting with an underscore</th><td>Skipped unless included in _config.yml</td><td>Published as they are, with .nojekyll</td></tr>
+          <tr><th>Builds per hour</th><td>A soft limit of 10 on GitHub's build</td><td>No limit when published through your own Actions workflow</td></tr>
+        </tbody>
+      </table>
+      <p>The rest of GitHub's limits are the same either way: a published site no larger than 1 GB, a soft bandwidth limit of 100 GB a month, and deployments that time out after 10 minutes.</p>
+
+      <h2>Why does an AI assistant build either one equally well?</h2>
+      <p>An AI coding assistant reads a repository and follows its conventions. In a Jekyll site the conventions are fixed and public: where layouts live, what front matter means, which plugins exist. In a plain HTML site with a build script, the conventions are whatever the script enforces, and the script's checks become the assistant's checklist. Either way the assistant is writing text files and running a build. Hill Mole's move from Movable Type to Jekyll was done by Claude Code, and the plain HTML builds of the other sites by Claude and other AI assistants, with Chris deciding what each site would say.</p>
+      <p>The difference that matters is where the rules live. Jekyll carries its rules in the framework, so a new assistant arriving at the repository already knows most of them. A custom build carries its rules in the script and a written briefing, so the briefing has to be kept current, or the next assistant to arrive will undo the last one's work.</p>
+
+      <h2>Which should you choose?</h2>
+      <p>Choose Jekyll when the site is mostly writing that keeps arriving, when you want to add pages in Markdown without touching HTML, or when you are moving a blog off a platform such as Movable Type or WordPress and need its old URLs kept. Choose plain HTML when the site is a fixed set of pages that must each say something exact, when you want a build that checks every page before it publishes, or when the site has to pass through no processing at all. For AI search, both publish the same thing a crawler reads, and the work that earns citations is the same: clear titles, structured data, a sitemap, an llms.txt, and pages that answer questions directly.</p>
+      <p>One limit applies to both. GitHub's terms say Pages is not intended or allowed for running an online business, an e-commerce site, or any site primarily directed at commercial transactions, and it should never carry passwords or card numbers. A brochure site, a practice, a portfolio, a book, or a publication fits. A store with a checkout belongs on a platform built for it.</p>
+
+      <section class="faq">
+        <h2>Frequently asked questions</h2>
+        <h3>Does GitHub Pages use Jekyll by default?</h3>
+        <p>Yes, for a site published from a branch. GitHub runs its own Jekyll build on the repository unless a file named .nojekyll sits in the root, or the site is published through a custom GitHub Actions workflow.</p>
+        <h3>What does a .nojekyll file do?</h3>
+        <p>It tells GitHub Pages to skip Jekyll and publish the files exactly as they are. GitHub added it in 2009 for sites whose files or folders start with an underscore, which Jekyll treats as its own and does not copy.</p>
+        <h3>Can an AI coding assistant build a Jekyll site?</h3>
+        <p>Yes. An assistant such as Claude Code or OpenAI Codex writes the layouts, the _config.yml, and the front matter as readily as it writes finished HTML. Gerris built one Jekyll site and five plain HTML sites this way in 2026.</p>
+        <h3>Which is better for SEO, Jekyll or plain HTML?</h3>
+        <p>Neither, by itself. Both publish finished HTML that every crawler reads. What decides search and AI visibility is what the build puts in the pages: titles, descriptions, schema, sitemaps, and what it refuses to publish.</p>
+        <h3>Can I run an online store on GitHub Pages?</h3>
+        <p>No. GitHub's terms say Pages is not intended or allowed for running an online business or an e-commerce site, or for sending passwords or card numbers. Brochure sites, guides, portfolios, and archives fit; checkouts belong on a platform built for them.</p>
+      </section>
+
+      <p><strong>Read next:</strong> <a href="/services/github-pages-websites/">GitHub Pages websites built by Gerris</a>, and the <a href="/guides/ai-search-glossary/">AI search glossary</a> for the terms that decide what an answer engine does with the pages.</p>
+
+      <h2 id="sources">Sources</h2>
+      <ul>
+        <li><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll">GitHub Docs: About GitHub Pages and Jekyll</a></li>
+        <li><a href="https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/">GitHub Blog: Bypassing Jekyll on GitHub Pages (December 29, 2009)</a></li>
+        <li><a href="https://pages.github.com/versions.json">GitHub Pages: dependency versions</a></li>
+        <li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages">GitHub Docs: Using custom workflows with GitHub Pages</a></li>
+        <li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits">GitHub Docs: GitHub Pages limits</a></li>
+        <li><a href="https://jekyllrb.com/docs/configuration/front-matter-defaults/">Jekyll: Front matter defaults</a></li>
+        <li><a href="https://jekyllrb.com/docs/liquid/">Jekyll: Liquid</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Ask an AI engine about your business.</h2>
+      <p>Then book the call and tell us what it said. Fixing that answer is the work.</p>
+      <p><a class="btn primary" href="https://calendly.com/chrisabraham/30">Book a 30-minute call</a></p>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Gerris AI</h3>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About Chris Abraham</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
+          <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
+          <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://gerriscorp.com/">gerriscorp.com</a></li>
+          <li><a href="https://christopherabraham.com/">christopherabraham.com</a></li>
+          <li><a href="https://chrisabraham.net/">chrisabraham.net, the weblog</a></li>
+          <li><a href="https://chrisabraham.com/">chrisabraham.com</a></li>
+          <li><a href="https://thechrisabrahamshow.com/">The Chris Abraham Show</a></li>
+          <li><a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></li>
+          <li><a href="https://github.com/chrisabraham">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
+  </div>
+</footer>
+</body>
+</html>

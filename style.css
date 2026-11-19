@@ -121,3 +121,8 @@ footer.site .fine{border-top:1px solid #33505c;margin-top:2rem;padding-top:1.2re
 dl.glossary{margin:1rem 0 1.6rem}
 dl.glossary dt{font-weight:700;color:var(--ink);margin-top:1rem;scroll-margin-top:1rem}
 dl.glossary dd{margin:.25rem 0 0;max-width:68ch}
+/* Comparison tables (Jekyll or plain HTML guide, 2026-11-19) */
+article table{border-collapse:collapse;width:100%;margin:1rem 0 1.4rem;font-size:.95rem}
+article th,article td{border:1px solid var(--rule);padding:.45rem .6rem;text-align:left;vertical-align:top}
+article thead th{background:var(--tint)}
+@media (max-width:34rem){article table{display:block;overflow-x:auto}}
