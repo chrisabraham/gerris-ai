@@ -29,7 +29,7 @@ The audit maps the work; the sprint does it. Technical foundation first: crawl, 
 $1,500flat
 The sprint in detail
 3. AI Presence, Measured
-AI answers drift. Every month we re-run your money-query set across the answer engines and deliver a written receipt: what changed, what the answers say now, and the next fixes in line. You know before your customers do.
+AI answers drift. Every month we re-run your money-query set across ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Claude, Gemini, and Copilot, and across Claude Code and Codex, and deliver a written receipt: what changed, what the answers say now, and the next fixes in line. You know before your customers do.
 $500per month
 The measurement in detail
 4. Indexing repair and SEO repair work
@@ -92,7 +92,7 @@ Technical foundation: full crawl, Search Console review, titles and metas, broke
 The claim layer: entity schema with sameAs links, an llms.txt file, a canonical page that states what your business is, and FAQ schema, so the machines can quote you instead of guessing at you.
 Where an item belongs with your developers, we return it as a precise written fix list they can execute directly, and we verify it on the live site once they ship it. The sprint is scoped from the audit and costs $1,500 flat for the defined scope; work beyond that scope is priced in writing before it begins.
 What is AI Presence, Measured?
-AI answers drift. Competitors publish, directories change, and the answer that named you in March may name someone else in June. Every month we re-run your money-query set across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude, and you get a written receipt: what changed, what the answers say now, and the next fixes in line. AI Presence is $500 a month, shaped around your search set.
+AI answers drift. Competitors publish, directories change, and the answer that named you in March may name someone else in June. Every month we re-run your money-query set across the answer engines, ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Claude, Gemini, and Copilot, and across Claude Code and Codex, the surfaces where technical buyers and builders ask for advice, and you get a written receipt: what changed, what the answers say now, and the next fixes in line. AI Presence is $500 a month, shaped around your search set.
 Why does the Google Business Profile matter to AI answers?
 For local and service businesses, the Google Business Profile is one of the primary sources AI answers are built from. A suspended, duplicate, or miscategorized profile damages your map listing and corrupts what the AI says about you everywhere else. Gerris profile work, including service-area configuration and reinstatement support, is fulfilled through the practice's Google Business Profile specialist partner and directed by Chris alongside the search work, so your profile, your website, and your listings tell one consistent story. That consistency is what the machines reward.
 Why is Google not indexing my pages?
@@ -273,7 +273,7 @@ SEO earns a place in the list of links a search engine returns. AEO earns a plac
 Does AEO replace SEO?
 No. AI answers are assembled from crawlable pages, search indexes, business profiles, and directory listings, so a site search engines cannot crawl or understand starves the answer engines too. AEO is built on SEO. A business doing AEO without the SEO foundation is decorating a house that has no frame.
 How long does AEO take to change an AI answer?
-The sources can be fixed, and the answers change on the engines' own schedule as they recrawl and rebuild. Gerris measures monthly because a single check proves nothing: the receipt that matters is the trend across Google AI Overviews, ChatGPT, Perplexity, and Gemini over successive months.
+The sources can be fixed, and the answers change on the engines' own schedule as they recrawl and rebuild. Gerris measures monthly because a single check proves nothing: the receipt that matters is the trend across ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Claude, Gemini, and Copilot, and across Claude Code and Codex, over successive months.
 What does AEO cost?
 At Gerris, the first step is the AI Visibility Audit at $750 flat, delivered as a written report. The Claim Sprint that follows is $1,500 flat for the scope the audit defines, and AI Presence, the monthly measurement, is $500 a month. Work beyond a published scope is priced in writing before it begins.
 Read next: What is generative engine optimization (GEO)? and How do AI answers choose which businesses to name?
@@ -306,7 +306,7 @@ Find: AI crawlers welcomed by name in robots.txt, pages fetchable as plain HTML,
 Understand: a canonical page stating the category, services, place, and prices, with question-led headings and direct answers in the words buyers use.
 Verify: entity schema with sameAs links, and the same name, address, phone, category, and services on the website, the Google Business Profile, and the listings.
 Cite: facts written in liftable form, FAQ answers that say something specific, and third-party sources that repeat the same story.
-Measure: the money questions re-asked across Google AI Overviews, ChatGPT, Perplexity, and Gemini on a monthly schedule, with the answers recorded in writing.
+Measure: the money questions re-asked across ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Claude, Gemini, and Copilot, and across Claude Code and Codex, on a monthly schedule, with the answers recorded in writing.
 How is GEO different from AEO and SEO?
 The three terms describe layers of one foundation, and Gerris keeps the distinction simple. SEO gets a page found and ranked by search engines: crawling, indexing, speed, and structure. GEO gets a business found, verified, and cited by generative systems: the pipeline this guide describes. AEO gets the business named, accurately, inside the answer that results, and the AEO guide covers that layer. A business rarely needs one layer without the others, because the answer is built from the index, the index is built from the crawl, and the crawl reads the same site your customers do.
 Frequently asked questions
@@ -428,7 +428,7 @@ The description is assembled from public sources: the website, the Google Busine
 What is the first consistency fix to make?
 Settle one canonical statement of the business: the name, the category, the services, the address or service area, and the phone number. Then bring the Google Business Profile and the highest-traffic directory listings into line with that statement, word for word where the formats allow. Most records improve measurably from that single pass, because corroboration starts working for the business instead of against it.
 How often do AI answers about a business change?
-Continuously, on the engines' own schedule. Competitors publish, directories change, profiles get edited, and the answer that named a business in March may name another in June. A single check is a snapshot. Gerris measures monthly, re-asking the same money questions across Google AI Overviews, ChatGPT, Perplexity, and Gemini, because the trend across months is the measurement that can be acted on.
+Continuously, on the engines' own schedule. Competitors publish, directories change, profiles get edited, and the answer that named a business in March may name another in June. A single check is a snapshot. Gerris measures monthly, re-asking the same money questions across ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Claude, Gemini, and Copilot, and across Claude Code and Codex, because the trend across months is the measurement that can be acted on.
 Read next: What is answer engine optimization (AEO)? and How do AI answers choose which businesses to name?
 Ask an AI engine about your business.
 Then book the call and tell us what it said. Fixing that answer is the work.
