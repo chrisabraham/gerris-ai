@@ -65,9 +65,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    "citation": [
     "https://arxiv.org/abs/2311.09735",
     "https://arxiv.org/abs/2005.11401",
+    "https://developers.google.com/search/docs/appearance/ai-features",
     "https://blog.google/products/search/google-search-ai-mode-update/",
+    "https://developers.google.com/search/docs/appearance/structured-data/faqpage",
     "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
     "https://developers.openai.com/api/docs/bots",
+    "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler",
+    "https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview",
     "https://llmstxt.org/"
    ]
   },
@@ -239,6 +243,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     },
     {
      "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#agentic-rag",
+     "name": "Agentic RAG",
+     "description": "Retrieval run by an AI agent that decides for itself when to search again, which tools to use, and when it has enough to answer. Deep research features in the major assistants work this way.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#agentic-rag",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
      "@id": "https://gerris.ai/guides/ai-search-glossary/#ai-crawler",
      "name": "AI crawler",
      "description": "A bot that fetches web pages for an AI company, either to train models or to answer questions live. OpenAI, for example, runs separate bots for each job and treats each robots.txt setting independently: blocking GPTBot (training) does not block OAI-SearchBot (ChatGPT search).",
@@ -249,10 +263,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     },
     {
      "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#ai-overviews",
+     "name": "AI Overviews and AI Mode",
+     "description": "Google's two generative search surfaces. AI Overviews is the summary at the top of some results pages, the successor to the Search Generative Experience test; AI Mode is the separate conversational search that uses query fan-out. Google says there are no extra requirements to appear in either beyond ordinary SEO, and their traffic is counted in Search Console's regular Performance report under the Web search type.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#ai-overviews",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#answer-engine",
+     "name": "Answer engine",
+     "description": "Any system that replies to a question with a written answer instead of a list of links: ChatGPT, Perplexity, Gemini, Copilot, Claude, and Google's AI Mode among them.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#answer-engine",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
      "@id": "https://gerris.ai/guides/ai-search-glossary/#chunking",
      "name": "Chunking",
      "description": "Splitting a long document into shorter passages so a retrieval system can index and return each one separately. For a website, the lesson is that each section should make sense on its own, with a heading that says what it covers.",
      "url": "https://gerris.ai/guides/ai-search-glossary/#chunking",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#claude-crawlers",
+     "name": "ClaudeBot, Claude-SearchBot, Claude-User, and Claude-Agent",
+     "description": "Anthropic's four user agents. ClaudeBot collects content that may be used for training, Claude-SearchBot improves Claude's search results, Claude-User fetches a page when a person's question needs it, and Claude-Agent identifies the browsers Anthropic hosts for Claude to complete tasks for users. Each can be allowed or blocked separately in robots.txt.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#claude-crawlers",
      "inDefinedTermSet": {
       "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
      }
@@ -279,6 +323,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     },
     {
      "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#graphrag",
+     "name": "GraphRAG",
+     "description": "Retrieval over a knowledge graph of entities and relationships, alone or alongside text passages. Microsoft Research published an approach by this name in 2024. It rewards sites whose facts about people, places, and organizations are stated consistently.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#graphrag",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
      "@id": "https://gerris.ai/guides/ai-search-glossary/#grounding",
      "name": "Grounding",
      "description": "Anchoring an AI answer in sources retrieved at the time of the question rather than in training memory alone. Grounded answers are the ones that carry citations, which makes grounding the moment a website can earn a link.",
@@ -289,10 +343,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     },
     {
      "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#grounding-queries",
+     "name": "Grounding queries",
+     "description": "The searches an AI system actually ran while assembling an answer, which often differ from what the user typed. Bing Webmaster Tools now shows a sample of them for pages it cited.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#grounding-queries",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#hybrid-retrieval",
+     "name": "Hybrid retrieval",
+     "description": "Finding passages two ways at once: keyword matching (the classic method, often BM25) and meaning matching through embeddings, then merging the results. It is why both the exact words buyers use and clear, plain explanations help a page get retrieved.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#hybrid-retrieval",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
      "@id": "https://gerris.ai/guides/ai-search-glossary/#llms-txt",
      "name": "llms.txt",
      "description": "A proposed Markdown file at a site's root that summarizes the site and links its key pages for language models. It is a proposal, and AI companies have not committed to reading it, but it costs little and this site publishes one: gerris.ai/llms.txt.",
      "url": "https://gerris.ai/guides/ai-search-glossary/#llms-txt",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#mcp",
+     "name": "MCP (Model Context Protocol)",
+     "description": "An open protocol, introduced by Anthropic in November 2024, that lets AI assistants connect to outside tools and data sources in a standard way. For a business, MCP matters when it wants assistants to query its own systems, such as inventory or bookings, directly.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#mcp",
      "inDefinedTermSet": {
       "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
      }
@@ -321,8 +405,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      "@type": "DefinedTerm",
      "@id": "https://gerris.ai/guides/ai-search-glossary/#rag",
      "name": "RAG (retrieval-augmented generation)",
-     "description": "A design in which a language model first retrieves relevant documents and then writes its answer from them. The approach was named in a 2020 research paper by Patrick Lewis and colleagues. AI search assistants are RAG systems built on web indexes, and calling a page RAG-ready means it is easy to retrieve and quote.",
+     "description": "A design in which a system first retrieves relevant passages from an index, then has a language model write its answer from them, usually with citations. The approach was named in a 2020 research paper by Patrick Lewis and colleagues. AI search assistants are RAG systems built on web indexes. Retrieval is the weak point: when the wrong passages come back, the answer is wrong with full confidence, which is why being the clearest, most retrievable source on a question matters more than being one of many.",
      "url": "https://gerris.ai/guides/ai-search-glossary/#rag",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#reranker",
+     "name": "Reranker",
+     "description": "A second model that rescores the top passages a retriever found and puts the most relevant first, before the answer is written. Passages that answer the question directly tend to survive reranking.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#reranker",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#answer-blocks",
+     "name": "Answer blocks and passage-level optimization",
+     "description": "Writing each section so it stands alone: a heading phrased as the question, and a direct answer in the first sentence or two beneath it. AI systems lift passages, and a passage that needs the paragraph before it to make sense gets skipped.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#answer-blocks",
      "inDefinedTermSet": {
       "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
      }
@@ -369,9 +473,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     },
     {
      "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#faq-markup",
+     "name": "FAQ markup",
+     "description": "FAQPage structured data. Google deprecated the FAQ rich result and stopped showing it in Search on May 7, 2026, so the markup no longer earns an expanded listing. It still describes a page's questions and answers in a form any machine can read, and the questions themselves remain useful on the visible page.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#faq-markup",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
      "@id": "https://gerris.ai/guides/ai-search-glossary/#information-gain",
-     "name": "Information gain",
-     "description": "What a page adds that other pages on the topic do not: original data, first-hand experience, a tested method, a named expert. Pages with something new to say have a reason to be cited; pages that restate the consensus do not.",
+     "name": "Information gain and non-commodity content",
+     "description": "What a page adds that other pages on the topic do not: original data, first-hand experience, a tested method, a named expert. Pages with something new to say have a reason to be cited; pages that restate the consensus do not. Google has described the same quality as content that is original and non-commodity.",
      "url": "https://gerris.ai/guides/ai-search-glossary/#information-gain",
      "inDefinedTermSet": {
       "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
@@ -409,6 +523,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     },
     {
      "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#bing-ai-performance",
+     "name": "AI Performance (Bing Webmaster Tools)",
+     "description": "A report Microsoft introduced in public preview on February 10, 2026. It shows how often a site is cited as a source in Microsoft Copilot and in AI-generated summaries in Bing: total citations, the average number of cited pages, per-URL citation counts, and sampled grounding queries.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#bing-ai-performance",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
      "@id": "https://gerris.ai/guides/ai-search-glossary/#cross-model-visibility",
      "name": "Cross-model visibility",
      "description": "How consistently a brand appears across different AI systems, such as ChatGPT, Claude, Gemini, Perplexity, and Copilot. Engines draw on different sources, so a brand can be named by one and missing from another.",
@@ -423,6 +547,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      "name": "Hallucination rate",
      "description": "How often AI answers state something false about a business: wrong prices, closed locations, invented services. Every wrong fact has a source or a gap behind it, and tracing that source is the start of the fix.",
      "url": "https://gerris.ai/guides/ai-search-glossary/#hallucination-rate",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#mention-rate",
+     "name": "Mention rate",
+     "description": "How often an AI answer names a brand, with or without a link. Mentions and citations are separate measures: a brand can be named without its site being cited, and a site can be cited for a fact without the brand being recommended.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#mention-rate",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#prompt-monitoring",
+     "name": "Prompt monitoring, prompt panels, and prompt volume",
+     "description": "Tools that run a fixed set of questions through AI assistants on a schedule and record the answers. A prompt panel is that question set; prompt volume is an estimate of how often people ask something similar. Volume figures are modeled estimates, since no AI company publishes query counts the way search engines publish keyword data.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#prompt-monitoring",
      "inDefinedTermSet": {
       "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
      }
@@ -505,8 +649,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; AI search glossary</p>
       <h1>The AI search glossary: every acronym and buzzword, defined</h1>
       <p><strong>AI search has produced more acronyms in three years than SEO produced in twenty.</strong> GEO, AEO, AIO, LLMO, AXO, SXO, GPTO, and a dozen more turn up in agency pitches, often for the same work under a different name. This glossary defines each one in plain language, says which describe a real method and which are relabels, and adds the technical terms and metrics that come with them. The definitions are checked against primary sources where one exists, listed at the end.</p>
-      <p>The short version: almost every acronym here means making a business easy for AI systems to find, understand, verify, and cite. Ask anyone who sells one of them to name the tasks, the evidence they will collect, and how the result will be measured. The tasks matter; the acronym does not.</p>
-      <nav aria-label="Sections"><p><a href="#the-acronyms">The acronyms</a> &#183; <a href="#the-machinery">The machinery</a> &#183; <a href="#content-and-authority">Content and authority</a> &#183; <a href="#the-metrics">The metrics</a></p></nav>
+      <p>The short version: almost every acronym here means making a business easy for AI systems to find, understand, verify, and cite. Google's own documentation says there are no additional requirements or special optimizations needed to appear in AI Overviews or AI Mode, and no new machine-readable files or markup. Ask anyone who sells one of these acronyms to name the tasks, the evidence they will collect, and how the result will be measured. The tasks matter; the acronym does not.</p>
+      <nav aria-label="Sections"><p><a href="#the-acronyms">The acronyms</a> &#183; <a href="#the-machinery">The machinery</a> &#183; <a href="#content-and-authority">Content and authority</a> &#183; <a href="#the-metrics">The metrics</a> &#183; <a href="#which-matter">Which name real work</a></p></nav>
 
       <h2 id="the-acronyms">The acronyms</h2>
       <p>Most of these name the same job: getting a business found, described correctly, and cited by AI systems. The differences are usually in who is selling the label.</p>
@@ -548,29 +692,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <dl class="glossary">
         <dt id="agentic-browser">Agentic browser</dt>
         <dd>A browser with an AI agent built in that can carry out multi-step tasks for its user. OpenAI's ChatGPT Atlas and Perplexity's Comet are examples. They read pages through the same structure screen readers use, which is why semantic HTML matters to them.</dd>
+        <dt id="agentic-rag">Agentic RAG</dt>
+        <dd>Retrieval run by an AI agent that decides for itself when to search again, which tools to use, and when it has enough to answer. Deep research features in the major assistants work this way.</dd>
         <dt id="ai-crawler">AI crawler</dt>
         <dd>A bot that fetches web pages for an AI company, either to train models or to answer questions live. OpenAI, for example, runs separate bots for each job and treats each robots.txt setting independently: blocking GPTBot (training) does not block OAI-SearchBot (ChatGPT search).</dd>
+        <dt id="ai-overviews">AI Overviews and AI Mode</dt>
+        <dd>Google's two generative search surfaces. AI Overviews is the summary at the top of some results pages, the successor to the Search Generative Experience test; AI Mode is the separate conversational search that uses query fan-out. Google says there are no extra requirements to appear in either beyond ordinary SEO, and their traffic is counted in Search Console's regular Performance report under the Web search type.</dd>
+        <dt id="answer-engine">Answer engine</dt>
+        <dd>Any system that replies to a question with a written answer instead of a list of links: ChatGPT, Perplexity, Gemini, Copilot, Claude, and Google's AI Mode among them.</dd>
         <dt id="chunking">Chunking</dt>
         <dd>Splitting a long document into shorter passages so a retrieval system can index and return each one separately. For a website, the lesson is that each section should make sense on its own, with a heading that says what it covers.</dd>
+        <dt id="claude-crawlers">ClaudeBot, Claude-SearchBot, Claude-User, and Claude-Agent</dt>
+        <dd>Anthropic's four user agents. ClaudeBot collects content that may be used for training, Claude-SearchBot improves Claude's search results, Claude-User fetches a page when a person's question needs it, and Claude-Agent identifies the browsers Anthropic hosts for Claude to complete tasks for users. Each can be allowed or blocked separately in robots.txt.</dd>
         <dt id="embedding">Embedding (vector embedding)</dt>
         <dd>A list of numbers that represents the meaning of a passage, so a system can find passages close in meaning to a question even when the words differ. Talk of measuring a brand's semantic distance from a prompt describes this math. No website owner can see or set those numbers directly.</dd>
         <dt id="google-extended">Google-Extended</dt>
         <dd>A robots.txt product token Google uses to let publishers decide whether crawled content may be used for training Gemini models and for grounding. Google states that it does not affect a site's inclusion in Google Search and is not a ranking signal.</dd>
+        <dt id="graphrag">GraphRAG</dt>
+        <dd>Retrieval over a knowledge graph of entities and relationships, alone or alongside text passages. Microsoft Research published an approach by this name in 2024. It rewards sites whose facts about people, places, and organizations are stated consistently.</dd>
         <dt id="grounding">Grounding</dt>
         <dd>Anchoring an AI answer in sources retrieved at the time of the question rather than in training memory alone. Grounded answers are the ones that carry citations, which makes grounding the moment a website can earn a link.</dd>
+        <dt id="grounding-queries">Grounding queries</dt>
+        <dd>The searches an AI system actually ran while assembling an answer, which often differ from what the user typed. Bing Webmaster Tools now shows a sample of them for pages it cited.</dd>
+        <dt id="hybrid-retrieval">Hybrid retrieval</dt>
+        <dd>Finding passages two ways at once: keyword matching (the classic method, often BM25) and meaning matching through embeddings, then merging the results. It is why both the exact words buyers use and clear, plain explanations help a page get retrieved.</dd>
         <dt id="llms-txt">llms.txt</dt>
         <dd>A proposed Markdown file at a site's root that summarizes the site and links its key pages for language models. It is a proposal, and AI companies have not committed to reading it, but it costs little and this site publishes one: <a href="/llms.txt">gerris.ai/llms.txt</a>.</dd>
+        <dt id="mcp">MCP (Model Context Protocol)</dt>
+        <dd>An open protocol, introduced by Anthropic in November 2024, that lets AI assistants connect to outside tools and data sources in a standard way. For a business, MCP matters when it wants assistants to query its own systems, such as inventory or bookings, directly.</dd>
         <dt id="oai-searchbot">OAI-SearchBot</dt>
         <dd>OpenAI's crawler for ChatGPT's search features. OpenAI says blocking it keeps a site out of ChatGPT search answers, though the site can still appear as a navigational link.</dd>
         <dt id="query-fan-out">Query fan-out</dt>
         <dd>Google's own term for how AI Mode works: it breaks a question into subtopics and issues many searches at once on the user's behalf, then writes one answer from the results. Google described it in May 2025. A page can be cited for a subquestion the user never typed.</dd>
         <dt id="rag">RAG (retrieval-augmented generation)</dt>
-        <dd>A design in which a language model first retrieves relevant documents and then writes its answer from them. The approach was named in a 2020 research paper by Patrick Lewis and colleagues. AI search assistants are RAG systems built on web indexes, and calling a page RAG-ready means it is easy to retrieve and quote.</dd>
+        <dd>A design in which a system first retrieves relevant passages from an index, then has a language model write its answer from them, usually with citations. The approach was named in a 2020 research paper by Patrick Lewis and colleagues. AI search assistants are RAG systems built on web indexes. Retrieval is the weak point: when the wrong passages come back, the answer is wrong with full confidence, which is why being the clearest, most retrievable source on a question matters more than being one of many.</dd>
+        <dt id="reranker">Reranker</dt>
+        <dd>A second model that rescores the top passages a retriever found and puts the most relevant first, before the answer is written. Passages that answer the question directly tend to survive reranking.</dd>
       </dl>
 
       <h2 id="content-and-authority">Content and authority</h2>
       <p>These describe what makes a source worth citing. Most are new names for what good publishers and good PR have always done.</p>
       <dl class="glossary">
+        <dt id="answer-blocks">Answer blocks and passage-level optimization</dt>
+        <dd>Writing each section so it stands alone: a heading phrased as the question, and a direct answer in the first sentence or two beneath it. AI systems lift passages, and a passage that needs the paragraph before it to make sense gets skipped.</dd>
         <dt id="attribute-list">Attribute list</dt>
         <dd>The short set of facts and differentiators a business wants AI answers to repeat about it: what it does, where, for whom, and what sets it apart. Writing one down is useful, because consistency across the web is what lets engines repeat it.</dd>
         <dt id="brand-co-occurrence">Brand co-occurrence</dt>
@@ -579,8 +743,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <dd>Gerris' name for the structured statements a business publishes about itself so machines can read them directly: entity schema, FAQ markup, llms.txt, and one canonical description of what the business is.</dd>
         <dt id="entity">Entity</dt>
         <dd>A specific, identifiable thing, such as a person, business, product, or place, that search engines and AI systems track as one item across many sources. Entity-first SEO means making sure every source describes the same entity the same way.</dd>
-        <dt id="information-gain">Information gain</dt>
-        <dd>What a page adds that other pages on the topic do not: original data, first-hand experience, a tested method, a named expert. Pages with something new to say have a reason to be cited; pages that restate the consensus do not.</dd>
+        <dt id="faq-markup">FAQ markup</dt>
+        <dd>FAQPage structured data. Google deprecated the FAQ rich result and stopped showing it in Search on May 7, 2026, so the markup no longer earns an expanded listing. It still describes a page's questions and answers in a form any machine can read, and the questions themselves remain useful on the visible page.</dd>
+        <dt id="information-gain">Information gain and non-commodity content</dt>
+        <dd>What a page adds that other pages on the topic do not: original data, first-hand experience, a tested method, a named expert. Pages with something new to say have a reason to be cited; pages that restate the consensus do not. Google has described the same quality as content that is original and non-commodity.</dd>
         <dt id="knowledge-graph">Knowledge graph</dt>
         <dd>A database of entities and the relationships between them. Google's Knowledge Graph feeds its knowledge panels, and AI systems build similar structures. Knowledge graph alignment means your schema, profiles, and listings all agree.</dd>
         <dt id="prompt-to-publish">Prompt-to-publish loop</dt>
@@ -592,10 +758,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <dl class="glossary">
         <dt id="ai-citation-rate">AI citation rate</dt>
         <dd>The share of answers, across a fixed set of questions, that link to or footnote your domain. It only means something when the question set, engines, dates, and location are written down and repeated the same way.</dd>
+        <dt id="bing-ai-performance">AI Performance (Bing Webmaster Tools)</dt>
+        <dd>A report Microsoft introduced in public preview on February 10, 2026. It shows how often a site is cited as a source in Microsoft Copilot and in AI-generated summaries in Bing: total citations, the average number of cited pages, per-URL citation counts, and sampled grounding queries.</dd>
         <dt id="cross-model-visibility">Cross-model visibility</dt>
         <dd>How consistently a brand appears across different AI systems, such as ChatGPT, Claude, Gemini, Perplexity, and Copilot. Engines draw on different sources, so a brand can be named by one and missing from another.</dd>
         <dt id="hallucination-rate">Hallucination rate</dt>
         <dd>How often AI answers state something false about a business: wrong prices, closed locations, invented services. Every wrong fact has a source or a gap behind it, and tracing that source is the start of the fix.</dd>
+        <dt id="mention-rate">Mention rate</dt>
+        <dd>How often an AI answer names a brand, with or without a link. Mentions and citations are separate measures: a brand can be named without its site being cited, and a site can be cited for a fact without the brand being recommended.</dd>
+        <dt id="prompt-monitoring">Prompt monitoring, prompt panels, and prompt volume</dt>
+        <dd>Tools that run a fixed set of questions through AI assistants on a schedule and record the answers. A prompt panel is that question set; prompt volume is an estimate of how often people ask something similar. Volume figures are modeled estimates, since no AI company publishes query counts the way search engines publish keyword data.</dd>
         <dt id="share-of-model">Share of model and share of answer</dt>
         <dd>The AI version of share of voice: how often an assistant names your brand compared with competitors across a set of prompts. Because answers vary from run to run, a single check proves little; repeated, dated runs show the trend.</dd>
         <dt id="zero-click">Zero-click visibility</dt>
@@ -610,9 +782,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul>
         <li><a href="https://arxiv.org/abs/2311.09735">Aggarwal et al., GEO: Generative Engine Optimization (arXiv, 2023; KDD 2024)</a></li>
         <li><a href="https://arxiv.org/abs/2005.11401">Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)</a></li>
+        <li><a href="https://developers.google.com/search/docs/appearance/ai-features">Google Search Central: AI features and your website</a></li>
         <li><a href="https://blog.google/products/search/google-search-ai-mode-update/">Google: AI Mode update and query fan-out (May 20, 2025)</a></li>
+        <li><a href="https://developers.google.com/search/docs/appearance/structured-data/faqpage">Google Search Central: FAQ rich result deprecation (May 2026)</a></li>
         <li><a href="https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers">Google Search Central: Google's common crawlers and Google-Extended</a></li>
         <li><a href="https://developers.openai.com/api/docs/bots">OpenAI: Overview of OpenAI crawlers</a></li>
+        <li><a href="https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler">Anthropic: How Anthropic's crawlers work and how to block them</a></li>
+        <li><a href="https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview">Bing Webmaster Blog: Introducing AI Performance in Bing Webmaster Tools (February 10, 2026)</a></li>
         <li><a href="https://llmstxt.org/">The llms.txt proposal</a></li>
       </ul>
     </article>
