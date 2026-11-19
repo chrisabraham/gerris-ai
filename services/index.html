@@ -52,18 +52,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "serviceType": "Answer engine optimization audit",
       "provider": { "@id": "https://gerris.ai/#organization" },
       "areaServed": "Worldwide",
-      "description": "Testing of how a business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini, with entity and name-address-phone consistency checks and a written report in priority order.",
+      "description": "An audit that runs 24 buyer questions across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude, checks the answers' sources against the homepage and up to five money pages, and delivers a written report with every fix in priority order.",
       "offers": { "@type": "Offer", "price": "750", "priceCurrency": "USD" }
     },
     {
       "@type": "Service",
+      "@id": "https://gerris.ai/services/#claim-sprint",
+      "name": "Claim Sprint",
+      "serviceType": "AI visibility implementation",
+      "provider": { "@id": "https://gerris.ai/#organization" },
+      "areaServed": "Worldwide",
+      "description": "Implementation of the claim layer the audit identifies: a technical foundation (full crawl, Search Console review, titles and metas, broken links and redirects) and the claim layer (entity schema with sameAs links, llms.txt, a canonical page, and FAQ schema), verified live.",
+      "offers": { "@type": "Offer", "price": "1500", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://gerris.ai/services/#ai-presence",
+      "name": "AI Presence, Measured",
+      "serviceType": "AI visibility measurement",
+      "provider": { "@id": "https://gerris.ai/#organization" },
+      "areaServed": "Worldwide",
+      "description": "A monthly re-run of your money-query set across Google AI Overviews, ChatGPT, and Perplexity, delivered as a written receipt of what changed and what gets fixed next.",
+      "offers": { "@type": "Offer", "price": "500", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "Service",
       "@id": "https://gerris.ai/services/#turnkey-website",
-      "name": "Turnkey Website on GitHub Pages",
+      "name": "Website on GitHub Pages",
       "serviceType": "Static website design and build",
       "provider": { "@id": "https://gerris.ai/#organization" },
       "areaServed": "Worldwide",
-      "description": "A complete static website designed, written, and launched on GitHub Pages: design, build, domain and DNS, and launch, handed to the client outright. Hosting is free.",
-      "offers": { "@type": "Offer", "price": "1500", "priceCurrency": "USD" }
+      "description": "A complete static website designed, written, and launched on GitHub Pages: design, build, domain and DNS, and launch, handed to the client outright. Hosting is free."
     },
     {
       "@type": "Service",
@@ -84,18 +103,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How much does a turnkey GitHub Pages website cost?",
-      "acceptedAnswer": { "@type": "Answer", "text": "A turnkey website on GitHub Pages is $1,500 flat: design, build, domain and DNS, and launch. The site is static HTML on GitHub's hosting, handed to you outright: your domain, your repository, your files. Hosting costs nothing. The domain costs about $10 a year, paid by you directly to the registrar." }
+      "name": "How much does SEO repair cost?",
+      "acceptedAnswer": { "@type": "Answer", "text": "One defined problem is $500. A whole-site repair is $750. Large jobs, such as migrations and multi-site estates, are scoped in milestones, each priced in writing before it begins. The diagnosis that sizes the work is part of the opening conversation; owners have never paid Chris for a diagnosis." }
     },
     {
       "@type": "Question",
-      "name": "What is an agent readiness review?",
-      "acceptedAnswer": { "@type": "Answer", "text": "An agent readiness review tests whether AI agents can use your website. Customers now send software to run errands: an agent opens your site, reads it, fills in your form, and tries to finish the job. Gerris runs your most valuable tasks with the agents your customers use, finds where they stop, and fixes the firewall rules, forms, and markup that block them." }
+      "name": "What does a GitHub Pages website cost?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The build is scoped and priced in writing before work begins; it is not one of the published-price offers. Hosting on GitHub Pages costs nothing. The domain costs about $10 a year, paid by you directly to the registrar. The finished site is handed to you outright: your domain, your repository, your files, yours to update in your own voice." }
     },
     {
       "@type": "Question",
       "name": "What technical SEO does Gerris do?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Technical SEO audits that trace each problem to the template, component, or script behind it; indexing repair for pages crawled but not indexed; site migrations with one-to-one 301 redirect maps; schema markup that validates and matches the visible page; Core Web Vitals and site speed work; and Search Console, Bing Webmaster Tools, and GA4 setup and cleanup." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Audits that trace problems to their cause, indexing repair, migrations with one-to-one 301 maps, schema markup, Core Web Vitals and speed work, and Search Console, Bing Webmaster Tools, and GA4 setup and cleanup." }
+    },
+    {
+      "@type": "Question",
+      "name": "What AI advisory does Gerris offer?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Advice on how your business appears to AI and how your team works with it: AI integration on your website, alt text, titles, and descriptions written for AI readers, AI tool selection, an AI use policy, staff training, and AI inclusion work that gets your business into the answers. It is consulting from Chris Abraham; your team keeps its own tools." }
     }
   ]
 }
@@ -115,8 +139,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul>
         <li><a href="/services/">Services</a></li>
         <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
           <li><a href="/briefing/">The AI Search Briefing</a></li>
-        <li><a href="/briefing/">Briefing</a></li>
         <li><a href="/about/">About</a></li>
         <li><a href="/#faq">FAQ</a></li>
         <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
@@ -129,10 +153,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <article class="page">
       <p class="crumbs"><a href="/">Home</a> &#8250; Services</p>
       <h1>Services: AI visibility first, SEO underneath, builds in the same shop</h1>
-      <p>Gerris AI sells three things: knowing what the AI answers say about you, fixing the sources those answers are built from, and building the fast static sites and automation the work runs on. Chris Abraham leads every engagement. Specialist delivery runs through trusted partners, named in the open. Prices and commitments are in writing before work begins.</p>
+      <p>Gerris sells Chris Abraham&#8217;s expertise in one arena: how your business appears in AI search. The work is finding out what the answer engines say about you, fixing the sources those answers are built from, keeping your site indexed and readable underneath it, and building fast static websites for businesses that need one. Chris Abraham leads every engagement and is accountable for every deliverable. Every engagement starts in conversation, and commitments are in writing before work begins.</p>
 
       <h2 id="audit">What is the AI Visibility Audit?</h2>
-      <p><strong>$750 flat.</strong> We test how your business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini for the searches that bring you revenue. We document what the AI answers say about you, where you are missing, and where a competitor is being named instead. We check your entity and name-address-phone consistency across your site, your Google Business Profile, and your directory listings. AI answers are assembled from those sources; when they disagree, the answer names the business whose facts line up. The deliverable is a written report with every fix in priority order. It is yours to keep regardless of what follows.</p>
+      <p><strong>$750 flat.</strong> The audit runs a fixed set of 24 buyer questions, the questions buyers actually ask, in their words, across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude. We document what the AI answers say about you, where you are missing, and where a competitor is being named instead. We check the answers' sources against your homepage and up to five money pages, and your entity and name-address-phone consistency across your site, your Google Business Profile, and your directory listings. AI answers are assembled from those sources; when they disagree, the answer names the business whose facts line up. The audit covers one market: your home service area. The deliverable is a written report with every fix in priority order, delivered in five business days. It is yours to keep regardless of what follows.</p>
 
       <h2 id="sprint">What is the Claim Sprint?</h2>
       <p>The audit tells you what is broken. The sprint fixes the layer that fixes it:</p>
@@ -140,40 +164,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><strong>Technical foundation:</strong> full crawl, Search Console review, titles and metas, broken links and redirects.</li>
         <li><strong>The claim layer:</strong> entity schema with sameAs links, an llms.txt file, a canonical page that states what your business is, and FAQ schema, so the machines can quote you instead of guessing at you.</li>
       </ul>
-      <p>Where an item belongs with your developers, we return it as a precise written fix list they can execute directly, and we verify it on the live site once they ship it. The sprint is $1,500 flat.</p>
+      <p>Where an item belongs with your developers, we return it as a precise written fix list they can execute directly, and we verify it on the live site once they ship it. The sprint is scoped from the audit and costs $1,500 flat for the defined scope; work beyond that scope is priced in writing before it begins.</p>
 
       <h2 id="presence">What is AI Presence, Measured?</h2>
       <p>AI answers drift. Competitors publish, directories change, and the answer that named you in March may name someone else in June. Every month we re-run your money-query set across Google AI Overviews, ChatGPT, and Perplexity, and you get a written receipt: what changed, what the answers say now, and the next fixes in line. AI Presence is $500 a month, shaped around your search set.</p>
 
       <h2>Why does the Google Business Profile matter to AI answers?</h2>
-      <p>For local and service businesses, the Google Business Profile is one of the primary sources AI answers are built from. A suspended, duplicate, or miscategorized profile damages your map listing and corrupts what the AI says about you everywhere else. Gerris's profile work, including service-area configuration and reinstatement support, runs under the same direction as the search work, so your profile, your website, and your listings tell one consistent story. That consistency is what the machines reward.</p>
+      <p>For local and service businesses, the Google Business Profile is one of the primary sources AI answers are built from. A suspended, duplicate, or miscategorized profile damages your map listing and corrupts what the AI says about you everywhere else. Gerris profile work, including service-area configuration and reinstatement support, is fulfilled through the practice's Google Business Profile specialist partner and directed by Chris alongside the search work, so your profile, your website, and your listings tell one consistent story. That consistency is what the machines reward.</p>
+
+      <h2 id="indexing">Why is Google not indexing my pages?</h2>
+      <p><strong>Indexing is where the repair work starts, because a page outside the index is invisible to search results and AI answers alike.</strong> Search Console states the symptoms in plain language: crawled, currently not indexed; discovered, currently not indexed; alternate page with proper canonical tag; soft 404. Each message has a cause: crawl budget spent on junk URLs, canonical signals that contradict each other, thin or duplicated templates, a sitemap advertising pages the site itself disowns, responses that waste the crawler&#8217;s visit. Chris reads the evidence in Search Console, traces the cause to the template, component, or setting behind it, and repairs the cause rather than resubmitting URLs and hoping.</p>
+      <p>The diagnosis comes first, inside the opening conversation, before any paid work: it is how Chris decides whether the repair can be made to work, and owners have never paid him for that read. Owners pay for the repair itself, and the ladder below is the published price list for it.</p>
+
+      <h2 id="repairs">How much does SEO repair cost?</h2>
+      <p>Repair work carries published prices, because its scope can be stated before the work starts:</p>
+      <ul>
+        <li><strong>One-problem repair: $500.</strong> One defined problem&#8212;an indexing block, a broken redirect chain, a canonical conflict&#8212;diagnosed, repaired, and verified in Search Console.</li>
+        <li><strong>Whole-site repair: $750.</strong> The full site read end to end: crawl, index coverage, canonicals, redirects, sitemap, and schema, with every fault found either repaired or returned as a written fix list for your developers.</li>
+        <li><strong>Large jobs: scoped in milestones.</strong> Migrations, multi-site estates, and recoveries are divided into milestones, each one priced in writing before it begins, so a large job is a series of settled decisions instead of one open meter.</li>
+      </ul>
 
       <h2 id="seo">What SEO does Gerris do?</h2>
       <p>The foundation, practiced since 1998:</p>
       <ul>
         <li><strong>Technical SEO audits:</strong> every URL crawled, each problem traced to the template, component, or script behind it, fixed at the cause, then crawled again to prove it held.</li>
-        <li><strong>Indexing repair:</strong> pages crawled but not indexed, discovered but never crawled, soft 404s, canonical conflicts, misleading sitemaps.</li>
+        <li><strong>Indexing repair:</strong> the dedicated work above, from single blocked pages to a site whose index coverage has collapsed.</li>
         <li><strong>Migrations and redirects:</strong> full URL inventories, one-to-one 301 maps, launch-day checks, recovery after a move that already lost traffic.</li>
         <li><strong>Schema and entities:</strong> structured data that validates, matches the visible page, and ties your organization, people, and locations together.</li>
         <li><strong>Speed:</strong> Core Web Vitals diagnosis, image and script cleanup, caching, and Cloudflare rules that still welcome crawlers.</li>
         <li><strong>Measurement setup:</strong> Search Console, Bing Webmaster Tools, and GA4, verified and owned by you.</li>
       </ul>
 
-      <h2>What can AI do inside a business, beyond answering questions?</h2>
-      <p>Plenty, once somebody who knows the work sets it up. Gerris designs and tests the working tools: custom assistants trained on your documents, drafting pipelines that produce first drafts your staff can trust, review checklists that run the same way every time, and prompt sets written for the job instead of borrowed from a listicle. Every tool ships with the instructions, the test set, and a plain account of where it fails. An AI tool nobody has tested against the real work is a demo, and demos do not survive contact with a Tuesday.</p>
+      <h2 id="advisory">Can Gerris help our business use AI well?</h2>
+      <p>Yes, as advice from the same seat as the search work. Chris consults on how a business presents itself to AI and how its own people work with AI:</p>
+      <ul>
+        <li><strong>AI integration on your website:</strong> where AI features belong on a site, what they should say, and how they read to visitors and to the answer engines watching the same pages.</li>
+        <li><strong>Technical SEO for AI readers:</strong> image alt text, page titles, and meta descriptions written so AI systems describe your pages accurately when they summarize and cite them.</li>
+        <li><strong>AI tools, training, and best practices:</strong> choosing the tools worth paying for, an AI use policy your staff can follow, and training that teaches your team to publish content the engines can read, verify, and cite.</li>
+        <li><strong>AI inclusion:</strong> getting your business into the answers and into the record underneath them&#8212;profiles, listings, structured data, and the sources AI systems retrieve from.</li>
+      </ul>
+      <p>The advisory work is consulting: Chris&#8217; judgment on your presence and your practice. Your team keeps its own tools and does its own publishing, with his guidance on what good looks like.</p>
 
-      <h2 id="builds">What does Gerris AI build?</h2>
-      <p><strong>Turnkey website on GitHub Pages: $1,500 flat.</strong> Design, build, domain and DNS, and launch, start to finish. The site is static HTML, written and assembled by AI under our direction, deployed on GitHub's hosting, and handed to you outright: your domain, your repository, your files. Hosting costs nothing, because a folder of finished HTML files needs no database, no page builder, and no plugin stack. These sites load fast for the same reason: a visitor asks for a page and gets the page.</p>
-      <p>The same shop wires the automation behind the sites: feed and sitemap generation, publishing pipelines, narration and podcast builds, and repository work done through pull requests alongside the developers who own the code. This site is one of the builds: static, on GitHub Pages, with its <a href="/llms.txt">llms.txt</a> and schema in the open.</p>
+      <h2 id="builds">What does Gerris build?</h2>
+      <p><strong>Websites on GitHub Pages.</strong> Design, build, domain and DNS, and launch, start to finish. The site is static HTML, designed and built by Gerris, deployed on GitHub&#8217;s hosting, and handed to you outright: your domain, your repository, your files. Hosting costs nothing, because a folder of finished HTML files needs no database, no page builder, and no plugin stack. These sites load fast for the same reason: a visitor asks for a page and gets the page. The claim layer is built in from the first page&#8212;entity schema, llms.txt, question-led headings&#8212;so the site is ready for AI readers the day it launches. Once the site is yours, you can update it yourself in your own voice, with your own prompts and tools; Gerris stays available for changes you would rather hand over. The full account is on the <a href="/services/github-pages-websites/">GitHub Pages websites page</a>.</p>
+      <p>This site is one of the builds: static, on GitHub Pages, with its <a href="/llms.txt">llms.txt</a> and schema in the open for any crawler, client, or competitor to read.</p>
 
       <h2>Can AI agents use your website?</h2>
-      <p>Your customers have started sending software to do their errands. An AI agent opens your site, reads it, fills in your form, and tries to finish the job: a quote request, a booking, a purchase. An agent readiness review runs your three to five most valuable tasks with the agents your customers actually use, finds where each one stops, and fixes the firewall rules, forms, and markup that stop them before the sale.</p>
+      <p>Your customers have started sending software to do their errands. An AI agent opens your site, reads it, fills in your form, and tries to finish the job: a quote request, a booking, a purchase. Whether agents can complete those tasks is becoming part of being included in AI commerce at all. Inside the advisory work, Chris tests your most valuable tasks the way an agent meets them and identifies the firewall rules, forms, and markup that stop an agent before the sale, so your developers can fix them.</p>
 
       <h2>Frequently asked questions</h2>
       <div class="faq">
-        <details><summary>How much does a turnkey GitHub Pages website cost?</summary><p>$1,500 flat: design, build, domain and DNS, and launch. The site is static HTML on GitHub's hosting, handed to you outright: your domain, your repository, your files. Hosting costs nothing. The domain costs about $10 a year, paid by you directly to the registrar.</p></details>
-        <details><summary>What is an agent readiness review?</summary><p>A test of whether AI agents can use your website. Gerris runs your most valuable tasks with the agents your customers use, finds where they stop, and fixes the firewall rules, forms, and markup that block them.</p></details>
+        <details><summary>How much does SEO repair cost?</summary><p>One defined problem is $500. A whole-site repair is $750. Large jobs, such as migrations and multi-site estates, are scoped in milestones, each priced in writing before it begins. The diagnosis that sizes the work is part of the opening conversation; owners have never paid Chris for a diagnosis.</p></details>
+        <details><summary>What does a GitHub Pages website cost?</summary><p>The build is scoped and priced in writing before work begins; it is not one of the published-price offers. Hosting on GitHub Pages costs nothing. The domain costs about $10 a year, paid by you directly to the registrar. The finished site is handed to you outright: your domain, your repository, your files, yours to update in your own voice.</p></details>
         <details><summary>What technical SEO does Gerris do?</summary><p>Audits that trace problems to their cause, indexing repair, migrations with one-to-one 301 maps, schema markup, Core Web Vitals and speed work, and Search Console, Bing Webmaster Tools, and GA4 setup and cleanup.</p></details>
+        <details><summary>What AI advisory does Gerris offer?</summary><p>Advice on how your business appears to AI and how your team works with it: AI integration on your website, alt text, titles, and descriptions written for AI readers, AI tool selection, an AI use policy, staff training, and AI inclusion work that gets your business into the answers. It is consulting from Chris Abraham; your team keeps its own tools.</p></details>
       </div>
 
       <p><a class="btn primary" href="https://calendly.com/chrisabraham/30" style="background:#c75000;color:#fff;margin-top:1.2rem">Book a 30-minute call</a></p>
@@ -195,6 +239,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul>
           <li><a href="/services/">Services</a></li>
           <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
           <li><a href="/about/">About Chris Abraham</a></li>
           <li><a href="/llms.txt">llms.txt</a></li>
           <li><a href="/sitemap.xml">Sitemap</a></li>
@@ -203,7 +248,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div>
         <h3>Contact</h3>
         <ul>
-          <li><a href="mailto:chris@gerriscorp.com">chris@gerriscorp.com</a></li>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
           <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
           <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
         </ul>
@@ -218,7 +263,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </ul>
       </div>
     </div>
-    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no tracking scripts, nothing between the page and the reader.</p>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
   </div>
 </footer>
 </body>

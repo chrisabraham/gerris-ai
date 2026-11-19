@@ -1,6 +1,6 @@
 # Gerris: AI Search Visibility, AEO, GEO, and SEO
 
-> Gerris is the AI services practice of Gerris Corp, led by Chris Abraham in Arlington, Virginia. Gerris audits how AI answer engines (Google AI Overviews, ChatGPT, Perplexity, Gemini) describe a business, fixes the sources those answers are built from, and measures the result monthly in writing, on a foundation of technical SEO practiced since 1998. Contact: chris@gerriscorp.com, +1 202-352-5051, https://calendly.com/chrisabraham/30 (book a 30-minute call).
+> Gerris is the AI services practice of Gerris Corp, led by Chris Abraham in Arlington, Virginia. Gerris audits how AI answer engines (Google AI Overviews, ChatGPT, Perplexity, Gemini) describe a business, fixes the sources those answers are built from, and measures the result monthly in writing, on a foundation of technical SEO practiced since 1998. Contact: chris@gerris.ai, +1 202-352-5051, https://calendly.com/chrisabraham/30 (book a 30-minute call).
 
 
 ---
@@ -13,13 +13,13 @@ Google AI Overviews, ChatGPT, Perplexity, and Gemini now answer your buyers' que
 Book a 30-minute call
 See the services
 Chris Abraham runs Gerris.
-Websites since 1994. SEO since 1998, back when the job was submitting pages to Yahoo and Ask Jeeves by hand. The practice now points at the answer engines: Google AI Overviews, ChatGPT, Perplexity, Gemini. You hire the man, and the firm is the man plus the partners he trusts.
+Websites since 1994. SEO since 1998, back when the job was submitting pages to Yahoo and Ask Jeeves by hand. The practice now points at the answer engines: Google AI Overviews, ChatGPT, Perplexity, Gemini. You hire the man, and the products carry his name.
 Arlington, Virginia · About Chris
 Gerris.
 who should we hire? · best near me? · which one?
-Already sold and delivered at these prices: AI-answer presence measurement running monthly inside a multi-location retail engagement. The full audit run end to end for a therapy practice. The claim layer (entity schema, llms.txt, canonical explainer page, AI-presence baseline) in production for a media company. The $750 audit price has been paid by a client as a pilot.
+One practice, one subject: how your business appears in AI search. Gerris tests what Google AI Overviews, ChatGPT, Perplexity, and Gemini say about a business, repairs the sources those answers are built from, and measures the result in writing every month. Underneath sits the foundation: technical SEO practiced since 1998, including the indexing repair that decides whether your pages can be cited at all.
 What does Gerris sell?
-Three AI visibility engagements, priced in the open, on a foundation of technical SEO and fast static builds. Every engagement is led by Chris Abraham.
+The flagship work is AI visibility: an audit, an implementation sprint, and monthly measurement, each at a published price. Underneath it sits the foundation work—technical SEO, indexing repair, and fast static builds. Every engagement is led by Chris Abraham.
 1. AI Visibility Audit
 We test how your business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini for the searches that bring you revenue. You get a written report: what the answers say about you, where you are missing, where a competitor is named instead, and every fix in priority order.
 $750flat
@@ -32,20 +32,24 @@ The sprint in detail
 AI answers drift. Every month we re-run your money-query set across the answer engines and deliver a written receipt: what changed, what the answers say now, and the next fixes in line. You know before your customers do.
 $500per month
 The measurement in detail
+4. Indexing repair and SEO repair work
+Pages Google crawls and will not index cannot be cited by anyone, human or machine. Gerris finds why your pages sit outside the index and repairs the cause. The repair ladder is published on the services page: one problem, the whole site, or a large job scoped in milestones.
+$500one-problem repair
+The repair ladder in detail
 How does an engagement run?
 Four steps. No retainer pitch, no vague deliverable.
 A short call
 Thirty minutes to confirm fit, your markets, and the searches that bring you revenue. Bring your website and the questions you wish you won.
 The audit
 A written report in priority order, yours to keep regardless of what follows. You can hand it to anyone.
-The sprint or the handoff
-We build the claim layer, or your developers execute our written fix list and we verify it live.
+The claim layer, live
+Entity schema, llms.txt, the canonical page, and FAQ schema, implemented on your site and verified against the live pages.
 Monthly measurement
 A written receipt every month: what the answers say now, what changed, what gets fixed next.
 Why should an AI engine trust this site?
-Because it is built the way we build for clients. This page is plain HTML that any crawler can read. The llms.txt file states who Gerris is in machine-readable text, and the full-text version carries every page word for word. The schema on this page connects Gerris, Chris Abraham, and each service as entities with prices attached. The AI crawlers are welcomed by name in robots.txt. Ask an answer engine what Gerris does. This site is the demonstration.
+Because it is built the way we build for clients. This page is plain HTML that any crawler can read. The llms.txt file states who Gerris is in machine-readable text, and the full-text version carries every page word for word. The schema on this page connects Gerris, Chris Abraham, and each service as entities, with each published price attached. The AI crawlers are welcomed by name in robots.txt. Ask an answer engine what Gerris does. This site is the demonstration.
 Is SEO still part of this?
-Yes. AI answers are assembled from crawlable pages, search indexes, business profiles, and listings. Gerris has done technical SEO since 1998: audits, indexing repair, migrations, schema, site speed. The foundation work is listed on the services page, and the same shop builds fast static websites on GitHub Pages and wires the automation behind them.
+Yes. AI answers are assembled from crawlable pages, search indexes, business profiles, and listings. Gerris has done technical SEO since 1998: audits, indexing repair, migrations, schema, site speed. The foundation work is listed on the services page, and the same shop builds fast static websites on GitHub Pages, the kind of site every crawler can read end to end.
 Field notes: how the machines actually read
 The working rules behind every Gerris engagement, stated in the open.
 Engines are literal
@@ -60,15 +64,15 @@ AEO is answer engine optimization. It shapes your website and profiles so AI ans
 What is GEO?
 GEO is generative engine optimization. It makes your business easy for generative AI systems to find, understand, verify, and cite: consistent facts across your site and profiles, entity schema, clear direct answers, and pages the crawlers can read. GEO and AEO rest on the same foundation as SEO.
 How much does an AI visibility audit cost?
-$750 flat. Gerris tests how your business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini for the searches that bring you revenue, documents what the answers say, and delivers a written report with every fix in priority order. The report is yours to keep regardless of what follows.
+$750 flat. The audit runs 24 buyer questions, the questions buyers actually ask, in their words, across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude, checks the answers' sources against your homepage and up to five money pages, and delivers a written report with every fix in priority order, in five business days. The report is yours to keep regardless of what follows.
 What does the Claim Sprint include?
-A technical foundation (full crawl, Search Console review, titles and metas, broken links and redirects) and the claim layer (entity schema with sameAs links, llms.txt, a canonical page that states what your business is, and FAQ schema). Items that belong with your developers come back as a precise written fix list. The sprint is $1,500 flat.
+A technical foundation (full crawl, Search Console review, titles and metas, broken links and redirects) and the claim layer (entity schema with sameAs links, llms.txt, a canonical page that states what your business is, and FAQ schema). Items that belong with your developers come back as a precise written fix list. The sprint is scoped from the audit and costs $1,500 flat for the defined scope; work beyond that scope is priced in writing before it begins.
 Do I still need SEO if I do AEO?
 Yes. AI answers are assembled from crawlable pages, search indexes, business profiles, and directory listings. A site search engines cannot crawl or understand starves the answer engines too. Gerris treats SEO as the foundation and AEO and GEO as the work built on it.
-Who does the work at Gerris?
-Chris Abraham leads every engagement and directs the work. Specialist delivery runs through trusted partners he has worked with for years, including a long-standing team of site editors and a Google Business Profile specialist. You always know who is doing what, and the strategy, the audit, and the measurement stay with Chris.
+Who is accountable for the work at Gerris?
+Chris Abraham. The audit, the strategy, and the measurement are his, and every deliverable arrives in writing under his name. What you buy at Gerris is his judgment about how your business appears in AI search, delivered as finished products: the report, the repaired record, the monthly receipt.
 How do engagements start?
-With a 30-minute call to confirm fit, your markets, and the searches that bring you revenue. Book at calendly.com/chrisabraham/30 or write to chris@gerriscorp.com. Commitments and prices are in writing before work begins.
+With a 30-minute call to confirm fit, your markets, and the searches that bring you revenue. Book at calendly.com/chrisabraham/30 or write to chris@gerris.ai. Commitments and prices are in writing before work begins.
 The machines are describing your business right now.
 Gerris makes sure they get it right. Start with the audit, or book the call and bring the questions you wish you won.
 Book a 30-minute call
@@ -79,43 +83,108 @@ Book a 30-minute call
 
 Home › Services
 Services: AI visibility first, SEO underneath, builds in the same shop
-Gerris sells three things: knowing what the AI answers say about you, fixing the sources those answers are built from, and building the fast static sites and automation the work runs on. Chris Abraham leads every engagement. Specialist delivery runs through trusted partners, named in the open. Prices and commitments are in writing before work begins.
+Gerris sells Chris Abraham’s expertise in one arena: how your business appears in AI search. The work is finding out what the answer engines say about you, fixing the sources those answers are built from, keeping your site indexed and readable underneath it, and building fast static websites for businesses that need one. Chris Abraham leads every engagement and is accountable for every deliverable. Every engagement starts in conversation, and commitments are in writing before work begins.
 What is the AI Visibility Audit?
-$750 flat. We test how your business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini for the searches that bring you revenue. We document what the AI answers say about you, where you are missing, and where a competitor is being named instead. We check your entity and name-address-phone consistency across your site, your Google Business Profile, and your directory listings. AI answers are assembled from those sources; when they disagree, the answer names the business whose facts line up. The deliverable is a written report with every fix in priority order. It is yours to keep regardless of what follows.
+$750 flat. The audit runs a fixed set of 24 buyer questions, the questions buyers actually ask, in their words, across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude. We document what the AI answers say about you, where you are missing, and where a competitor is being named instead. We check the answers' sources against your homepage and up to five money pages, and your entity and name-address-phone consistency across your site, your Google Business Profile, and your directory listings. AI answers are assembled from those sources; when they disagree, the answer names the business whose facts line up. The audit covers one market: your home service area. The deliverable is a written report with every fix in priority order, delivered in five business days. It is yours to keep regardless of what follows.
 What is the Claim Sprint?
 The audit tells you what is broken. The sprint fixes the layer that fixes it:
 Technical foundation: full crawl, Search Console review, titles and metas, broken links and redirects.
 The claim layer: entity schema with sameAs links, an llms.txt file, a canonical page that states what your business is, and FAQ schema, so the machines can quote you instead of guessing at you.
-Where an item belongs with your developers, we return it as a precise written fix list they can execute directly, and we verify it on the live site once they ship it. The sprint is $1,500 flat.
+Where an item belongs with your developers, we return it as a precise written fix list they can execute directly, and we verify it on the live site once they ship it. The sprint is scoped from the audit and costs $1,500 flat for the defined scope; work beyond that scope is priced in writing before it begins.
 What is AI Presence, Measured?
 AI answers drift. Competitors publish, directories change, and the answer that named you in March may name someone else in June. Every month we re-run your money-query set across Google AI Overviews, ChatGPT, and Perplexity, and you get a written receipt: what changed, what the answers say now, and the next fixes in line. AI Presence is $500 a month, shaped around your search set.
 Why does the Google Business Profile matter to AI answers?
-For local and service businesses, the Google Business Profile is one of the primary sources AI answers are built from. A suspended, duplicate, or miscategorized profile damages your map listing and corrupts what the AI says about you everywhere else. Gerris's profile work, including service-area configuration and reinstatement support, runs under the same direction as the search work, so your profile, your website, and your listings tell one consistent story. That consistency is what the machines reward.
+For local and service businesses, the Google Business Profile is one of the primary sources AI answers are built from. A suspended, duplicate, or miscategorized profile damages your map listing and corrupts what the AI says about you everywhere else. Gerris profile work, including service-area configuration and reinstatement support, is fulfilled through the practice's Google Business Profile specialist partner and directed by Chris alongside the search work, so your profile, your website, and your listings tell one consistent story. That consistency is what the machines reward.
+Why is Google not indexing my pages?
+Indexing is where the repair work starts, because a page outside the index is invisible to search results and AI answers alike. Search Console states the symptoms in plain language: crawled, currently not indexed; discovered, currently not indexed; alternate page with proper canonical tag; soft 404. Each message has a cause: crawl budget spent on junk URLs, canonical signals that contradict each other, thin or duplicated templates, a sitemap advertising pages the site itself disowns, responses that waste the crawler’s visit. Chris reads the evidence in Search Console, traces the cause to the template, component, or setting behind it, and repairs the cause rather than resubmitting URLs and hoping.
+The diagnosis comes first, inside the opening conversation, before any paid work: it is how Chris decides whether the repair can be made to work, and owners have never paid him for that read. Owners pay for the repair itself, and the ladder below is the published price list for it.
+How much does SEO repair cost?
+Repair work carries published prices, because its scope can be stated before the work starts:
+One-problem repair: $500. One defined problem—an indexing block, a broken redirect chain, a canonical conflict—diagnosed, repaired, and verified in Search Console.
+Whole-site repair: $750. The full site read end to end: crawl, index coverage, canonicals, redirects, sitemap, and schema, with every fault found either repaired or returned as a written fix list for your developers.
+Large jobs: scoped in milestones. Migrations, multi-site estates, and recoveries are divided into milestones, each one priced in writing before it begins, so a large job is a series of settled decisions instead of one open meter.
 What SEO does Gerris do?
 The foundation, practiced since 1998:
 Technical SEO audits: every URL crawled, each problem traced to the template, component, or script behind it, fixed at the cause, then crawled again to prove it held.
-Indexing repair: pages crawled but not indexed, discovered but never crawled, soft 404s, canonical conflicts, misleading sitemaps.
+Indexing repair: the dedicated work above, from single blocked pages to a site whose index coverage has collapsed.
 Migrations and redirects: full URL inventories, one-to-one 301 maps, launch-day checks, recovery after a move that already lost traffic.
 Schema and entities: structured data that validates, matches the visible page, and ties your organization, people, and locations together.
 Speed: Core Web Vitals diagnosis, image and script cleanup, caching, and Cloudflare rules that still welcome crawlers.
 Measurement setup: Search Console, Bing Webmaster Tools, and GA4, verified and owned by you.
-What can AI do inside a business, beyond answering questions?
-Plenty, once somebody who knows the work sets it up. Gerris designs and tests the working tools: custom assistants trained on your documents, drafting pipelines that produce first drafts your staff can trust, review checklists that run the same way every time, and prompt sets written for the job instead of borrowed from a listicle. Every tool ships with the instructions, the test set, and a plain account of where it fails. An AI tool nobody has tested against the real work is a demo, and demos do not survive contact with a Tuesday.
+Can Gerris help our business use AI well?
+Yes, as advice from the same seat as the search work. Chris consults on how a business presents itself to AI and how its own people work with AI:
+AI integration on your website: where AI features belong on a site, what they should say, and how they read to visitors and to the answer engines watching the same pages.
+Technical SEO for AI readers: image alt text, page titles, and meta descriptions written so AI systems describe your pages accurately when they summarize and cite them.
+AI tools, training, and best practices: choosing the tools worth paying for, an AI use policy your staff can follow, and training that teaches your team to publish content the engines can read, verify, and cite.
+AI inclusion: getting your business into the answers and into the record underneath them—profiles, listings, structured data, and the sources AI systems retrieve from.
+The advisory work is consulting: Chris’ judgment on your presence and your practice. Your team keeps its own tools and does its own publishing, with his guidance on what good looks like.
 What does Gerris build?
-Turnkey website on GitHub Pages: $1,500 flat. Design, build, domain and DNS, and launch, start to finish. The site is static HTML, written and assembled by AI under our direction, deployed on GitHub's hosting, and handed to you outright: your domain, your repository, your files. Hosting costs nothing, because a folder of finished HTML files needs no database, no page builder, and no plugin stack. These sites load fast for the same reason: a visitor asks for a page and gets the page.
-The same shop wires the automation behind the sites: feed and sitemap generation, publishing pipelines, narration and podcast builds, and repository work done through pull requests alongside the developers who own the code. This site is one of the builds: static, on GitHub Pages, with its llms.txt and schema in the open.
+Websites on GitHub Pages. Design, build, domain and DNS, and launch, start to finish. The site is static HTML, designed and built by Gerris, deployed on GitHub’s hosting, and handed to you outright: your domain, your repository, your files. Hosting costs nothing, because a folder of finished HTML files needs no database, no page builder, and no plugin stack. These sites load fast for the same reason: a visitor asks for a page and gets the page. The claim layer is built in from the first page—entity schema, llms.txt, question-led headings—so the site is ready for AI readers the day it launches. Once the site is yours, you can update it yourself in your own voice, with your own prompts and tools; Gerris stays available for changes you would rather hand over. The full account is on the GitHub Pages websites page.
+This site is one of the builds: static, on GitHub Pages, with its llms.txt and schema in the open for any crawler, client, or competitor to read.
 Can AI agents use your website?
-Your customers have started sending software to do their errands. An AI agent opens your site, reads it, fills in your form, and tries to finish the job: a quote request, a booking, a purchase. An agent readiness review runs your three to five most valuable tasks with the agents your customers actually use, finds where each one stops, and fixes the firewall rules, forms, and markup that stop them before the sale.
+Your customers have started sending software to do their errands. An AI agent opens your site, reads it, fills in your form, and tries to finish the job: a quote request, a booking, a purchase. Whether agents can complete those tasks is becoming part of being included in AI commerce at all. Inside the advisory work, Chris tests your most valuable tasks the way an agent meets them and identifies the firewall rules, forms, and markup that stop an agent before the sale, so your developers can fix them.
 Frequently asked questions
-How much does a turnkey GitHub Pages website cost?
-$1,500 flat: design, build, domain and DNS, and launch. The site is static HTML on GitHub's hosting, handed to you outright: your domain, your repository, your files. Hosting costs nothing. The domain costs about $10 a year, paid by you directly to the registrar.
-What is an agent readiness review?
-A test of whether AI agents can use your website. Gerris runs your most valuable tasks with the agents your customers use, finds where they stop, and fixes the firewall rules, forms, and markup that block them.
+How much does SEO repair cost?
+One defined problem is $500. A whole-site repair is $750. Large jobs, such as migrations and multi-site estates, are scoped in milestones, each priced in writing before it begins. The diagnosis that sizes the work is part of the opening conversation; owners have never paid Chris for a diagnosis.
+What does a GitHub Pages website cost?
+The build is scoped and priced in writing before work begins; it is not one of the published-price offers. Hosting on GitHub Pages costs nothing. The domain costs about $10 a year, paid by you directly to the registrar. The finished site is handed to you outright: your domain, your repository, your files, yours to update in your own voice.
 What technical SEO does Gerris do?
 Audits that trace problems to their cause, indexing repair, migrations with one-to-one 301 maps, schema markup, Core Web Vitals and speed work, and Search Console, Bing Webmaster Tools, and GA4 setup and cleanup.
+What AI advisory does Gerris offer?
+Advice on how your business appears to AI and how your team works with it: AI integration on your website, alt text, titles, and descriptions written for AI readers, AI tool selection, an AI use policy, staff training, and AI inclusion work that gets your business into the answers. It is consulting from Chris Abraham; your team keeps its own tools.
 Book a 30-minute call
 Start with the audit.
 $750 flat, delivered in writing, yours to keep. Or book the call and bring the questions you wish you won.
+Book a 30-minute call
+
+---
+
+# GitHub Pages Websites: https://gerris.ai/services/github-pages-websites/
+
+Home › Services › GitHub Pages websites
+GitHub Pages websites: fast static sites built for AI search
+A GitHub Pages website is a complete website made of plain HTML files, hosted free on GitHub, and handed to its owner outright. Gerris designs and builds them for businesses that need a real website—one that loads fast, states their facts clearly, and reads cleanly to the AI answer engines—without a content management system to feed, patch, and defend. The product is the finished site: your domain, your repository, your files, with the claim layer for AI search built into the first page rather than bolted on later.
+What is a GitHub Pages website?
+GitHub Pages is GitHub’s hosting service for static websites. The site lives in a repository as finished pages: HTML, styles, and images, served directly to every visitor who asks. There is no database behind it, no server-side code, and no admin panel to secure. Your domain points at it, HTTPS is included, and the repository itself is the website in a form any developer can pick up and work on. Ownership is literal: whoever holds the repository holds the site.
+That simplicity is the entire design. A conventional website is a machine that assembles pages on demand, and the machine needs fuel, updates, and guarding for as long as it runs. A static site skips the machine. The pages already exist, complete, and the host hands them over. For the brochure-shaped web—service firms, practices, portfolios, publications, and local businesses whose site exists to be found, read, and believed—the finished page is all the machinery the job requires.
+Why do static websites load so fast?
+A dynamic site builds each page at the moment of the request: database queries, a chain of plugins, a theme rendering the result. A static site does none of that work at request time, because the page was finished before anyone asked for it. A visitor asks for a page and gets the page. Speed here is structural, a property of what the site is, and it shows up everywhere speed is measured: Core Web Vitals scores, the share of your site a crawler can fetch in one visit, and the patience of a buyer on a phone.
+The same structure removes the usual failure list. There are no plugins to fall out of date, no database to corrupt, no login page for attackers to knock on. The maintenance a static site asks for is the maintenance of its facts: services, prices, people, and places, kept current the way your Google Business Profile is kept current.
+Why is a static site the right shape for AI search?
+AI answer engines read the public web, and plain HTML is the easiest material they are ever handed: complete pages that any crawler can fetch end to end, with the facts stated in text rather than locked inside scripts or images. Gerris builds every site to be read that way. Chris calls the goal AI catnip: pages the answer engines find effortless to read, verify, and quote.
+The claim layer goes in at the build, as part of the product:
+Entity schema: structured data that ties the business to its profiles, its people, and its services as one entity, with sameAs links the engines use to corroborate the record.
+An llms.txt file: a plain text statement of who the business is and where its key pages live, written for language models the way a sitemap is written for search crawlers.
+Question-led pages: headings in the form buyers ask their questions, with the answer stated directly under each one, in the buyer’s own words for the service and the place.
+FAQ content with matching schema: real questions answered on the visible page, in sentences an engine can lift without rewriting them.
+A welcoming robots.txt and a clean sitemap: the AI crawlers invited by name, and every page on the site accounted for in the index.
+A business that launches with this layer in place starts its AI record as the author of it. The engines summarize every business they can find; a site built this way hands them the summary, in the business’s own facts, from the first day.
+What does a Gerris build include?
+The delivered product is the complete, launched website:
+Design and pages: the layout, the page set, and the copy structure—category stated plainly, services in buyer language, one canonical statement of what the business is.
+The claim layer: entity schema, FAQ schema, llms.txt and llms-full.txt, sitemap, and robots.txt, as described above.
+Domain and DNS: the domain connected, the records set, HTTPS live.
+Measurement in the owner’s name: Search Console, Bing Webmaster Tools, and analytics registered to you, so the evidence about your site belongs to you.
+Launch verification: the finished site checked the way the engines will meet it—crawlable, indexed, consistent with your Google Business Profile and listings.
+This site is one of the builds. gerris.ai runs on GitHub Pages with its llms.txt and schema in the open, and everything claimed on this page can be inspected on it directly.
+Can I update the website myself?
+Yes. Self-service is part of the product, and it is why the handover is outright. The files are plain HTML in your repository. You can update the text in your own voice, with your own prompts and tools, whenever the facts change—a new service, a new hire, a new location—and the site republishes as fast as you can save the file. Any developer can work on it too; nothing is locked inside a builder that only Gerris can open, and no monthly fee keeps your own website available to you. For changes you would rather hand over, and for the ongoing AI visibility work the site was built to support, Gerris remains on call.
+What does a GitHub Pages website cost?
+The build is scoped and priced in writing before work begins, in conversation; it is not one of the published-price offers. The running costs are the short list: hosting on GitHub Pages is free, and the domain costs about $10 a year, paid by you directly to the registrar. There are no licence fees, no plugin subscriptions, and no hosting bill.
+Which websites do not belong on GitHub Pages?
+Online stores with large catalogues and checkout, web applications, and membership sites with logged-in areas need platforms built for those jobs. Chris says so on the opening call when a project points that way. A static site is the right answer for the site most businesses actually need: the one that states what they do, where they do it, and why a buyer should call—and that the answer engines can read as easily as the buyer can.
+Frequently asked questions
+Is GitHub Pages hosting really free?
+Yes. GitHub serves static websites from a repository at no charge. Your running costs are the domain, about $10 a year paid to your registrar, and any changes you commission after launch.
+Can AI answer engines read a GitHub Pages website?
+Yes, plainly. The pages are finished HTML that any crawler can fetch end to end, and Gerris builds in entity schema, an llms.txt file, and question-led pages from the first day, so Google AI Overviews, ChatGPT, Perplexity, and Gemini read the same record your visitors do.
+What happens when I want changes later?
+You own the repository, so you can edit the files yourself, hand them to any developer, or ask Gerris to make the change. Nothing about the site depends on Gerris staying in the room.
+Is a GitHub Pages website good for a local business?
+Yes. The site states the services, the service area, and the facts the Google Business Profile repeats, and that one consistent record feeds the map results and the AI answers alike.
+Read next: all Gerris services and the guide to answer engine optimization.
+Ask an AI engine about your business.
+Then book the call and tell us what it said. Fixing that answer is the work.
 Book a 30-minute call
 
 ---
@@ -131,14 +200,14 @@ What is Gerris doing now?
 Testing how AI assistants describe businesses and people, and fixing what they get wrong.
 Building the claim layer: entity schema, llms.txt, canonical explainer pages, and FAQ schema.
 Making SEO changes through pull requests on GitHub, alongside the developers who own the code.
-Building fast static websites on GitHub Pages and Cloudflare, and the publishing automation behind them.
+Building fast static websites on GitHub Pages and Cloudflare that owners can update themselves.
 Measuring AI-answer presence monthly, in writing, for the clients who run on it.
 What did Chris do before Gerris?
 The long version sits on his other sites; the short version runs like this. He learned the trade at New Media Strategies in the early 2000s, when SEO was still directory submissions and nerve. He co-founded Abraham Harrison, the digital marketing firm he ran with Mark Harrison, and did a tour at Edelman, the largest PR firm in the world, working the seam where search results and reputation meet. Gerris Corp dates to 2012. Along the way he has taught at Georgetown, George Washington, and Columbia, and the work has collected every kind of client an independent practice collects: retailers with hundreds of locations, media companies, universities, nonprofits, and one-person firms with one problem that matters.
-How does Gerris deliver the work?
-Chris Abraham sells the work, leads every engagement, and owns the strategy, the audits, and the measurement. Specialist delivery runs through trusted partners he has worked with for years, including a long-standing team of site editors and a Google Business Profile specialist. Anything that belongs in a client's own developers' hands goes back as a precise written fix list, and Gerris verifies it on the live site once it ships. You always know who is doing what.
+What do you receive from Gerris?
+Written products, in priority order, under Chris Abraham's name: the audit report, the repaired claim layer, the monthly measurement receipt. Chris Abraham is accountable for every engagement; the strategy, the audits, and the measurement are his. Where work belongs in a client's own developers' hands, the deliverable is a precise written fix list they can execute directly. Commitments are in writing before work begins.
 How do you hire Gerris?
-Book a 30-minute call at calendly.com/chrisabraham/30, or write to chris@gerriscorp.com, or call +1 202-352-5051. The first paid step is usually the AI Visibility Audit: $750 flat, delivered in writing, yours to keep. Commitments and prices are in writing before any work begins.
+Book a 30-minute call at calendly.com/chrisabraham/30, or write to chris@gerris.ai, or call +1 202-352-5051. The first paid step is usually the AI Visibility Audit: $750 flat, delivered in writing, yours to keep. Commitments and prices are in writing before any work begins.
 Ask an AI engine about your business.
 Then book the call and tell us what it said. Fixing that answer is the work.
 Book a 30-minute call
@@ -204,9 +273,9 @@ SEO earns a place in the list of links a search engine returns. AEO earns a plac
 Does AEO replace SEO?
 No. AI answers are assembled from crawlable pages, search indexes, business profiles, and directory listings, so a site search engines cannot crawl or understand starves the answer engines too. AEO is built on SEO. A business doing AEO without the SEO foundation is decorating a house that has no frame.
 How long does AEO take to change an AI answer?
-The sources can be fixed in days, and the answers change on the engines' own schedule as they recrawl and rebuild. Gerris measures monthly because a single check proves nothing: the receipt that matters is the trend across Google AI Overviews, ChatGPT, Perplexity, and Gemini over successive months.
+The sources can be fixed, and the answers change on the engines' own schedule as they recrawl and rebuild. Gerris measures monthly because a single check proves nothing: the receipt that matters is the trend across Google AI Overviews, ChatGPT, Perplexity, and Gemini over successive months.
 What does AEO cost?
-At Gerris, the first step is the AI Visibility Audit at $750 flat, delivered as a written report. The Claim Sprint, which builds the claim layer the audit identifies, is $1,500 flat. Monthly measurement, called AI Presence, is $500 a month. Prices are published on the services page.
+At Gerris, the first step is the AI Visibility Audit at $750 flat, delivered as a written report. The Claim Sprint that follows is $1,500 flat for the scope the audit defines, and AI Presence, the monthly measurement, is $500 a month. Work beyond a published scope is priced in writing before it begins.
 Read next: What is generative engine optimization (GEO)? and How do AI answers choose which businesses to name?
 Ask an AI engine about your business.
 Then book the call and tell us what it said. Fixing that answer is the work.
@@ -284,7 +353,7 @@ No third-party corroboration: nothing anywhere repeats the business's own claims
 Read the list again and notice what it does not contain: the quality of the business's work. Skips are record problems. The engine is not reporting that a competitor is better at your trade. It is reporting that a competitor's paperwork assembled more cleanly, and paperwork can be fixed.
 How do you find out what the answers say about you?
 You run the questions yourself, before you fix anything. Take the searches that bring you revenue, ask them in Google AI Overviews, ChatGPT, Perplexity, and Gemini in the words your buyers use, and write down what comes back: named or skipped, described rightly or wrongly, and who was named in your place. Then compare the answers against your record, find the disagreements and the gaps, fix them in priority order, and re-run the same questions monthly to confirm the answers moved.
-That test, run properly and written down, is the AI Visibility Audit on the Gerris services page. It is $750 flat. We test how your business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini for the searches that bring you revenue, check your entity and name, address, and phone consistency, and deliver a written report with every fix in priority order. The report is yours to keep regardless of what follows.
+That test, run properly and written down, is the AI Visibility Audit on the Gerris services page. It is $750 flat. We run 24 buyer questions, the questions buyers actually ask, in their words, across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude, check the answers' sources against your homepage and up to five money pages and your entity and name, address, and phone consistency, and deliver a written report with every fix in priority order, in five business days. The report is yours to keep regardless of what follows.
 Frequently asked questions
 Why does ChatGPT recommend my competitor instead of me?
 Usually because the competitor's record is easier to assemble: their category, services, and location are stated plainly on a page the engine can read, and the same facts appear on their Google Business Profile and listings. The engine names the business it can describe with confidence. The fix is rarely one trick. It is making your record as consistent and citable as theirs.
@@ -293,8 +362,132 @@ An entity is one real-world thing the engine tracks as a single record: a busine
 Can a business pay to be named in an AI answer?
 Not in the organic answers this guide is about. There is no placement to buy inside the written answer. What a business can do is fix the record the answer is built from: consistent facts, a canonical page, readable answers to buyer questions, and profiles that agree. That is the whole of the method, and it is also the product Gerris sells.
 How much does it cost to find out what AI answers say about my business?
-The AI Visibility Audit is $750 flat. Gerris tests how your business appears across Google AI Overviews, ChatGPT, Perplexity, and Gemini for the searches that bring you revenue, and delivers a written report with every fix in priority order. The report is yours to keep regardless of what follows.
+The AI Visibility Audit is $750 flat. Gerris runs 24 buyer questions, the questions buyers actually ask, in their words, across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude, checks the answers' sources against your homepage and up to five money pages, and delivers a written report with every fix in priority order, in five business days. The report is yours to keep regardless of what follows.
 Read next: What is answer engine optimization (AEO)? and What is generative engine optimization (GEO)?
 Ask an AI engine about your business.
 Then book the call and tell us what it said. Fixing that answer is the work.
 Book a 30-minute call
+
+
+---
+
+# Blog: https://gerris.ai/blog/
+
+Home › Blog
+Blog: field notes on AI search, written from the work
+The Gerris blog carries the working notes behind the practice: how the answer engines read a business, how they summarize it, and what earns a name inside the answer. The guides to answer engine optimization and generative engine optimization state the method in full. The blog works the same ground one rule, one failure, and one fix at a time, at the length each subject needs, in the plain register the guides use.
+How AI engines read your business: literal words, mandatory summaries, consistent facts
+The three working rules behind every Gerris engagement, expanded: engines take your words at face value, the summary of your business gets written with or without you, and consistency across your site, profile, and listings decides whose facts the answer repeats.
+Read the post
+What does the blog cover?
+AI search as business owners meet it: the questions buyers ask Google AI Overviews, ChatGPT, Perplexity, and Gemini; the record those answers are assembled from; and the clerical work—canonical pages, entity schema, consistent listings, honest FAQ content—that decides which businesses the answer names. News in AI search runs in the AI Search Briefing; the blog is the slower file, where a rule gets stated once and kept.
+Who writes the blog?
+Chris Abraham, who leads Gerris. Websites since 1994, SEO since 1998, and the last several years spent on the answer engines that now sit on top of search. Every post states a working rule from live engagements and says what the rule means for a business that needs to be named when an AI assistant answers its buyers.
+Ask an AI engine about your business.
+Then book the call and tell us what it said. Fixing that answer is the work.
+Book a 30-minute call
+
+---
+
+# Blog: How AI engines read your business: literal words, mandatory summaries, consistent facts: https://gerris.ai/blog/how-ai-engines-read-your-business/
+
+Home › Blog › How AI engines read your business
+How AI engines read your business: literal words, mandatory summaries, consistent facts
+By Chris Abraham, Gerris AI. Published Tuesday, November 17, 2026.
+AI engines read your business literally, summarize it whether you take part or not, and name the businesses whose facts agree everywhere the engines look. Those are the three working rules behind every Gerris engagement, and they appear in short form in the field notes on the home page. This post states them at full length: what a literal reader does to your copy, why the summary of your business gets written with or without you, and how consistency across your website, your Google Business Profile, and your listings became the signal that decides whose version of the facts an answer repeats.
+What does it mean that the engines read literally?
+Google and the AI answer engines take your words at face value. If a phrase is missing from the page, in the form buyers actually ask it, the page does not come up for that phrase. There is no thesaurus at the other end, and nobody at Google is inferring what you meant. A search system matches the words in the question against words it can find in its sources, and the answer engines build on that same matching before they write a single sentence of their own.
+This surprises owners who wrote their sites for human readers with patience. A human visitor forgives a home page that calls the firm a solutions provider while the words estate planning attorney sit three clicks deep; the human can guess, browse, and telephone. The engine works from the text it retrieved. Category language that lives in a printed brochure, a trade-show banner, or the owner's head never enters the record, and a record entry that never happened cannot be summarized, cited, or named.
+The practical consequence is plain. The words buyers type and speak—emergency plumber near me, CPA for restaurants, who sells standing desks in Austin—have to appear on your pages in those forms, attached to your name, your place, and your prices where prices are public. Synonyms chosen for elegance are a private vocabulary. The engine keeps the buyer's words and discards yours wherever the two differ.
+Why does the summary get written whether you take part or not?
+Being summarized is mandatory. You do not get to opt out of being described by AI answers. You only choose whether the description is assembled from your facts or from your competitor's.
+Every business with a website, a profile, or a single review already has an AI description. The engines assembled it from whatever they could find: the site, the Google Business Profile, directory listings, review pages, and anything third parties published. A firm that has never thought about AI search is participating at full strength; it simply never read its own entry. When a buyer asks who to hire, the answer reads that entry aloud, in the buyer's hearing, at the moment of decision.
+This changes what doing nothing costs. Under the old results page, a business that ignored search could still be found by referral and foot traffic while it ignored the list, and the list said nothing about it beyond a title and a line of text. The answer layer speaks about the business either way, in the business's absence, from sources the business may never have read. Authorship of the record is the only choice on offer. Gerris's work starts from that fact: the description exists, so the business may as well write it.
+How does an engine decide which version of your facts to repeat?
+It goes with the version it can corroborate. An answer engine resolves many sources into one record of your business, and it trusts the version of each fact that the sources agree on. When your website, your Google Business Profile, and your listings state the same category, the same services, and the same phone number, that fact is settled and usable. When the sources disagree, the engine reports the version it could verify, and the version it could verify may be the stale one.
+Consistency is a ranking signal in the plainest sense. One story, told identically everywhere, is what the machines reward. The reward is clerical: a fact that survives corroboration can be stated in an answer plainly, and answers are built from facts the engine can state. A fact tangled in contradiction costs the engine confidence, and the answer's names go to the businesses that cost it the least. The guide to how AI answers choose which businesses to name walks through that selection step by step.
+What breaks when your website, your profile, and your listings disagree?
+The failures are mundane, and the audits meet the same ones every month. The website calls the business a plumber, the profile calls it a handyman service, and an old listing calls it a general contractor: three blurred records where one clear one should stand. The address changed on the site and stayed old in the listings. A phone number from a previous office keeps circulating in the directories. The founding service, the one buyers ask about by name, appears on a printed brochure and nowhere the crawlers go.
+Each conflict is small. Together they blur the record, and a blurred record earns a vague description, a description of a competitor, or silence. Read the skip list again and notice what it never contains: the quality of the business's work. The engine reports on paperwork, and paperwork can be fixed. Every item on the skip list has a clerical remedy, and the remedies are the same ones the guide to generative engine optimization sets out in pipeline order.
+How should a business write for a literal reader?
+The working checklist behind every Gerris engagement follows from the three rules:
+State the category in so many words: one canonical page that says what the business is, what it sells, where it works, and what it charges where prices are public.
+Write headings as the questions buyers ask: the answer goes directly under each heading, at the top of the section, in the buyer's language.
+Repeat the record identically: the same name, address, phone number, category, and services on the website, the profile, and the listings, word for word where the formats allow.
+Publish facts in liftable form: direct answers, honest FAQ content, and published prices give the engine sentences it can quote without rewriting them.
+Hand the machines the whole record at once: entity schema with sameAs links and an llms.txt file tell every crawler and language model where the canonical statement lives.
+None of this is decoration, and none of it asks an engine for a favor. The engine is under pressure to answer quickly and defensibly, and it reaches for the sources that cost it the least effort and the least risk. A business whose facts arrive pre-assembled, consistently, in quotable sentences is simply the easiest correct answer available.
+How do you check what the machines say about you today?
+You ask, in your buyers' words, and you write down the answers. Put your category and your city to Google AI Overviews, ChatGPT, Perplexity, and Gemini. Record whether you are named, whether the description matches your facts, and who is named in your place. Then compare the answers against your website, your profile, and your listings, and find where the record disagrees with itself. That comparison is the diagnosis, and the fixes follow it in priority order.
+Gerris sells that test, run properly and written down, as the AI Visibility Audit: the money questions asked across the four engines, the entity and name-address-phone consistency checked, and a written report with every fix in priority order. The guide to answer engine optimization defines the discipline the audit measures, for owners who want the category settled before they buy anything in it.
+Frequently asked questions
+Do AI engines understand synonyms and implied meaning?
+They work from the words on the page. A search system matches the words in the buyer's question against words it can find in its sources, and the answer engines build on that matching. A category stated only in elegant synonyms, or implied by photographs and reputation, is a category the record may never receive. State what the business is in the words buyers use to ask for it.
+Can a business stop AI answers from describing it?
+The description is assembled from public sources: the website, the Google Business Profile, directory listings, reviews, and pages other people publish. A business can withdraw from some of those sources and shrink what the engines can find, and the answer will then describe it from whatever remains, or name a competitor whose record is complete. The working choice is authorship: write the record yourself, in your own facts, and keep it consistent.
+What is the first consistency fix to make?
+Settle one canonical statement of the business: the name, the category, the services, the address or service area, and the phone number. Then bring the Google Business Profile and the highest-traffic directory listings into line with that statement, word for word where the formats allow. Most records improve measurably from that single pass, because corroboration starts working for the business instead of against it.
+How often do AI answers about a business change?
+Continuously, on the engines' own schedule. Competitors publish, directories change, profiles get edited, and the answer that named a business in March may name another in June. A single check is a snapshot. Gerris measures monthly, re-asking the same money questions across Google AI Overviews, ChatGPT, Perplexity, and Gemini, because the trend across months is the measurement that can be acted on.
+Read next: What is answer engine optimization (AEO)? and How do AI answers choose which businesses to name?
+Ask an AI engine about your business.
+Then book the call and tell us what it said. Fixing that answer is the work.
+Book a 30-minute call
+
+---
+
+# The AI Search Briefing: https://gerris.ai/briefing/
+
+Home › Briefing
+The AI Search Briefing
+The AI Search Briefing is a weekly briefing on AI search from Gerris AI: answer engine optimization (AEO), AI optimization (AIO), generative engine optimization (GEO), and what AI is doing to search engine optimization (SEO), written from practice for business owners. Each edition takes the week’s platform changes, published research, and rulings, states in plain language what actually happened and where it was announced, and says why it matters to a business that needs to be named when an AI assistant answers its buyers.
+What does each edition cover?
+Only AI search. Google AI Overviews and AI Mode, ChatGPT search, Perplexity, and Gemini; AI crawlers and robots.txt rules; and published AEO and GEO research with its method stated. Every item links to the primary announcement or the study itself, and figures a platform reports about itself are labelled as that platform’s own numbers. If an item cannot be tied to a source, it does not run.
+Editions
+AI Search Briefing: Week of November 7, 2026
+Turkey investigates Google AI Overviews and AI Mode. Google ties Search to AI in schools. OpenAI merges ChatGPT chat and agent work. Perplexity grounds its decision answers in live web pages and cuts agent research costs. ChatGPT opens small business pages 62% less often and sends them more visitors. Training bots and search bots split in robots.txt.
+Is your business named when AI answers?
+The AI Visibility Audit answers that question for your business, market, and competitors for a flat $750. It checks what ChatGPT, Perplexity, Gemini, and Google AI Overviews say about you today, and what to fix first.
+See the AI Visibility Audit Book a call
+
+---
+
+# AI Search Briefing: Week of November 7, 2026: https://gerris.ai/briefing/2026-11-07/
+
+Home › Briefing › Week of November 7, 2026
+AI Search Briefing: Week of November 7, 2026
+By Chris Abraham, Gerris AI. Published Saturday, November 7, 2026.
+This edition covers the week to Saturday, November 7, 2026: a Turkish investigation into Google AI Overviews and AI Mode, Google folding AI into school Search, OpenAI merging ChatGPT chat and agent work, two Perplexity releases, and two pieces of field research on AI crawlers. Figures a platform reports about itself are labelled as that platform’s own numbers; nothing here runs without a source.
+Can a publisher keep Google AI from using its content without losing search visibility?
+Turkey opened a formal investigation into Google AI Overviews and AI Mode on Monday, November 2, and ordered interim terms for news publishers while the case runs. The Turkish Competition Authority (Rekabet Kurumu) says it will examine whether Google abused a dominant position with the two AI features. Its interim measure, decided October 8, requires Google to offer news publishers non-discriminatory terms that reflect the economic value of their content in AI Overviews and AI Mode, and to let each publisher decide how its content is used there without any effect on its visibility or indexing in other Google services. The measure covers news publishers, sets no amount and no deadline, and a parallel European Commission investigation has been open since December 2025.
+Why it matters to your business: the argument over whether opting out of AI answers can cost you ordinary search visibility is now a legal case in more than one jurisdiction, not a settings page. If regulators establish that the two decisions are separate, every business gets to make its AI decision on its merits. Watch what the United States does with the same question.
+Source: Rekabet Kurumu announcement, November 2, 2026, as reported by Maccus
+Is there still a version of Google Search without AI answers?
+Google made Search and AI one product for schools this week, and confirmed there is no AI-free version of Search to switch to. In its November 3 post on responsible AI for schools, Google says access to Gemini, Gemini Notebook, Gemini in Classroom, and Google Search will be entirely off for K-12 student accounts until a school administrator explicitly turns them on, and that its Guided Learning tutoring is built into Search itself, piloting in select U.S. schools later this month and live in Google Classroom worldwide from November 3. Reporting on the announcement adds the structural fact: Google offers no version of Search without AI Overviews or AI Mode, and its education chief told the New York Times that Search and AI are deeply integrated.
+Why it matters to your business: any plan that assumes your buyers use a “regular Google” with ten blue links is planning for a product Google no longer ships. The answer layer is the search product now, in the most cautious rollout Google runs, its schools channel. Being named inside the AI answer is the placement to win.
+Source: Google, “Responsible AI for schools with Guided Learning,” November 3, 2026
+Is ChatGPT becoming an agent that acts, not just an answer box?
+OpenAI is merging ChatGPT’s Chat and Work tabs into a single experience. TechCrunch reported November 2 on OpenAI’s email to users: the merged product rolls out first to a small group for feedback, then widely. In one place, a user can bring in files and plugins and have ChatGPT build a website, make a presentation, or act on the web. Codex stays a separate product, and ChatGPT and Codex will draw their usage from the same allowance pool. Anthropic made the same merge for Claude in September.
+Why it matters to your business: the assistant your buyers ask is becoming the assistant that books, buys, and builds on their behalf. The next visibility question after “does it name us” is “can its agent complete the job on our site”: clear prices, clear service pages, and forms an agent can finish.
+Source: TechCrunch, November 2, 2026
+Do automated systems check the live web before they judge your business?
+Perplexity’s Decisions API now searches the web before it answers. Announced November 4, a single setting, mode: "web_grounding", makes the API run a live search for each question and answer from the results. In Perplexity’s own test of 328 true-or-false claims, accuracy rose from 56.4% without grounding, close to guessing, to 97.3% with it; on the public PWS-Decisions benchmark it rose from 51% to 86%, with median response time rising from 139 to 366 milliseconds. Each completed search costs $0.001. These are Perplexity’s figures from its own post; no independent rerun has been published.
+Why it matters to your business: software that qualifies accounts, checks eligibility, and verifies claims about companies is starting to check the live web first. When it checks yours, the page it finds is your record. A current page with your services, prices, and locations in plain text is what gets read back as fact.
+Source: Perplexity, “Web grounding for the Decisions API,” November 4, 2026
+What does cheaper agent research mean for your website?
+Perplexity cut the cost of its Agent API research at every effort level and added an ultra level for the widest research jobs. Announced November 5: the medium level’s score on the BrowseComp and DSQA research benchmarks rose from 55% to 77% while its cost fell almost 90%; the xhigh level held its WANDR research score at 76.5% at about a quarter of its August 2026 cost; and the new ultra level runs three research agents in parallel with a fourth merging their findings, scoring 85.9% on WANDR at $21.71 per task. All figures are Perplexity’s own. One mechanism matters for site owners: instead of handing an agent your whole page, Perplexity now extracts only the passages relevant to its task and quotes them exactly.
+Why it matters to your business: deep research over the open web, including over your site and your competitors’, just got much cheaper, so expect more of it. Answers assembled by agents are built from quoted passages. Pages with quotable, plainly stated facts about what you sell, where, and for how much are the pages that get quoted.
+Source: Perplexity, “Improvements to every Agent API effort level,” November 5, 2026
+Why is ChatGPT’s crawler visiting your site less while its referrals rise?
+ChatGPT opens small business pages 62% less often than it did in July, and sends those sites more visitors than ever. LovedByAI measured 714 small business websites through its WordPress plugin. Page reads by ChatGPT-User, the bot that opens a page while answering, fell from 8,716 a day in late July to 3,344 a day in late October, a 62% drop overall and 66% at the typical site, in three unannounced steps on August 20, September 17–18, and October 28. Over the same span, visitors arriving from ChatGPT links rose 160% in total and 72% at the typical site. The study’s reading, not confirmed by OpenAI, is that ChatGPT answers more questions from what it has already indexed and cached, and fetches live pages less.
+Why it matters to your business: judge ChatGPT by the visitors it sends, never by its bot traffic; a quieter crawler in your logs is not lost ground. The stored copy of your site increasingly does the talking at answer time, which makes crawler access and plain-text facts on the page worth more, not less.
+Source: LovedByAI Lab, “ChatGPT visits websites less, sends more traffic,” updated November 3, 2026
+Should your robots.txt treat training bots and search bots the same?
+No, and 9.2% of large sites now write the file that way: training blocked, AI search allowed. Sitecheckly’s November 2026 survey of the Tranco top 10,000 domains, 4,546 of them with a readable robots.txt, found 9.2% block training crawlers while still allowing AI search crawlers. The distinction is real and named: OpenAI’s GPTBot trains models while OAI-SearchBot feeds ChatGPT search; Anthropic’s ClaudeBot trains while Claude-SearchBot searches; Google-Extended is a training control token, not a crawler, and blocking it has no effect on Google Search or AI Overviews.
+Why it matters to your business: a blanket “block AI” robots.txt, often pasted in from a template, can lock your business out of AI answers while doing nothing you intended. Write the file as three separate decisions: training, search, and fetch-on-request, and check the published file, not the draft in your editor.
+Source: Sitecheckly, “AI Crawlers List: Training vs. Search User Agents,” November 3, 2026
+What is Gerris watching next week?
+Three threads. Whether Google answers the Turkish interim measure in public, and whether any U.S. proceeding takes up the same opt-out question. Whether ChatGPT-User page reads step down again, which would confirm the index-first pattern the LovedByAI data shows. And whether the merged ChatGPT chat-and-work experience reaches general users, which moves agent readiness from a developer topic to a storefront topic. The next edition runs Saturday, November 14, 2026.
+Is your business named when AI answers?
+The AI Visibility Audit answers that question for your business, market, and competitors for a flat $750. It checks what ChatGPT, Perplexity, Gemini, and Google AI Overviews say about you today, and what to fix first.
+See the AI Visibility Audit Book a call
