@@ -648,7 +648,7 @@ Measurement in AI search is young, and every tool measures a sample. These terms
 The share of answers, across a fixed set of questions, that link to or footnote your domain. It only means something when the question set, engines, dates, and location are written down and repeated the same way.
 
 **AI Performance (Bing Webmaster Tools)**
-A report Microsoft introduced in public preview on February 10, 2026. It shows how often a site is cited as a source in Microsoft Copilot and in AI-generated summaries in Bing: total citations, the average number of cited pages, per-URL citation counts, and sampled grounding queries.
+A report Microsoft introduced in public preview on February 10, 2026. It shows how often a site is cited as a source in Microsoft Copilot and in AI-generated summaries in Bing: total citations, the average number of cited pages, per-URL citation counts, and sampled grounding queries. See how to read Bing’s AI Performance report (/guides/bing-ai-performance-report/).
 
 **Cross-model visibility**
 How consistently a brand appears across different AI systems, such as ChatGPT, Claude, Gemini, Perplexity, and Copilot. Engines draw on different sources, so a brand can be named by one and missing from another.
@@ -750,3 +750,81 @@ Saint Louis School, Honolulu—1981–1988. Student Body President, JROTC, Range
 ## Contact
 
 Email chris@gerris.ai (mailto:chris@gerris.ai), or call or text +1 202-352-5051 (tel:+12023525051). Earliest start: immediate. Based in Arlington, Virginia; I work remotely, Eastern Time.
+
+---
+
+# How do you read Bing’s AI Performance report?: https://gerris.ai/guides/bing-ai-performance-report/
+
+Bing's AI Performance report shows site owners, in Microsoft's own numbers, how often its AI answers cite their pages. It lives in Bing Webmaster Tools, Microsoft introduced it as a public preview on February 10, 2026, and in October 2026 it gained a beta view called Topics Portfolio. This guide explains what each number means, what Microsoft says the numbers do not mean, and how to turn them into work on a site.
+
+## What does the AI Performance report measure?
+
+It measures citations: the times a page from your site is shown as a source in an AI-generated answer. Microsoft says the report covers Microsoft Copilot, AI-generated summaries in Bing, and select partner integrations, which it does not name. Microsoft calls the release an early step toward tooling for generative engine optimization.
+
+## What does each number mean?
+
+**Total Citations**
+The total number of citations shown as sources in AI answers during the time frame you pick. Microsoft counts them without indicating where in an answer they appeared or how they were presented.
+
+**Average Cited Pages**
+The average number of distinct pages from your site shown as sources per day. Microsoft says it does not indicate ranking, authority, or the role a page played.
+
+**Grounding queries**
+The phrases the AI used when it retrieved the content it cited. Microsoft says the data is a sample of overall citation activity.
+
+**Page-level citation activity**
+Citation counts for specific URLs on your site over the selected dates, reflecting how often each page is cited, not its importance or placement.
+
+**Visibility trends**
+A timeline of how citation activity changes over time across the AI experiences the report covers.
+
+## Why don't grounding queries match my keywords?
+
+A grounding query is the search the AI ran, which is rarely the question a person typed. An assistant breaks a question into smaller searches, the same pattern Google calls query fan-out (/guides/ai-search-glossary/#query-fan-out), and cites whatever answers each piece best. A page about roof repair in Arlington can be cited for a grounding query about permit rules that nobody ever typed into a search box. That makes the list valuable: it shows the subquestions your pages already answer, in the AI's own words, and it is a sample, so read it as evidence of patterns, not a complete log.
+
+## What does Topics Portfolio add?
+
+Topics Portfolio, introduced as a beta on October 13, 2026, groups the grounding queries where your site appears into broader themes, and shows the market around each one:
+
+- Topic size: the approximate total citations across all sites for that theme, a measure of how much AI search demand it carries.
+- Sites cited: how many sites appear for the theme's queries, which shows how crowded it is.
+- Queries: the approximate number of distinct grounding queries in the theme.
+- Opportunity queries: queries where other sites are cited and yours is not, with citation volumes shown as ranges.
+
+Microsoft is plain about the limits: the topic grouping is AI-generated and can be imperfect, the sizes are approximate, branded queries can show up as opportunities, and the figures are meant as directional signals for planning, not a precise ledger. Topics with too little data are not shown at all.
+
+## How should a business read it?
+
+Read it in four passes, month over month, with the same date range each time:
+
+- Which pages are cited, and which are not. Compare the cited pages with the pages you want cited: services, locations, and the canonical statement of what the business is. A blog post cited while the service page is absent is a structure problem, usually fixable.
+- What the grounding queries ask. Turn recurring subquestions into headings, and answer each directly in the first sentence under it, so the passage stands on its own.
+- Where the opportunities sit. An opportunity query in a crowded topic is a harder win than one in a topic few sites answer. Start where the topic is real and the field is thin.
+- Whether the trend moved after the fix. Record the date of every change, then read the timeline against it. A citation count that rises across unrelated pages at once is more likely a change in the engine than in the site.
+
+## What does Microsoft recommend to earn more citations?
+
+Microsoft's own advice is ordinary good publishing: strengthen depth and expertise, use clear headings, tables, and FAQ sections, support claims with examples, data, and cited sources, keep content fresh and accurate, and reduce ambiguity across formats. It also points site owners to IndexNow, so changed pages reach Bing quickly, and local businesses to Bing Places for Business. Bing says it respects robots.txt and other control mechanisms, so a site that blocks Bingbot will not show up here.
+
+## What can't the report tell you?
+
+It covers Microsoft's experiences only. What ChatGPT, Perplexity, Claude, Gemini, or Google's AI Overviews say about a business needs its own measurement: a fixed set of buyer questions, run on a schedule, with the answers recorded. Google counts AI Overviews and AI Mode traffic inside the ordinary Performance report in Search Console, with no separate citation view. Bing's report shows Microsoft's citations directly, which makes it a useful calibration point for the rest.
+
+## Frequently asked questions
+
+Is Bing's AI Performance report free?
+Yes. It sits inside Bing Webmaster Tools, which is free for any site owner who verifies the site. Microsoft introduced it as a public preview on February 10, 2026.
+Does AI Performance show ChatGPT or Google citations?
+No. It covers Microsoft Copilot, AI-generated summaries in Bing, and select partner integrations Microsoft does not name. Citations in ChatGPT, Perplexity, Claude, Gemini, and Google's AI Overviews have to be measured separately, with a fixed set of questions run on a schedule.
+Why does my site not show a Topics Portfolio tab?
+Microsoft shows it only when a site has enough data, and topics with too little data are left out. Smaller sites may see a shorter list or none at all.
+Does a higher citation count mean my page ranks better?
+Not by Microsoft's own definitions. Total Citations is counted without placement in the answer, and page-level counts reflect how often a page is cited, not its importance or ranking.
+
+Read next: the guide to how AI answers choose which businesses to name (/guides/how-ai-answers-choose-businesses/), and the AI search glossary (/guides/ai-search-glossary/) for every term used here.
+
+## Sources
+
+- Bing Webmaster Blog: Introducing AI Performance in Bing Webmaster Tools (February 10, 2026) (https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview)
+- Bing Webmaster Blog: Introducing Topics Portfolio (Beta) in AI Performance (October 13, 2026) (https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/)
+- Google Search Central: AI features and your website (https://developers.google.com/search/docs/appearance/ai-features)

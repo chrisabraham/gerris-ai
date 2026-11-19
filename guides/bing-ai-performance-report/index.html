@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSHZ35VB');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PKWTJ2ER1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PKWTJ2ER1K');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading Bing AI Performance: Citations and Grounding Queries</title>
+<meta name="description" content="Bing Webmaster Tools counts how often Copilot and Bing AI answers cite your pages. What each metric means, what Topics Portfolio adds, and how to act on it.">
+<link rel="canonical" href="https://gerris.ai/guides/bing-ai-performance-report/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gerris">
+<meta property="og:title" content="Reading Bing AI Performance: Citations and Grounding Queries">
+<meta property="og:description" content="Bing Webmaster Tools counts how often Copilot and Bing AI answers cite your pages. What each metric means, what Topics Portfolio adds, and how to act on it.">
+<meta property="og:url" content="https://gerris.ai/guides/bing-ai-performance-report/">
+<meta property="og:image" content="https://gerris.ai/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gerris: AI search visibility. AEO, GEO, and SEO.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Reading Bing AI Performance: Citations and Grounding Queries">
+<meta name="twitter:description" content="Bing Webmaster Tools counts how often Copilot and Bing AI answers cite your pages. What each metric means, what Topics Portfolio adds, and how to act on it.">
+<meta name="twitter:image" content="https://gerris.ai/social-card.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#c75000">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://gerris.ai/guides/bing-ai-performance-report/#article",
+   "headline": "How do you read Bing’s AI Performance report?",
+   "description": "Bing Webmaster Tools counts how often Copilot and Bing AI answers cite your pages. What each metric means, what Topics Portfolio adds, and how to act on it.",
+   "url": "https://gerris.ai/guides/bing-ai-performance-report/",
+   "mainEntityOfPage": "https://gerris.ai/guides/bing-ai-performance-report/",
+   "datePublished": "2026-11-19",
+   "dateModified": "2026-11-19",
+   "inLanguage": "en",
+   "image": "https://gerris.ai/social-card.png",
+   "author": {
+    "@id": "https://gerris.ai/#chris-abraham"
+   },
+   "publisher": {
+    "@id": "https://gerris.ai/#organization"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Bing Webmaster Tools",
+     "sameAs": "https://en.wikipedia.org/wiki/Bing_Webmaster_Tools"
+    },
+    {
+     "@type": "Thing",
+     "name": "Microsoft Copilot",
+     "sameAs": "https://en.wikipedia.org/wiki/Microsoft_Copilot"
+    }
+   ],
+   "citation": [
+    "https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview",
+    "https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/",
+    "https://developers.google.com/search/docs/appearance/ai-features"
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://gerris.ai/guides/bing-ai-performance-report/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Is Bing's AI Performance report free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. It sits inside Bing Webmaster Tools, which is free for any site owner who verifies the site. Microsoft introduced it as a public preview on February 10, 2026."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does AI Performance show ChatGPT or Google citations?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. It covers Microsoft Copilot, AI-generated summaries in Bing, and select partner integrations Microsoft does not name. Citations in ChatGPT, Perplexity, Claude, Gemini, and Google's AI Overviews have to be measured separately, with a fixed set of questions run on a schedule."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why does my site not show a Topics Portfolio tab?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microsoft shows it only when a site has enough data, and topics with too little data are left out. Smaller sites may see a shorter list or none at all."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does a higher citation count mean my page ranks better?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not by Microsoft's own definitions. Total Citations is counted without placement in the answer, and page-level counts reflect how often a page is cited, not its importance or ranking."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://gerris.ai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://gerris.ai/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Bing AI Performance",
+     "item": "https://gerris.ai/guides/bing-ai-performance-report/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZ35VB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap hwrap">
+    <a href="/" aria-label="Gerris home"><svg width="34" height="34" viewBox="0 0 100 100" role="img" aria-label="Gerris logo"><circle cx="30" cy="32" r="15" fill="#b0dde3"/><circle cx="66" cy="24" r="11" fill="#1e9cd5"/><circle cx="52" cy="62" r="17" fill="#f3b842"/><path d="M30 32 Q48 12 66 24 M40 46 Q46 58 52 62" stroke="#211f1e" stroke-width="4" fill="none" stroke-linecap="round"/></svg></a>
+    <a class="brand" href="/"><span class="brandname">Gerris AI</span><small>AI search visibility, AEO, GEO, and SEO</small></a>
+    <nav class="site" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/briefing/">The AI Search Briefing</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <article class="page">
+      <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; Bing AI Performance</p>
+      <h1>How do you read Bing’s AI Performance report?</h1>
+      <p><strong>Bing's AI Performance report shows site owners, in Microsoft's own numbers, how often its AI answers cite their pages.</strong> It lives in Bing Webmaster Tools, Microsoft introduced it as a public preview on February 10, 2026, and in October 2026 it gained a beta view called Topics Portfolio. This guide explains what each number means, what Microsoft says the numbers do not mean, and how to turn them into work on a site.</p>
+
+      <h2>What does the AI Performance report measure?</h2>
+      <p>It measures citations: the times a page from your site is shown as a source in an AI-generated answer. Microsoft says the report covers Microsoft Copilot, AI-generated summaries in Bing, and select partner integrations, which it does not name. Microsoft calls the release an early step toward tooling for generative engine optimization.</p>
+
+      <h2>What does each number mean?</h2>
+      <dl class="glossary">
+        <dt id="total-citations">Total Citations</dt>
+        <dd>The total number of citations shown as sources in AI answers during the time frame you pick. Microsoft counts them without indicating where in an answer they appeared or how they were presented.</dd>
+        <dt id="average-cited-pages">Average Cited Pages</dt>
+        <dd>The average number of distinct pages from your site shown as sources per day. Microsoft says it does not indicate ranking, authority, or the role a page played.</dd>
+        <dt id="grounding-queries">Grounding queries</dt>
+        <dd>The phrases the AI used when it retrieved the content it cited. Microsoft says the data is a sample of overall citation activity.</dd>
+        <dt id="page-level-citations">Page-level citation activity</dt>
+        <dd>Citation counts for specific URLs on your site over the selected dates, reflecting how often each page is cited, not its importance or placement.</dd>
+        <dt id="visibility-trends">Visibility trends</dt>
+        <dd>A timeline of how citation activity changes over time across the AI experiences the report covers.</dd>
+      </dl>
+
+      <h2>Why don't grounding queries match my keywords?</h2>
+      <p>A grounding query is the search the AI ran, which is rarely the question a person typed. An assistant breaks a question into smaller searches, the same pattern Google calls <a href="/guides/ai-search-glossary/#query-fan-out">query fan-out</a>, and cites whatever answers each piece best. A page about roof repair in Arlington can be cited for a grounding query about permit rules that nobody ever typed into a search box. That makes the list valuable: it shows the subquestions your pages already answer, in the AI's own words, and it is a sample, so read it as evidence of patterns, not a complete log.</p>
+
+      <h2>What does Topics Portfolio add?</h2>
+      <p>Topics Portfolio, introduced as a beta on October 13, 2026, groups the grounding queries where your site appears into broader themes, and shows the market around each one:</p>
+      <ul>
+        <li><strong>Topic size:</strong> the approximate total citations across all sites for that theme, a measure of how much AI search demand it carries.</li>
+        <li><strong>Sites cited:</strong> how many sites appear for the theme's queries, which shows how crowded it is.</li>
+        <li><strong>Queries:</strong> the approximate number of distinct grounding queries in the theme.</li>
+        <li><strong>Opportunity queries:</strong> queries where other sites are cited and yours is not, with citation volumes shown as ranges.</li>
+      </ul>
+      <p>Microsoft is plain about the limits: the topic grouping is AI-generated and can be imperfect, the sizes are approximate, branded queries can show up as opportunities, and the figures are meant as directional signals for planning, not a precise ledger. Topics with too little data are not shown at all.</p>
+
+      <h2>How should a business read it?</h2>
+      <p>Read it in four passes, month over month, with the same date range each time:</p>
+      <ol>
+        <li><strong>Which pages are cited, and which are not.</strong> Compare the cited pages with the pages you want cited: services, locations, and the canonical statement of what the business is. A blog post cited while the service page is absent is a structure problem, usually fixable.</li>
+        <li><strong>What the grounding queries ask.</strong> Turn recurring subquestions into headings, and answer each directly in the first sentence under it, so the passage stands on its own.</li>
+        <li><strong>Where the opportunities sit.</strong> An opportunity query in a crowded topic is a harder win than one in a topic few sites answer. Start where the topic is real and the field is thin.</li>
+        <li><strong>Whether the trend moved after the fix.</strong> Record the date of every change, then read the timeline against it. A citation count that rises across unrelated pages at once is more likely a change in the engine than in the site.</li>
+      </ol>
+
+      <h2>What does Microsoft recommend to earn more citations?</h2>
+      <p>Microsoft's own advice is ordinary good publishing: strengthen depth and expertise, use clear headings, tables, and FAQ sections, support claims with examples, data, and cited sources, keep content fresh and accurate, and reduce ambiguity across formats. It also points site owners to IndexNow, so changed pages reach Bing quickly, and local businesses to Bing Places for Business. Bing says it respects robots.txt and other control mechanisms, so a site that blocks Bingbot will not show up here.</p>
+
+      <h2>What can't the report tell you?</h2>
+      <p>It covers Microsoft's experiences only. What ChatGPT, Perplexity, Claude, Gemini, or Google's AI Overviews say about a business needs its own measurement: a fixed set of buyer questions, run on a schedule, with the answers recorded. Google counts AI Overviews and AI Mode traffic inside the ordinary Performance report in Search Console, with no separate citation view. Bing's report shows Microsoft's citations directly, which makes it a useful calibration point for the rest.</p>
+
+      <section class="faq">
+        <h2>Frequently asked questions</h2>
+        <h3>Is Bing's AI Performance report free?</h3>
+        <p>Yes. It sits inside Bing Webmaster Tools, which is free for any site owner who verifies the site. Microsoft introduced it as a public preview on February 10, 2026.</p>
+        <h3>Does AI Performance show ChatGPT or Google citations?</h3>
+        <p>No. It covers Microsoft Copilot, AI-generated summaries in Bing, and select partner integrations Microsoft does not name. Citations in ChatGPT, Perplexity, Claude, Gemini, and Google's AI Overviews have to be measured separately, with a fixed set of questions run on a schedule.</p>
+        <h3>Why does my site not show a Topics Portfolio tab?</h3>
+        <p>Microsoft shows it only when a site has enough data, and topics with too little data are left out. Smaller sites may see a shorter list or none at all.</p>
+        <h3>Does a higher citation count mean my page ranks better?</h3>
+        <p>Not by Microsoft's own definitions. Total Citations is counted without placement in the answer, and page-level counts reflect how often a page is cited, not its importance or ranking.</p>
+      </section>
+
+      <p><strong>Read next:</strong> the <a href="/guides/how-ai-answers-choose-businesses/">guide to how AI answers choose which businesses to name</a>, and the <a href="/guides/ai-search-glossary/">AI search glossary</a> for every term used here.</p>
+
+      <h2 id="sources">Sources</h2>
+      <ul>
+        <li><a href="https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview">Bing Webmaster Blog: Introducing AI Performance in Bing Webmaster Tools (February 10, 2026)</a></li>
+        <li><a href="https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/">Bing Webmaster Blog: Introducing Topics Portfolio (Beta) in AI Performance (October 13, 2026)</a></li>
+        <li><a href="https://developers.google.com/search/docs/appearance/ai-features">Google Search Central: AI features and your website</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Ask an AI engine about your business.</h2>
+      <p>Then book the call and tell us what it said. Fixing that answer is the work.</p>
+      <p><a class="btn primary" href="https://calendly.com/chrisabraham/30">Book a 30-minute call</a></p>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Gerris AI</h3>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About Chris Abraham</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
+          <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
+          <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://gerriscorp.com/">gerriscorp.com</a></li>
+          <li><a href="https://christopherabraham.com/">christopherabraham.com</a></li>
+          <li><a href="https://chrisabraham.net/">chrisabraham.net, the weblog</a></li>
+          <li><a href="https://chrisabraham.com/">chrisabraham.com</a></li>
+          <li><a href="https://thechrisabrahamshow.com/">The Chris Abraham Show</a></li>
+          <li><a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></li>
+          <li><a href="https://github.com/chrisabraham">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
+  </div>
+</footer>
+</body>
+</html>
