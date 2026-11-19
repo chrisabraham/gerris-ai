@@ -491,3 +491,214 @@ Three threads. Whether Google answers the Turkish interim measure in public, and
 Is your business named when AI answers?
 The AI Visibility Audit answers that question for your business, market, and competitors for a flat $750. It checks what ChatGPT, Perplexity, Gemini, and Google AI Overviews say about you today, and what to fix first.
 See the AI Visibility Audit Book a call
+
+---
+
+# The AI search glossary: https://gerris.ai/guides/ai-search-glossary/
+
+AI search has produced more acronyms in three years than SEO produced in twenty. GEO, AEO, AIO, LLMO, AXO, SXO, GPTO, and a dozen more turn up in agency pitches, often for the same work under a different name. This glossary defines each one in plain language, says which describe a real method and which are relabels, and adds the technical terms and metrics that come with them. The definitions are checked against primary sources where one exists, listed at the end.
+The short version: almost every acronym here means making a business easy for AI systems to find, understand, verify, and cite. Ask anyone who sells one of them to name the tasks, the evidence they will collect, and how the result will be measured. The tasks matter; the acronym does not.
+
+## The acronyms
+
+Most of these name the same job: getting a business found, described correctly, and cited by AI systems. The differences are usually in who is selling the label.
+
+**AAIO (agentic AI optimization) and AXO (agentic experience optimization)**
+Preparing a website for AI agents that act for a person: comparing options, filling forms, booking, buying. The practical work is old-fashioned: real buttons and links, labeled form fields, prices and stock stated in text, and checkout steps a machine can follow. Accessible sites are already most of the way there.
+
+**AEO (answer engine optimization)**
+Work aimed at being the answer an AI assistant, voice assistant, or answer box gives to a question. Gerris has a full guide: What is answer engine optimization? (/guides/what-is-answer-engine-optimization/)
+
+**AI SEO and AISO (AI search optimization)**
+Broad labels for SEO adapted to AI search, or for SEO done with AI tools. The phrase covers both meanings in the wild, so it says little until the seller describes the actual tasks.
+
+**AIO**
+Used two ways. Some agencies mean AI optimization, an umbrella for all AI visibility work; others mean AI Overviews optimization, earning citations in Google's AI Overviews specifically. When someone sells AIO, the first question is which one.
+
+**AVO (AI visibility optimization)**
+Another umbrella label for improving how often and how accurately AI answers mention a brand. Functionally the same work as GEO and AEO.
+
+**GAIO (generative AI optimization) and GSO (generative search optimization)**
+Alternate names for GEO, used by agencies that wanted a label of their own.
+
+**GEO (generative engine optimization)**
+Making a business easy for generative AI systems to find, understand, verify, and cite. The term comes from a research paper of that name by Pranjal Aggarwal and colleagues, first posted in November 2023 and accepted to KDD 2024, which reported that some content changes raised visibility in generative engine responses by up to 40 percent. Gerris explains the practice in What is generative engine optimization? (/guides/what-is-generative-engine-optimization/)
+
+**GPTO (ChatGPT optimization)**
+GEO aimed at one engine. Optimizing for a single assistant is a weak plan when buyers use several, and the underlying work is the same for all of them.
+
+**LLMO (large language model optimization) and LLM SEO**
+Shaping what large language models say about a brand: consistent facts, a clear entity, and outside sources a model will trust. In practice it overlaps GEO almost completely.
+
+**Search everywhere optimization**
+The idea that visibility now depends on many platforms at once, including YouTube, Reddit, TikTok, Amazon, and the AI assistants, along with Google. The observation is fair: AI answers draw heavily on forums and video. The label adds no new technique.
+
+**SEO (search engine optimization)**
+Making a site crawlable, indexable, and worth ranking in search engines. Every AI label above still depends on it, because AI systems retrieve from search indexes and crawled pages.
+
+**SEO 2.0**
+A marketing name for SEO that accounts for AI answers. It describes a sales pitch more than a method.
+
+**SIO (search intent optimization)**
+Matching pages to what a searcher is trying to do. This has been a core part of SEO for well over a decade under the name search intent.
+
+**SXO (search experience optimization)**
+Combining search visibility with the experience after the click: speed, clarity, and a page that answers the question. With AI answers, part of that experience now happens before any click, in the summary itself.
+
+**VEO (voice engine optimization)**
+Optimizing for spoken answers from voice assistants. The work is the same as AEO: short, direct answers in plain language, attached to a clear entity.
+
+## The machinery
+
+These terms describe how AI search actually works. They are worth learning, because they explain what a site can and cannot influence.
+
+**Agentic browser**
+A browser with an AI agent built in that can carry out multi-step tasks for its user. OpenAI's ChatGPT Atlas and Perplexity's Comet are examples. They read pages through the same structure screen readers use, which is why semantic HTML matters to them.
+
+**AI crawler**
+A bot that fetches web pages for an AI company, either to train models or to answer questions live. OpenAI, for example, runs separate bots for each job and treats each robots.txt setting independently: blocking GPTBot (training) does not block OAI-SearchBot (ChatGPT search).
+
+**Chunking**
+Splitting a long document into shorter passages so a retrieval system can index and return each one separately. For a website, the lesson is that each section should make sense on its own, with a heading that says what it covers.
+
+**Embedding (vector embedding)**
+A list of numbers that represents the meaning of a passage, so a system can find passages close in meaning to a question even when the words differ. Talk of measuring a brand's semantic distance from a prompt describes this math. No website owner can see or set those numbers directly.
+
+**Google-Extended**
+A robots.txt product token Google uses to let publishers decide whether crawled content may be used for training Gemini models and for grounding. Google states that it does not affect a site's inclusion in Google Search and is not a ranking signal.
+
+**Grounding**
+Anchoring an AI answer in sources retrieved at the time of the question rather than in training memory alone. Grounded answers are the ones that carry citations, which makes grounding the moment a website can earn a link.
+
+**llms.txt**
+A proposed Markdown file at a site's root that summarizes the site and links its key pages for language models. It is a proposal, and AI companies have not committed to reading it, but it costs little and this site publishes one: gerris.ai/llms.txt (/llms.txt).
+
+**OAI-SearchBot**
+OpenAI's crawler for ChatGPT's search features. OpenAI says blocking it keeps a site out of ChatGPT search answers, though the site can still appear as a navigational link.
+
+**Query fan-out**
+Google's own term for how AI Mode works: it breaks a question into subtopics and issues many searches at once on the user's behalf, then writes one answer from the results. Google described it in May 2025. A page can be cited for a subquestion the user never typed.
+
+**RAG (retrieval-augmented generation)**
+A design in which a language model first retrieves relevant documents and then writes its answer from them. The approach was named in a 2020 research paper by Patrick Lewis and colleagues. AI search assistants are RAG systems built on web indexes, and calling a page RAG-ready means it is easy to retrieve and quote.
+
+## Content and authority
+
+These describe what makes a source worth citing. Most are new names for what good publishers and good PR have always done.
+
+**Attribute list**
+The short set of facts and differentiators a business wants AI answers to repeat about it: what it does, where, for whom, and what sets it apart. Writing one down is useful, because consistency across the web is what lets engines repeat it.
+
+**Brand co-occurrence**
+How often a brand's name appears near the topics, places, and descriptions it wants to be known for, on sites other than its own. It is the AI-era name for being mentioned in the right company, which is earned through press, reviews, and community, and cannot be faked at scale without risk.
+
+**Claim layer**
+Gerris' name for the structured statements a business publishes about itself so machines can read them directly: entity schema, FAQ markup, llms.txt, and one canonical description of what the business is.
+
+**Entity**
+A specific, identifiable thing, such as a person, business, product, or place, that search engines and AI systems track as one item across many sources. Entity-first SEO means making sure every source describes the same entity the same way.
+
+**Information gain**
+What a page adds that other pages on the topic do not: original data, first-hand experience, a tested method, a named expert. Pages with something new to say have a reason to be cited; pages that restate the consensus do not.
+
+**Knowledge graph**
+A database of entities and the relationships between them. Google's Knowledge Graph feeds its knowledge panels, and AI systems build similar structures. Knowledge graph alignment means your schema, profiles, and listings all agree.
+
+**Prompt-to-publish loop**
+Researching the questions buyers put to AI assistants and publishing pages that answer them. This is keyword research with longer queries, and it works best when each answer lives on one page instead of many near-duplicates.
+
+## The metrics
+
+Measurement in AI search is young, and every tool measures a sample. These terms are useful when the method behind them is stated.
+
+**AI citation rate**
+The share of answers, across a fixed set of questions, that link to or footnote your domain. It only means something when the question set, engines, dates, and location are written down and repeated the same way.
+
+**Cross-model visibility**
+How consistently a brand appears across different AI systems, such as ChatGPT, Claude, Gemini, Perplexity, and Copilot. Engines draw on different sources, so a brand can be named by one and missing from another.
+
+**Hallucination rate**
+How often AI answers state something false about a business: wrong prices, closed locations, invented services. Every wrong fact has a source or a gap behind it, and tracing that source is the start of the fix.
+
+**Share of model and share of answer**
+The AI version of share of voice: how often an assistant names your brand compared with competitors across a set of prompts. Because answers vary from run to run, a single check proves little; repeated, dated runs show the trend.
+
+**Zero-click visibility**
+Presence in answers that users read without visiting any website. Rankings and mentions can grow while clicks fall, so reports should track both.
+
+## Which of these names real work?
+
+Three ideas carry the weight. The first is that AI systems retrieve from search indexes and crawled pages, so technical SEO still decides whether a site can be found at all. The second is that answers are assembled from many sources, so the facts on a business's own site, its Google Business Profile, its listings, and the press about it have to agree. The third is that citations go to pages with something worth citing: original evidence, clear answers, and an identifiable author. Every acronym above is a way of packaging some part of those three.
+For the measurement side, the guide to how AI answers choose which businesses to name (/guides/how-ai-answers-choose-businesses/) walks through the entity record, the consistency check, and the citability test. For definitions of traditional SEO terms, such as canonical tags, crawl budget, and soft 404s, see the glossaries on christopherabraham.com (https://christopherabraham.com/guides/glossary/) and gerriscorp.com (https://gerriscorp.com/guides/glossary/).
+
+## Sources
+
+- Aggarwal et al., GEO: Generative Engine Optimization (arXiv, 2023; KDD 2024) (https://arxiv.org/abs/2311.09735)
+- Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020) (https://arxiv.org/abs/2005.11401)
+- Google: AI Mode update and query fan-out (May 20, 2025) (https://blog.google/products/search/google-search-ai-mode-update/)
+- Google Search Central: Google's common crawlers and Google-Extended (https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers)
+- OpenAI: Overview of OpenAI crawlers (https://developers.openai.com/api/docs/bots)
+- The llms.txt proposal (https://llmstxt.org/)
+
+---
+
+# CV and résumé of Chris Abraham: https://gerris.ai/about/cv/
+
+Christopher James Abraham, Arlington, Virginia. Senior technical SEO and GEO specialist. Building websites since 1994, doing SEO since 1998. Available for remote contract, part-time, and full-time work, Eastern Time.
+Download the CV (PDF) LinkedIn Book a 30 minute call
+Recruiters and hiring managers: the PDF above is the current version, kept up to date on this page. The summary below is the same record in brief. What recruiters usually ask for is covered here: technical SEO for large and e-commerce sites, crawling and analytics tooling, JavaScript SEO, Core Web Vitals, GEO and AI search visibility across Google AI Overviews, ChatGPT, Gemini, and Perplexity, and headless and commerce platforms including Salesforce Commerce Cloud and Contentful.
+
+## Summary
+
+I am a recognized expert in organic search engine optimization (SEO), online reputation management (ORM), online perception management (OPM), and digital strategy. My expertise spans Google Business Profile (GBP) recovery and optimization, AI-driven SEO, content marketing, and digital PR. With over two decades of experience, I specialize in helping businesses, executives, and brands enhance their online presence, manage their reputation, and navigate complex digital challenges.
+Beyond my hands-on expertise in SEO, site optimization, and online brand protection, I have held senior leadership positions at agencies including New Media Strategies and Edelman. I am a pioneer in online publishing, digital advocacy, and social media marketing, with a proven ability to anticipate industry shifts and leverage emerging trends for brand growth. My experience also extends to application development, web technologies, and online community outreach, positioning me as a trusted consultant for businesses and high-profile individuals.
+I am a seasoned public speaker, panelist, and digital strategist, regularly presenting at conferences, universities, and industry events. Whether through keynote speaking, thought leadership, or direct consulting, I am passionate about sharing my expertise and driving measurable success for my clients.
+Core expertise: technical and organic SEO, Google Search Console, PageSpeed Insights and Core Web Vitals, site migrations and 301 redirects, backlink disavowals, Google Business Profile recovery and optimization, AI-driven SEO (GEO and AEO), ORM and OPM, content marketing, digital PR, influencer and social media marketing, blogger outreach, SEM and PPC.
+
+## Current work
+
+Independent SEO consultant, under my own name and through Gerris Corp. This year's work: GEO and AEO audits that test what ChatGPT, Perplexity, Gemini, Claude, Copilot, and Google's AI Overviews say about a business; rendering forensics on React, Next.js, and Hyvä builds; SEO changes merged through GitHub on headless stacks; and AI-assisted analysis of a site's code before a migration. The full record of recent engagements, anonymized, is in the case studies (https://christopherabraham.com/case-studies/). I use OpenAI Codex and Claude Code as my primary coding assistants, alongside GitHub Copilot, Gemini, and Grok; the approach is platform agnostic and everything produced is verified.
+Meritus Media, Clearwater, FL—Digital Strategy. Manages and recovers Google Business Profiles from suspensions, ensuring swift reinstatement and compliance with Google's policies. Creates, optimizes, and maximizes GBP presence, improving local search visibility and engagement through strategic content updates, reviews, Q&A management, and service and product listings. Provides expert SEO services, including on-page, off-page, and technical SEO. Implements AI-driven SEO strategies, leveraging AI tools to refine metadata, expand content, and improve search engine indexing. Handles ORM and OPM, mitigating negative search results and reinforcing brand credibility. Optimizes Google Search Console, PageSpeed Insights, and Core Web Vitals. Executes 301 redirects, site migrations, and backlink disavowals. Advises businesses on integrating GBP with their website, enhancing local SEO and discoverability. Secured high-profile clients, working with executives, brands, and businesses across various industries. I am Meritus Media's SEO and ORM lead, on a partnership basis.
+
+## Experience
+
+Gerris Corp, Arlington, VA—Principal and Founder. Offers extensive influencer marketing and social media marketing consulting services for a wide array of businesses. Evaluated and improved search engine optimization and online reputation management. Managed all aspects of marketing and digital PR to ensure successful marketing campaigns and increased brand recognition. Secured high-profile clients including TB12, Skinny Coconut Oil, Newconomy.media, SPYRUS, Status Labs, and SweatNOW.
+FameRep, Oceanside, NY—Founder and CEO. Offered extensive consulting services for a wide array of businesses. Evaluated and improved search engine optimization and online reputation management. Managed all aspects of marketing and digital PR to ensure successful marketing campaigns and increased brand recognition. Secured high-profile clients including Unison Agency, White & Company, Eyeglass.com, RLMPR, iCre8t Results, and Reputation.com.
+Newconomy.media (Cryptarium), Tallinn, Estonia—Executive Editor, Reporter, and Co-Founder. Partnered with the Managing Editor to produce a daily online digital news source for the cryptocurrency, blockchain, and digital currency industry. Wrote long-form and interview content and worked with a staff of writers and experts to produce high-quality, timely, and germane content. Worked as a public face for the publication, on the site, on social media, in interviews, and when producing virtual online conferences.
+Unison Agency, Washington, DC—Director, Social Media. Launched the social media practice focusing on online brand recognition. Used comprehensive social media campaigns to drive sales efforts. Worked with founder and president Robert Fardi on business development projects. Secured high-profile clients including AAFMAA, Sage North America (Sage One and Sage 50), Snikiddy, and CFCNCA.
+Reputation.com, Redwood City, CA—Team Lead, Special Projects. Sold reputation management services in subscriptions from $10,000 to $100,000 per month to high net worth and high-profile individuals. Provided detailed technology and strategy recommendations to staff and business owners.
+SocialAlly, Ontario, CA—President. Developed business strategy, tactics, and processes for social media and digital PR. Trained the social media and blogger outreach team. Secured high-profile clients including Mizuno Volleyball and McKinney.
+Abraham Harrison, Arlington, VA—Cofounder and President. Developed and oversaw the execution of comprehensive marketing plans and strategies including SEO, SEM, PPC, ORM, content marketing, blogger outreach, and customer engagement. Managed business operations and development. Secured high-profile clients including the Alzheimer's Association, Aruba Tourism, Deutsche Telekom, Greenpeace, Habitat for Humanity, Home Shopping Network, International Medical Corps, Kimberly-Clark, Mitsubishi Motors, National Association of Home Builders, The Pew Charitable Trusts, Qorvis Communications, Sharp Electronics, Snapple, USOC Winter Team, T. Rowe Price, and Friendster.
+
+## Teaching and speaking
+
+- Georgetown University, School of Continuing Studies—Guest Lecturer: influencer marketing, online reputation management, organic search engine optimization.
+- South by Southwest (SXSW)—Panelist: Outsourcing and Offshoring Social Customer Service.
+- NVTC Social Media Committee—Moderator: Meaningful Measurement: The Impact of Social Media.
+- University of Oregon, School of Journalism and Communication—Guest Lecturer: digital PR and social media marketing.
+- George Washington University, School of Media and Public Affairs—Guest Lecturer: web technology and entrepreneurial journalism.
+- University of Maryland, College Park—Guest Lecturer: digital PR and social media marketing, COMM 350 and COMM 370.
+- American University and Georgetown University—Guest Lecturer: social media, marketing, and technology careers and internships.
+- American University, Department of History—Guest Lecturer: History in the Digital Age.
+- The Writer's Center—Instructor: Blogging Basics and Intermediate courses, including SEO and strategy.
+- Columbia University, School of International and Public Affairs—Guest Lecturer: blogging and viral marketing strategies, Executive Masters in Public Affairs.
+
+## Education
+
+George Washington University—BA, American Literature (major), Creative Writing (minor), 1988–1993. Heavyweight rower on the GW Crew and a Founding Father of the Phi Kappa Psi Fraternity, DC Alpha. Studied abroad in Norwich, UK, at the University of East Anglia. Hosted a weekly house music and comedy show on WRGW radio, interned at the DC offices of The Baltimore Sun, and edited the English Department's newsletter.
+University of East Anglia—Credit hours, American Studies, 1990–1991. Studied post-World War II American literature; rowed on the UEA Crew team.
+Chaminade University of Honolulu—Credit hours, Philosophy, 1987–1988 (while in high school; non-degree).
+Saint Louis School, Honolulu—1981–1988. Student Body President, JROTC, Ranger Club, newspaper, yearbook, wrestling.
+
+## Clubs and organizations
+
+- Renaissance Weekend—participant since 2001; moderator and blue dot.
+- Potomac Boat Club—Senior Member.
+- Miriam's Kitchen—Volunteer Sous Chef.
+- Scottish Rite, Southern Jurisdiction—32nd Degree.
+- Naval Lodge No. 4, F.A.A.M.—3rd Degree Master Mason.
+- St. Monica and St. James Church—former member of vestry and webmaster.
+
+## Contact
+
+Email chris@gerris.ai (mailto:chris@gerris.ai), or call or text +1 202-352-5051 (tel:+12023525051). Earliest start: immediate. Based in Arlington, Virginia; I work remotely, Eastern Time.

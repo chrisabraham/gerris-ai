@@ -117,3 +117,7 @@ footer.site ul{list-style:none;margin:0;padding:0}
 footer.site li{margin:.3rem 0}
 footer.site .fine{border-top:1px solid #33505c;margin-top:2rem;padding-top:1.2rem;font-size:.88rem;color:#8fa5ae}
 @media (max-width:640px){ .hero{padding:3rem 0 2.4rem} nav.site{margin-left:0} .hwrap{flex-wrap:wrap} }
+/* Glossary definition lists (AI search glossary, 2026-11-19) */
+dl.glossary{margin:1rem 0 1.6rem}
+dl.glossary dt{font-weight:700;color:var(--ink);margin-top:1rem;scroll-margin-top:1rem}
+dl.glossary dd{margin:.25rem 0 0;max-width:68ch}

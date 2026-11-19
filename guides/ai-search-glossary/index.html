@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSHZ35VB');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PKWTJ2ER1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PKWTJ2ER1K');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Search Glossary: GEO, AEO, AIO, LLMO, and Every Buzzword</title>
+<meta name="description" content="Plain definitions of every AI search acronym and buzzword in circulation: GEO, AEO, AIO, LLMO, AXO, grounding, query fan-out, share of model, and more.">
+<link rel="canonical" href="https://gerris.ai/guides/ai-search-glossary/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gerris">
+<meta property="og:title" content="AI Search Glossary: GEO, AEO, AIO, LLMO, and Every Buzzword">
+<meta property="og:description" content="Plain definitions of every AI search acronym and buzzword in circulation: GEO, AEO, AIO, LLMO, AXO, grounding, query fan-out, share of model, and more.">
+<meta property="og:url" content="https://gerris.ai/guides/ai-search-glossary/">
+<meta property="og:image" content="https://gerris.ai/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gerris: AI search visibility. AEO, GEO, and SEO.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Search Glossary: GEO, AEO, AIO, LLMO, and Every Buzzword">
+<meta name="twitter:description" content="Plain definitions of every AI search acronym and buzzword in circulation: GEO, AEO, AIO, LLMO, AXO, grounding, query fan-out, share of model, and more.">
+<meta name="twitter:image" content="https://gerris.ai/social-card.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#c75000">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://gerris.ai/guides/ai-search-glossary/#article",
+   "headline": "The AI search glossary: every acronym and buzzword, defined",
+   "description": "Plain definitions of every AI search acronym and buzzword in circulation: GEO, AEO, AIO, LLMO, AXO, grounding, query fan-out, share of model, and more.",
+   "url": "https://gerris.ai/guides/ai-search-glossary/",
+   "mainEntityOfPage": "https://gerris.ai/guides/ai-search-glossary/",
+   "datePublished": "2026-11-19",
+   "dateModified": "2026-11-19",
+   "inLanguage": "en",
+   "image": "https://gerris.ai/social-card.png",
+   "author": {
+    "@id": "https://gerris.ai/#chris-abraham"
+   },
+   "publisher": {
+    "@id": "https://gerris.ai/#organization"
+   },
+   "citation": [
+    "https://arxiv.org/abs/2311.09735",
+    "https://arxiv.org/abs/2005.11401",
+    "https://blog.google/products/search/google-search-ai-mode-update/",
+    "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+    "https://developers.openai.com/api/docs/bots",
+    "https://llmstxt.org/"
+   ]
+  },
+  {
+   "@type": "DefinedTermSet",
+   "@id": "https://gerris.ai/guides/ai-search-glossary/#terms",
+   "name": "AI search glossary",
+   "url": "https://gerris.ai/guides/ai-search-glossary/",
+   "hasDefinedTerm": [
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#aaio",
+     "name": "AAIO (agentic AI optimization) and AXO (agentic experience optimization)",
+     "description": "Preparing a website for AI agents that act for a person: comparing options, filling forms, booking, buying. The practical work is old-fashioned: real buttons and links, labeled form fields, prices and stock stated in text, and checkout steps a machine can follow. Accessible sites are already most of the way there.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#aaio",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#aeo",
+     "name": "AEO (answer engine optimization)",
+     "description": "Work aimed at being the answer an AI assistant, voice assistant, or answer box gives to a question. Gerris has a full guide: What is answer engine optimization?",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#aeo",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#ai-seo",
+     "name": "AI SEO and AISO (AI search optimization)",
+     "description": "Broad labels for SEO adapted to AI search, or for SEO done with AI tools. The phrase covers both meanings in the wild, so it says little until the seller describes the actual tasks.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#ai-seo",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#aio",
+     "name": "AIO",
+     "description": "Used two ways. Some agencies mean AI optimization, an umbrella for all AI visibility work; others mean AI Overviews optimization, earning citations in Google's AI Overviews specifically. When someone sells AIO, the first question is which one.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#aio",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#avo",
+     "name": "AVO (AI visibility optimization)",
+     "description": "Another umbrella label for improving how often and how accurately AI answers mention a brand. Functionally the same work as GEO and AEO.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#avo",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#gaio",
+     "name": "GAIO (generative AI optimization) and GSO (generative search optimization)",
+     "description": "Alternate names for GEO, used by agencies that wanted a label of their own.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#gaio",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#geo",
+     "name": "GEO (generative engine optimization)",
+     "description": "Making a business easy for generative AI systems to find, understand, verify, and cite. The term comes from a research paper of that name by Pranjal Aggarwal and colleagues, first posted in November 2023 and accepted to KDD 2024, which reported that some content changes raised visibility in generative engine responses by up to 40 percent. Gerris explains the practice in What is generative engine optimization?",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#geo",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#gpto",
+     "name": "GPTO (ChatGPT optimization)",
+     "description": "GEO aimed at one engine. Optimizing for a single assistant is a weak plan when buyers use several, and the underlying work is the same for all of them.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#gpto",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#llmo",
+     "name": "LLMO (large language model optimization) and LLM SEO",
+     "description": "Shaping what large language models say about a brand: consistent facts, a clear entity, and outside sources a model will trust. In practice it overlaps GEO almost completely.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#llmo",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#search-everywhere-optimization",
+     "name": "Search everywhere optimization",
+     "description": "The idea that visibility now depends on many platforms at once, including YouTube, Reddit, TikTok, Amazon, and the AI assistants, along with Google. The observation is fair: AI answers draw heavily on forums and video. The label adds no new technique.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#search-everywhere-optimization",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#seo",
+     "name": "SEO (search engine optimization)",
+     "description": "Making a site crawlable, indexable, and worth ranking in search engines. Every AI label above still depends on it, because AI systems retrieve from search indexes and crawled pages.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#seo",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#seo-2",
+     "name": "SEO 2.0",
+     "description": "A marketing name for SEO that accounts for AI answers. It describes a sales pitch more than a method.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#seo-2",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#sio",
+     "name": "SIO (search intent optimization)",
+     "description": "Matching pages to what a searcher is trying to do. This has been a core part of SEO for well over a decade under the name search intent.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#sio",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#sxo",
+     "name": "SXO (search experience optimization)",
+     "description": "Combining search visibility with the experience after the click: speed, clarity, and a page that answers the question. With AI answers, part of that experience now happens before any click, in the summary itself.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#sxo",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#veo",
+     "name": "VEO (voice engine optimization)",
+     "description": "Optimizing for spoken answers from voice assistants. The work is the same as AEO: short, direct answers in plain language, attached to a clear entity.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#veo",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#agentic-browser",
+     "name": "Agentic browser",
+     "description": "A browser with an AI agent built in that can carry out multi-step tasks for its user. OpenAI's ChatGPT Atlas and Perplexity's Comet are examples. They read pages through the same structure screen readers use, which is why semantic HTML matters to them.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#agentic-browser",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#ai-crawler",
+     "name": "AI crawler",
+     "description": "A bot that fetches web pages for an AI company, either to train models or to answer questions live. OpenAI, for example, runs separate bots for each job and treats each robots.txt setting independently: blocking GPTBot (training) does not block OAI-SearchBot (ChatGPT search).",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#ai-crawler",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#chunking",
+     "name": "Chunking",
+     "description": "Splitting a long document into shorter passages so a retrieval system can index and return each one separately. For a website, the lesson is that each section should make sense on its own, with a heading that says what it covers.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#chunking",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#embedding",
+     "name": "Embedding (vector embedding)",
+     "description": "A list of numbers that represents the meaning of a passage, so a system can find passages close in meaning to a question even when the words differ. Talk of measuring a brand's semantic distance from a prompt describes this math. No website owner can see or set those numbers directly.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#embedding",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#google-extended",
+     "name": "Google-Extended",
+     "description": "A robots.txt product token Google uses to let publishers decide whether crawled content may be used for training Gemini models and for grounding. Google states that it does not affect a site's inclusion in Google Search and is not a ranking signal.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#google-extended",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#grounding",
+     "name": "Grounding",
+     "description": "Anchoring an AI answer in sources retrieved at the time of the question rather than in training memory alone. Grounded answers are the ones that carry citations, which makes grounding the moment a website can earn a link.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#grounding",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#llms-txt",
+     "name": "llms.txt",
+     "description": "A proposed Markdown file at a site's root that summarizes the site and links its key pages for language models. It is a proposal, and AI companies have not committed to reading it, but it costs little and this site publishes one: gerris.ai/llms.txt.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#llms-txt",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#oai-searchbot",
+     "name": "OAI-SearchBot",
+     "description": "OpenAI's crawler for ChatGPT's search features. OpenAI says blocking it keeps a site out of ChatGPT search answers, though the site can still appear as a navigational link.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#oai-searchbot",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#query-fan-out",
+     "name": "Query fan-out",
+     "description": "Google's own term for how AI Mode works: it breaks a question into subtopics and issues many searches at once on the user's behalf, then writes one answer from the results. Google described it in May 2025. A page can be cited for a subquestion the user never typed.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#query-fan-out",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#rag",
+     "name": "RAG (retrieval-augmented generation)",
+     "description": "A design in which a language model first retrieves relevant documents and then writes its answer from them. The approach was named in a 2020 research paper by Patrick Lewis and colleagues. AI search assistants are RAG systems built on web indexes, and calling a page RAG-ready means it is easy to retrieve and quote.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#rag",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#attribute-list",
+     "name": "Attribute list",
+     "description": "The short set of facts and differentiators a business wants AI answers to repeat about it: what it does, where, for whom, and what sets it apart. Writing one down is useful, because consistency across the web is what lets engines repeat it.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#attribute-list",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#brand-co-occurrence",
+     "name": "Brand co-occurrence",
+     "description": "How often a brand's name appears near the topics, places, and descriptions it wants to be known for, on sites other than its own. It is the AI-era name for being mentioned in the right company, which is earned through press, reviews, and community, and cannot be faked at scale without risk.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#brand-co-occurrence",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#claim-layer",
+     "name": "Claim layer",
+     "description": "Gerris' name for the structured statements a business publishes about itself so machines can read them directly: entity schema, FAQ markup, llms.txt, and one canonical description of what the business is.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#claim-layer",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#entity",
+     "name": "Entity",
+     "description": "A specific, identifiable thing, such as a person, business, product, or place, that search engines and AI systems track as one item across many sources. Entity-first SEO means making sure every source describes the same entity the same way.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#entity",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#information-gain",
+     "name": "Information gain",
+     "description": "What a page adds that other pages on the topic do not: original data, first-hand experience, a tested method, a named expert. Pages with something new to say have a reason to be cited; pages that restate the consensus do not.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#information-gain",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#knowledge-graph",
+     "name": "Knowledge graph",
+     "description": "A database of entities and the relationships between them. Google's Knowledge Graph feeds its knowledge panels, and AI systems build similar structures. Knowledge graph alignment means your schema, profiles, and listings all agree.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#knowledge-graph",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#prompt-to-publish",
+     "name": "Prompt-to-publish loop",
+     "description": "Researching the questions buyers put to AI assistants and publishing pages that answer them. This is keyword research with longer queries, and it works best when each answer lives on one page instead of many near-duplicates.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#prompt-to-publish",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#ai-citation-rate",
+     "name": "AI citation rate",
+     "description": "The share of answers, across a fixed set of questions, that link to or footnote your domain. It only means something when the question set, engines, dates, and location are written down and repeated the same way.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#ai-citation-rate",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#cross-model-visibility",
+     "name": "Cross-model visibility",
+     "description": "How consistently a brand appears across different AI systems, such as ChatGPT, Claude, Gemini, Perplexity, and Copilot. Engines draw on different sources, so a brand can be named by one and missing from another.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#cross-model-visibility",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#hallucination-rate",
+     "name": "Hallucination rate",
+     "description": "How often AI answers state something false about a business: wrong prices, closed locations, invented services. Every wrong fact has a source or a gap behind it, and tracing that source is the start of the fix.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#hallucination-rate",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#share-of-model",
+     "name": "Share of model and share of answer",
+     "description": "The AI version of share of voice: how often an assistant names your brand compared with competitors across a set of prompts. Because answers vary from run to run, a single check proves little; repeated, dated runs show the trend.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#share-of-model",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://gerris.ai/guides/ai-search-glossary/#zero-click",
+     "name": "Zero-click visibility",
+     "description": "Presence in answers that users read without visiting any website. Rankings and mentions can grow while clicks fall, so reports should track both.",
+     "url": "https://gerris.ai/guides/ai-search-glossary/#zero-click",
+     "inDefinedTermSet": {
+      "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://gerris.ai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://gerris.ai/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "AI search glossary",
+     "item": "https://gerris.ai/guides/ai-search-glossary/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZ35VB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap hwrap">
+    <a href="/" aria-label="Gerris home"><svg width="34" height="34" viewBox="0 0 100 100" role="img" aria-label="Gerris logo"><circle cx="30" cy="32" r="15" fill="#b0dde3"/><circle cx="66" cy="24" r="11" fill="#1e9cd5"/><circle cx="52" cy="62" r="17" fill="#f3b842"/><path d="M30 32 Q48 12 66 24 M40 46 Q46 58 52 62" stroke="#211f1e" stroke-width="4" fill="none" stroke-linecap="round"/></svg></a>
+    <a class="brand" href="/"><span class="brandname">Gerris AI</span><small>AI search visibility, AEO, GEO, and SEO</small></a>
+    <nav class="site" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/briefing/">The AI Search Briefing</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <article class="page">
+      <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; AI search glossary</p>
+      <h1>The AI search glossary: every acronym and buzzword, defined</h1>
+      <p><strong>AI search has produced more acronyms in three years than SEO produced in twenty.</strong> GEO, AEO, AIO, LLMO, AXO, SXO, GPTO, and a dozen more turn up in agency pitches, often for the same work under a different name. This glossary defines each one in plain language, says which describe a real method and which are relabels, and adds the technical terms and metrics that come with them. The definitions are checked against primary sources where one exists, listed at the end.</p>
+      <p>The short version: almost every acronym here means making a business easy for AI systems to find, understand, verify, and cite. Ask anyone who sells one of them to name the tasks, the evidence they will collect, and how the result will be measured. The tasks matter; the acronym does not.</p>
+      <nav aria-label="Sections"><p><a href="#the-acronyms">The acronyms</a> &#183; <a href="#the-machinery">The machinery</a> &#183; <a href="#content-and-authority">Content and authority</a> &#183; <a href="#the-metrics">The metrics</a></p></nav>
+
+      <h2 id="the-acronyms">The acronyms</h2>
+      <p>Most of these name the same job: getting a business found, described correctly, and cited by AI systems. The differences are usually in who is selling the label.</p>
+      <dl class="glossary">
+        <dt id="aaio">AAIO (agentic AI optimization) and AXO (agentic experience optimization)</dt>
+        <dd>Preparing a website for AI agents that act for a person: comparing options, filling forms, booking, buying. The practical work is old-fashioned: real buttons and links, labeled form fields, prices and stock stated in text, and checkout steps a machine can follow. Accessible sites are already most of the way there.</dd>
+        <dt id="aeo">AEO (answer engine optimization)</dt>
+        <dd>Work aimed at being the answer an AI assistant, voice assistant, or answer box gives to a question. Gerris has a full guide: <a href="/guides/what-is-answer-engine-optimization/">What is answer engine optimization?</a></dd>
+        <dt id="ai-seo">AI SEO and AISO (AI search optimization)</dt>
+        <dd>Broad labels for SEO adapted to AI search, or for SEO done with AI tools. The phrase covers both meanings in the wild, so it says little until the seller describes the actual tasks.</dd>
+        <dt id="aio">AIO</dt>
+        <dd>Used two ways. Some agencies mean AI optimization, an umbrella for all AI visibility work; others mean AI Overviews optimization, earning citations in Google's AI Overviews specifically. When someone sells AIO, the first question is which one.</dd>
+        <dt id="avo">AVO (AI visibility optimization)</dt>
+        <dd>Another umbrella label for improving how often and how accurately AI answers mention a brand. Functionally the same work as GEO and AEO.</dd>
+        <dt id="gaio">GAIO (generative AI optimization) and GSO (generative search optimization)</dt>
+        <dd>Alternate names for GEO, used by agencies that wanted a label of their own.</dd>
+        <dt id="geo">GEO (generative engine optimization)</dt>
+        <dd>Making a business easy for generative AI systems to find, understand, verify, and cite. The term comes from a research paper of that name by Pranjal Aggarwal and colleagues, first posted in November 2023 and accepted to KDD 2024, which reported that some content changes raised visibility in generative engine responses by up to 40 percent. Gerris explains the practice in <a href="/guides/what-is-generative-engine-optimization/">What is generative engine optimization?</a></dd>
+        <dt id="gpto">GPTO (ChatGPT optimization)</dt>
+        <dd>GEO aimed at one engine. Optimizing for a single assistant is a weak plan when buyers use several, and the underlying work is the same for all of them.</dd>
+        <dt id="llmo">LLMO (large language model optimization) and LLM SEO</dt>
+        <dd>Shaping what large language models say about a brand: consistent facts, a clear entity, and outside sources a model will trust. In practice it overlaps GEO almost completely.</dd>
+        <dt id="search-everywhere-optimization">Search everywhere optimization</dt>
+        <dd>The idea that visibility now depends on many platforms at once, including YouTube, Reddit, TikTok, Amazon, and the AI assistants, along with Google. The observation is fair: AI answers draw heavily on forums and video. The label adds no new technique.</dd>
+        <dt id="seo">SEO (search engine optimization)</dt>
+        <dd>Making a site crawlable, indexable, and worth ranking in search engines. Every AI label above still depends on it, because AI systems retrieve from search indexes and crawled pages.</dd>
+        <dt id="seo-2">SEO 2.0</dt>
+        <dd>A marketing name for SEO that accounts for AI answers. It describes a sales pitch more than a method.</dd>
+        <dt id="sio">SIO (search intent optimization)</dt>
+        <dd>Matching pages to what a searcher is trying to do. This has been a core part of SEO for well over a decade under the name search intent.</dd>
+        <dt id="sxo">SXO (search experience optimization)</dt>
+        <dd>Combining search visibility with the experience after the click: speed, clarity, and a page that answers the question. With AI answers, part of that experience now happens before any click, in the summary itself.</dd>
+        <dt id="veo">VEO (voice engine optimization)</dt>
+        <dd>Optimizing for spoken answers from voice assistants. The work is the same as AEO: short, direct answers in plain language, attached to a clear entity.</dd>
+      </dl>
+
+      <h2 id="the-machinery">The machinery</h2>
+      <p>These terms describe how AI search actually works. They are worth learning, because they explain what a site can and cannot influence.</p>
+      <dl class="glossary">
+        <dt id="agentic-browser">Agentic browser</dt>
+        <dd>A browser with an AI agent built in that can carry out multi-step tasks for its user. OpenAI's ChatGPT Atlas and Perplexity's Comet are examples. They read pages through the same structure screen readers use, which is why semantic HTML matters to them.</dd>
+        <dt id="ai-crawler">AI crawler</dt>
+        <dd>A bot that fetches web pages for an AI company, either to train models or to answer questions live. OpenAI, for example, runs separate bots for each job and treats each robots.txt setting independently: blocking GPTBot (training) does not block OAI-SearchBot (ChatGPT search).</dd>
+        <dt id="chunking">Chunking</dt>
+        <dd>Splitting a long document into shorter passages so a retrieval system can index and return each one separately. For a website, the lesson is that each section should make sense on its own, with a heading that says what it covers.</dd>
+        <dt id="embedding">Embedding (vector embedding)</dt>
+        <dd>A list of numbers that represents the meaning of a passage, so a system can find passages close in meaning to a question even when the words differ. Talk of measuring a brand's semantic distance from a prompt describes this math. No website owner can see or set those numbers directly.</dd>
+        <dt id="google-extended">Google-Extended</dt>
+        <dd>A robots.txt product token Google uses to let publishers decide whether crawled content may be used for training Gemini models and for grounding. Google states that it does not affect a site's inclusion in Google Search and is not a ranking signal.</dd>
+        <dt id="grounding">Grounding</dt>
+        <dd>Anchoring an AI answer in sources retrieved at the time of the question rather than in training memory alone. Grounded answers are the ones that carry citations, which makes grounding the moment a website can earn a link.</dd>
+        <dt id="llms-txt">llms.txt</dt>
+        <dd>A proposed Markdown file at a site's root that summarizes the site and links its key pages for language models. It is a proposal, and AI companies have not committed to reading it, but it costs little and this site publishes one: <a href="/llms.txt">gerris.ai/llms.txt</a>.</dd>
+        <dt id="oai-searchbot">OAI-SearchBot</dt>
+        <dd>OpenAI's crawler for ChatGPT's search features. OpenAI says blocking it keeps a site out of ChatGPT search answers, though the site can still appear as a navigational link.</dd>
+        <dt id="query-fan-out">Query fan-out</dt>
+        <dd>Google's own term for how AI Mode works: it breaks a question into subtopics and issues many searches at once on the user's behalf, then writes one answer from the results. Google described it in May 2025. A page can be cited for a subquestion the user never typed.</dd>
+        <dt id="rag">RAG (retrieval-augmented generation)</dt>
+        <dd>A design in which a language model first retrieves relevant documents and then writes its answer from them. The approach was named in a 2020 research paper by Patrick Lewis and colleagues. AI search assistants are RAG systems built on web indexes, and calling a page RAG-ready means it is easy to retrieve and quote.</dd>
+      </dl>
+
+      <h2 id="content-and-authority">Content and authority</h2>
+      <p>These describe what makes a source worth citing. Most are new names for what good publishers and good PR have always done.</p>
+      <dl class="glossary">
+        <dt id="attribute-list">Attribute list</dt>
+        <dd>The short set of facts and differentiators a business wants AI answers to repeat about it: what it does, where, for whom, and what sets it apart. Writing one down is useful, because consistency across the web is what lets engines repeat it.</dd>
+        <dt id="brand-co-occurrence">Brand co-occurrence</dt>
+        <dd>How often a brand's name appears near the topics, places, and descriptions it wants to be known for, on sites other than its own. It is the AI-era name for being mentioned in the right company, which is earned through press, reviews, and community, and cannot be faked at scale without risk.</dd>
+        <dt id="claim-layer">Claim layer</dt>
+        <dd>Gerris' name for the structured statements a business publishes about itself so machines can read them directly: entity schema, FAQ markup, llms.txt, and one canonical description of what the business is.</dd>
+        <dt id="entity">Entity</dt>
+        <dd>A specific, identifiable thing, such as a person, business, product, or place, that search engines and AI systems track as one item across many sources. Entity-first SEO means making sure every source describes the same entity the same way.</dd>
+        <dt id="information-gain">Information gain</dt>
+        <dd>What a page adds that other pages on the topic do not: original data, first-hand experience, a tested method, a named expert. Pages with something new to say have a reason to be cited; pages that restate the consensus do not.</dd>
+        <dt id="knowledge-graph">Knowledge graph</dt>
+        <dd>A database of entities and the relationships between them. Google's Knowledge Graph feeds its knowledge panels, and AI systems build similar structures. Knowledge graph alignment means your schema, profiles, and listings all agree.</dd>
+        <dt id="prompt-to-publish">Prompt-to-publish loop</dt>
+        <dd>Researching the questions buyers put to AI assistants and publishing pages that answer them. This is keyword research with longer queries, and it works best when each answer lives on one page instead of many near-duplicates.</dd>
+      </dl>
+
+      <h2 id="the-metrics">The metrics</h2>
+      <p>Measurement in AI search is young, and every tool measures a sample. These terms are useful when the method behind them is stated.</p>
+      <dl class="glossary">
+        <dt id="ai-citation-rate">AI citation rate</dt>
+        <dd>The share of answers, across a fixed set of questions, that link to or footnote your domain. It only means something when the question set, engines, dates, and location are written down and repeated the same way.</dd>
+        <dt id="cross-model-visibility">Cross-model visibility</dt>
+        <dd>How consistently a brand appears across different AI systems, such as ChatGPT, Claude, Gemini, Perplexity, and Copilot. Engines draw on different sources, so a brand can be named by one and missing from another.</dd>
+        <dt id="hallucination-rate">Hallucination rate</dt>
+        <dd>How often AI answers state something false about a business: wrong prices, closed locations, invented services. Every wrong fact has a source or a gap behind it, and tracing that source is the start of the fix.</dd>
+        <dt id="share-of-model">Share of model and share of answer</dt>
+        <dd>The AI version of share of voice: how often an assistant names your brand compared with competitors across a set of prompts. Because answers vary from run to run, a single check proves little; repeated, dated runs show the trend.</dd>
+        <dt id="zero-click">Zero-click visibility</dt>
+        <dd>Presence in answers that users read without visiting any website. Rankings and mentions can grow while clicks fall, so reports should track both.</dd>
+      </dl>
+
+      <h2 id="which-matter">Which of these names real work?</h2>
+      <p>Three ideas carry the weight. The first is that AI systems retrieve from search indexes and crawled pages, so technical SEO still decides whether a site can be found at all. The second is that answers are assembled from many sources, so the facts on a business's own site, its Google Business Profile, its listings, and the press about it have to agree. The third is that citations go to pages with something worth citing: original evidence, clear answers, and an identifiable author. Every acronym above is a way of packaging some part of those three.</p>
+      <p>For the measurement side, the <a href="/guides/how-ai-answers-choose-businesses/">guide to how AI answers choose which businesses to name</a> walks through the entity record, the consistency check, and the citability test. For definitions of traditional SEO terms, such as canonical tags, crawl budget, and soft 404s, see the glossaries on <a href="https://christopherabraham.com/guides/glossary/">christopherabraham.com</a> and <a href="https://gerriscorp.com/guides/glossary/">gerriscorp.com</a>.</p>
+
+      <h2 id="sources">Sources</h2>
+      <ul>
+        <li><a href="https://arxiv.org/abs/2311.09735">Aggarwal et al., GEO: Generative Engine Optimization (arXiv, 2023; KDD 2024)</a></li>
+        <li><a href="https://arxiv.org/abs/2005.11401">Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)</a></li>
+        <li><a href="https://blog.google/products/search/google-search-ai-mode-update/">Google: AI Mode update and query fan-out (May 20, 2025)</a></li>
+        <li><a href="https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers">Google Search Central: Google's common crawlers and Google-Extended</a></li>
+        <li><a href="https://developers.openai.com/api/docs/bots">OpenAI: Overview of OpenAI crawlers</a></li>
+        <li><a href="https://llmstxt.org/">The llms.txt proposal</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Ask an AI engine about your business.</h2>
+      <p>Then book the call and tell us what it said. Fixing that answer is the work.</p>
+      <p><a class="btn primary" href="https://calendly.com/chrisabraham/30">Book a 30-minute call</a></p>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Gerris AI</h3>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About Chris Abraham</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
+          <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
+          <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://gerriscorp.com/">gerriscorp.com</a></li>
+          <li><a href="https://christopherabraham.com/">christopherabraham.com</a></li>
+          <li><a href="https://chrisabraham.net/">chrisabraham.net, the weblog</a></li>
+          <li><a href="https://chrisabraham.com/">chrisabraham.com</a></li>
+          <li><a href="https://thechrisabrahamshow.com/">The Chris Abraham Show</a></li>
+          <li><a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></li>
+          <li><a href="https://github.com/chrisabraham">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
+  </div>
+</footer>
+</body>
+</html>
