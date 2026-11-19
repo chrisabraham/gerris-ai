@@ -1,24 +1,27 @@
 # Gerris: AI Search Visibility, AEO, GEO, and SEO
 
-> Gerris is the AI services practice of Gerris Corp, led by Chris Abraham in Arlington, Virginia. Gerris audits how AI answer engines (Google AI Overviews, ChatGPT, Perplexity, Gemini) describe a business, fixes the sources those answers are built from, and measures the result monthly in writing, on a foundation of technical SEO practiced since 1998. Contact: chris@gerriscorp.com, +1 202-352-5051, https://calendly.com/chrisabraham/30 (book a 30-minute call).
+> Gerris is the AI services practice of Gerris Corp, led by Chris Abraham in Arlington, Virginia. Gerris audits how AI answer engines (Google AI Overviews, ChatGPT, Perplexity, Gemini) describe a business, fixes the sources those answers are built from, repairs the indexing underneath, and measures the result monthly in writing, on a foundation of technical SEO practiced since 1998. Contact: chris@gerris.ai, +1 202-352-5051, https://calendly.com/chrisabraham/30 (book a 30-minute call).
 
 ## Pages
 
 - [Home](https://gerris.ai/): The home page of gerris.ai in HTML. Full text of every page is in llms-full.txt.
 - [Services](https://gerris.ai/services/): The services page of gerris.ai in HTML. Full text of every page is in llms-full.txt.
+- [GitHub Pages Websites](https://gerris.ai/services/github-pages-websites/): Fast static websites designed and built by Gerris on GitHub Pages, handed to the owner outright, with the claim layer for AI search built in from the first page.
 - [About](https://gerris.ai/about/): The about page of gerris.ai in HTML. Full text of every page is in llms-full.txt.
 
 - [Guides](https://gerris.ai/guides/): Plain language guides to AI search: the categories, the machinery, and the selection behind every AI answer.
 - [What is answer engine optimization (AEO)?](https://gerris.ai/guides/what-is-answer-engine-optimization/): The category explainer: what AEO is, what it changes on a website and off it, how it differs from SEO, and how to measure it.
 - [What is generative engine optimization (GEO)?](https://gerris.ai/guides/what-is-generative-engine-optimization/): How generative AI systems find, understand, verify, and cite a business, and what GEO changes in practice.
 - [How do AI answers choose which businesses to name?](https://gerris.ai/guides/how-ai-answers-choose-businesses/): The entity record, the consistency check, and the citability test behind every name an AI answer gives, and the audit that measures them.
+- [Blog](https://gerris.ai/blog/): Field notes on AI search from practice: how answer engines read, summarize, and rank a business, and what to do about it.
+- [How AI engines read your business: literal words, mandatory summaries, consistent facts](https://gerris.ai/blog/how-ai-engines-read-your-business/): The three working rules behind every Gerris engagement, expanded: engines take your words at face value, the summary of your business gets written with or without you, and consistency across your site, profile, and listings decides whose facts the answer repeats.
 
 ## Key facts
 
-- The AI Visibility Audit costs $750 flat and is delivered as a written report.
-- The Claim Sprint costs $1,500 flat and builds the claim layer the audit identifies.
-- AI Presence measurement costs $500 a month and is delivered as a monthly written receipt.
-- A turnkey website on GitHub Pages costs $1,500 flat; hosting is free.
+- The AI Visibility Audit costs $750 flat and is delivered as a written report. Its scope is fixed before anyone sees your site.
+- SEO repair work is priced in the open: a one-problem repair is $500, a whole-site repair is $750, and large jobs are scoped in milestones, each priced in writing before it begins.
+- The Claim Sprint costs $1,500 flat for the scope the audit defines. AI Presence, Measured costs $500 a month. Work beyond a published scope is priced in writing before it begins.
+- A website on GitHub Pages is designed and built by Gerris and handed to the owner outright; hosting is free, and the build is priced in writing before work begins.
 - Gerris is led by Chris Abraham: websites since 1994, SEO since 1998.
 - Gerris Corp's wider consulting site is https://gerriscorp.com/ and Chris Abraham's practice site is https://christopherabraham.com/.
 - [The AI Search Briefing](https://gerris.ai/briefing/): A weekly briefing on AI search from Gerris AI: AEO, AIO, GEO, and what AI is doing to SEO, written from practice for business owners.

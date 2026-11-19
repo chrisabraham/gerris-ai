@@ -1,4 +1,4 @@
-# Gerris — robots.txt
+# Gerris: robots.txt
 # This site is published to be read and cited by search engines and AI
 # assistants alike. Crawlers are welcomed, not tolerated: the services
 # sold here include making other sites this readable.
@@ -9,71 +9,71 @@ Allow: /
 # The documented AI crawlers, welcomed by name. A named group replaces
 # the wildcard group for that agent, so each Allow is written out in full.
 
-# OpenAI — model training
+# OpenAI: model training
 User-agent: GPTBot
 Allow: /
 
-# OpenAI — ChatGPT search index
+# OpenAI: ChatGPT search index
 User-agent: OAI-SearchBot
 Allow: /
 
-# OpenAI — user-triggered fetch
+# OpenAI: user-triggered fetch
 User-agent: ChatGPT-User
 Allow: /
 
-# Anthropic — model training
+# Anthropic: model training
 User-agent: ClaudeBot
 Allow: /
 
-# Anthropic — Claude search index
+# Anthropic: Claude search index
 User-agent: Claude-SearchBot
 Allow: /
 
-# Anthropic — user-triggered fetch
+# Anthropic: user-triggered fetch
 User-agent: Claude-User
 Allow: /
 
-# Perplexity — answer index
+# Perplexity: answer index
 User-agent: PerplexityBot
 Allow: /
 
-# Perplexity — user-triggered fetch
+# Perplexity: user-triggered fetch
 User-agent: Perplexity-User
 Allow: /
 
-# Google — Gemini training token (not a crawler)
+# Google: Gemini training token (not a crawler)
 User-agent: Google-Extended
 Allow: /
 
-# Google — Search and AI surfaces
+# Google: Search and AI surfaces
 User-agent: Googlebot
 Allow: /
 
-# Microsoft — Bing index, which also feeds Copilot answers
+# Microsoft: Bing index, which also feeds Copilot answers
 User-agent: Bingbot
 Allow: /
 
-# Common Crawl — the open corpus many labs train on
+# Common Crawl: the open corpus many labs train on
 User-agent: CCBot
 Allow: /
 
-# Apple — Siri and Spotlight
+# Apple: Siri and Spotlight
 User-agent: Applebot
 Allow: /
 
-# Apple — Apple Intelligence training token
+# Apple: Apple Intelligence training token
 User-agent: Applebot-Extended
 Allow: /
 
-# Meta — Meta AI
+# Meta: Meta AI
 User-agent: Meta-ExternalAgent
 Allow: /
 
-# ByteDance — TikTok and Doubao
+# ByteDance: TikTok and Doubao
 User-agent: Bytespider
 Allow: /
 
-# Amazon — Alexa and Amazon search
+# Amazon: Alexa and Amazon search
 User-agent: Amazonbot
 Allow: /
 
