@@ -580,7 +580,7 @@ A list of numbers that represents the meaning of a passage, so a system can find
 A robots.txt product token Google uses to let publishers decide whether crawled content may be used for training Gemini models and for grounding. Google states that it does not affect a site's inclusion in Google Search and is not a ranking signal.
 
 **GraphRAG**
-Retrieval over a knowledge graph of entities and relationships, alone or alongside text passages. Microsoft Research published an approach by this name in 2024. It rewards sites whose facts about people, places, and organizations are stated consistently.
+Retrieval over a knowledge graph of entities and relationships instead of, or alongside, similar text passages. Microsoft Research described it in an April 2024 paper by Darren Edge and colleagues: a language model extracts the entities and relationships from a collection, groups closely related entities into communities, summarizes each community, and builds answers from those summaries. It handles questions that span a whole collection or connect several sources better than passage retrieval, and adds little for single-fact lookups. A lighter variant, LazyGraphRAG (November 2024), brought indexing cost down to that of vector retrieval, 0.1 percent of full GraphRAG. It rewards sites whose facts about people, places, and organizations are stated the same way everywhere, because those facts become the nodes.
 
 **Grounding**
 Anchoring an AI answer in sources retrieved at the time of the question rather than in training memory alone. Grounded answers are the ones that carry citations, which makes grounding the moment a website can earn a link.
@@ -677,6 +677,8 @@ For the measurement side, the guide to how AI answers choose which businesses to
 
 - Aggarwal et al., GEO: Generative Engine Optimization (arXiv, 2023; KDD 2024) (https://arxiv.org/abs/2311.09735)
 - Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020) (https://arxiv.org/abs/2005.11401)
+- Edge et al., From Local to Global: A Graph RAG Approach to Query-Focused Summarization (2024) (https://arxiv.org/abs/2404.16130)
+- Microsoft Research: LazyGraphRAG (November 25, 2024) (https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/)
 - Google Search Central: AI features and your website (https://developers.google.com/search/docs/appearance/ai-features)
 - Google: AI Mode update and query fan-out (May 20, 2025) (https://blog.google/products/search/google-search-ai-mode-update/)
 - Google Search Central: FAQ rich result deprecation (May 2026) (https://developers.google.com/search/docs/appearance/structured-data/faqpage)

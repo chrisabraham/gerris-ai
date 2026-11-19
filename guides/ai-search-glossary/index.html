@@ -65,6 +65,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    "citation": [
     "https://arxiv.org/abs/2311.09735",
     "https://arxiv.org/abs/2005.11401",
+    "https://arxiv.org/abs/2404.16130",
+    "https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/",
     "https://developers.google.com/search/docs/appearance/ai-features",
     "https://blog.google/products/search/google-search-ai-mode-update/",
     "https://developers.google.com/search/docs/appearance/structured-data/faqpage",
@@ -325,7 +327,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      "@type": "DefinedTerm",
      "@id": "https://gerris.ai/guides/ai-search-glossary/#graphrag",
      "name": "GraphRAG",
-     "description": "Retrieval over a knowledge graph of entities and relationships, alone or alongside text passages. Microsoft Research published an approach by this name in 2024. It rewards sites whose facts about people, places, and organizations are stated consistently.",
+     "description": "Retrieval over a knowledge graph of entities and relationships instead of, or alongside, similar text passages. Microsoft Research described it in an April 2024 paper by Darren Edge and colleagues: a language model extracts the entities and relationships from a collection, groups closely related entities into communities, summarizes each community, and builds answers from those summaries. It handles questions that span a whole collection or connect several sources better than passage retrieval, and adds little for single-fact lookups. A lighter variant, LazyGraphRAG (November 2024), brought indexing cost down to that of vector retrieval, 0.1 percent of full GraphRAG. It rewards sites whose facts about people, places, and organizations are stated the same way everywhere, because those facts become the nodes.",
      "url": "https://gerris.ai/guides/ai-search-glossary/#graphrag",
      "inDefinedTermSet": {
       "@id": "https://gerris.ai/guides/ai-search-glossary/#terms"
@@ -709,7 +711,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <dt id="google-extended">Google-Extended</dt>
         <dd>A robots.txt product token Google uses to let publishers decide whether crawled content may be used for training Gemini models and for grounding. Google states that it does not affect a site's inclusion in Google Search and is not a ranking signal.</dd>
         <dt id="graphrag">GraphRAG</dt>
-        <dd>Retrieval over a knowledge graph of entities and relationships, alone or alongside text passages. Microsoft Research published an approach by this name in 2024. It rewards sites whose facts about people, places, and organizations are stated consistently.</dd>
+        <dd>Retrieval over a knowledge graph of entities and relationships instead of, or alongside, similar text passages. Microsoft Research described it in an April 2024 paper by Darren Edge and colleagues: a language model extracts the entities and relationships from a collection, groups closely related entities into communities, summarizes each community, and builds answers from those summaries. It handles questions that span a whole collection or connect several sources better than passage retrieval, and adds little for single-fact lookups. A lighter variant, LazyGraphRAG (November 2024), brought indexing cost down to that of vector retrieval, 0.1 percent of full GraphRAG. It rewards sites whose facts about people, places, and organizations are stated the same way everywhere, because those facts become the nodes.</dd>
         <dt id="grounding">Grounding</dt>
         <dd>Anchoring an AI answer in sources retrieved at the time of the question rather than in training memory alone. Grounded answers are the ones that carry citations, which makes grounding the moment a website can earn a link.</dd>
         <dt id="grounding-queries">Grounding queries</dt>
@@ -782,6 +784,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <ul>
         <li><a href="https://arxiv.org/abs/2311.09735">Aggarwal et al., GEO: Generative Engine Optimization (arXiv, 2023; KDD 2024)</a></li>
         <li><a href="https://arxiv.org/abs/2005.11401">Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)</a></li>
+        <li><a href="https://arxiv.org/abs/2404.16130">Edge et al., From Local to Global: A Graph RAG Approach to Query-Focused Summarization (2024)</a></li>
+        <li><a href="https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/">Microsoft Research: LazyGraphRAG (November 25, 2024)</a></li>
         <li><a href="https://developers.google.com/search/docs/appearance/ai-features">Google Search Central: AI features and your website</a></li>
         <li><a href="https://blog.google/products/search/google-search-ai-mode-update/">Google: AI Mode update and query fan-out (May 20, 2025)</a></li>
         <li><a href="https://developers.google.com/search/docs/appearance/structured-data/faqpage">Google Search Central: FAQ rich result deprecation (May 2026)</a></li>
