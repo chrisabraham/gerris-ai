@@ -515,6 +515,9 @@ Broad labels for SEO adapted to AI search, or for SEO done with AI tools. The ph
 **AIO**
 Used two ways. Some agencies mean AI optimization, an umbrella for all AI visibility work; others mean AI Overviews optimization, earning citations in Google's AI Overviews specifically. When someone sells AIO, the first question is which one.
 
+**ASO (agentic search optimization)**
+Optimizing to be found, evaluated, and acted on by AI agents that research, shortlist, and transact on a person's behalf, not only to be cited in an answer. The agent is the visitor: it compares options, checks prices and terms, and completes steps, so the site has to hold up to a reader that never sees the design. The label collides with App Store Optimization, which has used the same three letters for years, so expect confusion until one usage wins.
+
 **AVO (AI visibility optimization)**
 Another umbrella label for improving how often and how accurately AI answers mention a brand. Functionally the same work as GEO and AEO.
 
@@ -555,6 +558,9 @@ These terms describe how AI search actually works. They are worth learning, beca
 **Agentic browser**
 A browser with an AI agent built in that can carry out multi-step tasks for its user. OpenAI's ChatGPT Atlas and Perplexity's Comet are examples. They read pages through the same structure screen readers use, which is why semantic HTML matters to them.
 
+**Agentic commerce protocols**
+The plumbing that lets AI agents transact: presenting products, taking payment, and completing a checkout inside the conversation. Three open protocols divide the work. ACP (Agentic Commerce Protocol), from OpenAI and Stripe, connects an agent to a merchant's existing commerce systems and sits under instant checkout in ChatGPT. AP2 (Agent Payments Protocol), from Google, covers the payment itself, including proof that the buyer authorized the agent to spend. UCP (Universal Commerce Protocol) is an open standard for the whole transaction between agents, storefronts, and payment providers.
+
 **Agentic RAG**
 Retrieval run by an AI agent that decides for itself when to search again, which tools to use, and when it has enough to answer. Deep research features in the major assistants work this way.
 
@@ -564,6 +570,9 @@ A bot that fetches web pages for an AI company, either to train models or to ans
 **AI Overviews and AI Mode**
 Google's two generative search surfaces. AI Overviews is the summary at the top of some results pages, the successor to the Search Generative Experience test; AI Mode is the separate conversational search that uses query fan-out. Google says there are no extra requirements to appear in either beyond ordinary SEO, and their traffic is counted in Search Console's regular Performance report under the Web search type.
 
+**AIPREF**
+An IETF effort to standardize how publishers declare what AI systems may do with their content, separating training use from search and answer use. The preferences are expressed through robots.txt and related signals, so one statement covers the whole site instead of page-by-page negotiation. This site's robots.txt already carries AIPREF lines.
+
 **Answer engine**
 Any system that replies to a question with a written answer instead of a list of links: ChatGPT, Perplexity, Gemini, Copilot, Claude, and Google's AI Mode among them.
 
@@ -572,6 +581,9 @@ Splitting a long document into shorter passages so a retrieval system can index 
 
 **ClaudeBot, Claude-SearchBot, Claude-User, and Claude-Agent**
 Anthropic's four user agents. ClaudeBot collects content that may be used for training, Claude-SearchBot improves Claude's search results, Claude-User fetches a page when a person's question needs it, and Claude-Agent identifies the browsers Anthropic hosts for Claude to complete tasks for users. Each can be allowed or blocked separately in robots.txt.
+
+**Crawler economics**
+The emerging economics of AI crawling: what a site gives up, and what it gets back, when AI bots fetch its pages. Its parts now have names. Pay-per-crawl arrangements charge AI companies for access that used to be free. The crawl-to-referral ratio counts how much crawling a site absorbs for each visit a crawler sends back. RSL (Really Simple Licensing) is a machine-readable license a publisher attaches to content to state the terms of AI use. Cloudflare's Content Signals Policy is a robots.txt extension for declaring whether content may be used for search, for AI answers, and for training. Web Bot Auth lets an agent sign its requests cryptographically, so a site can verify which agent is actually asking.
 
 **Embedding (vector embedding)**
 A list of numbers that represents the meaning of a passage, so a system can find passages close in meaning to a question even when the words differ. Talk of measuring a brand's semantic distance from a prompt describes this math. No website owner can see or set those numbers directly.
@@ -637,6 +649,9 @@ What a page adds that other pages on the topic do not: original data, first-hand
 **Knowledge graph**
 A database of entities and the relationships between them. Google's Knowledge Graph feeds its knowledge panels, and AI systems build similar structures. Knowledge graph alignment means your schema, profiles, and listings all agree.
 
+**LLM seeding**
+Deliberately placing a brand's facts and presence in the sources models already trust and retrieve: reference works, community forums, review sites, and best-of lists. Answers are synthesized from a consensus of sources, so the work is getting the brand into that consensus, accurately and in the right company, instead of only publishing on its own site.
+
 **Prompt-to-publish loop**
 Researching the questions buyers put to AI assistants and publishing pages that answer them. This is keyword research with longer queries, and it works best when each answer lives on one page instead of many near-duplicates.
 
@@ -650,8 +665,17 @@ The share of answers, across a fixed set of questions, that link to or footnote 
 **AI Performance (Bing Webmaster Tools)**
 A report Microsoft introduced in public preview on February 10, 2026. It shows how often a site is cited as a source in Microsoft Copilot and in AI-generated summaries in Bing: total citations, the average number of cited pages, per-URL citation counts, and sampled grounding queries. See how to read Bing’s AI Performance report (/guides/bing-ai-performance-report/).
 
+**Citation gap**
+The questions, and the sources credited on them, where competitors are cited and your business is absent. Mapped out, the gap is the working plan for closing the distance: which questions are worth answering, and which sources are worth being present in.
+
+**Citation share**
+A site's share of all citations for a given grounding query or set of questions: your citations divided by the citations credited to every site for that query. Bing Webmaster Tools' AI Performance report presents citation share in this form. It measures a share of the evidence an answer was built from, which is related to, but not the same as, ranking.
+
 **Cross-model visibility**
 How consistently a brand appears across different AI systems, such as ChatGPT, Claude, Gemini, Perplexity, and Copilot. Engines draw on different sources, so a brand can be named by one and missing from another.
+
+**Ghost citations**
+Citations to a page that never name the brand in the answer text: the source is credited in the footnotes, and the brand itself stays invisible to the reader. The mirror case is a mention with no citation behind it, where the engine names the brand but credits nothing. Both are counted apart from ordinary citations and mentions, because each is visibility that did not fully land.
 
 **Hallucination rate**
 How often AI answers state something false about a business: wrong prices, closed locations, invented services. Every wrong fact has a source or a gap behind it, and tracing that source is the start of the fix.
@@ -661,6 +685,9 @@ How often an AI answer names a brand, with or without a link. Mentions and citat
 
 **Prompt monitoring, prompt panels, and prompt volume**
 Tools that run a fixed set of questions through AI assistants on a schedule and record the answers. A prompt panel is that question set; prompt volume is an estimate of how often people ask something similar. Volume figures are modeled estimates, since no AI company publishes query counts the way search engines publish keyword data.
+
+**Recommendation rate and shortlist inclusion**
+How often an answer engine not only mentions a business but recommends it, or includes it in the shortlist of candidates it puts forward. A mention says the engine knows the business exists; a recommendation spends the engine's credibility on it. The rate is tracked separately from mention rate because the two move separately.
 
 **Share of model and share of answer**
 The AI version of share of voice: how often an assistant names your brand compared with competitors across a set of prompts. Because answers vary from run to run, a single check proves little; repeated, dated runs show the trend.
