@@ -62,6 +62,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many questions should I test to measure AI visibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the questions that precede revenue, phrased the way buyers phrase them. Gerris runs 24 in the AI Visibility Audit, spanning branded, category, comparison, problem, and location intent. The set must be small enough to run identically every month and large enough to cover the ways buyers actually ask."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI engines should I measure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The engines your buyers use. The standard working set is ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Claude, Gemini, and Copilot, with Claude Code and Codex added for businesses whose buyers work through coding agents. Fix the set in writing at the start; comparability across months depends on it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should AI visibility be measured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly. AI answers drift as competitors publish, directories change, and engines rebuild their indexes, so a single check is a snapshot and a monthly series is a measurement. Gerris sells the monthly cadence as AI Presence, Measured, at $500 a month, with the fixed question set run and reported the same way each time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I measure AI search visibility myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with discipline. Fix a set of buyer questions, run them on the same engines under the same conditions, save the full answers and cited sources, and score mentions, recommendations, and citations as separate events. The failure mode is casual sampling: a few screenshots, no denominators, and definitions that change between checks."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -91,38 +131,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <article class="page">
       <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; How do you measure AI search visibility?</p>
 <h1>How do you measure AI search visibility?</h1>
-<p><strong>AI search visibility is not one number. A business can be mentioned without being recommended, cited without being praised, or visited without a referrer. Useful measurement separates those events and records exactly how the observations were collected.</strong></p>
-<p>Published November 25, 2026. Written by <a href="/about/">Chris Abraham</a>, Gerris.</p>
-<h2>What should the measurement unit be?</h2>
-<p>Use a defined prompt-and-engine observation: the exact question, engine, date, region, search mode, response, and any cited sources. A prompt portfolio should represent real buying situations rather than hundreds of artificial variations of the brand name. Record the inclusion criteria before measuring.</p>
+      <p><strong>AI search visibility is not one number. A business can be mentioned without being recommended, cited without being named, and visited without a referrer. Useful measurement separates those events, defines them before the first test, and records exactly how every observation was collected.</strong></p>
 
-<h2>What is mention rate?</h2>
-<p>Mention rate equals observations containing the target business divided by eligible observations, multiplied by 100. For example, 12 mentions in 40 observations is 30 percent. Keep the denominator visible, and separate branded questions from unbranded discovery questions. A brand mention in a question that already names the brand is not evidence of competitive discovery.</p>
+      <h2>What should the measurement unit be?</h2>
+      <p>The unit is a single documented observation: the exact question, the engine, the model or product surface where it is shown, whether search was on, the date, the region, the full response, and every source the answer cited. A prompt portfolio represents real buying situations, the questions that precede a call or a purchase, rather than hundreds of artificial variations of the brand name. Write the inclusion criteria down before measuring. A portfolio chosen after the results are in measures the chooser's hopes, and the record will show it.</p>
 
-<h2>What is recommendation rate?</h2>
-<p>A recommendation is an answer that presents the business as a viable choice for the buyer's request. A neutral passing mention is different. Define the coding rule before scoring, document ambiguous cases, and preserve response excerpts for audit. You may also track whether the business is first, one of several, or explicitly ruled out.</p>
+      <h2>Which engines belong in the set?</h2>
+      <p>Measure where your buyers ask. The working set for most businesses is ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Claude, Gemini, and Copilot, and the coding agents, Claude Code and Codex, belong in the set for businesses whose buyers work through them. The Gerris audit covers four engines: ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude. The monthly AI Presence measurement covers the wider set. What matters is that the set is fixed in writing at the start, because an engine added in month three makes the first two months incomparable.</p>
 
-<h2>How do citations differ from mentions?</h2>
-<p>A citation is a source reference or link used by an AI answer. It may point to your site, a directory, or a competitor. Count the cited domain and exact URL separately from whether the company is named in the prose. A citation does not prove that the answer endorsed the cited business, nor does a mention prove that the company's own site was retrieved.</p>
+      <h2>What is mention rate?</h2>
+      <p>Mention rate equals observations containing the target business divided by eligible observations, multiplied by 100. Twelve mentions in 40 observations is 30 percent. Keep the denominator visible in every report. Separate branded questions from unbranded discovery questions and never blend the two into one rate: a mention in an answer to a question that already names your brand is evidence of nothing except that the engine can read. Discovery is measured on the questions where the buyer did not hand the engine your name.</p>
 
-<h2>How do you calculate competitive share?</h2>
-<p>For a fixed set of unbranded commercial prompts, count how often each eligible competitor is recommended. Because an answer may recommend several businesses, recommendation shares need not sum to 100 percent. State whether the metric is percentage of prompts, percentage of all recommendation slots, or percentage of named companies. Never silently switch definitions between reports.</p>
+      <h2>What is recommendation rate?</h2>
+      <p>A recommendation is an answer that presents the business as a viable choice for the buyer's request. A neutral passing mention is a different event, and a mention inside a warning is a third. Define the coding rule before scoring, write down how ambiguous cases were coded, and preserve the response excerpts so another reader can audit the scores. Track position inside the recommendation as well: named first, named among several, or explicitly ruled out. The ruled-out cases are the most valuable observations in the file, because the answer usually states the reason, and the reason is usually a fact you can fix.</p>
 
-<h2>How many tests are enough?</h2>
-<p>There is no universal minimum. Start with a manageable set of high-value buyer questions, stratified by intent, geography, and service. Repeat samples to estimate variability and retain the raw outputs. Treat small changes cautiously, especially when the underlying prompts or product versions change. More prompts do not repair a biased sample.</p>
+      <h2>How do citations differ from mentions?</h2>
+      <p>A citation is a source the answer used, shown as a reference or a link. It may point to your site, a directory, a review profile, or a competitor. Count cited domains and exact URLs separately from whether the company is named in the prose. A citation does not prove the answer endorsed the cited business, and a mention does not prove the engine retrieved your site at all; it may be repeating your listing from a directory. The distinction decides the repair. A business that is mentioned but never cited has a corroboration record and a weak website. A business that is cited but never recommended has pages the engine trusts and a record it cannot settle into a recommendation.</p>
 
-<h2>Can analytics show AI-driven conversions?</h2>
-<p>Review referral sources and landing pages in analytics, but recognize that some AI-driven visits arrive without identifiable referral information. Use tagged links only where you control the links, collect optional self-reported discovery sources, and compare inquiry quality over time. Do not label every direct visit as AI traffic.</p>
+      <h2>How do you calculate competitive share?</h2>
+      <p>For a fixed set of unbranded commercial prompts, count how often each eligible competitor is recommended. An answer may recommend several businesses, so recommendation shares need not sum to 100 percent. State the definition in the report: percentage of prompts, percentage of all recommendation slots, or percentage of named companies. Never switch definitions between reports. A share that rises because the definition changed is a fabrication, and it will be found out the first month the numbers are checked against the saved responses.</p>
 
-<h2>What belongs in a monthly report?</h2>
-<p>Include the fixed prompt portfolio, methodology changes, mentions, recommendations, citations by domain, competitors, errors in business facts, landing-page visits where measurable, and actions completed. Show counts alongside percentages and provide the source observations. Separate measured results from hypotheses about why they changed.</p>
+      <h2>How many tests are enough?</h2>
+      <p>Enough is a set you can run identically every month and defend line by line. Gerris runs 24 buyer questions in the audit, stratified by intent, geography, and service, and repeats samples because a single run of an AI answer is one draw from a distribution. Retain the raw outputs. Treat small movements cautiously, especially when the underlying prompts or product versions changed between runs. More prompts do not repair a biased sample; forty questions asked the wrong way are worth less than twenty-four asked the buyer's way.</p>
 
-<h2>What is a defensible success criterion?</h2>
-<p>Agree on business outcomes and intermediate signals before implementation: fewer factual errors, more qualified unbranded recommendations, more relevant citations, and better leads where attribution permits. A rise in mention rate is useful evidence, but it is not proof of incremental revenue or causation.</p>
-<h2>What should you do next?</h2>
-<p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
-<p><strong>Read next:</strong> <a href="/guides/technical-seo-for-ai-search/">How do you make a website easier for AI search to understand?</a>.</p>
-</article>
+      <h2>Can analytics show AI-driven conversions?</h2>
+      <p>Partly, and the honest report says which part. Some AI products pass referrer information and some visits arrive labeled; others arrive as direct traffic with no source attached. Review referral sources and landing pages, use tagged links where you control the links, and ask new customers how they found you, in a field somebody actually reads. Compare inquiry quality over time. Labeling every direct visit as AI traffic manufactures a channel out of ignorance, and decisions made on manufactured channels are manufactured decisions.</p>
+
+      <h2>What belongs in a monthly report?</h2>
+      <p>The fixed prompt portfolio, any methodology change flagged at the top, mentions, recommendations, citations by domain, competitor movements, errors in business facts, landing-page visits where measurable, and the actions completed since the last report. Show counts alongside percentages and attach the source observations. Separate measured results from explanations of why they changed; the explanation is a hypothesis until a retest supports it. The report's job is to let a reader who was not in the room verify every number in it.</p>
+
+      <h2>What is a defensible success criterion?</h2>
+      <p>Agree on it before implementation begins: fewer factual errors in the answers, more unbranded recommendations on the questions that precede revenue, more citations of the pages that carry your facts, and better inquiries where attribution permits. A rise in mention rate is a signal. It becomes evidence when it holds across repeated runs, on the fixed portfolio, under the documented conditions. Measurement exists to keep the work honest, and it starts by being honest about itself.</p>
+
+      <h2>What should you do next?</h2>
+      <p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details><summary>How many questions should I test to measure AI visibility?</summary><p>Start with the questions that precede revenue, phrased the way buyers phrase them. Gerris runs 24 in the AI Visibility Audit, spanning branded, category, comparison, problem, and location intent. The set must be small enough to run identically every month and large enough to cover the ways buyers actually ask.</p></details>
+        <details><summary>Which AI engines should I measure?</summary><p>The engines your buyers use. The standard working set is ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Claude, Gemini, and Copilot, with Claude Code and Codex added for businesses whose buyers work through coding agents. Fix the set in writing at the start; comparability across months depends on it.</p></details>
+        <details><summary>How often should AI visibility be measured?</summary><p>Monthly. AI answers drift as competitors publish, directories change, and engines rebuild their indexes, so a single check is a snapshot and a monthly series is a measurement. Gerris sells the monthly cadence as AI Presence, Measured, at $500 a month, with the fixed question set run and reported the same way each time.</p></details>
+        <details><summary>Can I measure AI search visibility myself?</summary><p>Yes, with discipline. Fix a set of buyer questions, run them on the same engines under the same conditions, save the full answers and cited sources, and score mentions, recommendations, and citations as separate events. The failure mode is casual sampling: a few screenshots, no denominators, and definitions that change between checks.</p></details>
+      </div>
+
+      <p><strong>Read next:</strong> <a href="/guides/why-chatgpt-doesnt-recommend-your-business/">Why doesn't ChatGPT recommend my business?</a> and <a href="/guides/technical-seo-for-ai-search/">How do you make a website easier for AI search to understand?</a></p>
+    </article>
   </div>
   <div class="cta-band">
     <div class="wrap">

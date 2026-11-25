@@ -62,6 +62,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the first technical check I should run?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fetch your money pages the way a crawler does. Confirm each returns 200, then read the initial HTML and verify the services, prices, and answers are present as text. Most AI visibility failures are visible in that single test: the page a human sees and the page the machines read are different documents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a JavaScript-heavy website appear in AI answers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, when the rendered content reaches the crawlers and indexers the AI products draw on. The risk is variance: some systems read the initial HTML, some render, and some fetch through third-party indexes. The defense is to serve the essential facts in the initial HTML and treat JavaScript as enhancement, not as the only copy of the record."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does llms.txt improve AI search visibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It states your record in the form language models read most cheaply, and AI crawlers demonstrably fetch it. No engine has promised a citation in exchange for having one, and Gerris does not sell it as a ranking lever. It is one file in the machine layer, kept true alongside robots.txt, the sitemap, and the schema."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast does my site need to be for AI search?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fast enough that crawlers finish the job. Pages that time out, fail under crawl load, or take many seconds to return HTML get crawled less often and fetched less reliably, and a fetch that fails during answer assembly is a citation that goes to a competitor. Speed is not a ranking trick here; it is whether the evidence arrives at all."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -91,38 +131,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <article class="page">
       <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; How do you make a website easier for AI search to understand?</p>
 <h1>How do you make a website easier for AI search to understand?</h1>
-<p><strong>AI visibility begins with accessible evidence. There is no universal technical switch that makes an assistant cite a page, but ordinary web engineering determines whether search and retrieval systems can fetch, parse, and interpret its claims.</strong></p>
-<p>Published November 25, 2026. Written by <a href="/about/">Chris Abraham</a>, Gerris.</p>
-<h2>Can crawlers fetch the page?</h2>
-<p>Check status codes with a direct HTTP request. Important pages should normally return 200, not a soft 404, authentication wall, or redirect loop. Review robots.txt for the crawlers relevant to your goals. Search crawlers, AI search bots, and model-training bots are not interchangeable; permissions should reflect a deliberate policy rather than indiscriminate blocking or opening.</p>
+      <p><strong>AI visibility begins with accessible evidence. Ordinary web engineering decides whether search and retrieval systems can fetch your pages, parse them, and trust what they say. There is no separate AI switch on a server; there is the same crawl, index, and rendering pipeline there has always been, read by more systems.</strong></p>
 
-<h2>Is the correct URL canonical and indexable?</h2>
-<p>Choose one canonical URL for each substantive page. Inspect rel=canonical, meta robots, HTTP X-Robots-Tag, redirects, and XML sitemaps for conflicts. A canonical is a signal, not an instruction that every search system must obey. Remove obsolete sitemap URLs and map redirects directly to final destinations.</p>
+      <h2>Can crawlers fetch the page?</h2>
+      <p>Check status codes with a direct HTTP request, the way a crawler experiences them. A money page should return 200. The failures that recur in audits: a soft 404, a page that says "not found" while returning success; an authentication wall left from staging; a redirect loop between the www and bare domain; and a server that times out under crawl load. Then read robots.txt as a policy document. Search crawlers, AI search bots, user-triggered fetchers, and model-training bots do different jobs, and the permissions should state a deliberate decision for each, as the <a href="/guides/which-ai-crawlers-should-you-allow/">crawler guide</a> sets out agent by agent. Most blocked businesses were blocked by a plugin default nobody chose.</p>
 
-<h2>Does the essential content exist in the HTML?</h2>
-<p>Use server-rendered or static HTML for core service descriptions, prices, locations, and answers whenever practical. If a JavaScript application is necessary, test rendered output and initial HTML separately. Do not hide your only explanation inside an image, accordion that never renders, or an API call blocked to crawlers.</p>
+      <h2>Is the correct URL canonical and indexable?</h2>
+      <p>Choose one canonical URL for each substantive page and make every signal agree with the choice: the rel=canonical tag, the meta robots directives, the X-Robots-Tag header, the redirect map, and the XML sitemap. Conflicts are the common disease. The sitemap lists the old URL, the canonical points to the new one, and a redirect sends both to a third. Search systems resolve conflicts by picking a winner, and the winner is not always the page you meant. Remove obsolete URLs from the sitemap, map every redirect directly to its final destination in one hop, and check the index state of your money pages in Search Console, where the exclusions are named in plain language, as the <a href="/guides/why-is-my-website-not-indexed/">indexing guide</a> works through state by state.</p>
 
-<h2>Are headings and links descriptive?</h2>
-<p>Give each page a clear H1, specific H2 sections, meaningful anchor text, and links to related service and evidence pages. Avoid hundreds of near-identical city pages or doorway pages. Internal links help discovery and explain relationships, but they do not manufacture authority.</p>
+      <h2>Does the essential content exist in the HTML?</h2>
+      <p>Core service descriptions, prices, locations, and answers belong in server-rendered or static HTML. Test the two documents every JavaScript page actually is: view the initial HTML response, then view the rendered page, and compare them. If the prices, the service area, and the answers exist only in the second document, every system that reads the first one, and several AI retrieval systems do, reads a page with furniture and no facts. Accordions that never render for crawlers, content loaded by an API call the crawler cannot make, and text baked into images all produce the same result: a page that looks complete to its owner and reads empty to the machines.</p>
 
-<h2>What does structured data actually do?</h2>
-<p>Use supported schema.org types to describe facts visible on the page: Organization, Person, Service, Article, BreadcrumbList, and relevant local types. Give stable entity identifiers where appropriate. Validate syntax and factual alignment. Search features have their own eligibility rules, and adding FAQPage or sameAs markup does not guarantee rich results, AI citations, or knowledge-panel changes.</p>
+      <h2>Are headings and links descriptive?</h2>
+      <p>Give each page one clear H1 that states its subject, H2 sections in the form of the questions and claims the page settles, and anchor text that says what the linked page is. Internal links are how crawlers discover the site and how retrieval systems learn which pages the site itself considers the authorities on a subject. Link the guide to the service it explains and the service to the guide that proves it. The opposite practice, hundreds of near-identical city pages with the place name swapped, manufactures thin duplicates that compete with each other and settle nothing.</p>
 
-<h2>Does llms.txt matter?</h2>
-<p>An llms.txt file can provide a convenient human-readable map of important content for systems that choose to use it. It is not a universal standard that every major assistant honors, and it does not replace robots.txt, sitemaps, accessible HTML, or evidence. Treat it as optional documentation rather than a ranking lever.</p>
+      <h2>What does structured data actually do?</h2>
+      <p>Schema states a page's facts as labeled data so a machine does not have to infer them from prose. The working set for AI search is Organization and LocalBusiness for the entity, Service for what is sold, Product and Offer for prices, FAQPage for buyer questions, Article for authored work, Person for the people, and BreadcrumbList for the site's structure. Give entities stable @id values, keep every value in the markup findable in the visible text, and validate with Google's Rich Results Test and the Schema Markup Validator after every change. The full treatment, including where schema stops working, is the <a href="/guides/schema-markup-for-ai-search/">schema guide</a>.</p>
 
-<h2>How should images, PDFs, and videos be handled?</h2>
-<p>Provide useful alternative text for informative images, searchable text around media, accurate captions and transcripts when appropriate, and accessible document structure. A transcript lets readers and text retrieval systems inspect the claims without interpreting audio. Avoid keyword-stuffed alt text and fabricated transcripts.</p>
+      <h2>Which AI crawlers get which permissions?</h2>
+      <p>Decide by job, not by company name. The search crawlers build the indexes answers are retrieved from; the fetchers retrieve a page at the moment a user asks; the training crawlers collect for future models. Blocking a company's training bot leaves your search visibility intact. Blocking its search bot removes you from its answers. One further fact belongs in every policy discussion: Google offers no separate switch for AI Overviews, which are built from the ordinary search index by the ordinary crawler. The choice is to be in the index or out of it, stated once and made deliberately.</p>
 
-<h2>What technical checks belong in an audit?</h2>
-<p>Crawl a representative set of URLs, compare indexable and canonical counts, test templates on mobile, inspect HTTP headers, verify schema, review sitemaps and redirects, and sample content from the HTML response. For each issue record affected URLs, evidence, business impact, recommended fix, and validation steps.</p>
+      <h2>Does llms.txt matter?</h2>
+      <p>llms.txt is a plain-text statement at the root of the site: the business's name, what it sells, where it works, and the pages that matter, in the business's own words, in a form a language model reads in one pass. Server logs show AI crawlers and agents fetching it, early in a visit. Gerris publishes one for this site and builds one into every site it delivers, for the reason the <a href="/guides/what-is-llms-txt/">llms.txt guide</a> gives in full: the summary of your business gets written whether you take part or not, and this file is the one place you state it yourself. It does not replace robots.txt, the sitemap, accessible HTML, or evidence, and it is maintained like them, from the same set of facts.</p>
 
-<h2>What should happen after repairs?</h2>
-<p>Deploy carefully, test representative pages, monitor crawl and index reports, and re-run the same buyer-question set. Technical accessibility is necessary for many retrieval paths but not sufficient for recommendation. Strong, relevant content and independent corroboration still matter.</p>
-<h2>What should you do next?</h2>
-<p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
-<p><strong>Read next:</strong> <a href="/guides/how-to-write-content-for-ai-citations/">How do you write content AI search engines can cite?</a>.</p>
-</article>
+      <h2>How should images, PDFs, and videos be handled?</h2>
+      <p>Give informative images alt text that states what the image shows. Put searchable text around media rather than inside it. Publish transcripts for audio and video whose claims matter, and build PDFs with a real text layer and a document structure. A transcript lets readers and retrieval systems inspect the claims without interpreting audio. Keyword-stuffed alt text and fabricated transcripts are false statements in accessible form, and they are read as false statements.</p>
+
+      <h2>What technical checks belong in an audit?</h2>
+      <p>Crawl the site and compare the crawled, canonical, and indexed counts. Test each template on mobile and as raw HTML. Inspect HTTP headers and redirect chains. Verify schema against the visible text. Review sitemaps for dead and superseded URLs. For every issue found, the audit records the affected URLs, the evidence, the business impact, the recommended fix, and the validation step that will prove the fix. A finding without a validation step is an opinion, and the deliverable standard is set out in the <a href="/guides/aeo-geo-audit-checklist/">audit checklist</a>.</p>
+
+      <h2>What should happen after repairs?</h2>
+      <p>Deploy carefully, retest the representative pages at the same URLs, watch the crawl and index reports until the repaired states replace the broken ones, and re-run the same buyer-question set that produced the baseline. Technical accessibility opens the door. The recommendation itself is earned by the content behind the door and the independent sources that corroborate it, which is why the technical repair and the record repair are one engagement, not two.</p>
+
+      <h2>What should you do next?</h2>
+      <p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details><summary>What is the first technical check I should run?</summary><p>Fetch your money pages the way a crawler does. Confirm each returns 200, then read the initial HTML and verify the services, prices, and answers are present as text. Most AI visibility failures are visible in that single test: the page a human sees and the page the machines read are different documents.</p></details>
+        <details><summary>Can a JavaScript-heavy website appear in AI answers?</summary><p>Yes, when the rendered content reaches the crawlers and indexers the AI products draw on. The risk is variance: some systems read the initial HTML, some render, and some fetch through third-party indexes. The defense is to serve the essential facts in the initial HTML and treat JavaScript as enhancement, not as the only copy of the record.</p></details>
+        <details><summary>Does llms.txt improve AI search visibility?</summary><p>It states your record in the form language models read most cheaply, and AI crawlers demonstrably fetch it. No engine has promised a citation in exchange for having one, and Gerris does not sell it as a ranking lever. It is one file in the machine layer, kept true alongside robots.txt, the sitemap, and the schema.</p></details>
+        <details><summary>How fast does my site need to be for AI search?</summary><p>Fast enough that crawlers finish the job. Pages that time out, fail under crawl load, or take many seconds to return HTML get crawled less often and fetched less reliably, and a fetch that fails during answer assembly is a citation that goes to a competitor. Speed is not a ranking trick here; it is whether the evidence arrives at all.</p></details>
+      </div>
+
+      <p><strong>Read next:</strong> <a href="/guides/how-to-write-content-for-ai-citations/">How do you write content AI search engines can cite?</a> and <a href="/guides/which-ai-crawlers-should-you-allow/">Which AI crawlers should your robots.txt allow?</a></p>
+    </article>
   </div>
   <div class="cta-band">
     <div class="wrap">

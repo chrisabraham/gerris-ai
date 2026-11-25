@@ -62,6 +62,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does ChatGPT recommend my competitor instead of me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because the competitor's record is easier for the engine to retrieve, resolve, and corroborate. The answer is assembled from the sources the engine can reach, and it names the businesses whose category, place, and evidence line up with the question asked. A diagnostic finds which stage drops your business: reach, match, or proof."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my business being penalized by ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no penalty regime for AI answers. Omissions trace to mechanics: pages the crawler cannot reach, a category the site never states in buyer language, listings that contradict the website, or a name shared with another business. Each cause is findable in the record and fixable in the record."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does ranking first on Google mean ChatGPT will recommend me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Rankings feed retrieval for some AI products, but the answer is composed from the whole record, including profiles, reviews, and third-party sources. Businesses on page one of Google are absent from AI answers every day, and businesses with modest rankings are named because their facts are consistent and quotable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to find out why ChatGPT skips my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Gerris AI Visibility Audit is $750 flat. It runs 24 buyer questions across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude, checks the answers against your homepage and up to five money pages, and delivers a written report in five business days with every fix in priority order."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -91,35 +131,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <article class="page">
       <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; Why doesn't ChatGPT recommend my business?</p>
 <h1>Why doesn't ChatGPT recommend my business?</h1>
-<p><strong>ChatGPT can recommend competitors while omitting a perfectly legitimate business. The omission is not proof of a penalty. The answer depends on the question, the model, whether web search is used, the sources retrieved, and the evidence available about each candidate.</strong></p>
-<p>Published November 25, 2026. Written by <a href="/about/">Chris Abraham</a>, Gerris.</p>
-<h2>Is ChatGPT searching the web or answering from its model?</h2>
-<p>Start by establishing the mode. A response based on a model's existing knowledge is not the same test as a response that searches current web pages. Record the product, model if visible, whether search was enabled, date, location context, and the exact wording of the prompt. A result without those details cannot be reproduced reliably.</p>
+      <p><strong>ChatGPT names competitors and leaves legitimate businesses out, and the omission is rarely a penalty. The answer is assembled from the question asked, the sources the engine can reach, and the evidence on record about each candidate. A business missing from the answer is usually missing at one of those three stages, and each stage has its own repair.</strong></p>
 
-<h2>Does your business actually match the buyer's question?</h2>
-<p>A query for an emergency plumber, a nationwide enterprise consultant, and a cheap local installer describes three different buying situations. Verify service category, geographic coverage, price tier, credentials, availability claims, and the exact customer problem. A company can be well indexed but a poor fit for the prompt. Do not call every omission an optimization failure.</p>
+      <h2>Is ChatGPT searching the web or answering from its model?</h2>
+      <p>Start by establishing the mode, because the two modes fail differently. An answer composed from the model's trained knowledge repeats the record as of the training data: old addresses, retired services, a competitor's position from two years ago. An answer that searches retrieves live pages and builds from what it finds today. Record the product, the model if it is shown, whether search was on, the date, the location context, and the exact wording of the prompt. Run the same question both ways. If your business appears with search on and vanishes with it off, your live record is sound and your problem is the older record the model learned. If it vanishes both ways, the problem is in the live record, and the live record is the one you can fix.</p>
 
-<h2>Can a search system discover your strongest pages?</h2>
-<p>Check whether the homepage and relevant service pages return successful HTTP responses, are linked internally, and can be indexed where appropriate. Inspect robots directives, canonical tags, redirects, accidental noindex rules, and content rendered only after client-side JavaScript. Test the page as fetched HTML, not merely as it looks in your browser. Some AI products use third-party search indexes, so there is no single universal AI crawl test.</p>
+      <h2>Does your business actually match the buyer's question?</h2>
+      <p>A query for an emergency plumber in Arlington, a nationwide enterprise consultant, and the cheapest local installer describes three different buying situations, and the answer is built for the situation in the question. Check your record against the question's terms: service category, geographic coverage, price tier, credentials, availability, and the exact problem the buyer named. A company can be well indexed and still a poor fit for the prompt, because its pages never state, in the buyer's words, the thing the buyer asked for. The engine recommends the businesses whose stated record matches the stated need. If your category lives only in your logo, your service area only in your head, and your prices nowhere at all, the match fails before evidence is even weighed.</p>
 
-<h2>Do independent sources corroborate your claims?</h2>
-<p>Your website can claim to be the best; that is not independent evidence. Look for accurate industry directories, customer reviews, relevant professional associations, trustworthy coverage, case studies, and verifiable certifications. Correct stale listings before creating new ones. Avoid manufactured citations, fake reviews, and paid placements disguised as editorial endorsement.</p>
+      <h2>Can the engine reach and read your strongest pages?</h2>
+      <p>Check whether the homepage and the relevant service pages return successful HTTP responses, are linked from the rest of the site, and are open to indexing. Inspect robots directives, canonical tags, redirect chains, accidental noindex rules left over from a redesign, and content that exists only after client-side JavaScript runs. Test the page as fetched HTML, not as it looks in your browser: the two are often different documents. Then check the crawler permissions themselves. AI products draw on different indexes and different bots, and a robots.txt rule or a firewall default that blocks the wrong crawler removes the business from that engine's reach entirely, as the <a href="/guides/which-ai-crawlers-should-you-allow/">crawler guide</a> sets out agent by agent.</p>
 
-<h2>Is the entity itself ambiguous?</h2>
-<p>If several businesses share your name, an AI answer may merge facts or select the wrong one. Make the legal and trading names, service area, leadership, contact details, and official URLs consistent. Organization and LocalBusiness structured data can describe those relationships, but markup is not a guarantee of recommendation. Confirm that any sameAs URL really represents the same entity.</p>
+      <h2>What does the engine find when it checks your claims?</h2>
+      <p>Your website's claims are your testimony. The engine then looks for witnesses. It weighs accurate directory listings, customer reviews, professional associations, trade coverage, case studies, and verifiable certifications, and it trusts the facts that independent sources repeat. A business whose website says one thing and whose listings say three others presents a record the engine cannot settle, and unsettled records lose to settled ones. Correct stale listings before creating new ones. The <a href="/guides/how-do-reviews-affect-ai-answers/">reviews guide</a> covers the loudest witness, and the <a href="/guides/how-to-fix-wrong-information-in-ai-answers/">correction guide</a> covers what to do when the witnesses are repeating a fact that stopped being true. Manufactured citations, bought reviews, and paid placements dressed as editorial endorsement are not witnesses; they are liabilities the same systems learn to discount.</p>
 
-<h2>How should you run a fair diagnostic?</h2>
-<p>Build 20 to 30 questions spanning branded, category, comparison, problem, and location intent. Include both favorable and unfavorable contexts, plus competitor-neutral questions. Run each under documented conditions, repeat samples because outputs vary, save full responses and cited URLs, and distinguish a mention from a recommendation or an actual source citation. A single screenshot is not a baseline.</p>
+      <h2>Is the entity itself ambiguous?</h2>
+      <p>If several businesses share your name, an answer may merge their facts or select the wrong one, and the merged record recommends nobody cleanly. Two firms with the same name in different cities get each other's reviews, each other's service areas, each other's prices. Make the legal and trading names, the service area, the leadership, the contact details, and the official URLs consistent everywhere the business is described. Organization and LocalBusiness structured data state those relationships in machine-readable form, and sameAs links belong only on URLs that identify the same entity, as the <a href="/guides/entity-seo-for-ai-search/">entity SEO guide</a> details. Ambiguity is a defect in the record, and it is repaired in the record.</p>
 
-<h2>What should you fix first?</h2>
-<p>Prioritize wrong business facts, inaccessible high-value pages, missing category explanations, and contradictory profiles. Then add original proof such as named case studies, transparent service scope, and verifiable qualifications. Recheck the same prompt set after sources are updated. The goal is accurate eligibility and stronger evidence, not manipulating a hidden ranking formula.</p>
+      <h2>How should you run a fair diagnostic?</h2>
+      <p>Build a set of buyer questions spanning branded, category, comparison, problem, and location intent. Gerris runs 24 in its audit, phrased the way buyers phrase them. Include questions that favor you and questions that do not, plus competitor-neutral questions that name nobody. Run each under documented conditions, repeat the runs because outputs vary, and save the full responses with the cited URLs. Score three different events separately: a mention, a recommendation, and a citation of your own pages. A single screenshot is an anecdote. A documented set of questions, run the same way twice, is a baseline, and the baseline is what every later fix gets measured against, per the <a href="/guides/how-to-measure-ai-search-visibility/">measurement guide</a>.</p>
 
-<h2>Can anyone guarantee ChatGPT placement?</h2>
-<p>No legitimate consultant controls ChatGPT's recommendations. Search behavior and answer composition can change without notice. Be wary of guarantees, secret submission portals, or promises that llms.txt alone will force citations. A useful engagement produces a reproducible baseline, a prioritized repair plan, and documented follow-up tests.</p>
-<h2>What should you do next?</h2>
-<p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
-<p><strong>Read next:</strong> <a href="/guides/how-to-measure-ai-search-visibility/">How do you measure AI search visibility?</a>.</p>
-</article>
+      <h2>What should you fix first?</h2>
+      <p>Work in the order the answer is assembled. Wrong business facts first, because a wrong fact repeated by witnesses outweighs every other improvement. Inaccessible or unindexed money pages second, because a page the engine cannot reach cannot be evidence; the <a href="/guides/why-is-my-website-not-indexed/">indexing guide</a> covers that repair. Missing category and service statements third, in the words buyers search. Contradictory profiles fourth. Then add the original proof only you can publish: named case studies, a transparent statement of scope, and verifiable qualifications. Recheck the same question set after the sources are updated, and record what moved.</p>
+
+      <h2>Can anyone guarantee ChatGPT placement?</h2>
+      <p>No. ChatGPT's answers are composed by OpenAI's systems from sources OpenAI's systems choose, and no consultant sits inside that composition. Anyone selling guaranteed placement, a secret submission portal, or an llms.txt file that forces citations is selling a claim they cannot deliver. A serious engagement delivers three things: a reproducible baseline, a repair plan in priority order, and follow-up tests that show whether the record moved. That is the whole of the honest offer, and it is enough, because the record is the part that was ever yours to control.</p>
+
+      <h2>What should you do next?</h2>
+      <p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details><summary>Why does ChatGPT recommend my competitor instead of me?</summary><p>Because the competitor's record is easier for the engine to retrieve, resolve, and corroborate. The answer is assembled from the sources the engine can reach, and it names the businesses whose category, place, and evidence line up with the question asked. A diagnostic finds which stage drops your business: reach, match, or proof.</p></details>
+        <details><summary>Is my business being penalized by ChatGPT?</summary><p>There is no penalty regime for AI answers. Omissions trace to mechanics: pages the crawler cannot reach, a category the site never states in buyer language, listings that contradict the website, or a name shared with another business. Each cause is findable in the record and fixable in the record.</p></details>
+        <details><summary>Does ranking first on Google mean ChatGPT will recommend me?</summary><p>No. Rankings feed retrieval for some AI products, but the answer is composed from the whole record, including profiles, reviews, and third-party sources. Businesses on page one of Google are absent from AI answers every day, and businesses with modest rankings are named because their facts are consistent and quotable.</p></details>
+        <details><summary>How much does it cost to find out why ChatGPT skips my business?</summary><p>The Gerris AI Visibility Audit is $750 flat. It runs 24 buyer questions across ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Claude, checks the answers against your homepage and up to five money pages, and delivers a written report in five business days with every fix in priority order.</p></details>
+      </div>
+
+      <p><strong>Read next:</strong> <a href="/guides/how-ai-answers-choose-businesses/">How do AI answers choose which businesses to name?</a> and <a href="/guides/how-to-measure-ai-search-visibility/">How do you measure AI search visibility?</a></p>
+    </article>
   </div>
   <div class="cta-band">
     <div class="wrap">

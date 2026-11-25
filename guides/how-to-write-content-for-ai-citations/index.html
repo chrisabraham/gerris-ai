@@ -62,6 +62,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What kind of content gets cited by AI engines?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pages that answer a real buyer question directly, early, with evidence only the publisher holds: measurements, specifications, documented projects, named expertise. The engine lifts passages that stand alone, so the citable unit is a paragraph that states a claim, its numbers, and its limits without needing the rest of the page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I add an FAQ to every page for AI citations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Add an FAQ where buyers genuinely ask the questions, and write the answers for the buyer. FAQ schema must match the visible page word for word in substance. An FAQ written as a markup trick, hidden or padded with questions nobody asks, adds a second copy of nothing and engines treat it accordingly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do AI engines cite service pages or only articles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both, and the choice is made passage by passage. A service page that states scope, prices, and conditions in plain text is cited for buying questions. An article with original evidence is cited for explanatory questions. The format matters less than whether the passage settles the question it was retrieved for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long should a page be to get cited?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As long as the question requires. A complete short answer beats a padded long one, and a thorough treatment beats a thin one on a subject with real conditions and exceptions. Length is an outcome of settling the subject, never a target. Engines cite passages, and a passage earns its citation by being complete at the size it is."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -91,41 +131,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <article class="page">
       <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; How do you write content AI search engines can cite?</p>
 <h1>How do you write content AI search engines can cite?</h1>
-<p><strong>A citable page gives a retrieval system something specific and trustworthy to use. It answers a real question, shows where its claims came from, and remains intelligible outside the page's surrounding marketing copy. No writing format guarantees an AI citation.</strong></p>
-<p>Published November 25, 2026. Written by <a href="/about/">Chris Abraham</a>, Gerris.</p>
-<h2>Start with a real buyer question</h2>
-<p>Interview sales staff, review support questions, and examine search-query data. Distinguish informational curiosity from buying decisions. A question such as 'Can this pump tolerate continuous duty?' needs specifications and conditions, not a generic paragraph about innovation.</p>
+      <p><strong>A citable page gives a retrieval system something specific to use: a direct answer to a real question, the evidence under the answer, and text that still makes sense lifted out of the page and set inside somebody else's. Engines cite the pages that cost them the least doubt.</strong></p>
 
-<h2>Answer before you advertise</h2>
-<p>State the answer in the first relevant paragraph. Then explain exceptions, evidence, and tradeoffs. Avoid introductory paragraphs that promise an answer without delivering one. A reader and a retrieval system should be able to identify the core claim without reading the whole page.</p>
+      <h2>Start with a real buyer question</h2>
+      <p>Interview the people who answer your phones, review the questions support actually receives, and read your search-query data. Distinguish informational curiosity from buying decisions, and write for the decisions. A question such as "Can this pump tolerate continuous duty?" needs specifications, conditions, and limits, stated in numbers. It does not need a paragraph about innovation. The questions buyers ask are findable in your own records, in the words buyers used, and those words are the page's headings and its first sentences.</p>
 
-<h2>Publish facts that competitors cannot simply rewrite</h2>
-<p>Original tests, first-hand measurements, documented projects, product specifications, clear methodology, and named expert analysis provide distinctive value. Cite primary documentation for external claims. Do not invent customer outcomes, quotes, statistics, or certifications to make a page appear authoritative.</p>
+      <h2>Answer before you advertise</h2>
+      <p>State the answer in the first paragraph of the section, then give the evidence, the exceptions, and the tradeoffs. Compare the two openings. The weak one: "At Acme, we pride ourselves on a customer-first approach to industrial pumping solutions, leveraging decades of expertise." The citable one: "The Acme D-40 runs continuously at 180 degrees Fahrenheit for 11,000 hours between seal replacements, per the manufacturer's duty rating, tested in our Richmond shop in March 2026." The second paragraph can be lifted into an answer whole. The first can be lifted into nothing. A reader and a retrieval system should both be able to find the core claim without reading the entire page to earn it.</p>
 
-<h2>Use headings as a map of the argument</h2>
-<p>Organize each page around a coherent subject with descriptive headings and concise sections. Include comparisons where they help decisions, but make the criteria explicit. Tables are useful for specifications and tradeoffs; they are not a substitute for explanatory prose or accessible markup.</p>
+      <h2>Publish facts that competitors cannot simply rewrite</h2>
+      <p>Original tests, first-hand measurements, documented projects, product specifications, a stated methodology, and named expert analysis are evidence only you hold. Cite primary documentation for external claims: the standard, the filing, the manufacturer's sheet. Never invent customer outcomes, quotations, statistics, or certifications to make a page look authoritative. Invented evidence is detectable, it is disqualifying when detected, and the honest version, your real numbers with their real limits, is the stronger citation anyway.</p>
 
-<h2>Separate evidence from interpretation</h2>
-<p>Label what was measured, when it was measured, and what conclusion is being drawn. If a test involved five products, do not imply that it establishes a universal ranking. If a claim is based on a vendor document, identify that source. Qualifying uncertainty makes the page more credible, not less.</p>
+      <h2>Use headings as a map of the argument</h2>
+      <p>Organize each page around one coherent subject, with headings in the form of the questions and claims the page settles. Keep sections concise enough that each one stands alone when extracted, because extraction is what citation is. Include comparisons where they help a decision, with the criteria stated in the open. Tables earn their place for specifications and tradeoffs; a table is not a substitute for the prose that explains what the numbers mean, and neither is a substitute for the other.</p>
 
-<h2>Explain who wrote and reviewed the material</h2>
-<p>Identify the responsible author and relevant expertise, especially for technical or consequential advice. Maintain a meaningful update date when content actually changes. An author biography is a transparency feature, not a magic authority score.</p>
+      <h2>Separate evidence from interpretation</h2>
+      <p>Label what was measured, when it was measured, and what conclusion you draw from it, as three different statements. A test of five products establishes a ranking of five products under stated conditions. It does not establish a universal ranking, and the page should not pretend otherwise. A claim drawn from a vendor document names the vendor document. This discipline is what makes a page safe to cite: the engine quoting you can see exactly how far your evidence reaches, and pages whose reach is stated get quoted further than pages whose reach is bluffed.</p>
 
-<h2>Keep content extractable and accessible</h2>
-<p>Put important answers in crawlable text, not only in screenshots or embedded video. Use semantic HTML, descriptive links, alt text for informative images, and captions or transcripts where relevant. Avoid duplicating the same answer across dozens of thin pages.</p>
+      <h2>Explain who wrote and reviewed the material</h2>
+      <p>Identify the responsible author and the expertise that qualifies them, especially for technical, medical, legal, or financial advice. Put a real update date on the page when the content actually changes, and leave the date alone when it does not. Authorship is evidence: an answer engine deciding between two pages prefers the one whose claims belong to a named, accountable person over the one whose claims belong to nobody.</p>
 
-<h2>What about FAQs and schema?</h2>
-<p>Write FAQs when the questions are genuinely useful. FAQ structured data should match visible content and comply with platform rules. Most sites should not expect Google FAQ rich results merely from adding markup, and no FAQ markup forces an AI assistant to quote the page.</p>
+      <h2>Keep content extractable and accessible</h2>
+      <p>Put the important answers in crawlable text, in the HTML, not only inside screenshots, embedded video, or images of text. Use semantic HTML, descriptive link text that says where the link goes, alt text for informative images, and captions or transcripts for audio and video claims. One page should settle one subject completely rather than twelve thin pages each settling a fragment of it; the fragments compete with each other, and the engine cites the page that settles the question, which is usually a competitor's.</p>
 
-<h2>How should content be maintained?</h2>
-<p>Assign owners to high-value pages. Recheck prices, availability, legal claims, standards, and product specifications on a schedule appropriate to the subject. Preserve stable URLs where possible, document material changes, and correct factual errors promptly.</p>
+      <h2>What about FAQs and schema?</h2>
+      <p>Write FAQs because buyers ask the questions, and put them on the visible page. FAQ structured data must match the visible text, question for question and answer for answer. The schema is the machine-readable copy of what the page already says; it is not a second, better page hidden from readers. Written that way, the FAQ serves the buyer reading the page and the engine extracting from it with the same words, which is the entire discipline of the <a href="/guides/schema-markup-for-ai-search/">schema guide</a>.</p>
 
-<h2>How do you test whether writing helped?</h2>
-<p>Measure indexed accessibility, relevant search impressions, observed citations, qualified visits, and inquiries. Review which precise passages were used when citations are available. Do not infer causation from one AI answer changing after a rewrite.</p>
-<h2>What should you do next?</h2>
-<p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
-<p><strong>Read next:</strong> <a href="/guides/entity-seo-for-ai-search/">What is entity SEO, and why does it matter for AI search?</a>.</p>
-</article>
+      <h2>How should content be maintained?</h2>
+      <p>Assign an owner to every high-value page. Recheck prices, availability, legal claims, standards, and specifications on a schedule set by how fast the subject changes. Keep URLs stable where possible, document material changes, and correct factual errors promptly and visibly. A page is a standing statement of the business. Letting it go stale does not make it neutral; it makes it a false statement the business is still publishing, and engines will quote it as your current position because it is.</p>
+
+      <h2>How do you test whether writing helped?</h2>
+      <p>Measure indexed accessibility, relevant search impressions, observed citations, qualified visits, and inquiries, using the discipline in the <a href="/guides/how-to-measure-ai-search-visibility/">measurement guide</a>. When a citation is available, read the precise passage the engine used; it tells you which paragraph did the work, and the next page gets written like that paragraph. One answer changing after a rewrite proves nothing. A citation pattern across a fixed question set, run monthly, is the receipt.</p>
+
+      <h2>What should you do next?</h2>
+      <p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details><summary>What kind of content gets cited by AI engines?</summary><p>Pages that answer a real buyer question directly, early, with evidence only the publisher holds: measurements, specifications, documented projects, named expertise. The engine lifts passages that stand alone, so the citable unit is a paragraph that states a claim, its numbers, and its limits without needing the rest of the page.</p></details>
+        <details><summary>Should I add an FAQ to every page for AI citations?</summary><p>Add an FAQ where buyers genuinely ask the questions, and write the answers for the buyer. FAQ schema must match the visible page word for word in substance. An FAQ written as a markup trick, hidden or padded with questions nobody asks, adds a second copy of nothing and engines treat it accordingly.</p></details>
+        <details><summary>Do AI engines cite service pages or only articles?</summary><p>Both, and the choice is made passage by passage. A service page that states scope, prices, and conditions in plain text is cited for buying questions. An article with original evidence is cited for explanatory questions. The format matters less than whether the passage settles the question it was retrieved for.</p></details>
+        <details><summary>How long should a page be to get cited?</summary><p>As long as the question requires. A complete short answer beats a padded long one, and a thorough treatment beats a thin one on a subject with real conditions and exceptions. Length is an outcome of settling the subject, never a target. Engines cite passages, and a passage earns its citation by being complete at the size it is.</p></details>
+      </div>
+
+      <p><strong>Read next:</strong> <a href="/guides/entity-seo-for-ai-search/">What is entity SEO, and why does it matter for AI search?</a> and <a href="/guides/schema-markup-for-ai-search/">What schema markup do AI answer engines actually use?</a></p>
+    </article>
   </div>
   <div class="cta-band">
     <div class="wrap">

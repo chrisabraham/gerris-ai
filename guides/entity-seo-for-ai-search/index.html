@@ -62,6 +62,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an entity in search?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A distinguishable real-world thing: a business, a person, a product, a place. Search systems keep a record per entity and file every page, listing, and review into the record it appears to describe. Entity SEO is the work of making sure your evidence is filed into your record, under your facts, and not into a namesake's."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I stop my business being merged with another company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "State the distinguishing facts everywhere both businesses are described: specialization, city and service area, founder, founding year, official domain. Publish Organization schema with a stable @id and sameAs links limited to your own official profiles. Then work the third-party records that carry the merged facts, in the order buyers encounter them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a Wikipedia page for entity SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Wikipedia is one corroborating source among many, and it is not a deliverable anyone can sell you, since its editors decide what qualifies. Registries, association listings, trade coverage, platform profiles, and a consistent canonical record on your own site corroborate an entity without it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does sameAs actually do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It declares that the linked URL identifies the same entity as the page declaring it: your official profile, your registry entry, your association listing. It is the instruction machines use to merge profiles into one record, which is why it belongs only on URLs that are genuinely the same business, never on customers, sister companies, or articles about you."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -91,41 +131,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <article class="page">
       <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; What is entity SEO, and why does it matter for AI search?</p>
 <h1>What is entity SEO, and why does it matter for AI search?</h1>
-<p><strong>Entity SEO is the practice of making it easier for search systems to recognize which real-world organization, person, product, or place a page describes. It is about identity and relationships, not merely repeating a keyword.</strong></p>
-<p>Published November 25, 2026. Written by <a href="/about/">Chris Abraham</a>, Gerris.</p>
-<h2>What is an entity?</h2>
-<p>An entity is a distinguishable thing: a company, person, product, location, or concept. Two companies may share a name but remain different entities. A brand can have a legal company, trading name, founder, and multiple locations. Accurate entity descriptions help systems avoid merging those records.</p>
+      <p><strong>Entity SEO is the practice of making it easy for search systems to recognize which real-world organization, person, product, or place a page describes. It is identity work: names, facts, and relationships stated consistently enough that the machines resolve every mention to one business, and the right one.</strong></p>
 
-<h2>What facts form the canonical identity?</h2>
-<p>Document the official name, known trading names, domain, physical or service-area details, contact information, leadership, products, and relevant registrations. Publish the same current facts on your website and on profiles you control. For businesses without a public storefront, do not invent an address to satisfy a template.</p>
+      <h2>What is an entity?</h2>
+      <p>An entity is a distinguishable thing: a company, a person, a product, a location. Two companies may share a name and remain different entities. One company may carry a legal name, a trading name, a founder's name, and three locations, and remain one entity with several descriptions. Search systems store records per entity, and every page, listing, and review is evidence filed into some entity's record. The failures are filing failures. Your reviews land in a namesake's record. A directory's stale address becomes your address. A merged record recommends a business that is half you and half a firm in another state, and buyers are quoted its prices as yours.</p>
 
-<h2>How do external sources support recognition?</h2>
-<p>Independent directories, professional associations, government registries, legitimate news coverage, and verified profiles can corroborate claims. Their value depends on relevance and reliability, not on a raw backlink count. Correct outdated records and avoid creating fake profiles merely to multiply mentions.</p>
+      <h2>What facts form the canonical identity?</h2>
+      <p>One set of facts, stated identically everywhere: the official name and known trading names, the domain, the physical address or the service area, the phone and email, the leadership, the services and products, and the registrations and licenses the business trades on. Publish that set on the website's canonical pages and repeat it, character for character where the field is structured, on every profile the business controls. A business without a public storefront states its service area honestly; it does not invent an address to satisfy a template, because an invented address is a false fact filed in its own record, where it will be corroborated against nothing and believed anyway.</p>
 
-<h2>How should Organization and Person schema be used?</h2>
-<p>Describe the organization and its people with valid schema.org properties and stable @id values. Link related entities consistently and keep the JSON-LD aligned with visible content. Structured data helps machines parse declared facts; it does not make unsupported claims true or guarantee a knowledge panel.</p>
+      <h2>How do external sources support recognition?</h2>
+      <p>Independent directories, professional associations, government registries, legitimate news coverage, and verified platform profiles corroborate the identity from outside the business's own site. Their value is relevance and reliability, not raw count: one registry entry and one association listing outweigh forty profiles on directories nobody reads. Correct outdated records before creating new ones, because a new correct profile beside an old wrong one gives the machines a disagreement to resolve, and disagreements resolve toward whichever version is repeated more, not whichever version is true. Fake profiles created to multiply mentions are false filings, and they pollute the record they were meant to strengthen.</p>
 
-<h2>What does sameAs mean?</h2>
-<p>Use sameAs only for URLs that identify the same entity, such as an official organization profile. A customer's website, unrelated article, or sister company is not automatically the same entity. Misusing sameAs can introduce ambiguity rather than resolve it.</p>
+      <h2>How should Organization and Person schema be used?</h2>
+      <p>Describe the organization and its people with valid schema.org properties and stable @id values, so the website, the founder, the services, and the locations are declared as one connected record. Keep the JSON-LD aligned with the visible content: every name, price, and credential in the markup appears in the text a visitor can read. Structured data helps machines parse declared facts. It makes no claim true, and markup that declares facts the page does not state is treated as a false filing, as the <a href="/guides/schema-markup-for-ai-search/">schema guide</a> sets out.</p>
 
-<h2>How do you handle name collisions?</h2>
-<p>Search for the company name alongside its industry and city, then inspect competing entities. Add distinguishing details naturally to the about page and relevant profiles: specialization, location, founder, and official domain. Where appropriate, document prior names and acquisitions clearly instead of erasing history.</p>
+      <h2>What does sameAs mean?</h2>
+      <p>sameAs declares that a URL identifies the same entity: the organization's official profile on a platform, its listing in a registry, its page in an association directory. A customer's website is not the same entity. A sister company is not the same entity. An article about the business is not the same entity. Used correctly, sameAs is the strongest disambiguation signal a business can publish, because it hands the machines the list of profiles to merge. Used loosely, it instructs the machines to merge records that should stay separate, manufacturing the exact collision the work exists to prevent.</p>
 
-<h2>How does local entity work differ?</h2>
-<p>For local businesses, check Google Business Profile eligibility, primary category, hours, address or service area, and genuine reviews. Keep directory information consistent while respecting platform rules. A service-area business should not fabricate a storefront, and a multi-location brand should distinguish real locations from virtual pages.</p>
+      <h2>How do you handle name collisions?</h2>
+      <p>Search your company name alongside its industry and its city, and inspect every competing entity the results surface. Then add the distinguishing facts, naturally and everywhere: the specialization, the city and service area, the founder's name, the founding year, the official domain. Where the business has prior names or acquisitions, document them plainly on the about page instead of erasing them; a documented history lets the machines file the old mentions into the current record, while an erased one leaves the old entity standing as a competitor you appear to be imitating. The collision case that recurs in audits is two same-name firms in different states whose reviews, hours, and prices have been merged into one record that recommends neither cleanly. The repair is the distinguishing record, stated in every place both businesses are described, until the merged file splits.</p>
 
-<h2>Can you force a Knowledge Panel or AI mention?</h2>
-<p>No. Search platforms decide which entities to recognize and which information to display. You can improve source accuracy and reduce ambiguity, but a Knowledge Panel is not a purchased deliverable and an AI recommendation is not an entitlement.</p>
+      <h2>How does local entity work differ?</h2>
+      <p>For local businesses the Google Business Profile is a primary source the answers quote directly, so its eligibility, primary category, hours, address or service area, and services get the same canonical discipline as the website. Directory information is kept consistent within each platform's rules. A service-area business does not fabricate a storefront. A multi-location brand distinguishes its real locations, each with its own record, from pages that merely name cities it would like to work in. Reviews belong to this layer too: they attach to the entity, and the themes reviewers repeat become the answer's description of the business, as the <a href="/guides/how-do-reviews-affect-ai-answers/">reviews guide</a> covers.</p>
 
-<h2>How do you audit an entity?</h2>
-<p>Create a source inventory with URL, claimed name, category, address or service area, contact details, and last verified date. Flag contradictions by severity. Fix official sources first, then high-trust third-party records, and document requests that remain pending.</p>
+      <h2>Can you force a Knowledge Panel or an AI mention?</h2>
+      <p>No. Google decides which entities receive a Knowledge Panel, and the answer engines decide which businesses their answers name. Neither is a deliverable anyone can sell. What the work controls is the accuracy and consistency of the sources those decisions are made from. A business with a settled record is eligible everywhere decisions are made from records. A business with a blurred record is eligible nowhere, and no panel or mention process exists that routes around the record.</p>
 
-<h2>What does success look like?</h2>
-<p>Fewer incorrect facts, fewer merged identities, consistent service descriptions, better discovery for relevant queries, and more accurate citations. Track actual observations rather than declaring success because schema validation passed.</p>
-<h2>What should you do next?</h2>
-<p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
-<p><strong>Read next:</strong> <a href="/guides/aeo-geo-audit-checklist/">What should a professional AEO and GEO audit include?</a>.</p>
-</article>
+      <h2>How do you audit an entity?</h2>
+      <p>Build the source inventory first: every page, profile, listing, and registry entry that describes the business, with its URL, the name it claims, the category, the address or service area, the contact details, and the date it was last verified. Flag contradictions by severity, wrong facts that reach buyers first. Fix the official sources, then the high-trust third-party records, filing corrections through each platform's process and documenting the requests that remain pending. The audit closes with a retest: the same name searches and buyer questions, checked against the inventory, per the <a href="/guides/aeo-geo-audit-checklist/">audit checklist</a>.</p>
+
+      <h2>What does success look like?</h2>
+      <p>Fewer incorrect facts in the answers. Fewer merged identities. Service descriptions that match across the website, the profile, and the listings. Discovery on the relevant queries, and citations that point at the right entity's pages. Success is tracked in observations of what the engines actually say, recorded over time, and never declared because a schema validator passed. Validation proves the markup parses. Observation proves the record settled.</p>
+
+      <h2>What should you do next?</h2>
+      <p>Save your baseline and verify the facts before changing the site. For a scoped diagnosis, see the <a href="/services/#audit">Gerris AI Visibility Audit</a>; for implementation, see the <a href="/services/#sprint">Claim Sprint</a>. The <a href="/guides/">guides library</a> covers related technical and editorial questions.</p>
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details><summary>What is an entity in search?</summary><p>A distinguishable real-world thing: a business, a person, a product, a place. Search systems keep a record per entity and file every page, listing, and review into the record it appears to describe. Entity SEO is the work of making sure your evidence is filed into your record, under your facts, and not into a namesake's.</p></details>
+        <details><summary>How do I stop my business being merged with another company?</summary><p>State the distinguishing facts everywhere both businesses are described: specialization, city and service area, founder, founding year, official domain. Publish Organization schema with a stable @id and sameAs links limited to your own official profiles. Then work the third-party records that carry the merged facts, in the order buyers encounter them.</p></details>
+        <details><summary>Do I need a Wikipedia page for entity SEO?</summary><p>No. Wikipedia is one corroborating source among many, and it is not a deliverable anyone can sell you, since its editors decide what qualifies. Registries, association listings, trade coverage, platform profiles, and a consistent canonical record on your own site corroborate an entity without it.</p></details>
+        <details><summary>What does sameAs actually do?</summary><p>It declares that the linked URL identifies the same entity as the page declaring it: your official profile, your registry entry, your association listing. It is the instruction machines use to merge profiles into one record, which is why it belongs only on URLs that are genuinely the same business, never on customers, sister companies, or articles about you.</p></details>
+      </div>
+
+      <p><strong>Read next:</strong> <a href="/guides/aeo-geo-audit-checklist/">What should a professional AEO and GEO audit include?</a> and <a href="/guides/how-do-reviews-affect-ai-answers/">How do reviews affect what AI answers say about your business?</a></p>
+    </article>
   </div>
   <div class="cta-band">
     <div class="wrap">
