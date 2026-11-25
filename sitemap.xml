@@ -132,4 +132,46 @@
   <url><loc>https://gerris.ai/guides/how-to-write-content-for-ai-citations/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gerris.ai/guides/entity-seo-for-ai-search/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://gerris.ai/guides/aeo-geo-audit-checklist/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url>
+    <loc>https://gerris.ai/guides/why-is-my-website-not-indexed/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/what-is-llms-txt/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/schema-markup-for-ai-search/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/which-ai-crawlers-should-you-allow/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/how-do-reviews-affect-ai-answers/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/how-to-fix-wrong-information-in-ai-answers/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
 </urlset>

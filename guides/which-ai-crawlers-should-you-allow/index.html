@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSHZ35VB');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PKWTJ2ER1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PKWTJ2ER1K');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Which AI Crawlers Should Your Robots.txt Allow?</title>
+<meta name="description" content="AI crawlers do three different jobs: search, training, and fetching on request. This guide names them, explains the split, and states which ones a business needs.">
+<link rel="canonical" href="https://gerris.ai/guides/which-ai-crawlers-should-you-allow/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gerris">
+<meta property="og:title" content="Which AI Crawlers Should Your Robots.txt Allow?">
+<meta property="og:description" content="AI crawlers do three different jobs: search, training, and fetching on request. This guide names them, explains the split, and states which ones a business needs.">
+<meta property="og:url" content="https://gerris.ai/guides/which-ai-crawlers-should-you-allow/">
+<meta property="og:image" content="https://gerris.ai/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gerris: AI search visibility. AEO, GEO, and SEO.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Which AI Crawlers Should Your Robots.txt Allow?">
+<meta name="twitter:description" content="AI crawlers do three different jobs: search, training, and fetching on request. This guide names them, explains the split, and states which ones a business needs.">
+<meta name="twitter:image" content="https://gerris.ai/social-card.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#c75000">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://gerris.ai/guides/which-ai-crawlers-should-you-allow/#article",
+  "headline": "Which AI crawlers should your robots.txt allow?",
+  "description": "AI crawlers do three different jobs: search, training, and fetching on request. This guide names them, explains the split, and states which ones a business needs.",
+  "url": "https://gerris.ai/guides/which-ai-crawlers-should-you-allow/",
+  "mainEntityOfPage": "https://gerris.ai/guides/which-ai-crawlers-should-you-allow/",
+  "datePublished": "2026-11-25",
+  "dateModified": "2026-11-25",
+  "inLanguage": "en",
+  "image": "https://gerris.ai/social-card.png",
+  "author": {
+    "@id": "https://gerris.ai/#chris-abraham"
+  },
+  "publisher": {
+    "@id": "https://gerris.ai/#organization"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does blocking GPTBot keep my business out of ChatGPT's answers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. GPTBot is OpenAI's training crawler. ChatGPT's search answers are built from OAI-SearchBot's index and from pages fetched live by ChatGPT-User. Blocking GPTBot alone leaves your search visibility intact. Blocking all three OpenAI agents removes you from ChatGPT's answers, which is the outcome businesses usually did not intend when they blocked the training bot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does allowing AI crawlers mean my content will be used for training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the crawler, which is why the names matter. The search crawlers index your pages so answers can cite them; the training crawlers, GPTBot, ClaudeBot, Meta-ExternalAgent, Applebot-Extended, CCBot, and their peers, collect for model training. Robots.txt lets you allow the first group and refuse the second, agent by agent, and the settings should state the decision for each."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my site block AI crawlers when I never set that?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Defaults. Security plugins ship with bot-blocking rules, hosts enable them during migrations, and CDN bot-management products classify new crawlers as threats until told otherwise. The block is rarely a decision anyone remembers making. It is found by reading the robots.txt file and the crawl logs, which is why the check belongs in every site audit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should a business block Bytespider and the aggressive crawlers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A crawler that ignores robots.txt, hammers a small server, or serves no search product the business's buyers use is a cost with no return, and blocking it at the firewall is ordinary site management. That decision is about load and conduct, made crawler by crawler. It is different from blocking the named search crawlers of the engines your buyers ask questions on, which is a decision about whether to exist in their answers."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZ35VB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap hwrap">
+    <a href="/" aria-label="Gerris home"><svg width="34" height="34" viewBox="0 0 100 100" role="img" aria-label="Gerris logo"><circle cx="30" cy="32" r="15" fill="#b0dde3"/><circle cx="66" cy="24" r="11" fill="#1e9cd5"/><circle cx="52" cy="62" r="17" fill="#f3b842"/><path d="M30 32 Q48 12 66 24 M40 46 Q46 58 52 62" stroke="#211f1e" stroke-width="4" fill="none" stroke-linecap="round"/></svg></a>
+    <a class="brand" href="/"><span class="brandname">Gerris AI</span><small>AI search visibility, AEO, GEO, and SEO</small></a>
+    <nav class="site" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/briefing/">The AI Search Briefing</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <article class="page">
+      <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; Which AI crawlers should your robots.txt allow?</p>
+      <h1>Which AI crawlers should your robots.txt allow?</h1>
+      <p><strong>The AI crawlers are not one crawler, and blocking them as a class is how a business deletes itself from AI search while believing it only declined training.</strong> Each engine company sends several bots with different jobs. Some build the search indexes the answers are retrieved from. Some fetch a page at the moment a user asks. Some collect material to train future models. A robots.txt rule written against the company's name blocks all of its bots at once, the training crawler and the search crawler together, and the business vanishes from that engine's answers for a reason it never chose. This guide names the crawlers, separates the jobs, and states the settings Gerris recommends and runs on this site.</p>
+
+      <h2>What are the three jobs AI crawlers do?</h2>
+      <p>Search crawlers build and refresh the indexes that answers are retrieved from: OpenAI's OAI-SearchBot, Perplexity's PerplexityBot, Anthropic's Claude-SearchBot, and Googlebot and Bingbot behind them. User-triggered fetchers retrieve a page live, when a person asks the engine to look at it: ChatGPT-User, Claude-User, Perplexity-User. Training crawlers collect pages to train future models: OpenAI's GPTBot, Anthropic's ClaudeBot, Meta's Meta-ExternalAgent, Apple's Applebot-Extended, Common Crawl's CCBot, ByteDance's Bytespider. The jobs matter because the consequences of blocking them are opposite. Block a training crawler and your pages stay out of a future model's training set while your search visibility is untouched. Block a search crawler and your pages leave the index the answers are built from.</p>
+
+      <h2>Which crawlers does a business need to allow?</h2>
+      <p>The search and fetching crawlers, if the business wants to be found by the engines' users: OAI-SearchBot and ChatGPT-User for ChatGPT, PerplexityBot and Perplexity-User for Perplexity, Claude-SearchBot and Claude-User for Claude, and Googlebot and Bingbot, which feed Google's and Microsoft's answers as they always fed their results pages. The training crawlers are the owner's genuine choice. Gerris allows them on this site, on the reasoning that a business selling visibility gains more from being known by the models than it loses from being read by them, and states that as a recommendation, not a rule. What the desk advises against, for any business that sells to people who ask engines questions, is the blanket block: every AI user agent disallowed, usually installed by a security plugin or a host's default, discovered months later when the owner asks why ChatGPT has never heard of them.</p>
+
+      <h2>Can you block AI Overviews without blocking Google Search?</h2>
+      <p>No. AI Overviews are built from Google's search index and crawled by Googlebot, the same crawler behind the ordinary results. A business that blocks Googlebot leaves Google Search entirely. The separate control, Google-Extended, governs whether Google may use crawled content for Gemini model training and grounding; it does not remove a site from AI Overviews or AI Mode. Vendors who sell a switch that keeps the ranking and drops the AI answer are selling a switch that does not exist. The choice Google actually offers is the old one: be in the index, on the record, or be out of it.</p>
+
+      <h2>Where else do AI crawlers get blocked?</h2>
+      <p>Robots.txt is only the written layer. Firewalls and content delivery networks block bots by default rules their owners never see, and a host migration can carry a block forward for years. The check is threefold. Read your robots.txt at yourdomain.com/robots.txt and look for the AI user agents by name. Read your server or CDN logs for the crawlers above and note whether they receive your pages or a 403. Then ask the engines questions about your business and see whether the answers know your site exists, which is the test the <a href="/services/#audit">AI Visibility Audit</a> runs formally. A block at any layer produces the same absence, and the absence looks, from the owner's chair, exactly like being ignored by the engines. The <a href="/guides/how-ai-answers-choose-businesses/">selection guide</a> lists blocked crawlers first among the reasons answers skip a business, because in the audits it is the first one found.</p>
+
+      <h2>What settings does Gerris recommend?</h2>
+      <p>Allow the search crawlers and the user-triggered fetchers by name. Decide the training crawlers deliberately, by name, knowing which job each one does. Never let a plugin, a host, or a firewall default make the decision unrecorded. And re-check the file after every migration, redesign, or security change, because robots.txt is the file most often overwritten by people who did not know what was in it. The whole review takes an hour on most sites, and it is the cheapest visibility a business can recover: the pages already exist, the engines are already crawling, and the only thing standing between them is a text file.</p>
+      <p>Keep the evidence while you are at it. Save a copy of the robots.txt you replaced, with the date, and note which agents the new file allows and refuses. When visibility moves afterward, that note is how you know what moved it. Crawler settings are a standing decision of the business, like its prices, and they belong in the same kind of record: written down, dated, and owned by someone who can explain them.</p>
+      <h2>Frequently asked questions</h2>
+      <div class="faq">
+        <details><summary>Does blocking GPTBot keep my business out of ChatGPT's answers?</summary><p>No. GPTBot is OpenAI's training crawler. ChatGPT's search answers are built from OAI-SearchBot's index and from pages fetched live by ChatGPT-User. Blocking GPTBot alone leaves your search visibility intact. Blocking all three OpenAI agents removes you from ChatGPT's answers, which is the outcome businesses usually did not intend when they blocked the training bot.</p></details>
+        <details><summary>Does allowing AI crawlers mean my content will be used for training?</summary><p>It depends on the crawler, which is why the names matter. The search crawlers index your pages so answers can cite them; the training crawlers, GPTBot, ClaudeBot, Meta-ExternalAgent, Applebot-Extended, CCBot, and their peers, collect for model training. Robots.txt lets you allow the first group and refuse the second, agent by agent, and the settings should state the decision for each.</p></details>
+        <details><summary>Why does my site block AI crawlers when I never set that?</summary><p>Defaults. Security plugins ship with bot-blocking rules, hosts enable them during migrations, and CDN bot-management products classify new crawlers as threats until told otherwise. The block is rarely a decision anyone remembers making. It is found by reading the robots.txt file and the crawl logs, which is why the check belongs in every site audit.</p></details>
+        <details><summary>Should a business block Bytespider and the aggressive crawlers?</summary><p>A crawler that ignores robots.txt, hammers a small server, or serves no search product the business's buyers use is a cost with no return, and blocking it at the firewall is ordinary site management. That decision is about load and conduct, made crawler by crawler. It is different from blocking the named search crawlers of the engines your buyers ask questions on, which is a decision about whether to exist in their answers.</p></details>
+      </div>
+
+      <p><strong>Read next:</strong> <a href="/guides/why-is-my-website-not-indexed/">Why is my website not indexed by Google?</a> and <a href="/guides/what-is-llms-txt/">What is llms.txt, and does your business need one?</a></p>
+    </article>
+  </div>
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Ask an AI engine about your business.</h2>
+      <p>Then book the call and tell us what it said. Fixing that answer is the work.</p>
+      <p><a class="btn primary" href="https://calendly.com/chrisabraham/30">Book a 30-minute call</a></p>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Gerris AI</h3>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About Chris Abraham</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
+          <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
+          <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://gerriscorp.com/">gerriscorp.com</a></li>
+          <li><a href="https://christopherabraham.com/">christopherabraham.com</a></li>
+          <li><a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></li>
+          <li><a href="https://github.com/chrisabraham">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
+  </div>
+</footer>
+</body>
+</html>
