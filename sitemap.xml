@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://gerris.ai/guides/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   
@@ -126,4 +126,10 @@
     <priority>0.7</priority>
     <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
   </url>
+  <url><loc>https://gerris.ai/guides/why-chatgpt-doesnt-recommend-your-business/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gerris.ai/guides/how-to-measure-ai-search-visibility/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gerris.ai/guides/technical-seo-for-ai-search/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gerris.ai/guides/how-to-write-content-for-ai-citations/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gerris.ai/guides/entity-seo-for-ai-search/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gerris.ai/guides/aeo-geo-audit-checklist/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
