@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSHZ35VB');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PKWTJ2ER1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PKWTJ2ER1K');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Do AI Agents Use a Business Website?</title>
+<meta name="description" content="AI agents open a business website in a real browser, read it, and fill in its forms for a buyer. How they identify themselves and what a site must offer.">
+<link rel="canonical" href="https://gerris.ai/guides/how-ai-agents-use-websites/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gerris">
+<meta property="og:title" content="How Do AI Agents Use a Business Website?">
+<meta property="og:description" content="AI agents open a business website in a real browser, read it, and fill in its forms for a buyer. How they identify themselves and what a site must offer.">
+<meta property="og:url" content="https://gerris.ai/guides/how-ai-agents-use-websites/">
+<meta property="og:image" content="https://gerris.ai/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gerris: AI search visibility. AEO, GEO, and SEO.">
+<meta property="article:published_time" content="2026-11-27">
+<meta property="article:modified_time" content="2026-11-27">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Do AI Agents Use a Business Website?">
+<meta name="twitter:description" content="AI agents open a business website in a real browser, read it, and fill in its forms for a buyer. How they identify themselves and what a site must offer.">
+<meta name="twitter:image" content="https://gerris.ai/social-card.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#c75000">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://gerris.ai/guides/how-ai-agents-use-websites/#article",
+   "headline": "How do AI agents use a business website?",
+   "description": "AI agents open a business website in a real browser, read it, and fill in its forms for a buyer. How they identify themselves and what a site must offer.",
+   "url": "https://gerris.ai/guides/how-ai-agents-use-websites/",
+   "mainEntityOfPage": "https://gerris.ai/guides/how-ai-agents-use-websites/",
+   "datePublished": "2026-11-27",
+   "dateModified": "2026-11-27",
+   "inLanguage": "en",
+   "image": "https://gerris.ai/social-card.png",
+   "author": {
+    "@id": "https://gerris.ai/#chris-abraham"
+   },
+   "publisher": {
+    "@id": "https://gerris.ai/#organization"
+   },
+   "isPartOf": {
+    "@id": "https://gerris.ai/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Intelligent agent",
+     "sameAs": "https://en.wikipedia.org/wiki/Intelligent_agent"
+    },
+    {
+     "@type": "Thing",
+     "name": "Web browser",
+     "sameAs": "https://en.wikipedia.org/wiki/Web_browser"
+    }
+   ],
+   "citation": [
+    "https://openai.com/index/introducing-chatgpt-agent/",
+    "https://support.claude.com/en/articles/18234133",
+    "https://simonwillison.net/2025/Aug/4/chatgpt-agents-user-agent/",
+    "https://blog.cloudflare.com/web-bot-auth",
+    "https://datatracker.ietf.org/doc/draft-ietf-webbotauth-httpsig-protocol/"
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://gerris.ai/guides/how-ai-agents-use-websites/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Do AI agents follow robots.txt?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Anthropic manages its agentic browser separately from its crawlers and fetchers, and says a site's crawler preferences are independent of it. It identifies the browser with the Claude-Agent token and published IP addresses. Treat agents as user traffic, governed at the firewall by verified identity, and keep robots.txt for the crawlers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can an AI agent buy something or book an appointment on my site?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, with the buyer's approval. OpenAI says ChatGPT requests permission before taking actions of consequence, and a user can take over the browser to log in. A site that lets a person book without friction lets an agent book the same way, with the buyer confirming."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I see AI agent visits in my analytics?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the server logs. Agents run real browsers, so they can load the same pages and scripts a person does and appear in analytics as ordinary sessions. The Claude-Agent token in the User-Agent string and Signature-Agent headers in the request identify them in the logs."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is agentic experience optimization (AXO)?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The name some vendors give to making a site usable by AI agents. The work underneath is the list in this guide: facts in text, labeled controls, forms that finish, and no needless gates. The AI search glossary defines AXO, AAIO, and the related terms."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://gerris.ai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://gerris.ai/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "AI agents and business websites",
+     "item": "https://gerris.ai/guides/how-ai-agents-use-websites/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZ35VB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap hwrap">
+    <a href="/" aria-label="Gerris home"><svg width="34" height="34" viewBox="0 0 100 100" role="img" aria-label="Gerris logo"><circle cx="30" cy="32" r="15" fill="#b0dde3"/><circle cx="66" cy="24" r="11" fill="#1e9cd5"/><circle cx="52" cy="62" r="17" fill="#f3b842"/><path d="M30 32 Q48 12 66 24 M40 46 Q46 58 52 62" stroke="#211f1e" stroke-width="4" fill="none" stroke-linecap="round"/></svg></a>
+    <a class="brand" href="/"><span class="brandname">Gerris AI</span><small>AI search visibility, AEO, GEO, and SEO</small></a>
+    <nav class="site" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/briefing/">The AI Search Briefing</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <article class="page">
+      <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; AI agents and business websites</p>
+      <h1>How do AI agents use a business website?</h1>
+      <p><strong>An AI agent uses a business website the way a person does, on a person's behalf: it opens the pages in a real browser, reads them, clicks, fills in forms, and reports back or finishes the task.</strong> OpenAI introduced ChatGPT agent on July 17, 2025, with a visual browser, a text-based browser, and a terminal. Anthropic's hosted browsers announce themselves with a Claude-Agent token. For a business, the agent is the buyer's errand runner. It arrives with a job to do, such as finding a plumber who can come Thursday or booking a consultation, and it either finishes that job on your site or moves on to a competitor's.</p>
+
+      <h2>How is an agent different from a crawler?</h2>
+      <p>By the job it does and the time it does it. The AI companies now run three kinds of traffic, and each one asks something different of a site:</p>
+      <ul>
+        <li><strong>Crawlers:</strong> bots such as OAI-SearchBot, Claude-SearchBot, and PerplexityBot fetch pages on a schedule to build the index that AI answers are assembled from. The <a href="/guides/which-ai-crawlers-should-you-allow/">AI crawlers guide</a> covers them.</li>
+        <li><strong>Fetchers:</strong> ChatGPT-User, Claude-User, and Perplexity-User read one page at the moment a person asks a question that needs it.</li>
+        <li><strong>Agents:</strong> a full browser, operated by a model, that works through a site to complete a task: comparing service pages, checking availability, filling in an inquiry form, starting a booking.</li>
+      </ul>
+      <p>Anthropic draws the same line in its own documentation. It describes its agentic browser traffic as separate from its crawlers and fetchers, and says a site's preferences for the crawlers and fetchers are independent of it. Allowing or refusing the agent, Anthropic says, controls whether users can have Claude complete tasks on a website. A site can be fully indexed for answers and still lose the errand, because the errand happens in the browser.</p>
+
+      <h2>How do agents identify themselves?</h2>
+      <p>Each company has chosen its own signal, and the signals are still settling:</p>
+      <ul>
+        <li><strong>Anthropic:</strong> its hosted browser sends the browser's ordinary User-Agent string with the token Claude-Agent added, for example compatible; Claude-Agent/1.0. Anthropic says to match on that token, publishes the browser's IP addresses at claude.com/.well-known/sail, and recommends updating firewall rules from that file automatically. It warns that anyone can send the same header, so the IP check is what confirms the visit.</li>
+        <li><strong>OpenAI:</strong> developer Simon Willison observed in August 2025 that ChatGPT agent's requests carry a Signature-Agent header naming chatgpt.com, with Signature-Input and Signature headers beside it. That is HTTP Message Signatures, the method an IETF working group is standardizing for automated traffic under the name Web Bot Auth.</li>
+        <li><strong>Web Bot Auth:</strong> the signing approach Cloudflare described in 2025, in which the agent signs each request with a private key and tells the site where to fetch the matching public key, so a site can verify the sender cryptographically instead of trusting a header.</li>
+      </ul>
+      <p>The practical reading for a site owner: look for the Claude-Agent token and for Signature-Agent headers in the server logs, verify them against the published keys and addresses, and treat a verified agent as a buyer's visit.</p>
+
+      <h2>What does an agent need from a business site?</h2>
+      <p>Everything a careful first-time visitor needs, stated in a form software can read without guessing:</p>
+      <ul>
+        <li><strong>Facts in text:</strong> the services, the service area, the hours, and how to book, written as text on the page. A phone number inside an image or hours inside a PDF are facts the agent reports back as unknown.</li>
+        <li><strong>Labeled controls:</strong> buttons that say what they do, links that are real links, and form fields with visible labels. A field labeled only by placeholder text that vanishes on click leaves the agent guessing what goes in it.</li>
+        <li><strong>Forms that finish:</strong> standard inputs, clear required fields, an error message that names the problem, and a confirmation page that says the inquiry was received. The confirmation is what the agent shows the buyer as proof.</li>
+        <li><strong>Availability without an account:</strong> a booking page that shows open times before asking anyone to register lets the agent compare you with the next business on its list. A wall that demands an account first sends the comparison elsewhere.</li>
+        <li><strong>A path with few gates:</strong> a contact form behind a challenge page or a CAPTCHA stops the agent at the door and hands the task back to the buyer, who often takes it to the competitor whose form went through.</li>
+        <li><strong>Stable pages:</strong> service pages that keep their URLs, so the page an agent found last month is the page it finds today.</li>
+      </ul>
+      <p>The accessibility work a site does for people serves agents too. Headings in order, labeled fields, descriptive link text, and alt text are the structure screen readers depend on, and they are the same structure software reads when it operates a page.</p>
+
+      <h2>Should a business block AI agents?</h2>
+      <p>A business that sells to the public should serve them, because an agent on a service page is a buyer who sent it. Blocking the agent blocks the errand, and the buyer learns only that your site was the one that failed. The cost of serving them is small: an agent that fills in an inquiry form produces one inquiry, the same as the buyer would have.</p>
+      <p>The real risks are abuse and load, and the answer to both is verification. Rate-limit by behavior, verify the agent's identity against the published addresses and keys, and refuse what fails the check. A blanket rule that challenges every automated visitor catches the verified agents along with the scrapers, and the logs will show it as a run of challenge pages served to Claude-Agent.</p>
+      <p>OpenAI built a checkpoint into its own agent: ChatGPT requests permission before taking actions of consequence, and a user can take over the browser to log in on any website. A purchase or a booking made by an agent still passes through the buyer's approval.</p>
+
+      <h2>How do you test a site for agents?</h2>
+      <p>Give an agent the buyer's errand and watch. A four-step test, run on the questions that bring the business revenue:</p>
+      <ul>
+        <li><strong>State the task the way a buyer would:</strong> find a licensed electrician in Arlington who can install an EV charger next week, and request a quote.</li>
+        <li><strong>Run it in two agents:</strong> ChatGPT agent and Anthropic's Claude, starting from a plain request with no link to your site.</li>
+        <li><strong>Record where each one stops:</strong> the page it reached, the field it could not fill, the gate it could not pass, and what it told the buyer about your business.</li>
+        <li><strong>Fix in order:</strong> gates first, then missing facts, then forms, then rerun the same task and compare the record.</li>
+      </ul>
+      <p>The record is the evidence. An agent that reaches your form and stops at a challenge page has told you exactly what to change, and the same test, rerun, shows whether the change worked. The <a href="/guides/how-to-measure-ai-search-visibility/">measurement guide</a> sets out how to keep that record over months.</p>
+
+      <section class="faq">
+        <h2>Frequently asked questions</h2>
+        <h3>Do AI agents follow robots.txt?</h3>
+        <p>Anthropic manages its agentic browser separately from its crawlers and fetchers, and says a site's crawler preferences are independent of it. It identifies the browser with the Claude-Agent token and published IP addresses. Treat agents as user traffic, governed at the firewall by verified identity, and keep robots.txt for the crawlers.</p>
+        <h3>Can an AI agent buy something or book an appointment on my site?</h3>
+        <p>Yes, with the buyer's approval. OpenAI says ChatGPT requests permission before taking actions of consequence, and a user can take over the browser to log in. A site that lets a person book without friction lets an agent book the same way, with the buyer confirming.</p>
+        <h3>How do I see AI agent visits in my analytics?</h3>
+        <p>In the server logs. Agents run real browsers, so they can load the same pages and scripts a person does and appear in analytics as ordinary sessions. The Claude-Agent token in the User-Agent string and Signature-Agent headers in the request identify them in the logs.</p>
+        <h3>What is agentic experience optimization (AXO)?</h3>
+        <p>The name some vendors give to making a site usable by AI agents. The work underneath is the list in this guide: facts in text, labeled controls, forms that finish, and no needless gates. The <a href="/guides/ai-search-glossary/">AI search glossary</a> defines AXO, AAIO, and the related terms.</p>
+      </section>
+
+      <p><strong>Read next:</strong> <a href="/guides/which-ai-crawlers-should-you-allow/">Which AI crawlers should your robots.txt allow?</a>, <a href="/guides/technical-seo-for-ai-search/">How do you make a website easier for AI search to understand?</a>, and the <a href="/guides/ai-search-glossary/">AI search glossary</a>.</p>
+
+      <h2 id="sources">Sources</h2>
+      <ul>
+        <li><a href="https://openai.com/index/introducing-chatgpt-agent/">OpenAI: Introducing ChatGPT agent (July 17, 2025)</a></li>
+        <li><a href="https://support.claude.com/en/articles/18234133">Anthropic: How do Anthropic-hosted browsers identify themselves when they browse the web on a user's behalf?</a></li>
+        <li><a href="https://simonwillison.net/2025/Aug/4/chatgpt-agents-user-agent/">Simon Willison: ChatGPT agent's user-agent (August 4, 2025)</a></li>
+        <li><a href="https://blog.cloudflare.com/web-bot-auth">Cloudflare Blog: Forget IPs, using cryptography to verify bot and agent traffic (May 15, 2025)</a></li>
+        <li><a href="https://datatracker.ietf.org/doc/draft-ietf-webbotauth-httpsig-protocol/">IETF Web Bot Auth working group: HTTP Message Signatures for automated traffic (Internet-Draft)</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Ask an AI engine about your business.</h2>
+      <p>Then book the call and tell us what it said. Fixing that answer is the work.</p>
+      <p><a class="btn primary" href="https://calendly.com/chrisabraham/30">Book a 30-minute call</a></p>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Gerris AI</h3>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About Chris Abraham</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
+          <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
+          <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://gerriscorp.com/">gerriscorp.com</a></li>
+          <li><a href="https://christopherabraham.com/">christopherabraham.com</a></li>
+          <li><a href="https://chrisabraham.net/">chrisabraham.net, the weblog</a></li>
+          <li><a href="https://chrisabraham.com/">chrisabraham.com</a></li>
+          <li><a href="https://thechrisabrahamshow.com/">The Chris Abraham Show</a></li>
+          <li><a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></li>
+          <li><a href="https://github.com/chrisabraham">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
+  </div>
+</footer>
+</body>
+</html>

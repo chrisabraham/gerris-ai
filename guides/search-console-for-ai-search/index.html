@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSHZ35VB');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PKWTJ2ER1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PKWTJ2ER1K');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Do You Read Google Search Console for AI Search?</title>
+<meta name="description" content="Google counts AI Overviews and AI Mode traffic inside Search Console's Web search type. Where it sits, regex filters for question queries, and a monthly read.">
+<link rel="canonical" href="https://gerris.ai/guides/search-console-for-ai-search/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gerris">
+<meta property="og:title" content="How Do You Read Google Search Console for AI Search?">
+<meta property="og:description" content="Google counts AI Overviews and AI Mode traffic inside Search Console's Web search type. Where it sits, regex filters for question queries, and a monthly read.">
+<meta property="og:url" content="https://gerris.ai/guides/search-console-for-ai-search/">
+<meta property="og:image" content="https://gerris.ai/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gerris: AI search visibility. AEO, GEO, and SEO.">
+<meta property="article:published_time" content="2026-11-27">
+<meta property="article:modified_time" content="2026-11-27">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Do You Read Google Search Console for AI Search?">
+<meta name="twitter:description" content="Google counts AI Overviews and AI Mode traffic inside Search Console's Web search type. Where it sits, regex filters for question queries, and a monthly read.">
+<meta name="twitter:image" content="https://gerris.ai/social-card.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#c75000">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://gerris.ai/guides/search-console-for-ai-search/#article",
+   "headline": "How do you read Google Search Console for AI search?",
+   "description": "Google counts AI Overviews and AI Mode traffic inside Search Console's Web search type. Where it sits, regex filters for question queries, and a monthly read.",
+   "url": "https://gerris.ai/guides/search-console-for-ai-search/",
+   "mainEntityOfPage": "https://gerris.ai/guides/search-console-for-ai-search/",
+   "datePublished": "2026-11-27",
+   "dateModified": "2026-11-27",
+   "inLanguage": "en",
+   "image": "https://gerris.ai/social-card.png",
+   "author": {
+    "@id": "https://gerris.ai/#chris-abraham"
+   },
+   "publisher": {
+    "@id": "https://gerris.ai/#organization"
+   },
+   "isPartOf": {
+    "@id": "https://gerris.ai/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Google Search Console",
+     "sameAs": "https://en.wikipedia.org/wiki/Google_Search_Console"
+    },
+    {
+     "@type": "Thing",
+     "name": "Regular expression",
+     "sameAs": "https://en.wikipedia.org/wiki/Regular_expression"
+    }
+   ],
+   "citation": [
+    "https://developers.google.com/search/docs/appearance/ai-features",
+    "https://support.google.com/webmasters/answer/7576553",
+    "https://support.google.com/webmasters/answer/17011165",
+    "https://developers.google.com/search/blog/2021/04/performance-report-data-filtering",
+    "https://developers.google.com/search/blog/2021/06/regex-negative-match"
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://gerris.ai/guides/search-console-for-ai-search/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Does Search Console show AI Overviews separately?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Google includes traffic from AI Overviews and AI Mode in the overall search traffic in the Performance report, under the Web search type, with no separate filter for either feature."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the Web: multimodal search type?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A split of the Web search type for searches that use images, such as a search made with a smartphone camera. Text searches, including the ones that produce AI Overviews, sit under Web: text-based."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I filter Search Console for question queries?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Add a Query filter, choose Custom (regex), and use a pattern such as ^(who|what|when|where|why|how|which|is|are|can|does|do|should|best)\\b. Search Console uses RE2 syntax, matches anywhere in the query unless the pattern is anchored, and ignores case by default."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does Search Console compare with Bing's AI Performance report?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Bing's report counts citations in Copilot and Bing AI answers directly, page by page, with sampled grounding queries. Search Console counts impressions and clicks with AI Overviews and AI Mode folded into the Web totals. Read them together: Bing for citations, Search Console for Google's demand and clicks."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://gerris.ai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://gerris.ai/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Search Console for AI search",
+     "item": "https://gerris.ai/guides/search-console-for-ai-search/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZ35VB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap hwrap">
+    <a href="/" aria-label="Gerris home"><svg width="34" height="34" viewBox="0 0 100 100" role="img" aria-label="Gerris logo"><circle cx="30" cy="32" r="15" fill="#b0dde3"/><circle cx="66" cy="24" r="11" fill="#1e9cd5"/><circle cx="52" cy="62" r="17" fill="#f3b842"/><path d="M30 32 Q48 12 66 24 M40 46 Q46 58 52 62" stroke="#211f1e" stroke-width="4" fill="none" stroke-linecap="round"/></svg></a>
+    <a class="brand" href="/"><span class="brandname">Gerris AI</span><small>AI search visibility, AEO, GEO, and SEO</small></a>
+    <nav class="site" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/briefing/">The AI Search Briefing</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <article class="page">
+      <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; Search Console for AI search</p>
+      <h1>How do you read Google Search Console for AI search?</h1>
+      <p><strong>Google counts traffic from AI Overviews and AI Mode inside the ordinary Performance report in Search Console, under the Web search type, with no separate filter.</strong> The AI answers are in the numbers, mixed with the classic results. Reading Search Console for AI search means pulling the question-shaped queries, the long conversational queries, and the pages that answer them out of that mix, and reading them month over month against a log of what changed on the site.</p>
+
+      <h2>Where does AI search traffic appear in Search Console?</h2>
+      <p>In the Performance report for search results. Google says sites appearing in its AI features are included in the overall search traffic in Search Console, reported within the Web search type. The report's search type filter now splits Web in two:</p>
+      <ul>
+        <li><strong>Web: text-based:</strong> traffic from text queries typed into the standard Google search bar. AI Overviews and AI Mode sit here, inside the totals.</li>
+        <li><strong>Web: multimodal:</strong> traffic from searches that use images, such as a search made with a smartphone camera.</li>
+        <li><strong>Image, Video, and News:</strong> traffic from the Images tab, the Videos tab, and Google News.</li>
+      </ul>
+      <p>The four metrics keep their definitions. Clicks are the times a user clicked through to your site from Google Search results. Impressions are how many times your site appeared in the results. CTR is clicks divided by impressions. Average position is the average position of your site's topmost result.</p>
+
+      <h2>How do you find the queries AI answers serve?</h2>
+      <p>With the regular expression filter. Google added regex filters to the Performance report in April 2021 and a does-not-match option in June 2021. In the report, add a Query filter, choose Custom (regex), and paste a pattern. Search Console uses RE2 syntax, matches anywhere in the query unless the pattern is anchored with ^ or $, and ignores case by default; (?-i) at the start makes a pattern case-sensitive.</p>
+      <p>Two patterns do most of the work. The first pulls questions, the queries an answer engine answers in sentences:</p>
+      <pre><code>^(who|what|when|where|why|how|which|is|are|can|does|do|should|best)\b</code></pre>
+      <p>The second pulls long queries, eight words or more, the conversational form AI Mode invites and query fan-out breaks into pieces:</p>
+      <pre><code>([^ ]+ ){7,}[^ ]+</code></pre>
+      <p>Run each one against the last three months and sort by impressions. The list that comes back is the set of questions Google already associates with your site. Read it for the questions your money pages should answer and do not, and for the questions a weak page answers by accident.</p>
+
+      <h2>How do you read the pages behind those queries?</h2>
+      <p>Keep the question filter on and switch to the Pages tab. Every page with impressions for question queries is a page Google considers a candidate answer. Compare that list with the pages you want named: the service pages, the location pages, and the canonical statement of what the business is.</p>
+      <p>Three patterns show up again and again in the audits:</p>
+      <ul>
+        <li><strong>The blog post answering the money question:</strong> an old article collects impressions for the service query while the service page collects none. The fix is to state the answer on the service page, at the top of a section headed with the question, and link the post to it.</li>
+        <li><strong>The right page at the wrong depth:</strong> the service page appears, with an average position deep in the results, for questions it touches only in passing. The fix is a direct answer in the first sentence under a heading phrased the way the query is.</li>
+        <li><strong>The page that never appears:</strong> a page with no impressions for any question query. Check it in URL Inspection first, because a page outside the index can answer nothing. The <a href="/guides/why-is-my-website-not-indexed/">indexing guide</a> covers what keeps a page out.</li>
+      </ul>
+
+      <h2>How do you track one page after a fix?</h2>
+      <p>Filter the report to the page's exact URL, keep the question filter on, and use comparison mode to set the 28 days after the change beside the 28 days before it. Read three numbers: impressions for question queries, the count of distinct question queries the page appears for, and clicks. A page that starts appearing for questions it never appeared for is now in the running to answer them. Write the date of the change and the three numbers into the log, and check the page again a month later, because Google recrawls and reassesses on its own schedule.</p>
+
+      <h2>What does a monthly read look like?</h2>
+      <p>The same four passes, on the same date ranges, every month:</p>
+      <ul>
+        <li><strong>Totals:</strong> compare the last 28 days with the previous 28 days in comparison mode, for the whole site and for the question filter.</li>
+        <li><strong>Question queries:</strong> list the question queries that gained or lost impressions, and mark the ones that belong to a service you sell.</li>
+        <li><strong>Pages:</strong> list the pages behind those queries, and check each against the page you want named for it.</li>
+        <li><strong>Changes:</strong> read the movement against the dated log of every edit to the website, the Google Business Profile, and the listings.</li>
+      </ul>
+      <p>A rise on the pages you fixed, for the questions you answered, is the result of the fix. A rise across unrelated pages and queries at once points to a change on Google's side. Either way, the log is what makes the difference readable.</p>
+
+      <h2>What does Search Console leave out?</h2>
+      <p>Two things every reader of these reports needs to hold. Search Console has no view that separates AI Overviews or AI Mode from the classic results, so a click from an AI Overview and a click from the tenth blue link arrive in the same total. And it counts Google only. Bing Webmaster Tools reports Copilot and Bing AI citations directly, as the <a href="/guides/bing-ai-performance-report/">Bing AI Performance guide</a> explains, and visits from ChatGPT, Perplexity, Claude, and Gemini show up in Google Analytics 4, as <a href="/guides/ai-referral-traffic-ga4/">the AI referral traffic guide</a> covers.</p>
+      <p>The direct record of what the answers say is the one Search Console cannot keep: the money questions, put to Google AI Overviews and AI Mode in the buyer's words, with the named businesses written down. Search Console shows what that presence produced in impressions and clicks. The <a href="/services/#presence">monthly measurement</a> keeps both records side by side.</p>
+
+      <section class="faq">
+        <h2>Frequently asked questions</h2>
+        <h3>Does Search Console show AI Overviews separately?</h3>
+        <p>No. Google includes traffic from AI Overviews and AI Mode in the overall search traffic in the Performance report, under the Web search type, with no separate filter for either feature.</p>
+        <h3>What is the Web: multimodal search type?</h3>
+        <p>A split of the Web search type for searches that use images, such as a search made with a smartphone camera. Text searches, including the ones that produce AI Overviews, sit under Web: text-based.</p>
+        <h3>How do I filter Search Console for question queries?</h3>
+        <p>Add a Query filter, choose Custom (regex), and use a pattern such as ^(who|what|when|where|why|how|which|is|are|can|does|do|should|best)\b. Search Console uses RE2 syntax, matches anywhere in the query unless the pattern is anchored, and ignores case by default.</p>
+        <h3>How does Search Console compare with Bing's AI Performance report?</h3>
+        <p>Bing's report counts citations in Copilot and Bing AI answers directly, page by page, with sampled grounding queries. Search Console counts impressions and clicks with AI Overviews and AI Mode folded into the Web totals. Read them together: Bing for citations, Search Console for Google's demand and clicks.</p>
+      </section>
+
+      <p><strong>Read next:</strong> <a href="/guides/google-ai-overviews-sources/">How do Google AI Overviews and AI Mode pick their sources?</a>, <a href="/guides/how-to-measure-ai-search-visibility/">How do you measure AI search visibility?</a>, and the <a href="/guides/ai-search-glossary/">AI search glossary</a>.</p>
+
+      <h2 id="sources">Sources</h2>
+      <ul>
+        <li><a href="https://developers.google.com/search/docs/appearance/ai-features">Google Search Central: AI features and your website</a></li>
+        <li><a href="https://support.google.com/webmasters/answer/7576553">Search Console Help: Performance report (Search results)</a></li>
+        <li><a href="https://support.google.com/webmasters/answer/17011165">Search Console Help: Performance report advanced filtering and comparison</a></li>
+        <li><a href="https://developers.google.com/search/blog/2021/04/performance-report-data-filtering">Google Search Central Blog: Improved data filtering and comparison on Performance reports (April 2021)</a></li>
+        <li><a href="https://developers.google.com/search/blog/2021/06/regex-negative-match">Google Search Central Blog: Regex negative match in Search Console (June 2, 2021)</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Ask an AI engine about your business.</h2>
+      <p>Then book the call and tell us what it said. Fixing that answer is the work.</p>
+      <p><a class="btn primary" href="https://calendly.com/chrisabraham/30">Book a 30-minute call</a></p>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Gerris AI</h3>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About Chris Abraham</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
+          <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
+          <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://gerriscorp.com/">gerriscorp.com</a></li>
+          <li><a href="https://christopherabraham.com/">christopherabraham.com</a></li>
+          <li><a href="https://chrisabraham.net/">chrisabraham.net, the weblog</a></li>
+          <li><a href="https://chrisabraham.com/">chrisabraham.com</a></li>
+          <li><a href="https://thechrisabrahamshow.com/">The Chris Abraham Show</a></li>
+          <li><a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></li>
+          <li><a href="https://github.com/chrisabraham">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
+  </div>
+</footer>
+</body>
+</html>

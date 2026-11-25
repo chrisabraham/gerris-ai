@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSHZ35VB');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PKWTJ2ER1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PKWTJ2ER1K');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Is IndexNow, and Does It Help AI Search?</title>
+<meta name="description" content="IndexNow tells Bing and other engines the moment a page is added, changed, or deleted, so AI answers read current pages. How it works and how to set it up.">
+<link rel="canonical" href="https://gerris.ai/guides/what-is-indexnow/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gerris">
+<meta property="og:title" content="What Is IndexNow, and Does It Help AI Search?">
+<meta property="og:description" content="IndexNow tells Bing and other engines the moment a page is added, changed, or deleted, so AI answers read current pages. How it works and how to set it up.">
+<meta property="og:url" content="https://gerris.ai/guides/what-is-indexnow/">
+<meta property="og:image" content="https://gerris.ai/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gerris: AI search visibility. AEO, GEO, and SEO.">
+<meta property="article:published_time" content="2026-11-27">
+<meta property="article:modified_time" content="2026-11-27">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What Is IndexNow, and Does It Help AI Search?">
+<meta name="twitter:description" content="IndexNow tells Bing and other engines the moment a page is added, changed, or deleted, so AI answers read current pages. How it works and how to set it up.">
+<meta name="twitter:image" content="https://gerris.ai/social-card.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#c75000">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://gerris.ai/guides/what-is-indexnow/#article",
+   "headline": "What is IndexNow, and does it help AI search?",
+   "description": "IndexNow tells Bing and other engines the moment a page is added, changed, or deleted, so AI answers read current pages. How it works and how to set it up.",
+   "url": "https://gerris.ai/guides/what-is-indexnow/",
+   "mainEntityOfPage": "https://gerris.ai/guides/what-is-indexnow/",
+   "datePublished": "2026-11-27",
+   "dateModified": "2026-11-27",
+   "inLanguage": "en",
+   "image": "https://gerris.ai/social-card.png",
+   "author": {
+    "@id": "https://gerris.ai/#chris-abraham"
+   },
+   "publisher": {
+    "@id": "https://gerris.ai/#organization"
+   },
+   "isPartOf": {
+    "@id": "https://gerris.ai/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "IndexNow",
+     "sameAs": "https://en.wikipedia.org/wiki/IndexNow"
+    },
+    {
+     "@type": "Thing",
+     "name": "Microsoft Bing",
+     "sameAs": "https://en.wikipedia.org/wiki/Microsoft_Bing"
+    }
+   ],
+   "citation": [
+    "https://www.indexnow.org/",
+    "https://www.indexnow.org/documentation",
+    "https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview",
+    "https://blogs.bing.com/webmaster/March-2024/Evolving-SEO-Fresh-New-Features-and-Updates-for-Website-Owners-Announced-at-Pubcon"
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://gerris.ai/guides/what-is-indexnow/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Is IndexNow free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. IndexNow is an open protocol with no fee and no account required to submit. A site needs only a key and a key file at its root. Bing Webmaster Tools, which is free, reports on the URLs a verified site has submitted."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does IndexNow replace a sitemap?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Keep the sitemap, with accurate lastmod dates, because Google reads it and Google is absent from IndexNow's participating engines. IndexNow adds an immediate notice for Bing and the engines that share its submissions."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "If I submit to Bing, do the other engines get it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. The IndexNow documentation says submitted URLs are automatically shared with all other participating search engines, so one submission to any of them reaches the rest."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does a 202 response mean?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The URL was received and the key has not been validated yet. The engine checks the key against the key file on your site, and a 403 follows if the key file is missing or holds a different key."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://gerris.ai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://gerris.ai/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "IndexNow",
+     "item": "https://gerris.ai/guides/what-is-indexnow/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZ35VB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap hwrap">
+    <a href="/" aria-label="Gerris home"><svg width="34" height="34" viewBox="0 0 100 100" role="img" aria-label="Gerris logo"><circle cx="30" cy="32" r="15" fill="#b0dde3"/><circle cx="66" cy="24" r="11" fill="#1e9cd5"/><circle cx="52" cy="62" r="17" fill="#f3b842"/><path d="M30 32 Q48 12 66 24 M40 46 Q46 58 52 62" stroke="#211f1e" stroke-width="4" fill="none" stroke-linecap="round"/></svg></a>
+    <a class="brand" href="/"><span class="brandname">Gerris AI</span><small>AI search visibility, AEO, GEO, and SEO</small></a>
+    <nav class="site" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/briefing/">The AI Search Briefing</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <article class="page">
+      <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; IndexNow</p>
+      <h1>What is IndexNow, and does it help AI search?</h1>
+      <p><strong>IndexNow is an open protocol a website uses to tell search engines the moment a URL is added, updated, or deleted.</strong> The IndexNow site lists Microsoft Bing, Naver, Seznam.cz, Yandex, and Yep as supporters, and a URL submitted to one participating engine is shared automatically with all the others. For AI search, the reason to use it is Bing. Microsoft says IndexNow helps keep information fresh across search and AI experiences, and the Bing index feeds Microsoft Copilot and the AI summaries in Bing.</p>
+
+      <h2>Why does freshness matter for AI answers?</h2>
+      <p>Because an AI answer repeats the version of a page its index holds. A business that corrects its hours, adds a service, or fixes a wrong fact on its website changes nothing in the answer until the engine has recrawled the page and rebuilt its record. Until then, the answer quotes the old page, and the buyer acts on it.</p>
+      <p>Microsoft states the connection directly. In its February 2026 announcement of the AI Performance report, it says that by enabling faster discovery of content changes, IndexNow helps ensure that AI systems reference the current versions of pages. The <a href="/guides/how-to-fix-wrong-information-in-ai-answers/">guide to fixing wrong information in AI answers</a> describes the wait between the fix and the changed answer. IndexNow shortens the part of that wait that belongs to Bing and its partners.</p>
+
+      <h2>How does IndexNow work?</h2>
+      <p>In three parts: a key that proves you own the site, a key file that publishes it, and a notification that names the changed URLs.</p>
+      <ul>
+        <li><strong>The key:</strong> between 8 and 128 characters, using lowercase and uppercase letters, numbers, and dashes.</li>
+        <li><strong>The key file:</strong> a UTF-8 text file named for the key and holding the key, at the root of the site. The documentation also allows key files elsewhere on the same host, as long as each notification says where with a keyLocation value.</li>
+        <li><strong>A single URL:</strong> a request to an engine's endpoint that names the changed URL and the key.</li>
+        <li><strong>Many URLs:</strong> a JSON POST listing the changed URLs, up to 10,000 per post.</li>
+      </ul>
+      <p>A single submission and a bulk submission look like this, with example values:</p>
+      <pre><code>GET https://api.indexnow.org/indexnow?url=https://www.example.com/services/&amp;key=3f8a2c9d41e0b7a6
+
+POST /indexnow HTTP/1.1
+Host: api.indexnow.org
+Content-Type: application/json; charset=utf-8
+
+{
+  "host": "www.example.com",
+  "key": "3f8a2c9d41e0b7a6",
+  "keyLocation": "https://www.example.com/3f8a2c9d41e0b7a6.txt",
+  "urlList": [
+    "https://www.example.com/services/",
+    "https://www.example.com/hours/"
+  ]
+}</code></pre>
+      <p>The response code says what happened. The documentation defines 200 as submitted successfully, 202 as received with key validation pending, 400 as an invalid format, 403 as a key that is missing or does not match the key file, 422 as URLs that do not belong to the host or a key that does not match the protocol's format, and 429 as too many requests, flagged as potential spam.</p>
+
+      <h2>When should a site send a notification?</h2>
+      <p>Every time a page is added, updated, or deleted, automatically. The documentation recommends automating submission as soon as content changes. On a site built by hand, that means a step at the end of every publish that sends the changed URLs. On a content management system or a CDN that offers IndexNow as a built-in setting or plugin, it means turning that setting on and checking that it fires.</p>
+      <p>Send the pages that changed, and only those. A notification for an unchanged page spends the engine's attention on nothing, and resubmitting a whole site on every publish is the pattern the 429 response exists to stop. Deleted pages count too: a notification for a removed URL tells the engine to drop it, which keeps a retired service or a closed location out of the answer.</p>
+
+      <h2>How do you set up IndexNow on a site you publish yourself?</h2>
+      <p>Five steps, done once, then run on every publish:</p>
+      <ul>
+        <li><strong>Make a key:</strong> 32 hexadecimal characters is a comfortable length inside the 8 to 128 the protocol allows. On a Mac or Linux machine, openssl rand -hex 16 prints one.</li>
+        <li><strong>Publish the key file:</strong> save the key as the only line of a text file named for the key, such as 3f8a2c9d41e0b7a6.txt, at the root of the site, and confirm it loads in a browser.</li>
+        <li><strong>Collect the changed URLs:</strong> on a site kept in git, the files changed by the last commit map to the pages that changed; on a content management system, the publish log does the same.</li>
+        <li><strong>Send them:</strong> one POST to an IndexNow endpoint with the host, the key, the key location, and the list.</li>
+        <li><strong>Read the response:</strong> a 200 or 202 is the receipt; a 403 means the key file is missing or wrong, and a 422 means a URL in the list belongs to another host.</li>
+      </ul>
+      <p>For a static site in git, the whole step fits in a few lines of shell run after each deploy, with example values:</p>
+      <pre><code>KEY=3f8a2c9d41e0b7a6
+HOST=www.example.com
+URLS=$(git diff --name-only HEAD~1 HEAD -- '*.html' \
+  | sed -e 's#index\.html$##' -e "s#^#https://$HOST/#" \
+  | jq -R . | jq -s -c .)
+curl -s -o /dev/null -w '%{http_code}\n' \
+  -H 'Content-Type: application/json; charset=utf-8' \
+  -d "{\"host\":\"$HOST\",\"key\":\"$KEY\",\"keyLocation\":\"https://$HOST/$KEY.txt\",\"urlList\":$URLS}" \
+  https://api.indexnow.org/indexnow</code></pre>
+      <p>The script prints the response code, which goes into the publish log beside the commit. That log, read against Bing Webmaster Tools, is the record of which fixes reached the engine and when.</p>
+
+      <h2>Does Google use IndexNow?</h2>
+      <p>Google is absent from the list of participating engines on the IndexNow site. Google learns about changed pages through its own crawling, sitemaps with accurate lastmod dates, and the URL Inspection tool in Search Console, which can request that a single page be recrawled. Since Google AI Overviews and AI Mode draw on the Google Search index, a fact corrected on the website reaches them on Google's crawl schedule. The <a href="/guides/why-is-my-website-not-indexed/">indexing guide</a> covers the Google side.</p>
+      <p>The practical answer is to run both. A sitemap and Search Console for Google, IndexNow for Bing and the engines that share its notifications, and one source of truth on the website for all of them.</p>
+
+      <h2>What does IndexNow leave out?</h2>
+      <p>IndexNow is a notice. It tells an engine which URLs changed so the engine can prioritize crawling them. Indexing, ranking, and citation are still the engine's decisions, made on the content of the page, and the IndexNow site promises none of them. A notification for a thin page brings the engine back to a thin page sooner.</p>
+      <p>Bing Webmaster Tools shows what happened next. Microsoft says its IndexNow Insights report gives site owners actionable insights on the URLs they submitted, including indexing status and crawl errors. Read it beside the <a href="/guides/bing-ai-performance-report/">AI Performance report</a>, which counts how often Copilot and Bing AI answers cite those pages once they are indexed.</p>
+
+      <section class="faq">
+        <h2>Frequently asked questions</h2>
+        <h3>Is IndexNow free?</h3>
+        <p>Yes. IndexNow is an open protocol with no fee and no account required to submit. A site needs only a key and a key file at its root. Bing Webmaster Tools, which is free, reports on the URLs a verified site has submitted.</p>
+        <h3>Does IndexNow replace a sitemap?</h3>
+        <p>No. Keep the sitemap, with accurate lastmod dates, because Google reads it and Google is absent from IndexNow's participating engines. IndexNow adds an immediate notice for Bing and the engines that share its submissions.</p>
+        <h3>If I submit to Bing, do the other engines get it?</h3>
+        <p>Yes. The IndexNow documentation says submitted URLs are automatically shared with all other participating search engines, so one submission to any of them reaches the rest.</p>
+        <h3>What does a 202 response mean?</h3>
+        <p>The URL was received and the key has not been validated yet. The engine checks the key against the key file on your site, and a 403 follows if the key file is missing or holds a different key.</p>
+      </section>
+
+      <p><strong>Read next:</strong> <a href="/guides/bing-ai-performance-report/">How do you read Bing's AI Performance report?</a>, <a href="/guides/how-to-fix-wrong-information-in-ai-answers/">How do you fix wrong information about your business in AI answers?</a>, and the <a href="/guides/ai-search-glossary/">AI search glossary</a>.</p>
+
+      <h2 id="sources">Sources</h2>
+      <ul>
+        <li><a href="https://www.indexnow.org/">IndexNow: What is IndexNow?</a></li>
+        <li><a href="https://www.indexnow.org/documentation">IndexNow: Documentation</a></li>
+        <li><a href="https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview">Bing Webmaster Blog: Introducing AI Performance in Bing Webmaster Tools (February 10, 2026)</a></li>
+        <li><a href="https://blogs.bing.com/webmaster/March-2024/Evolving-SEO-Fresh-New-Features-and-Updates-for-Website-Owners-Announced-at-Pubcon">Bing Webmaster Blog: Evolving SEO, new features announced at Pubcon (March 2024)</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Ask an AI engine about your business.</h2>
+      <p>Then book the call and tell us what it said. Fixing that answer is the work.</p>
+      <p><a class="btn primary" href="https://calendly.com/chrisabraham/30">Book a 30-minute call</a></p>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Gerris AI</h3>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About Chris Abraham</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
+          <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
+          <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://gerriscorp.com/">gerriscorp.com</a></li>
+          <li><a href="https://christopherabraham.com/">christopherabraham.com</a></li>
+          <li><a href="https://chrisabraham.net/">chrisabraham.net, the weblog</a></li>
+          <li><a href="https://chrisabraham.com/">chrisabraham.com</a></li>
+          <li><a href="https://thechrisabrahamshow.com/">The Chris Abraham Show</a></li>
+          <li><a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></li>
+          <li><a href="https://github.com/chrisabraham">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
+  </div>
+</footer>
+</body>
+</html>

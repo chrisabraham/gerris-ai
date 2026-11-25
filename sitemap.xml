@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://gerris.ai/guides/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   
@@ -170,6 +170,48 @@
   <url>
     <loc>https://gerris.ai/guides/how-to-fix-wrong-information-in-ai-answers/</loc>
     <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/google-ai-overviews-sources/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/google-business-profile-ai-answers/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/ai-referral-traffic-ga4/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/what-is-indexnow/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/how-ai-agents-use-websites/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/search-console-for-ai-search/</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>

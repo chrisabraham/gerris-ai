@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSHZ35VB');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PKWTJ2ER1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PKWTJ2ER1K');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Do You Track AI Referral Traffic in Google Analytics 4?</title>
+<meta name="description" content="GA4's AI Assistant channel, ChatGPT's utm_source tag, and a custom channel group show visits from AI answers. How to set them up, the gaps, and what they mean.">
+<link rel="canonical" href="https://gerris.ai/guides/ai-referral-traffic-ga4/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gerris">
+<meta property="og:title" content="How Do You Track AI Referral Traffic in Google Analytics 4?">
+<meta property="og:description" content="GA4's AI Assistant channel, ChatGPT's utm_source tag, and a custom channel group show visits from AI answers. How to set them up, the gaps, and what they mean.">
+<meta property="og:url" content="https://gerris.ai/guides/ai-referral-traffic-ga4/">
+<meta property="og:image" content="https://gerris.ai/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gerris: AI search visibility. AEO, GEO, and SEO.">
+<meta property="article:published_time" content="2026-11-27">
+<meta property="article:modified_time" content="2026-11-27">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Do You Track AI Referral Traffic in Google Analytics 4?">
+<meta name="twitter:description" content="GA4's AI Assistant channel, ChatGPT's utm_source tag, and a custom channel group show visits from AI answers. How to set them up, the gaps, and what they mean.">
+<meta name="twitter:image" content="https://gerris.ai/social-card.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#c75000">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://gerris.ai/guides/ai-referral-traffic-ga4/#article",
+   "headline": "How do you track AI referral traffic in Google Analytics 4?",
+   "description": "GA4's AI Assistant channel, ChatGPT's utm_source tag, and a custom channel group show visits from AI answers. How to set them up, the gaps, and what they mean.",
+   "url": "https://gerris.ai/guides/ai-referral-traffic-ga4/",
+   "mainEntityOfPage": "https://gerris.ai/guides/ai-referral-traffic-ga4/",
+   "datePublished": "2026-11-27",
+   "dateModified": "2026-11-27",
+   "inLanguage": "en",
+   "image": "https://gerris.ai/social-card.png",
+   "author": {
+    "@id": "https://gerris.ai/#chris-abraham"
+   },
+   "publisher": {
+    "@id": "https://gerris.ai/#organization"
+   },
+   "isPartOf": {
+    "@id": "https://gerris.ai/#website"
+   },
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Google Analytics",
+     "sameAs": "https://en.wikipedia.org/wiki/Google_Analytics"
+    },
+    {
+     "@type": "Thing",
+     "name": "UTM parameters",
+     "sameAs": "https://en.wikipedia.org/wiki/UTM_parameters"
+    }
+   ],
+   "citation": [
+    "https://support.google.com/analytics/answer/9756891",
+    "https://support.google.com/analytics/answer/13051316",
+    "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq",
+    "https://developers.google.com/search/docs/appearance/ai-features"
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://gerris.ai/guides/ai-referral-traffic-ga4/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Does GA4 track ChatGPT traffic automatically?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. ChatGPT is one of the sources Google names for the AI Assistant default channel, and OpenAI says ChatGPT adds utm_source=chatgpt.com to referral URLs, so ChatGPT visits are labeled in both the channel and the source reports."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Perplexity in GA4's AI Assistant channel?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Check your own property. Google's documentation names ChatGPT, Gemini, Deepseek, Copilot, and Grok as examples and links the full list of recognized sources as a spreadsheet. If perplexity.ai sessions appear under referral, a custom channel group placed above Referral catches them."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can GA4 show traffic from Google AI Overviews?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. GA4 counts clicks from AI Overviews and AI Mode as Google organic traffic, and the AI Assistant channel excludes them by definition. Search Console includes the same traffic in the Performance report under the Web search type, with no separate filter."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why is my AI referral traffic so small?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Because most AI answers name a business without producing a click. The buyer reads the answer and calls, or searches the brand later. Measure the answers themselves on a schedule, and use GA4 to see which named businesses also get the visit."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://gerris.ai/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Guides",
+     "item": "https://gerris.ai/guides/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "AI referral traffic in GA4",
+     "item": "https://gerris.ai/guides/ai-referral-traffic-ga4/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZ35VB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap hwrap">
+    <a href="/" aria-label="Gerris home"><svg width="34" height="34" viewBox="0 0 100 100" role="img" aria-label="Gerris logo"><circle cx="30" cy="32" r="15" fill="#b0dde3"/><circle cx="66" cy="24" r="11" fill="#1e9cd5"/><circle cx="52" cy="62" r="17" fill="#f3b842"/><path d="M30 32 Q48 12 66 24 M40 46 Q46 58 52 62" stroke="#211f1e" stroke-width="4" fill="none" stroke-linecap="round"/></svg></a>
+    <a class="brand" href="/"><span class="brandname">Gerris AI</span><small>AI search visibility, AEO, GEO, and SEO</small></a>
+    <nav class="site" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/briefing/">The AI Search Briefing</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+        <li><a class="cta" href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <article class="page">
+      <p class="crumbs"><a href="/">Home</a> &#8250; <a href="/guides/">Guides</a> &#8250; AI referral traffic in GA4</p>
+      <h1>How do you track AI referral traffic in Google Analytics 4?</h1>
+      <p><strong>GA4 now sorts visits from the major AI assistants into a default channel called AI Assistant, and a custom channel group catches the rest.</strong> Google's documentation describes the channel as users arriving from sources such as ChatGPT, Gemini, Deepseek, Copilot, or Grok, and excludes Google's own AI Overviews and AI Mode. ChatGPT also tags its outbound links with utm_source=chatgpt.com. Between them, a site owner can see which AI engines send visitors and which pages those visitors land on. Read every count as the visible part of a larger effect, because most AI answers name a business without producing a click.</p>
+
+      <h2>Where does AI traffic show up in GA4?</h2>
+      <p>In four places, and they overlap:</p>
+      <ul>
+        <li><strong>The AI Assistant channel:</strong> in the default channel group, visible in Reports, Acquisition, Traffic acquisition. Google's rule assigns a session to it when the medium exactly matches ai-assistant, or when the referrer matches Google's list of AI assistants, in which case GA4 sets the medium to ai-assistant and the campaign to (ai-assistant). Google links the full list of recognized sources as a downloadable spreadsheet from the same page.</li>
+        <li><strong>The session source:</strong> the assistant's own domain, such as chatgpt.com, gemini.google.com, copilot.microsoft.com, perplexity.ai, or claude.ai, recorded as the referrer.</li>
+        <li><strong>The utm_source tag:</strong> OpenAI says ChatGPT automatically includes utm_source=chatgpt.com in referral URLs, so ChatGPT visits carry a label even when the referrer is lost.</li>
+        <li><strong>Organic Search:</strong> clicks from Google AI Overviews and AI Mode, which GA4 counts as ordinary Google organic traffic and the AI Assistant channel excludes by definition.</li>
+      </ul>
+
+      <h2>How do you catch the assistants the default channel misses?</h2>
+      <p>Check first. In Traffic acquisition, switch the dimension to Session source / medium and look for each assistant's domain. Any assistant whose sessions sit under referral instead of ai-assistant needs a rule of your own.</p>
+      <p>Build it as a custom channel group, in Admin under Channel groups: copy the default group, add a channel named for AI assistants, set its condition to a source that matches a regular expression, and move it above Referral. GA4 assigns each session to the first channel whose rule matches, reading from the top, so a channel placed below Referral never receives a session. Google says custom channel groups can be applied to reports retroactively, so the new channel sorts past data as well as new. A pattern that matches whole domains exactly:</p>
+      <pre><code>^(chatgpt\.com|chat\.openai\.com|perplexity\.ai|www\.perplexity\.ai|claude\.ai|gemini\.google\.com|copilot\.microsoft\.com|chat\.deepseek\.com|grok\.com)$</code></pre>
+      <p>Keep the pattern exact. A loose fragment such as \.ai matches every site on that domain ending, and the channel fills with traffic that has nothing to do with AI.</p>
+
+      <h2>What should you measure besides visits?</h2>
+      <ul>
+        <li><strong>Landing pages:</strong> the pages AI sessions arrive on are the pages the engines cite, which makes this the closest thing GA4 offers to a citation report.</li>
+        <li><strong>Key events by channel:</strong> calls, form submissions, and bookings from AI sessions, compared with organic and referral.</li>
+        <li><strong>Engagement:</strong> engaged sessions and time on site, which Google itself points to as the measure of clicks from AI Overviews.</li>
+        <li><strong>The engine:</strong> which assistant sends the visits, read month over month, because each engine's answers move on their own schedule.</li>
+      </ul>
+      <p>Then read GA4 beside the sources that count citations directly. Bing Webmaster Tools reports how often Copilot and Bing AI answers cite your pages, as <a href="/guides/bing-ai-performance-report/">the Bing AI Performance guide</a> explains, and Search Console holds AI Overviews and AI Mode inside the Web search type.</p>
+
+      <h2>How do you build a report you will read every month?</h2>
+      <p>In Explore, as a free-form exploration, saved once and reopened each month:</p>
+      <ul>
+        <li><strong>Dimensions:</strong> Session primary channel group, Session source, and Landing page + query string.</li>
+        <li><strong>Metrics:</strong> Sessions, Engaged sessions, and Key events.</li>
+        <li><strong>Rows and filter:</strong> Landing page + query string as rows, Session source as columns, filtered to the AI Assistant channel or to your custom channel for AI assistants.</li>
+        <li><strong>Date range:</strong> the last full month, compared with the month before it.</li>
+      </ul>
+      <p>The finished table answers three questions on one screen: which assistants sent visitors, which pages they landed on, and which of those visits turned into a call, a form, or a booking. Copy the month's rows into the same log that records the changes made to the site, so next month's read starts from last month's numbers.</p>
+      <p>Landing pages with the query string kept intact carry one more signal. A ChatGPT visit arrives with utm_source=chatgpt.com in the URL, so a landing page that shows the tag confirms the visit came from a ChatGPT answer even when the referrer was lost on the way.</p>
+
+      <h2>Why does GA4 undercount AI's effect?</h2>
+      <ul>
+        <li><strong>Answers without clicks:</strong> the buyer reads the name in the answer and calls, or searches the brand later, and the visit arrives as direct or branded organic traffic.</li>
+        <li><strong>Lost referrers:</strong> some app sessions and copied links arrive with no referrer at all and are counted as Direct.</li>
+        <li><strong>Google's AI features:</strong> AI Overviews and AI Mode clicks sit inside Organic Search with nothing to separate them.</li>
+      </ul>
+      <p>So the traffic is one signal and the answer is the other. The direct measure of AI visibility is the record of what the answers say: the money questions, asked in the buyer's words across ChatGPT, Perplexity, Google AI Overviews and AI Mode, Claude, Gemini, and Copilot, on a monthly schedule, written down. That record is the <a href="/services/#presence">monthly measurement</a> Gerris keeps, with GA4 as the check on whether the named business also gets the visit.</p>
+
+      <h2>How do you read the numbers?</h2>
+      <p>As a trend, against a log of changes. Record the date of every fix to the website, the profile, and the listings, then read AI sessions and their landing pages month over month against that log. A rise on the pages you fixed is evidence the fix reached the answers. A rise across unrelated pages at once more often marks a change in the engine than in the site. Counts are small for most businesses, and small counts of buyers who arrived already knowing your name are worth more than their size suggests.</p>
+
+      <section class="faq">
+        <h2>Frequently asked questions</h2>
+        <h3>Does GA4 track ChatGPT traffic automatically?</h3>
+        <p>Yes. ChatGPT is one of the sources Google names for the AI Assistant default channel, and OpenAI says ChatGPT adds utm_source=chatgpt.com to referral URLs, so ChatGPT visits are labeled in both the channel and the source reports.</p>
+        <h3>Is Perplexity in GA4's AI Assistant channel?</h3>
+        <p>Check your own property. Google's documentation names ChatGPT, Gemini, Deepseek, Copilot, and Grok as examples and links the full list of recognized sources as a spreadsheet. If perplexity.ai sessions appear under referral, a custom channel group placed above Referral catches them.</p>
+        <h3>Can GA4 show traffic from Google AI Overviews?</h3>
+        <p>No. GA4 counts clicks from AI Overviews and AI Mode as Google organic traffic, and the AI Assistant channel excludes them by definition. Search Console includes the same traffic in the Performance report under the Web search type, with no separate filter.</p>
+        <h3>Why is my AI referral traffic so small?</h3>
+        <p>Because most AI answers name a business without producing a click. The buyer reads the answer and calls, or searches the brand later. Measure the answers themselves on a schedule, and use GA4 to see which named businesses also get the visit.</p>
+      </section>
+
+      <p><strong>Read next:</strong> <a href="/guides/google-ai-overviews-sources/">How do Google AI Overviews and AI Mode pick their sources?</a>, <a href="/guides/bing-ai-performance-report/">How do you read Bing's AI Performance report?</a>, and the <a href="/guides/ai-search-glossary/">AI search glossary</a> for the metrics.</p>
+
+      <h2 id="sources">Sources</h2>
+      <ul>
+        <li><a href="https://support.google.com/analytics/answer/9756891">Google Analytics Help: Default channel group</a></li>
+        <li><a href="https://support.google.com/analytics/answer/13051316">Google Analytics Help: Custom channel groups</a></li>
+        <li><a href="https://help.openai.com/en/articles/12627856-publishers-and-developers-faq">OpenAI Help Center: Publishers and developers FAQ</a></li>
+        <li><a href="https://developers.google.com/search/docs/appearance/ai-features">Google Search Central: AI features and your website</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Ask an AI engine about your business.</h2>
+      <p>Then book the call and tell us what it said. Fixing that answer is the work.</p>
+      <p><a class="btn primary" href="https://calendly.com/chrisabraham/30">Book a 30-minute call</a></p>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>Gerris AI</h3>
+        <ul>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/guides/">Guides</a></li>
+        <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About Chris Abraham</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:chris@gerris.ai">chris@gerris.ai</a></li>
+          <li><a href="tel:+12023525051">+1 202-352-5051</a></li>
+          <li><a href="https://calendly.com/chrisabraham/30">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Elsewhere</h3>
+        <ul>
+          <li><a href="https://gerriscorp.com/">gerriscorp.com</a></li>
+          <li><a href="https://christopherabraham.com/">christopherabraham.com</a></li>
+          <li><a href="https://chrisabraham.net/">chrisabraham.net, the weblog</a></li>
+          <li><a href="https://chrisabraham.com/">chrisabraham.com</a></li>
+          <li><a href="https://thechrisabrahamshow.com/">The Chris Abraham Show</a></li>
+          <li><a href="https://www.linkedin.com/in/chrisabraham">LinkedIn</a></li>
+          <li><a href="https://github.com/chrisabraham">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">&#169; 2026 Gerris Corp, Arlington, Virginia. Gerris is led by Chris Abraham. This site is a static build on GitHub Pages: no database, no plugin stack, nothing between the page and the reader.</p>
+  </div>
+</footer>
+</body>
+</html>

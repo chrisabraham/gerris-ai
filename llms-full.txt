@@ -1131,3 +1131,530 @@ Read next: What is entity SEO, and why does it matter for AI search? and What sh
 Ask an AI engine about your business.
 Then book the call and tell us what it said. Fixing that answer is the work.
 Book a 30-minute call
+
+---
+
+# Guide: How do Google AI Overviews and AI Mode pick their sources?: https://gerris.ai/guides/google-ai-overviews-sources/
+
+Google AI Overviews and AI Mode pick their sources from the Google Search index, under the same eligibility rules as Search. Google states that there are no additional requirements to appear in either feature, and no special optimizations necessary: a page has to be indexed and eligible to show in Search with a snippet. The selection is where the features differ from the old results page. Both may turn one question into many related searches, a technique Google calls query fan-out, and link the pages that answer the pieces.
+
+## What is the difference between AI Overviews and AI Mode?
+
+Google describes AI Overviews as a quick overview of a complicated topic with links for further reading, shown only when its systems judge that the overview adds value beyond the classic results. AI Mode is for questions that need further exploration, reasoning, or comparison, and returns a fuller AI-powered response with links to supporting sites. Google says the two may use different models and techniques, so the same question can produce different links in each.
+
+For a business, the practical difference is depth. An AI Overview names a few sources at the top of an ordinary results page. AI Mode holds a conversation, and a buyer comparing vendors can ask follow-up after follow-up, each one a fresh chance to be named or left out.
+
+## What is query fan-out, and why does it matter?
+
+Fan-out is how the features build an answer. Google says AI Overviews and AI Mode may issue multiple related searches across subtopics and data sources, and that while the response is being generated, the systems identify more supporting pages, which lets Google show a wider and more diverse set of links than a classic search.
+
+The consequence is that a page is cited for the subquestion it answers, which is often narrower than the question the buyer typed. A roofing contractor's page that states what a permit requires in its county can be the linked source inside an answer about replacing a roof. Bing reports the same pattern in Microsoft's own numbers as grounding queries, which the Bing AI Performance guide explains. Pages that answer the follow-up questions directly, each under its own heading, give fan-out something to find.
+
+## What does Google tell site owners to do?
+
+Google calls these fundamentals, worth doing and no different from good Search practice:
+
+- Ensuring that crawling is allowed in robots.txt, and by any CDN or hosting infrastructure.
+- Making content easily findable through internal links on the website.
+- Providing a great page experience for users.
+- Making sure that important content is available in textual form.
+- Supporting textual content with high-quality images and videos, when applicable.
+- Making sure structured data matches the visible text on the page.
+- Checking that Merchant Center and Business Profile information is up-to-date.
+
+Each line maps to a guide here. The crawl gates are in the AI crawlers guide, the markup in the schema guide, and the profile in the Google Business Profile guide. The line that costs businesses most is the fourth: facts locked in images, scripts, and PDFs are facts the features read poorly or never.
+
+## How do you control what the features show?
+
+With the controls that already govern Search. Google lists nosnippet, data-nosnippet, max-snippet, and noindex as the ways to limit what is shown from a page, and Googlebot's robots.txt rules govern crawl access. Google-Extended, the token many site owners reach for first, governs whether crawled content is used for Google's Gemini models and their grounding in its other AI systems, and Google has said it does not affect inclusion or ranking in Search.
+
+Every one of these controls cuts both ways. A page marked nosnippet cannot be quoted in an AI Overview, and a page that cannot be quoted cannot be the source of the sentence that names your business. A business that wants to be named leaves its snippets on and its text open.
+
+## Where does AI Overviews traffic show up?
+
+Inside the ordinary numbers. Google says sites appearing in AI features are included in the overall search traffic in Search Console, in the Performance report under the Web search type, with no separate filter for AI Overviews or AI Mode. In Google Analytics 4, the clicks land in Organic Search, and the AI Assistant channel GA4 added for chatbots excludes Google's own AI features, as the AI referral traffic guide covers.
+
+Google says clicks from results pages with AI Overviews are higher quality, and points site owners to conversions and time on site as the measure. The honest measure of presence is older and simpler: ask the money questions in AI Overviews and AI Mode, in the buyer's words, on a schedule, and write down who was named. That record is what the monthly measurement keeps.
+
+## How do you check what AI Overviews and AI Mode say about you?
+
+By asking, the same way every month, and writing the answers down:
+
+- List the money questions: twenty questions a buyer asks before hiring, in the buyer's words, with the city where the business works.
+- Ask both features: run each question in Google Search, read the AI Overview when one appears, then run it in AI Mode, from the same location each time.
+- Record three things: whether the business is named, how it is described, and which pages the answer links, yours and everyone else's.
+- Compare the linked pages: read the pages the answer chose over yours, and note what they state plainly that your page leaves implied.
+- Repeat on a schedule: the same questions, the same location, the same record, monthly.
+
+Then read the record beside the Search Console numbers for the same questions, using the regex filters the Search Console guide sets out. The record says whether you were named; Search Console says what being named produced.
+
+## Why is a page that ranks well missing from the AI Overview?
+
+Because ranking and citation are decided at different grains. Ranking scores a page against a query. The AI features compose an answer from passages, across the many searches fan-out runs, and link the pages whose passages carried the sentence. A page can rank third for the head term and hold no passage that answers any of the pieces, while a smaller site with one plain, direct paragraph on the right subquestion gets the link.
+
+The fixes are textual. State the answer at the top of the section that answers it, under a heading phrased the way buyers ask, in words a model can lift without rewriting. Then make the same facts agree across the website, the Business Profile, and the listings, because the answer repeats the version of a fact the sources corroborate.
+
+## Frequently asked questions
+
+Do I need special markup to appear in AI Overviews?
+No. Google says there are no additional requirements to appear in AI Overviews or AI Mode, and no special optimizations necessary. A page has to be indexed and eligible to show in Search with a snippet. Structured data helps when it matches the visible text.
+Can I keep my pages out of AI Overviews?
+The controls Google documents for its AI features are the Search snippet controls: nosnippet, data-nosnippet, max-snippet, and noindex. They limit what is shown from a page in Search results as well, so using them trades away visibility in both places.
+Does Search Console report AI Overviews separately?
+No. Google includes traffic from AI features in the overall search traffic in the Performance report, under the Web search type, with no separate AI Overviews or AI Mode view.
+Does blocking Google-Extended remove a site from AI Overviews?
+No. Google-Extended governs whether crawled content is used for Google's Gemini models and their grounding, and Google says it does not affect inclusion or ranking in Search. AI Overviews and AI Mode follow Googlebot's rules and the snippet controls.
+
+Read next: How do AI answers choose which businesses to name? (/guides/how-ai-answers-choose-businesses/), How do you track AI referral traffic in Google Analytics 4? (/guides/ai-referral-traffic-ga4/), and the AI search glossary (/guides/ai-search-glossary/) for query fan-out and grounding.
+
+## Sources
+
+- Google Search Central: AI features and your website (https://developers.google.com/search/docs/appearance/ai-features)
+- Google Search Central: List of Google's common crawlers (https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers)
+- Google Analytics Help: Default channel group (https://support.google.com/analytics/answer/9756891)
+
+---
+
+# Guide: How does your Google Business Profile shape AI answers?: https://gerris.ai/guides/google-business-profile-ai-answers/
+
+For a local or service business, the Google Business Profile is one of the primary sources an AI answer is built from. Its name, category, hours, service area, phone number, website link, and reviews are structured facts Google holds about the business, and Google lists checking that Business Profile information is up-to-date among its fundamentals for AI Overviews and AI Mode. A profile that agrees with the website corroborates it. A profile that disagrees, or a profile that is suspended or duplicated, corrupts the record at one of its sources.
+
+## Which profile fields feed an AI answer?
+
+Every field that states a fact a buyer asks about:
+
+- Business name: the name the answer prints, and the key every other source is matched against.
+- Primary category: the plainest statement of what the business is, and the field most often chosen years ago and never revisited.
+- Address or service area: where the business is and where it works, which decides whether it fits a question that names a place.
+- Hours, including special hours: the field behind every question about who is open now or on a holiday.
+- Phone number and website: the facts the engines cross-check against the site itself.
+- Services and description: the services, in the profile's own words, which have to match the services on the website.
+- Reviews: what customers say about the work, in their words, with the business's replies.
+
+Google's own AI features read the profile directly. Every other engine meets the same facts on the website and the listings that repeat them, so a wrong field on the profile tends to spread to the places that copy it.
+
+## How does Google decide which local businesses to show?
+
+Google names three factors. Relevance is how well a Business Profile matches what someone is searching for. Distance is how far each business is from the person searching. Prominence is how well-known a business is. Google also says businesses with complete and accurate information are more likely to show up in local results, and that there is no way to request or pay for a better local ranking.
+
+Those factors decide which businesses Google has in hand when it composes a local answer. Distance is fixed. Relevance and prominence are the profile's work: a precise category and a complete set of services make a profile relevant to more questions, and reviews, mentions, and a consistent record across the web make it prominent.
+
+## Which guidelines keep a profile standing?
+
+Google's guidelines for representing a business are short, and breaking them invites suspension:
+
+- The real-world name: the name should reflect the business's real-world name, with no taglines, store codes, or extra keywords added.
+- One profile per business: Google says there should only be one.
+- A real location: the profile is created for the actual, real-world location, P.O. boxes are out, and a service-area business keeps one profile for its central office with a designated service area.
+- The fewest categories: choose the fewest categories it takes to describe the core business, and choose specific ones.
+- A phone the business controls: the number must be under the direct control of the business.
+
+A suspended profile stops appearing in Google Maps and the local results, and the record loses its primary local source until the profile is reinstated.
+
+## What breaks the record most often?
+
+From the audits, the same handful of failures:
+
+- A stale category: chosen for a service the business no longer leads with, so the profile describes a different company from the website.
+- A name stuffed with keywords: the city or the service added to the name, which reads as a win until the profile is suspended for it.
+- Duplicates after a move: the old location's profile still live, splitting reviews and facts across two records.
+- A phone number that differs from the site: often a tracking number on one source and the main line on the others.
+- Hours left unmaintained: holiday closures and changed hours that never reached the profile.
+- Verification stuck: a profile that was never verified, or lost verification, so the owner cannot correct it.
+
+## How do you audit a profile against the website?
+
+Open the profile and the website side by side and check, field by field:
+
+- Name: identical on both, with nothing added on the profile.
+- Primary category: the plainest true name for what the business sells, matching the first sentence of the home page.
+- Phone: the same number on the profile, in the site's footer, and in the site's schema.
+- Hours: the same regular hours, and the next holiday's special hours already entered.
+- Website link: pointing at the right page, the location page for a multi-location business, and loading without a redirect chain.
+- Duplicates: a Maps search for the business's phone number and its old addresses, which surfaces any second profile still live.
+- Reviews: the date of the newest review and the share of the last twenty that have a reply.
+
+Every mismatch goes on the fix list, with the website's version as the target unless the website is the one that is wrong.
+
+## How do you bring the profile and the website into line?
+
+Start from the website, because it is the one source the business fully controls. Write the canonical statement there: the name, the category in the words buyers search, the services, the place, the phone number. Then set the profile to match it field by field, fix the listings to match both, and declare the connection in the site's LocalBusiness schema with a sameAs link to the profile, as the schema guide describes. Reply to reviews. Recheck the profile monthly, because edits suggested by the public and by Google can change fields without the owner asking.
+
+Then ask the engines. Put the questions that bring you revenue to Google AI Overviews, AI Mode, ChatGPT, and Perplexity and record whether the answer now describes the business the way the profile and the website do. Gerris directs Google Business Profile repair and verification alongside the search work, through a specialist partner, as part of the services.
+
+## What about Bing and Apple?
+
+The same work applies to the other maps. Microsoft says businesses can register with Bing Places for Business to help ensure that details such as address, hours, and contact information remain current and eligible for inclusion in AI-generated responses, and the Bing index feeds Copilot and the AI summaries in Bing. Apple Business Connect holds the business record for Apple Maps. Each is one more source the engines can check, and each has to say what the website says.
+
+## Frequently asked questions
+
+Does ChatGPT use my Google Business Profile?
+OpenAI does not publish a list of the local data sources ChatGPT uses. What every engine can do is check a business's facts across the sources it reads, and the profile's facts are repeated across maps, directories, and aggregator sites. A profile that matches the website strengthens the record everywhere it is copied.
+Should my business name on the profile include keywords?
+No. Google's guidelines say the name should reflect the business's real-world name, without taglines, store codes, or extra information. A keyword-stuffed name risks suspension, and a suspended profile drops out of the local results entirely.
+Can I pay Google for a better local ranking?
+No. Google says there is no way to request or pay for a better local ranking. Local results are decided by relevance, distance, and prominence, and complete, accurate profile information helps a business show up.
+My profile was suspended. What now?
+Find and fix the guideline problem first, then request reinstatement through Google Business Profile's own process. Until the profile is reinstated, the record AI answers draw on has lost one of its primary local sources, so the fix comes before any other AI search work.
+
+Read next: How do AI answers choose which businesses to name? (/guides/how-ai-answers-choose-businesses/), How do Google AI Overviews and AI Mode pick their sources? (/guides/google-ai-overviews-sources/), and the AI search glossary (/guides/ai-search-glossary/).
+
+## Sources
+
+- Google Business Profile Help: Guidelines for representing your business on Google (https://support.google.com/business/answer/3038177)
+- Google Business Profile Help: Tips to improve your local ranking on Google (https://support.google.com/business/answer/7091)
+- Google Search Central: AI features and your website (https://developers.google.com/search/docs/appearance/ai-features)
+- Bing Webmaster Blog: Introducing AI Performance in Bing Webmaster Tools (February 10, 2026) (https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview)
+
+---
+
+# Guide: How do you track AI referral traffic in Google Analytics 4?: https://gerris.ai/guides/ai-referral-traffic-ga4/
+
+GA4 now sorts visits from the major AI assistants into a default channel called AI Assistant, and a custom channel group catches the rest. Google's documentation describes the channel as users arriving from sources such as ChatGPT, Gemini, Deepseek, Copilot, or Grok, and excludes Google's own AI Overviews and AI Mode. ChatGPT also tags its outbound links with utm_source=chatgpt.com. Between them, a site owner can see which AI engines send visitors and which pages those visitors land on. Read every count as the visible part of a larger effect, because most AI answers name a business without producing a click.
+
+## Where does AI traffic show up in GA4?
+
+In four places, and they overlap:
+
+- The AI Assistant channel: in the default channel group, visible in Reports, Acquisition, Traffic acquisition. Google's rule assigns a session to it when the medium exactly matches ai-assistant, or when the referrer matches Google's list of AI assistants, in which case GA4 sets the medium to ai-assistant and the campaign to (ai-assistant). Google links the full list of recognized sources as a downloadable spreadsheet from the same page.
+- The session source: the assistant's own domain, such as chatgpt.com, gemini.google.com, copilot.microsoft.com, perplexity.ai, or claude.ai, recorded as the referrer.
+- The utm_source tag: OpenAI says ChatGPT automatically includes utm_source=chatgpt.com in referral URLs, so ChatGPT visits carry a label even when the referrer is lost.
+- Organic Search: clicks from Google AI Overviews and AI Mode, which GA4 counts as ordinary Google organic traffic and the AI Assistant channel excludes by definition.
+
+## How do you catch the assistants the default channel misses?
+
+Check first. In Traffic acquisition, switch the dimension to Session source / medium and look for each assistant's domain. Any assistant whose sessions sit under referral instead of ai-assistant needs a rule of your own.
+
+Build it as a custom channel group, in Admin under Channel groups: copy the default group, add a channel named for AI assistants, set its condition to a source that matches a regular expression, and move it above Referral. GA4 assigns each session to the first channel whose rule matches, reading from the top, so a channel placed below Referral never receives a session. Google says custom channel groups can be applied to reports retroactively, so the new channel sorts past data as well as new. A pattern that matches whole domains exactly:
+
+```
+^(chatgpt\.com|chat\.openai\.com|perplexity\.ai|www\.perplexity\.ai|claude\.ai|gemini\.google\.com|copilot\.microsoft\.com|chat\.deepseek\.com|grok\.com)$
+```
+
+Keep the pattern exact. A loose fragment such as \.ai matches every site on that domain ending, and the channel fills with traffic that has nothing to do with AI.
+
+## What should you measure besides visits?
+
+- Landing pages: the pages AI sessions arrive on are the pages the engines cite, which makes this the closest thing GA4 offers to a citation report.
+- Key events by channel: calls, form submissions, and bookings from AI sessions, compared with organic and referral.
+- Engagement: engaged sessions and time on site, which Google itself points to as the measure of clicks from AI Overviews.
+- The engine: which assistant sends the visits, read month over month, because each engine's answers move on their own schedule.
+
+Then read GA4 beside the sources that count citations directly. Bing Webmaster Tools reports how often Copilot and Bing AI answers cite your pages, as the Bing AI Performance guide explains, and Search Console holds AI Overviews and AI Mode inside the Web search type.
+
+## How do you build a report you will read every month?
+
+In Explore, as a free-form exploration, saved once and reopened each month:
+
+- Dimensions: Session primary channel group, Session source, and Landing page + query string.
+- Metrics: Sessions, Engaged sessions, and Key events.
+- Rows and filter: Landing page + query string as rows, Session source as columns, filtered to the AI Assistant channel or to your custom channel for AI assistants.
+- Date range: the last full month, compared with the month before it.
+
+The finished table answers three questions on one screen: which assistants sent visitors, which pages they landed on, and which of those visits turned into a call, a form, or a booking. Copy the month's rows into the same log that records the changes made to the site, so next month's read starts from last month's numbers.
+
+Landing pages with the query string kept intact carry one more signal. A ChatGPT visit arrives with utm_source=chatgpt.com in the URL, so a landing page that shows the tag confirms the visit came from a ChatGPT answer even when the referrer was lost on the way.
+
+## Why does GA4 undercount AI's effect?
+
+- Answers without clicks: the buyer reads the name in the answer and calls, or searches the brand later, and the visit arrives as direct or branded organic traffic.
+- Lost referrers: some app sessions and copied links arrive with no referrer at all and are counted as Direct.
+- Google's AI features: AI Overviews and AI Mode clicks sit inside Organic Search with nothing to separate them.
+
+So the traffic is one signal and the answer is the other. The direct measure of AI visibility is the record of what the answers say: the money questions, asked in the buyer's words across ChatGPT, Perplexity, Google AI Overviews and AI Mode, Claude, Gemini, and Copilot, on a monthly schedule, written down. That record is the monthly measurement Gerris keeps, with GA4 as the check on whether the named business also gets the visit.
+
+## How do you read the numbers?
+
+As a trend, against a log of changes. Record the date of every fix to the website, the profile, and the listings, then read AI sessions and their landing pages month over month against that log. A rise on the pages you fixed is evidence the fix reached the answers. A rise across unrelated pages at once more often marks a change in the engine than in the site. Counts are small for most businesses, and small counts of buyers who arrived already knowing your name are worth more than their size suggests.
+
+## Frequently asked questions
+
+Does GA4 track ChatGPT traffic automatically?
+Yes. ChatGPT is one of the sources Google names for the AI Assistant default channel, and OpenAI says ChatGPT adds utm_source=chatgpt.com to referral URLs, so ChatGPT visits are labeled in both the channel and the source reports.
+Is Perplexity in GA4's AI Assistant channel?
+Check your own property. Google's documentation names ChatGPT, Gemini, Deepseek, Copilot, and Grok as examples and links the full list of recognized sources as a spreadsheet. If perplexity.ai sessions appear under referral, a custom channel group placed above Referral catches them.
+Can GA4 show traffic from Google AI Overviews?
+No. GA4 counts clicks from AI Overviews and AI Mode as Google organic traffic, and the AI Assistant channel excludes them by definition. Search Console includes the same traffic in the Performance report under the Web search type, with no separate filter.
+Why is my AI referral traffic so small?
+Because most AI answers name a business without producing a click. The buyer reads the answer and calls, or searches the brand later. Measure the answers themselves on a schedule, and use GA4 to see which named businesses also get the visit.
+
+Read next: How do Google AI Overviews and AI Mode pick their sources? (/guides/google-ai-overviews-sources/), How do you read Bing's AI Performance report? (/guides/bing-ai-performance-report/), and the AI search glossary (/guides/ai-search-glossary/) for the metrics.
+
+## Sources
+
+- Google Analytics Help: Default channel group (https://support.google.com/analytics/answer/9756891)
+- Google Analytics Help: Custom channel groups (https://support.google.com/analytics/answer/13051316)
+- OpenAI Help Center: Publishers and developers FAQ (https://help.openai.com/en/articles/12627856-publishers-and-developers-faq)
+- Google Search Central: AI features and your website (https://developers.google.com/search/docs/appearance/ai-features)
+
+---
+
+# Guide: What is IndexNow, and does it help AI search?: https://gerris.ai/guides/what-is-indexnow/
+
+IndexNow is an open protocol a website uses to tell search engines the moment a URL is added, updated, or deleted. The IndexNow site lists Microsoft Bing, Naver, Seznam.cz, Yandex, and Yep as supporters, and a URL submitted to one participating engine is shared automatically with all the others. For AI search, the reason to use it is Bing. Microsoft says IndexNow helps keep information fresh across search and AI experiences, and the Bing index feeds Microsoft Copilot and the AI summaries in Bing.
+
+## Why does freshness matter for AI answers?
+
+Because an AI answer repeats the version of a page its index holds. A business that corrects its hours, adds a service, or fixes a wrong fact on its website changes nothing in the answer until the engine has recrawled the page and rebuilt its record. Until then, the answer quotes the old page, and the buyer acts on it.
+
+Microsoft states the connection directly. In its February 2026 announcement of the AI Performance report, it says that by enabling faster discovery of content changes, IndexNow helps ensure that AI systems reference the current versions of pages. The guide to fixing wrong information in AI answers describes the wait between the fix and the changed answer. IndexNow shortens the part of that wait that belongs to Bing and its partners.
+
+## How does IndexNow work?
+
+In three parts: a key that proves you own the site, a key file that publishes it, and a notification that names the changed URLs.
+
+- The key: between 8 and 128 characters, using lowercase and uppercase letters, numbers, and dashes.
+- The key file: a UTF-8 text file named for the key and holding the key, at the root of the site. The documentation also allows key files elsewhere on the same host, as long as each notification says where with a keyLocation value.
+- A single URL: a request to an engine's endpoint that names the changed URL and the key.
+- Many URLs: a JSON POST listing the changed URLs, up to 10,000 per post.
+
+A single submission and a bulk submission look like this, with example values:
+
+```
+GET https://api.indexnow.org/indexnow?url=https://www.example.com/services/&key=3f8a2c9d41e0b7a6
+
+POST /indexnow HTTP/1.1
+Host: api.indexnow.org
+Content-Type: application/json; charset=utf-8
+
+{
+  "host": "www.example.com",
+  "key": "3f8a2c9d41e0b7a6",
+  "keyLocation": "https://www.example.com/3f8a2c9d41e0b7a6.txt",
+  "urlList": [
+    "https://www.example.com/services/",
+    "https://www.example.com/hours/"
+  ]
+}
+```
+
+The response code says what happened. The documentation defines 200 as submitted successfully, 202 as received with key validation pending, 400 as an invalid format, 403 as a key that is missing or does not match the key file, 422 as URLs that do not belong to the host or a key that does not match the protocol's format, and 429 as too many requests, flagged as potential spam.
+
+## When should a site send a notification?
+
+Every time a page is added, updated, or deleted, automatically. The documentation recommends automating submission as soon as content changes. On a site built by hand, that means a step at the end of every publish that sends the changed URLs. On a content management system or a CDN that offers IndexNow as a built-in setting or plugin, it means turning that setting on and checking that it fires.
+
+Send the pages that changed, and only those. A notification for an unchanged page spends the engine's attention on nothing, and resubmitting a whole site on every publish is the pattern the 429 response exists to stop. Deleted pages count too: a notification for a removed URL tells the engine to drop it, which keeps a retired service or a closed location out of the answer.
+
+## How do you set up IndexNow on a site you publish yourself?
+
+Five steps, done once, then run on every publish:
+
+- Make a key: 32 hexadecimal characters is a comfortable length inside the 8 to 128 the protocol allows. On a Mac or Linux machine, openssl rand -hex 16 prints one.
+- Publish the key file: save the key as the only line of a text file named for the key, such as 3f8a2c9d41e0b7a6.txt, at the root of the site, and confirm it loads in a browser.
+- Collect the changed URLs: on a site kept in git, the files changed by the last commit map to the pages that changed; on a content management system, the publish log does the same.
+- Send them: one POST to an IndexNow endpoint with the host, the key, the key location, and the list.
+- Read the response: a 200 or 202 is the receipt; a 403 means the key file is missing or wrong, and a 422 means a URL in the list belongs to another host.
+
+For a static site in git, the whole step fits in a few lines of shell run after each deploy, with example values:
+
+```
+KEY=3f8a2c9d41e0b7a6
+HOST=www.example.com
+URLS=$(git diff --name-only HEAD~1 HEAD -- '*.html' \
+  | sed -e 's#index\.html$##' -e "s#^#https://$HOST/#" \
+  | jq -R . | jq -s -c .)
+curl -s -o /dev/null -w '%{http_code}\n' \
+  -H 'Content-Type: application/json; charset=utf-8' \
+  -d "{\"host\":\"$HOST\",\"key\":\"$KEY\",\"keyLocation\":\"https://$HOST/$KEY.txt\",\"urlList\":$URLS}" \
+  https://api.indexnow.org/indexnow
+```
+
+The script prints the response code, which goes into the publish log beside the commit. That log, read against Bing Webmaster Tools, is the record of which fixes reached the engine and when.
+
+## Does Google use IndexNow?
+
+Google is absent from the list of participating engines on the IndexNow site. Google learns about changed pages through its own crawling, sitemaps with accurate lastmod dates, and the URL Inspection tool in Search Console, which can request that a single page be recrawled. Since Google AI Overviews and AI Mode draw on the Google Search index, a fact corrected on the website reaches them on Google's crawl schedule. The indexing guide covers the Google side.
+
+The practical answer is to run both. A sitemap and Search Console for Google, IndexNow for Bing and the engines that share its notifications, and one source of truth on the website for all of them.
+
+## What does IndexNow leave out?
+
+IndexNow is a notice. It tells an engine which URLs changed so the engine can prioritize crawling them. Indexing, ranking, and citation are still the engine's decisions, made on the content of the page, and the IndexNow site promises none of them. A notification for a thin page brings the engine back to a thin page sooner.
+
+Bing Webmaster Tools shows what happened next. Microsoft says its IndexNow Insights report gives site owners actionable insights on the URLs they submitted, including indexing status and crawl errors. Read it beside the AI Performance report, which counts how often Copilot and Bing AI answers cite those pages once they are indexed.
+
+## Frequently asked questions
+
+Is IndexNow free?
+Yes. IndexNow is an open protocol with no fee and no account required to submit. A site needs only a key and a key file at its root. Bing Webmaster Tools, which is free, reports on the URLs a verified site has submitted.
+Does IndexNow replace a sitemap?
+No. Keep the sitemap, with accurate lastmod dates, because Google reads it and Google is absent from IndexNow's participating engines. IndexNow adds an immediate notice for Bing and the engines that share its submissions.
+If I submit to Bing, do the other engines get it?
+Yes. The IndexNow documentation says submitted URLs are automatically shared with all other participating search engines, so one submission to any of them reaches the rest.
+What does a 202 response mean?
+The URL was received and the key has not been validated yet. The engine checks the key against the key file on your site, and a 403 follows if the key file is missing or holds a different key.
+
+Read next: How do you read Bing's AI Performance report? (/guides/bing-ai-performance-report/), How do you fix wrong information about your business in AI answers? (/guides/how-to-fix-wrong-information-in-ai-answers/), and the AI search glossary (/guides/ai-search-glossary/).
+
+## Sources
+
+- IndexNow: What is IndexNow? (https://www.indexnow.org/)
+- IndexNow: Documentation (https://www.indexnow.org/documentation)
+- Bing Webmaster Blog: Introducing AI Performance in Bing Webmaster Tools (February 10, 2026) (https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview)
+- Bing Webmaster Blog: Evolving SEO, new features announced at Pubcon (March 2024) (https://blogs.bing.com/webmaster/March-2024/Evolving-SEO-Fresh-New-Features-and-Updates-for-Website-Owners-Announced-at-Pubcon)
+
+---
+
+# Guide: How do AI agents use a business website?: https://gerris.ai/guides/how-ai-agents-use-websites/
+
+An AI agent uses a business website the way a person does, on a person's behalf: it opens the pages in a real browser, reads them, clicks, fills in forms, and reports back or finishes the task. OpenAI introduced ChatGPT agent on July 17, 2025, with a visual browser, a text-based browser, and a terminal. Anthropic's hosted browsers announce themselves with a Claude-Agent token. For a business, the agent is the buyer's errand runner. It arrives with a job to do, such as finding a plumber who can come Thursday or booking a consultation, and it either finishes that job on your site or moves on to a competitor's.
+
+## How is an agent different from a crawler?
+
+By the job it does and the time it does it. The AI companies now run three kinds of traffic, and each one asks something different of a site:
+
+- Crawlers: bots such as OAI-SearchBot, Claude-SearchBot, and PerplexityBot fetch pages on a schedule to build the index that AI answers are assembled from. The AI crawlers guide covers them.
+- Fetchers: ChatGPT-User, Claude-User, and Perplexity-User read one page at the moment a person asks a question that needs it.
+- Agents: a full browser, operated by a model, that works through a site to complete a task: comparing service pages, checking availability, filling in an inquiry form, starting a booking.
+
+Anthropic draws the same line in its own documentation. It describes its agentic browser traffic as separate from its crawlers and fetchers, and says a site's preferences for the crawlers and fetchers are independent of it. Allowing or refusing the agent, Anthropic says, controls whether users can have Claude complete tasks on a website. A site can be fully indexed for answers and still lose the errand, because the errand happens in the browser.
+
+## How do agents identify themselves?
+
+Each company has chosen its own signal, and the signals are still settling:
+
+- Anthropic: its hosted browser sends the browser's ordinary User-Agent string with the token Claude-Agent added, for example compatible; Claude-Agent/1.0. Anthropic says to match on that token, publishes the browser's IP addresses at claude.com/.well-known/sail, and recommends updating firewall rules from that file automatically. It warns that anyone can send the same header, so the IP check is what confirms the visit.
+- OpenAI: developer Simon Willison observed in August 2025 that ChatGPT agent's requests carry a Signature-Agent header naming chatgpt.com, with Signature-Input and Signature headers beside it. That is HTTP Message Signatures, the method an IETF working group is standardizing for automated traffic under the name Web Bot Auth.
+- Web Bot Auth: the signing approach Cloudflare described in 2025, in which the agent signs each request with a private key and tells the site where to fetch the matching public key, so a site can verify the sender cryptographically instead of trusting a header.
+
+The practical reading for a site owner: look for the Claude-Agent token and for Signature-Agent headers in the server logs, verify them against the published keys and addresses, and treat a verified agent as a buyer's visit.
+
+## What does an agent need from a business site?
+
+Everything a careful first-time visitor needs, stated in a form software can read without guessing:
+
+- Facts in text: the services, the service area, the hours, and how to book, written as text on the page. A phone number inside an image or hours inside a PDF are facts the agent reports back as unknown.
+- Labeled controls: buttons that say what they do, links that are real links, and form fields with visible labels. A field labeled only by placeholder text that vanishes on click leaves the agent guessing what goes in it.
+- Forms that finish: standard inputs, clear required fields, an error message that names the problem, and a confirmation page that says the inquiry was received. The confirmation is what the agent shows the buyer as proof.
+- Availability without an account: a booking page that shows open times before asking anyone to register lets the agent compare you with the next business on its list. A wall that demands an account first sends the comparison elsewhere.
+- A path with few gates: a contact form behind a challenge page or a CAPTCHA stops the agent at the door and hands the task back to the buyer, who often takes it to the competitor whose form went through.
+- Stable pages: service pages that keep their URLs, so the page an agent found last month is the page it finds today.
+
+The accessibility work a site does for people serves agents too. Headings in order, labeled fields, descriptive link text, and alt text are the structure screen readers depend on, and they are the same structure software reads when it operates a page.
+
+## Should a business block AI agents?
+
+A business that sells to the public should serve them, because an agent on a service page is a buyer who sent it. Blocking the agent blocks the errand, and the buyer learns only that your site was the one that failed. The cost of serving them is small: an agent that fills in an inquiry form produces one inquiry, the same as the buyer would have.
+
+The real risks are abuse and load, and the answer to both is verification. Rate-limit by behavior, verify the agent's identity against the published addresses and keys, and refuse what fails the check. A blanket rule that challenges every automated visitor catches the verified agents along with the scrapers, and the logs will show it as a run of challenge pages served to Claude-Agent.
+
+OpenAI built a checkpoint into its own agent: ChatGPT requests permission before taking actions of consequence, and a user can take over the browser to log in on any website. A purchase or a booking made by an agent still passes through the buyer's approval.
+
+## How do you test a site for agents?
+
+Give an agent the buyer's errand and watch. A four-step test, run on the questions that bring the business revenue:
+
+- State the task the way a buyer would: find a licensed electrician in Arlington who can install an EV charger next week, and request a quote.
+- Run it in two agents: ChatGPT agent and Anthropic's Claude, starting from a plain request with no link to your site.
+- Record where each one stops: the page it reached, the field it could not fill, the gate it could not pass, and what it told the buyer about your business.
+- Fix in order: gates first, then missing facts, then forms, then rerun the same task and compare the record.
+
+The record is the evidence. An agent that reaches your form and stops at a challenge page has told you exactly what to change, and the same test, rerun, shows whether the change worked. The measurement guide sets out how to keep that record over months.
+
+## Frequently asked questions
+
+Do AI agents follow robots.txt?
+Anthropic manages its agentic browser separately from its crawlers and fetchers, and says a site's crawler preferences are independent of it. It identifies the browser with the Claude-Agent token and published IP addresses. Treat agents as user traffic, governed at the firewall by verified identity, and keep robots.txt for the crawlers.
+Can an AI agent buy something or book an appointment on my site?
+Yes, with the buyer's approval. OpenAI says ChatGPT requests permission before taking actions of consequence, and a user can take over the browser to log in. A site that lets a person book without friction lets an agent book the same way, with the buyer confirming.
+How do I see AI agent visits in my analytics?
+In the server logs. Agents run real browsers, so they can load the same pages and scripts a person does and appear in analytics as ordinary sessions. The Claude-Agent token in the User-Agent string and Signature-Agent headers in the request identify them in the logs.
+What is agentic experience optimization (AXO)?
+The name some vendors give to making a site usable by AI agents. The work underneath is the list in this guide: facts in text, labeled controls, forms that finish, and no needless gates. The AI search glossary defines AXO, AAIO, and the related terms.
+
+Read next: Which AI crawlers should your robots.txt allow? (/guides/which-ai-crawlers-should-you-allow/), How do you make a website easier for AI search to understand? (/guides/technical-seo-for-ai-search/), and the AI search glossary (/guides/ai-search-glossary/).
+
+## Sources
+
+- OpenAI: Introducing ChatGPT agent (July 17, 2025) (https://openai.com/index/introducing-chatgpt-agent/)
+- Anthropic: How do Anthropic-hosted browsers identify themselves when they browse the web on a user's behalf? (https://support.claude.com/en/articles/18234133)
+- Simon Willison: ChatGPT agent's user-agent (August 4, 2025) (https://simonwillison.net/2025/Aug/4/chatgpt-agents-user-agent/)
+- Cloudflare Blog: Forget IPs, using cryptography to verify bot and agent traffic (May 15, 2025) (https://blog.cloudflare.com/web-bot-auth)
+- IETF Web Bot Auth working group: HTTP Message Signatures for automated traffic (Internet-Draft) (https://datatracker.ietf.org/doc/draft-ietf-webbotauth-httpsig-protocol/)
+
+---
+
+# Guide: How do you read Google Search Console for AI search?: https://gerris.ai/guides/search-console-for-ai-search/
+
+Google counts traffic from AI Overviews and AI Mode inside the ordinary Performance report in Search Console, under the Web search type, with no separate filter. The AI answers are in the numbers, mixed with the classic results. Reading Search Console for AI search means pulling the question-shaped queries, the long conversational queries, and the pages that answer them out of that mix, and reading them month over month against a log of what changed on the site.
+
+## Where does AI search traffic appear in Search Console?
+
+In the Performance report for search results. Google says sites appearing in its AI features are included in the overall search traffic in Search Console, reported within the Web search type. The report's search type filter now splits Web in two:
+
+- Web: text-based: traffic from text queries typed into the standard Google search bar. AI Overviews and AI Mode sit here, inside the totals.
+- Web: multimodal: traffic from searches that use images, such as a search made with a smartphone camera.
+- Image, Video, and News: traffic from the Images tab, the Videos tab, and Google News.
+
+The four metrics keep their definitions. Clicks are the times a user clicked through to your site from Google Search results. Impressions are how many times your site appeared in the results. CTR is clicks divided by impressions. Average position is the average position of your site's topmost result.
+
+## How do you find the queries AI answers serve?
+
+With the regular expression filter. Google added regex filters to the Performance report in April 2021 and a does-not-match option in June 2021. In the report, add a Query filter, choose Custom (regex), and paste a pattern. Search Console uses RE2 syntax, matches anywhere in the query unless the pattern is anchored with ^ or $, and ignores case by default; (?-i) at the start makes a pattern case-sensitive.
+
+Two patterns do most of the work. The first pulls questions, the queries an answer engine answers in sentences:
+
+```
+^(who|what|when|where|why|how|which|is|are|can|does|do|should|best)\b
+```
+
+The second pulls long queries, eight words or more, the conversational form AI Mode invites and query fan-out breaks into pieces:
+
+```
+([^ ]+ ){7,}[^ ]+
+```
+
+Run each one against the last three months and sort by impressions. The list that comes back is the set of questions Google already associates with your site. Read it for the questions your money pages should answer and do not, and for the questions a weak page answers by accident.
+
+## How do you read the pages behind those queries?
+
+Keep the question filter on and switch to the Pages tab. Every page with impressions for question queries is a page Google considers a candidate answer. Compare that list with the pages you want named: the service pages, the location pages, and the canonical statement of what the business is.
+
+Three patterns show up again and again in the audits:
+
+- The blog post answering the money question: an old article collects impressions for the service query while the service page collects none. The fix is to state the answer on the service page, at the top of a section headed with the question, and link the post to it.
+- The right page at the wrong depth: the service page appears, with an average position deep in the results, for questions it touches only in passing. The fix is a direct answer in the first sentence under a heading phrased the way the query is.
+- The page that never appears: a page with no impressions for any question query. Check it in URL Inspection first, because a page outside the index can answer nothing. The indexing guide covers what keeps a page out.
+
+## How do you track one page after a fix?
+
+Filter the report to the page's exact URL, keep the question filter on, and use comparison mode to set the 28 days after the change beside the 28 days before it. Read three numbers: impressions for question queries, the count of distinct question queries the page appears for, and clicks. A page that starts appearing for questions it never appeared for is now in the running to answer them. Write the date of the change and the three numbers into the log, and check the page again a month later, because Google recrawls and reassesses on its own schedule.
+
+## What does a monthly read look like?
+
+The same four passes, on the same date ranges, every month:
+
+- Totals: compare the last 28 days with the previous 28 days in comparison mode, for the whole site and for the question filter.
+- Question queries: list the question queries that gained or lost impressions, and mark the ones that belong to a service you sell.
+- Pages: list the pages behind those queries, and check each against the page you want named for it.
+- Changes: read the movement against the dated log of every edit to the website, the Google Business Profile, and the listings.
+
+A rise on the pages you fixed, for the questions you answered, is the result of the fix. A rise across unrelated pages and queries at once points to a change on Google's side. Either way, the log is what makes the difference readable.
+
+## What does Search Console leave out?
+
+Two things every reader of these reports needs to hold. Search Console has no view that separates AI Overviews or AI Mode from the classic results, so a click from an AI Overview and a click from the tenth blue link arrive in the same total. And it counts Google only. Bing Webmaster Tools reports Copilot and Bing AI citations directly, as the Bing AI Performance guide explains, and visits from ChatGPT, Perplexity, Claude, and Gemini show up in Google Analytics 4, as the AI referral traffic guide covers.
+
+The direct record of what the answers say is the one Search Console cannot keep: the money questions, put to Google AI Overviews and AI Mode in the buyer's words, with the named businesses written down. Search Console shows what that presence produced in impressions and clicks. The monthly measurement keeps both records side by side.
+
+## Frequently asked questions
+
+Does Search Console show AI Overviews separately?
+No. Google includes traffic from AI Overviews and AI Mode in the overall search traffic in the Performance report, under the Web search type, with no separate filter for either feature.
+What is the Web: multimodal search type?
+A split of the Web search type for searches that use images, such as a search made with a smartphone camera. Text searches, including the ones that produce AI Overviews, sit under Web: text-based.
+How do I filter Search Console for question queries?
+Add a Query filter, choose Custom (regex), and use a pattern such as ^(who|what|when|where|why|how|which|is|are|can|does|do|should|best)\b. Search Console uses RE2 syntax, matches anywhere in the query unless the pattern is anchored, and ignores case by default.
+How does Search Console compare with Bing's AI Performance report?
+Bing's report counts citations in Copilot and Bing AI answers directly, page by page, with sampled grounding queries. Search Console counts impressions and clicks with AI Overviews and AI Mode folded into the Web totals. Read them together: Bing for citations, Search Console for Google's demand and clicks.
+
+Read next: How do Google AI Overviews and AI Mode pick their sources? (/guides/google-ai-overviews-sources/), How do you measure AI search visibility? (/guides/how-to-measure-ai-search-visibility/), and the AI search glossary (/guides/ai-search-glossary/).
+
+## Sources
+
+- Google Search Central: AI features and your website (https://developers.google.com/search/docs/appearance/ai-features)
+- Search Console Help: Performance report (Search results) (https://support.google.com/webmasters/answer/7576553)
+- Search Console Help: Performance report advanced filtering and comparison (https://support.google.com/webmasters/answer/17011165)
+- Google Search Central Blog: Improved data filtering and comparison on Performance reports (April 2021) (https://developers.google.com/search/blog/2021/04/performance-report-data-filtering)
+- Google Search Central Blog: Regex negative match in Search Console (June 2, 2021) (https://developers.google.com/search/blog/2021/06/regex-negative-match)

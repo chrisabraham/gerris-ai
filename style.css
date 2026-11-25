@@ -126,3 +126,6 @@ article table{border-collapse:collapse;width:100%;margin:1rem 0 1.4rem;font-size
 article th,article td{border:1px solid var(--rule);padding:.45rem .6rem;text-align:left;vertical-align:top}
 article thead th{background:var(--tint)}
 @media (max-width:34rem){article table{display:block;overflow-x:auto}}
+/* Code blocks (IndexNow, Search Console, and GA4 guides, 2026-11-25) */
+article pre{background:var(--tint);border:1px solid var(--rule);border-radius:4px;padding:.8rem 1rem;overflow-x:auto;font-size:.86rem;line-height:1.5;margin:1rem 0 1.4rem}
+article pre code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre}
