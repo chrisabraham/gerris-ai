@@ -1675,6 +1675,14 @@ In March 2024 Google wrote the answer into its spam policies. Scaled content abu
 
 Cannibalization is arithmetic before it is punishment. Two pages that ask and answer the same question are two candidates for one slot. The engine picks the stronger candidate, folds the rest into it, and shows the searcher one result. Multiply that by a thousand near-identical pages and the set spends its own authority competing against itself: crawl budget burned on duplicates, link equity scattered across copies, and a rankings report full of pages taking turns in the same position. The damage is quiet. Nothing gets banned. The set just never adds up to more than the one page the engine chose, and the other nine hundred ninety-nine are rent paid on a slot already filled.
 
+## What happens when each new page is a copy of the last one?
+
+I have watched this happen on a real site. A team needed new pages, so they did the reasonable-looking thing: they duplicated the previous page, changed the title, swapped in the new post, and published. Everything else rode along untouched—the share card, the description, and the schema, written for the page the copy was copied from. The next page was copied from that one. Within a few generations, nobody on the team knew the schema had to be written bespoke for every page, because nobody had ever written it at all. They had only inherited it.
+
+That is generational loss. A copy of a copy of a copy: a VHS tape dubbed from a VHS tape dubbed from a VHS tape, a Xerox of a Xerox of a Xerox, a clone cloned from a clone. Each generation keeps the shape and loses the information—and worse, it keeps the errors at full strength. The first page's wrong date, wrong author, and wrong subject are faithfully reproduced on every descendant, while the parts that were supposed to change quietly stop changing, because changing them was never in the workflow.
+
+The fix is the discipline this guide is about: a page is not published until its own title, description, card, and schema have been written for it, from its own facts. Duplication is a fine way to start a draft. It is a ruinous way to finish one.
+
 ## What has to differ from page to page?
 
 Treat the set the way a family actually forms. Pages that begin as identical twins get separated, deliberately, until they are fraternal, and then raised until they are siblings—same blood, different lives. Four things do the separating.
