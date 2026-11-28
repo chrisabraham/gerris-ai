@@ -223,4 +223,11 @@
     <priority>0.7</priority>
     <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://gerris.ai/guides/how-to-audit-a-website-for-duplicate-pages/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
 </urlset>

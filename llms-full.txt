@@ -1733,3 +1733,65 @@ Does Google reward programmatic pages that are built differently from each other
 Google's rater guidelines judge pages one at a time under E-E-A-T: experience, expertise, authoritativeness, and trust. Pages that differ in their facts, proof, and offer give a rater something to judge. Clones give the index nothing new to rank, which is why they cannibalize each other instead of compounding.
 
 Read next: How do you write content AI search engines can cite? (/guides/how-to-write-content-for-ai-citations/) and Why is my website not indexed? (/guides/why-is-my-website-not-indexed/).
+
+# Guide: How do you keep a website's pages from becoming duplicates?: https://gerris.ai/guides/how-to-audit-a-website-for-duplicate-pages/
+
+A website left to itself drifts toward sameness. New pages get built from old pages, templates fill with whatever the last page held, and a year later half the site is one page wearing many addresses. The diversity rounds are the standing answer we give that drift. They are the assignment our AEO and AI-search optimizers work under: go through the site, find every place where two pages have become the same page, and separate them—by hand, one page at a time, until each one stands as itself alone.
+
+## What do the rounds check, page by page?
+
+The list is short enough to memorize and strict enough to fail most large sites on the first pass. No duplicated titles: two pages may not carry the same title, and near-duplicates—a word swapped, a town name exchanged—count as duplicates. No duplicated descriptions. No duplicated schema: the structured data is written for the page it sits on, its own subject, dates, author, and facts, never inherited from the page it was cloned from. No duplicated share cards. And no duplicated copy—not whole pages, and not the load-bearing paragraphs inside them. A page also fails as a stub, three lines and a form, and it fails if its text arrived as an import, pulled from a feed or an API and published unread. The rounds treat sameness as a defect wherever it turns up, in the metadata as much as in the visible words, because the indexes read all of it.
+
+## What standard do separated pages have to meet?
+
+The standard is a family, not a print run. Identical twins are the failure: two pages distinguishable only by their addresses. Triplets and octuplets are that failure multiplied. What passes is siblings. Fraternal twins share an origin and diverge in everything that decides their fate. Irish twins supply the spacing rule—children born nine months apart, close in age, unmistakably different people, each holding its own place in the household. Pages raised to this standard share a template the way siblings share a surname. Their questions, their facts, their evidence belong to each one alone, and a reader who lands on two of them in a row knows within a paragraph that he has moved.
+
+## Why does sameness read as inbreeding to an index?
+
+My theory is blunt: a website that duplicates itself is inbreeding. Cousins marrying cousins, generation after generation, inside a pool that never admits new blood. Nobody defends that as a breeding strategy, because the outcome is written in advance—every generation carries the same traits and the same weaknesses, amplified. A site that keeps mating its pages to each other arrives at the same place: its whole stock of ideas shrinks to whatever the first page happened to say, repeated by descendants with less behind it each time. Indexes—Google's and the AI engines' alike—are built to want the opposite. A page that brings the index information none of its neighbors carry is new blood. A page that repeats the family line is one more mouth at a table already set.
+
+## What does it mean to finish a page by hand?
+
+The rounds end at a desk, not in a dashboard. A page that survives the checks gets finished by a person. Its copy is built up to a real length—600 to 1,500 characters of substance where a stub used to sit—and written for that page's subject and no other. Zero rubber stamping. The old image is the illuminated manuscript: a scribe copying the same psalm for the hundredth time still turns out a page no printing press could duplicate, because the hand moves, hesitates, and decides, and the decisions pile up into a fingerprint. Draw the same figure a hundred times by hand and you get a hundred drawings—one hand, recognizably, and not a clone among them. That is the finishing standard for copy, for schema, for cards. A sketch is a page with the right address and the right intention. Finished work is a page a stranger could lift out of the site's whole run and identify by what is on it.
+
+## How do you hold a hundred thousand pages in view at once?
+
+Nobody audits a large site off a sitemap and a spreadsheet. The sites that stay diverse are run like software. The whole site lives in a repository—GitHub, Bitbucket, a distro discipline—every page a file, every change a commit, the entire architecture visible in one place. From that height, the 30,000-foot view, an optimizer working with AI can see what no crawl shows: which templates are breeding duplicates, which sections have drifted into sameness, which pages were shipped unfinished. The repository is what makes the rounds possible at a thousand pages, at ten thousand, at a hundred thousand. The machine reads the whole family tree at once and points at the branches where every leaf has the same shape. The hand still does the finishing; the view tells the hand where to go.
+
+## What does Google do to a site that floods instead?
+
+The alternative to the rounds is not harmless neglect. It is a named offense. Google's spam policies define scaled content abuse as many pages generated mainly to manipulate rankings rather than to help users—typically large amounts of unoriginal content carrying little or no value, however the pages were produced; the policy's examples include generative AI used to generate page after page without adding value. Hyperlocal floods have their own heading: doorway abuse, pages created to rank for specific, similar search queries. Enforcement runs from quiet omission—pages never admitted to the index at all—through demotion, up to manual actions against a section or a whole site.
+
+The same instinct guards the map. Google's Business Profile policies group the fraud end of the spectrum under deceptive content and behaviour: misrepresentation, impersonation, claims about a business that are not true. A profile claiming neighborhoods it never enters, or a service area drawn around work the company does not do, is that offense wearing a local costume. A soft suspension leaves the profile visible but takes away the keys until an appeal succeeds; a hard suspension removes the profile from Search and Maps entirely, and the road back runs through documents—registration, licenses, utility bills—proving the business is what it said it was. Fifty cloned neighborhood pages on a website and a profile claiming fifty neighborhoods it never serves are the same lie told in two places, and Google has learned to hear it in both.
+
+## What did rescuing a flooded site actually take?
+
+The call came from a business that sells quotes online. They had done the modern thing: pointed a generator at their market and auto-spawned a thousand location pages, written by AI and posted as fast as they were made. The location writing was not even lazy; each page gestured at its town. It did not matter. Google took the sitemap and then took nothing—page after page sat unacknowledged, never admitted to the index. The owners were panicked, and the panic is why the engagement paid well: a thousand-page site that no index will admit is a business with its doors locked from the outside.
+
+The rescue was not a trick, and it was not quick. We went through the entire site three times, then a fourth. Measure twice: a pilot check on a sample of pages before anyone touched the whole run, then a diversity check across the full set. Screaming Frog crawled every URL so the sameness could be read as data—titles, descriptions, headings, word counts, page set against page. Then the finishing work. Details were authenticated against the real business. Every location got its own hot points, the facts and textures that belong to that one place and no other, until a page read as local because it was local. Pages that could not carry their own weight were cut. What survived had been taken, page by page, from a sketch—which is all a generated page ever is—to finished work.
+
+## What does the Painter of Light teach an optimizer?
+
+Thomas Kinkade built the most successful painting studio of his generation on a production line, and its economics were an open secret. His originals were reproduced onto canvas, and rows of trained highlighters applied paint by hand at the places he had specified: the glow in a window, the light across a path, the valleys left in shadow. Canvases finished by his master highlighters—artists he had trained himself—sold as premium editions. The canvases Kinkade highlighted with his own brush and then signed sold for five to ten times as much. Same cottage, same composition. The difference was whose hand had been on the piece last, and whether that hand had truly worked the light or only passed the canvas along.
+
+That is what an SEO specialist does. The base canvas is the generated page: competent, complete, and worth about what every other generated page is worth, because anyone can produce one. The highlighting is the optimizer's pass—the local facts authenticated, the hot points that belong to one place only, the schema written for this page, the copy finished until it carries a fingerprint. It is the last layer of work on the piece, the smallest and the most skilled, and it is the layer the price is for. Then the signature: a page the practitioner will stand behind as his own work, in public, under his name. A studio that skips the highlighting is selling prints and calling them paintings. A website that skips it is doing the same in the index.
+
+## What should you do next?
+
+Start with the count nobody wants to hear: how many of your pages would fail the list in this guide's first section. On a site of any age, that number is worth knowing before an update finds it for you. The Gerris AI Visibility Audit is the scoped version of that count, run across your pages. The Claim Sprint is where the rounds themselves get run—the passes, the checks, the hand-finishing—until the number comes down. The rest of the guides library covers the neighboring ground: how page sets are built divergent in the first place, how indexing failures get diagnosed, how content earns citations from AI engines.
+
+## Frequently asked questions
+
+What does a duplicate audit look at first?
+Titles. They are the fastest tell: sort a site's pages by title and the duplicates announce themselves, usually in families. Descriptions, schema, and share cards come next, in that order, because they are the layers a clone most often inherits untouched. Body copy is checked last and matters most. It is also where sameness hides best, in paragraphs edited just enough to survive a glance.
+
+Can AI-written pages pass the rounds?
+Yes, once a person has finished them. The rounds never ask what drafted a page. They ask whether the page is its own. A draft produced by a tool and then worked over by hand—facts verified, local material added, schema and structure written for that page alone—passes on the same terms as anything else. A draft published exactly as the generator delivered it fails, whoever or whatever signed the file.
+
+How often should the rounds be run?
+After every batch of new pages, without exception, because publication is when duplicates are born. On a large site, add a full pass on a calendar rhythm—quarterly, in our practice—to catch the drift that accumulates between launches: the template edited in March, the import run in May, the section nobody has read since it shipped. Sameness is not an event. It is a tide, and the rounds are scheduled against the tide.
+
+What happens to a page that cannot be made unique?
+It loses its address. A page with no facts of its own, no question of its own, and no reader it serves better than its nearest sibling gets folded into that sibling under a redirect, or retired outright. Deletion is not a failure of the rounds; it is one of their products. Nine hundred pages that are each themselves outweigh a thousand with a hundred ghosts standing among them.
+
+Read next: How do you build a thousand pages without building a flood? (/guides/how-to-build-programmatic-pages-without-a-flood/) and Why is my website not indexed? (/guides/why-is-my-website-not-indexed/).
