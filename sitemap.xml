@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://gerris.ai/guides/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   
@@ -212,6 +212,13 @@
   <url>
     <loc>https://gerris.ai/guides/search-console-for-ai-search/</loc>
     <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gerris.ai/guides/how-to-build-programmatic-pages-without-a-flood/</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://gerris.ai/social-card.png</image:loc></image:image>

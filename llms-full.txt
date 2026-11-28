@@ -1658,3 +1658,60 @@ Read next: How do Google AI Overviews and AI Mode pick their sources? (/guides/g
 - Search Console Help: Performance report advanced filtering and comparison (https://support.google.com/webmasters/answer/17011165)
 - Google Search Central Blog: Improved data filtering and comparison on Performance reports (April 2021) (https://developers.google.com/search/blog/2021/04/performance-report-data-filtering)
 - Google Search Central Blog: Regex negative match in Search Console (June 2, 2021) (https://developers.google.com/search/blog/2021/06/regex-negative-match)
+
+# Guide: How do you build a thousand pages without building a flood?: https://gerris.ai/guides/how-to-build-programmatic-pages-without-a-flood/
+
+A programmatic set earns its keep when each page in it settles a different question with facts that belong to that page alone. Pages built that way stop competing with each other and start compounding. Pages built as copies do the opposite: they split the same demand a thousand ways until the search engine keeps one and discards the rest.
+
+## What is a programmatic page set?
+
+One template, many pages, each page bound to a question somebody actually types. A contractor publishes a page for every service in every town it works. A supplier publishes a page for every product in every application it serves. A firm publishes a page for every practice area in every jurisdiction where it takes cases. The template carries the shared structure—what the company is, how the work runs, how to start. The page carries what is true only there: the town's rules, the application's limits, the jurisdiction's deadlines. When that second part is real, the set is a library. When it is a swapped city name inside identical paragraphs, the set is a photocopier with a domain name.
+
+## Where does Google draw the line?
+
+In March 2024 Google wrote the answer into its spam policies. Scaled content abuse covers large runs of pages produced chiefly to move rankings rather than to serve the person who lands on them, and the policy states that the method of production is beside the point. Site reputation abuse covers a second maneuver: borrowed pages parked on a trusted domain to spend authority the domain earned doing something else. Read the two definitions as a buyer and they reduce to one test. Was this page made for the reader who arrives at it, out of material the publisher actually holds? A page that passes that test has a defense. A page that fails it is inventory waiting for an update to reprice it.
+
+## Why do copied pages cannibalize each other?
+
+Cannibalization is arithmetic before it is punishment. Two pages that ask and answer the same question are two candidates for one slot. The engine picks the stronger candidate, folds the rest into it, and shows the searcher one result. Multiply that by a thousand near-identical pages and the set spends its own authority competing against itself: crawl budget burned on duplicates, link equity scattered across copies, and a rankings report full of pages taking turns in the same position. The damage is quiet. Nothing gets banned. The set just never adds up to more than the one page the engine chose, and the other nine hundred ninety-nine are rent paid on a slot already filled.
+
+## What has to differ from page to page?
+
+Treat the set the way a family actually forms. Pages that begin as identical twins get separated, deliberately, until they are fraternal, and then raised until they are siblings—same blood, different lives. Four things do the separating.
+
+The question differs. Each page exists because a distinct query exists, phrased the way buyers phrase it. "What does a roof replacement cost in Fairfax?" and "How long does a roof replacement take in Fairfax?" are two pages, because they are two decisions. "Roof replacement Fairfax" and "Roof replacement in Fairfax VA" are one page wearing two URLs.
+
+The local facts differ. Permits, codes, prices, distances, deadlines, inventory, weather, soil, traffic—whatever the decision in that place actually turns on. These facts come from records: the company's job history, the county's published rules, the supplier's specification sheets. A page whose local facts could be pasted onto any other town unchanged has no local facts.
+
+The proof differs. The project finished two streets over, the review from that neighborhood, the photograph of the actual crew on the actual street. Proof is the material a competitor cannot generate, because it happened to this company and not to them. Rotating the same three testimonials through a thousand pages is a confession that the proof ran out nine hundred ninety-seven pages ago.
+
+The offer differs. What is being proposed on this page, at what price, under what conditions, starting when. A page for emergency work and a page for scheduled work can share a template and nothing else, because the buyer arriving at each is in a different situation and needs a different commitment.
+
+## How does each page hold its shape?
+
+Every page in the set opens with a direct-answer block: the question from its heading, answered in the first lines, in numbers where numbers exist. Under the answer sits the page's own evidence, then its own questions—an FAQ drawn from what buyers in that place and that situation ask, answered from the page's facts rather than from a master list. The template guarantees that every page has these parts. The data guarantees that no two pages fill them the same way. Structure is inherited. Substance never is.
+
+## How should a set link to itself?
+
+Link the set the way the subjects themselves connect. Each page links up to the page that governs its category—the service, the product line, the practice area—and across to its true neighbors: the adjacent towns actually served, the applications that genuinely substitute for each other. Anchor text states the question the target page settles, in the words a buyer would use for it. Every page in the set should be reachable by following links from the category page, and every page should earn at least one link from outside the set over time. A page nothing links to is a page the publisher does not believe in, and engines take the hint. Draw the map before the set ships: category at the center, pages around it, neighbors tied to neighbors. If a page cannot be placed on that map without inventing a relationship, the page is a candidate for deletion, not for publication.
+
+## How can you tell a craftsman from a flooder before you pay?
+
+Ask to see three pages from the middle of the set, side by side, and read them against the four differences above. Then ask four questions. What data feeds each page, and where does that data live? The craftsman names tables, records, and sources; the flooder names a prompt. What happens to a combination that has no facts of its own—a service the company barely offers in a town it rarely enters? The craftsman's answer is that the page does not ship until the facts exist; the flooder's answer is that the template handles it. How is overlap checked? The craftsman can show a query-by-query report of which pages compete for which searches, and what was merged or rewritten because of it. What does the timeline look like? Divergence is slow in a specific way: the data work comes first, the pages come after, and a thousand finished pages in a single weekend means the separating work was never done. Price tells the same story. You are paying for the facts to be gathered and kept current, page by page. A quote that prices the set like a print run is pricing the copies.
+
+## What should you do next?
+
+Count your set's questions before you count its pages. List the distinct decisions your buyers make, place by place, and let that list set the size of the set; the right number is the number of real questions, whether it comes out at eighty or at eight thousand. For a scoped diagnosis of an existing set, see the Gerris AI Visibility Audit; for implementation, see the Claim Sprint. The guides library covers the related questions of structure, schema, and measurement.
+
+## Frequently asked questions
+
+Can programmatic pages rank at all after the March 2024 policies?
+Yes. The policies name a purpose, not a technique: pages produced chiefly to move rankings instead of serving the reader. A set whose pages each settle a real question with their own facts is doing the thing the policies protect, and such sets continued to gain visibility through the updates that removed the copied ones.
+How many pages should a programmatic set have?
+As many as there are distinct buyer questions with facts to answer them. The count is an output. A set sized by a keyword tool's export rather than by the company's records will always include combinations nobody searches and combinations the company cannot honestly fill, and both kinds drag the rest down.
+What is the fastest way to check an existing set for cannibalization?
+Pull the set's pages and the queries each one earns from Search Console, then group the pages by query. Any query claimed by several pages is a contest the set is holding against itself. Merge the copies into the strongest page, redirect the rest, and rewrite only where a genuinely different question was hiding inside the duplicate.
+Should every page in a set carry an FAQ?
+Every page should answer the questions its own buyers ask, and where those questions are real, an FAQ is the honest container for them. A master FAQ pasted onto every page is one more shared block competing across the set. Write the answers from each page's facts, and let pages with no questions of their own go without.
+
+Read next: How do you write content AI search engines can cite? (/guides/how-to-write-content-for-ai-citations/) and Why is my website not indexed? (/guides/why-is-my-website-not-indexed/).
